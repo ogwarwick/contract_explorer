@@ -104,12 +104,30 @@ class TestPart6:
             assert "parsed" in section_data
 
 
+class TestPart7:
+    """Integration tests for Part 7"""
+
+    def test_part7_exists(self, lcha_structure):
+        assert "7" in lcha_structure["parts"]
+
+    def test_part7_has_sections(self, lcha_structure):
+        sections = lcha_structure["parts"]["7"]["sections"]
+        assert len(sections) > 0
+
+    def test_part7_sections_have_required_fields(self, lcha_structure):
+        sections = lcha_structure["parts"]["7"]["sections"]
+        required = ["id", "parent_id", "type", "text_for_embedding", "references"]
+        for section_id, section_data in sections.items():
+            for field in required:
+                assert field in section_data, f"Section {section_id} missing {field}"
+
+
 class TestAllParts:
     """Cross-part integration tests"""
 
     def test_parsed_parts_count(self, lcha_structure):
-        """Should have 6 parts parsed so far"""
-        assert len(lcha_structure["parts"]) >= 6
+        """Should have 7 parts parsed so far"""
+        assert len(lcha_structure["parts"]) >= 7
 
     def test_total_sections_reasonable(self, lcha_structure):
         """Total sections should be in expected range"""

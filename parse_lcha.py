@@ -162,6 +162,59 @@ def discover_part(part_num: int, all_text: str = None):
 # PARSING MODE
 # =============================================================================
 
+def subsections_to_parsed_format(subsection_nodes: dict, parent_id: str) -> dict:
+    """
+    Convert subsection nodes from parse_nested_subsections to parsed.subsections format.
+
+    Args:
+        subsection_nodes: Dict of nodes keyed by node ID
+        parent_id: Parent section ID
+
+    Returns:
+        Dict in parsed.subsections format with markers as keys
+    """
+    parsed_subs = {}
+
+    for node_id, node_data in subsection_nodes.items():
+        # Extract the marker from the node_id (e.g., "part1.s1_2.(A)" -> "(A)")
+        marker = node_id.replace(parent_id, "")
+
+        # Check if this node has its own subsections (nested)
+        if "subsections" in node_data and node_data["subsections"]:
+            # This is a nested subsection - recurse
+            nested_parsed = subsections_to_parsed_format(
+                # Build child nodes dict from the nested subsections
+                {
+                    f"{node_id}{sub_marker}": {
+                        "text_for_embedding": sub_data.get("text_for_embedding", ""),
+                        "raw_text": sub_data,
+                        "subsections": sub_data.get("subsections", {}) if isinstance(sub_data, dict) else {}
+                    }
+                    for sub_marker, sub_data in node_data["subsections"].items()
+                    if isinstance(sub_data, str) or isinstance(sub_data, dict)
+                },
+                node_id
+            )
+
+            # Get intro text
+            intro = node_data.get("raw_text", "")
+            if not intro:
+                intro = node_data.get("text_for_embedding", "")
+
+            parsed_subs[marker] = {
+                "intro": intro,
+                "subsections": nested_parsed
+            }
+        else:
+            # Simple subsection - just the text
+            text = node_data.get("raw_text", "")
+            if not text:
+                text = node_data.get("text_for_embedding", "")
+            parsed_subs[marker] = text
+
+    return parsed_subs
+
+
 def parse_part(part_num: int, all_text: str = None) -> dict:
     """
     Parse a specific Part.
@@ -191,6 +244,7 @@ def parse_part(part_num: int, all_text: str = None) -> dict:
         "number": part_num,
         "title": title,
         "text_for_embedding": f"Part {part_num}: {title}",
+        "references": [],
         "sections": {}
     }
 
@@ -209,8 +263,9 @@ def parse_part(part_num: int, all_text: str = None) -> dict:
                 part_text, cond_num, cond_id
             )
 
-            # Create condition as a section
+            # Create condition as a section with parsed field
             section_key = f"{part_num}.{cond_num}"
+            raw_text = f"Condition {cond_num}: {cond_title}"
             part_data["sections"][section_key] = {
                 "id": cond_id,
                 "parent_id": part_id,
@@ -219,7 +274,11 @@ def parse_part(part_num: int, all_text: str = None) -> dict:
                 "title": cond_title,
                 "text_for_embedding": f"Condition {cond_num}: {cond_title}",
                 "references": [],
-                "raw_text": f"Condition {cond_num}: {cond_title}",
+                "raw_text": raw_text,
+                "parsed": {
+                    "intro": raw_text,
+                    "subsections": {}
+                },
                 "section_count": len(cond_sections),
                 "subsections": cond_sections
             }
@@ -260,6 +319,16 @@ def parse_condition_sections(part_text: str, cond_num: int, parent_id: str) -> d
         # Check for subsections
         has_subsections = bool(re.search(r'(?<!\d)\([A-Z]\)', content))
 
+        # Prepare raw_text (truncate if too long)
+        raw_text = content[:500] + "..." if len(content) > 500 else content
+
+        # Build parsed structure
+        if has_subsections:
+            subsection_nodes = parse_nested_subsections(content, section_id)
+            parsed_subsections = subsections_to_parsed_format(subsection_nodes, section_id)
+        else:
+            parsed_subsections = {}
+
         sections[section_num] = {
             "id": section_id,
             "parent_id": parent_id,
@@ -267,7 +336,11 @@ def parse_condition_sections(part_text: str, cond_num: int, parent_id: str) -> d
             "section_number": section_num,
             "text_for_embedding": clean_text_for_embedding(content),
             "references": extract_references(content),
-            "raw_text": content[:500] + "..." if len(content) > 500 else content
+            "raw_text": raw_text,
+            "parsed": {
+                "intro": content,
+                "subsections": parsed_subsections
+            }
         }
 
         if has_subsections:
@@ -301,7 +374,7 @@ def parse_sections(part_text: str, part_id: str) -> dict:
         # Remove the section number from content
         content = re.sub(rf'^{section_num}\s+', '', content)
 
-        # Check for subsections
+        # Check for subsections and formulas
         has_subsections = bool(re.search(r'(?<!\d)\([A-Z]\)', content))
         has_formula = bool(re.search(r'\bwhere\s*:', content, re.IGNORECASE))
 
@@ -311,6 +384,16 @@ def parse_sections(part_text: str, part_id: str) -> dict:
         elif has_subsections:
             section_type = "nested"
 
+        # Prepare raw_text (truncate if too long)
+        raw_text = content[:500] + "..." if len(content) > 500 else content
+
+        # Build parsed structure
+        if has_subsections:
+            subsection_nodes = parse_nested_subsections(content, section_id)
+            parsed_subsections = subsections_to_parsed_format(subsection_nodes, section_id)
+        else:
+            parsed_subsections = {}
+
         sections[section_num] = {
             "id": section_id,
             "parent_id": part_id,
@@ -318,7 +401,11 @@ def parse_sections(part_text: str, part_id: str) -> dict:
             "section_number": section_num,
             "text_for_embedding": clean_text_for_embedding(content),
             "references": extract_references(content),
-            "raw_text": content[:500] + "..." if len(content) > 500 else content
+            "raw_text": raw_text,
+            "parsed": {
+                "intro": content,
+                "subsections": parsed_subsections
+            }
         }
 
         if has_subsections:

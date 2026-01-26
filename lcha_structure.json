@@ -2,10 +2,10 @@
   "metadata": {
     "document": "Low-Carbon Hydrogen Agreement Standard Terms and Conditions",
     "source_file": "low-carbon-hydrogen-agreement-standard-terms-and-conditions.pdf",
-    "parse_date": "2026-01-26T19:55:31.808219",
+    "parse_date": "2026-01-26T20:20:08.081396",
     "parser_version": "2.1.0",
     "schema_version": "2.1",
-    "last_updated": "2026-01-26T19:55:31.808234"
+    "last_updated": "2026-01-26T20:20:08.081407"
   },
   "footnotes": [],
   "parts": {
@@ -86817,6 +86817,734 @@
                   ],
                   "raw_text": "the continued existence and validity of, and the rights and obligations of the Parties\npursuant to Part 1 (Introduction), Conditions 3.84 and 3.85, Part 6 (Billing and payment),\nConditions 33.18 and 33.19, Conditions 38 (Producer Undertaking: NQ Volume\nClawback) and 39 (LCHA Counterparty Audit Rights) this Part 9 (Termination),\nConditions 57.14 and 57.15 and Part 11 (Dispute Resolution) to Part 14 (Miscellaneous)\n(inclusive)."
                 }
+              }
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "id": "part10",
+      "parent_id": null,
+      "type": "part",
+      "number": 10,
+      "title": "UNKNOWN",
+      "text_for_embedding": "Part 10: UNKNOWN",
+      "references": [],
+      "sections": {
+        "10.56": {
+          "id": "part10.c56",
+          "parent_id": "part10",
+          "type": "condition",
+          "section_number": "10.56",
+          "title": "COLLATERAL REQUIREMENT",
+          "text_for_embedding": "Condition 56: COLLATERAL REQUIREMENT",
+          "references": [],
+          "raw_text": "Condition 56: COLLATERAL REQUIREMENT",
+          "parsed": {
+            "intro": "Condition 56: COLLATERAL REQUIREMENT",
+            "subsections": {}
+          },
+          "section_count": 4,
+          "subsections": {
+            "56.1": {
+              "id": "part10.c56.s56_1",
+              "parent_id": "part10.c56",
+              "type": "section",
+              "section_number": "56.1",
+              "text_for_embedding": "If there is a Payment Failure on more than one (1) occasion within any twelve (12) Month period, the LCHA Counterparty may (irrespective of whether or not the Producer has paid any of the Producer Net Payable Amounts owing within the applicable NPA Payment Cure Period) give the Producer a notice on the second (2nd) of those occurrences (a \"Second Payment Failure Notice\"). A Second Payment Failure Notice shall identify the Billing Periods to which such Payment Failures relate.",
+              "references": [],
+              "raw_text": "If there is a Payment Failure on more than one (1) occasion within any twelve (12) Month\nperiod, the LCHA Counterparty may (irrespective of whether or not the Producer has paid any\nof the Producer Net Payable Amounts owing within the applicable NPA Payment Cure Period)\ngive the Producer a notice on the second (2nd) of those occurrences (a \"Second Payment\nFailure Notice\"). A Second Payment Failure Notice shall identify the Billing Periods to which\nsuch Payment Failures relate.",
+              "parsed": {
+                "intro": "If there is a Payment Failure on more than one (1) occasion within any twelve (12) Month\nperiod, the LCHA Counterparty may (irrespective of whether or not the Producer has paid any\nof the Producer Net Payable Amounts owing within the applicable NPA Payment Cure Period)\ngive the Producer a notice on the second (2nd) of those occurrences (a \"Second Payment\nFailure Notice\"). A Second Payment Failure Notice shall identify the Billing Periods to which\nsuch Payment Failures relate.",
+                "subsections": {}
+              }
+            },
+            "56.2": {
+              "id": "part10.c56.s56_2",
+              "parent_id": "part10.c56",
+              "type": "section",
+              "section_number": "56.2",
+              "text_for_embedding": "If there have been Payment Failures on three (3) or more occasions in any twelve (12) Month period, the LCHA Counterparty may (irrespective of whether or not the Producer has paid any of the Producer Net Payable Amounts owing within the applicable NPA Payment Cure Period) give a notice to the Producer (a \"Collateral Posting Notice\"). A Collateral Posting Notice shall: (A) identify the Billing Periods to which such Payment Failures relate; (B) specify: (i) the requirement for the Producer to transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral to the LCHA Counterparty; (ii) the Collateral Amount; (iii) the Collateral Posting Date; and (iv) the Initial Collateral Repayment Date; and (C) provide details of the Reserve Account.",
+              "references": [],
+              "raw_text": "If there have been Payment Failures on three (3) or more occasions in any twelve (12) Month\nperiod, the LCHA Counterparty may (irrespective of whether or not the Producer has paid any\nof the Producer Net Payable Amounts owing within the applicable NPA Payment Cure Period)\ngive a notice to the Producer (a \"Collateral Posting Notice\"). A Collateral Posting Notice\nshall:\n(A) identify the Billing Periods to which such Payment Failures relate;\n(B) specify:\n(i) the requirement for the Producer to tran...",
+              "parsed": {
+                "intro": "If there have been Payment Failures on three (3) or more occasions in any twelve (12) Month\nperiod, the LCHA Counterparty may (irrespective of whether or not the Producer has paid any\nof the Producer Net Payable Amounts owing within the applicable NPA Payment Cure Period)\ngive a notice to the Producer (a \"Collateral Posting Notice\"). A Collateral Posting Notice\nshall:\n(A) identify the Billing Periods to which such Payment Failures relate;\n(B) specify:\n(i) the requirement for the Producer to transfer or deliver, or procure the transfer or\ndelivery of, Acceptable Collateral to the LCHA Counterparty;\n(ii) the Collateral Amount;\n(iii) the Collateral Posting Date; and\n(iv) the Initial Collateral Repayment Date; and\n(C) provide details of the Reserve Account.",
+                "subsections": {
+                  "(A)": "identify the Billing Periods to which such Payment Failures relate;",
+                  "(B).(i)": "the requirement for the Producer to transfer or deliver, or procure the transfer or\ndelivery of, Acceptable Collateral to the LCHA Counterparty;",
+                  "(B).(ii)": "the Collateral Amount;",
+                  "(B).(iii)": "the Collateral Posting Date; and",
+                  "(B).(iv)": "the Initial Collateral Repayment Date; and",
+                  "(B)": {
+                    "intro": "specify:",
+                    "subsections": {
+                      "(i)": "the requirement for the Producer to transfer or deliver, or procure the transfer or\ndelivery of, Acceptable Collateral to the LCHA Counterparty;",
+                      "(ii)": "the Collateral Amount;",
+                      "(iii)": "the Collateral Posting Date; and",
+                      "(iv)": "the Initial Collateral Repayment Date; and"
+                    }
+                  },
+                  "(C)": "provide details of the Reserve Account."
+                }
+              },
+              "subsections": {
+                "part10.c56.s56_2(A)": {
+                  "id": "part10.c56.s56_2(A)",
+                  "parent_id": "part10.c56.s56_2",
+                  "type": "subsection",
+                  "text_for_embedding": "identify the Billing Periods to which such Payment Failures relate;",
+                  "references": [],
+                  "raw_text": "identify the Billing Periods to which such Payment Failures relate;"
+                },
+                "part10.c56.s56_2(B).(i)": {
+                  "id": "part10.c56.s56_2(B).(i)",
+                  "parent_id": "part10.c56.s56_2(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the requirement for the Producer to transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral to the LCHA Counterparty;",
+                  "references": [],
+                  "raw_text": "the requirement for the Producer to transfer or deliver, or procure the transfer or\ndelivery of, Acceptable Collateral to the LCHA Counterparty;"
+                },
+                "part10.c56.s56_2(B).(ii)": {
+                  "id": "part10.c56.s56_2(B).(ii)",
+                  "parent_id": "part10.c56.s56_2(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the Collateral Amount;",
+                  "references": [],
+                  "raw_text": "the Collateral Amount;"
+                },
+                "part10.c56.s56_2(B).(iii)": {
+                  "id": "part10.c56.s56_2(B).(iii)",
+                  "parent_id": "part10.c56.s56_2(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the Collateral Posting Date; and",
+                  "references": [],
+                  "raw_text": "the Collateral Posting Date; and"
+                },
+                "part10.c56.s56_2(B).(iv)": {
+                  "id": "part10.c56.s56_2(B).(iv)",
+                  "parent_id": "part10.c56.s56_2(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the Initial Collateral Repayment Date; and",
+                  "references": [],
+                  "raw_text": "the Initial Collateral Repayment Date; and"
+                },
+                "part10.c56.s56_2(B)": {
+                  "id": "part10.c56.s56_2(B)",
+                  "parent_id": "part10.c56.s56_2",
+                  "type": "subsection",
+                  "text_for_embedding": "specify:",
+                  "references": [],
+                  "raw_text": "specify:",
+                  "subsections": {
+                    "(i)": "the requirement for the Producer to transfer or deliver, or procure the transfer or\ndelivery of, Acceptable Collateral to the LCHA Counterparty;",
+                    "(ii)": "the Collateral Amount;",
+                    "(iii)": "the Collateral Posting Date; and",
+                    "(iv)": "the Initial Collateral Repayment Date; and"
+                  }
+                },
+                "part10.c56.s56_2(C)": {
+                  "id": "part10.c56.s56_2(C)",
+                  "parent_id": "part10.c56.s56_2",
+                  "type": "subsection",
+                  "text_for_embedding": "provide details of the Reserve Account.",
+                  "references": [],
+                  "raw_text": "provide details of the Reserve Account."
+                }
+              }
+            },
+            "56.3": {
+              "id": "part10.c56.s56_3",
+              "parent_id": "part10.c56",
+              "type": "section",
+              "section_number": "56.3",
+              "text_for_embedding": "If any Payment Failure occurs after the date of a Collateral Posting Notice and before the applicable Collateral Repayment Date, the LCHA Counterparty may give the Producer a notice (a \"Replacement Collateral Notice\"). A Replacement Collateral Notice shall: (A) identify the Billing Period to which any such Payment Failure relates; and (B) specify the Replacement Collateral Repayment Date. Collateral Amount",
+              "references": [],
+              "raw_text": "If any Payment Failure occurs after the date of a Collateral Posting Notice and before the\napplicable Collateral Repayment Date, the LCHA Counterparty may give the Producer a notice\n(a \"Replacement Collateral Notice\"). A Replacement Collateral Notice shall:\n(A) identify the Billing Period to which any such Payment Failure relates; and\n(B) specify the Replacement Collateral Repayment Date.\nCollateral Amount",
+              "parsed": {
+                "intro": "If any Payment Failure occurs after the date of a Collateral Posting Notice and before the\napplicable Collateral Repayment Date, the LCHA Counterparty may give the Producer a notice\n(a \"Replacement Collateral Notice\"). A Replacement Collateral Notice shall:\n(A) identify the Billing Period to which any such Payment Failure relates; and\n(B) specify the Replacement Collateral Repayment Date.\nCollateral Amount",
+                "subsections": {
+                  "(A)": "identify the Billing Period to which any such Payment Failure relates; and",
+                  "(B)": "specify the Replacement Collateral Repayment Date.\nCollateral Amount"
+                }
+              },
+              "subsections": {
+                "part10.c56.s56_3(A)": {
+                  "id": "part10.c56.s56_3(A)",
+                  "parent_id": "part10.c56.s56_3",
+                  "type": "subsection",
+                  "text_for_embedding": "identify the Billing Period to which any such Payment Failure relates; and",
+                  "references": [],
+                  "raw_text": "identify the Billing Period to which any such Payment Failure relates; and"
+                },
+                "part10.c56.s56_3(B)": {
+                  "id": "part10.c56.s56_3(B)",
+                  "parent_id": "part10.c56.s56_3",
+                  "type": "subsection",
+                  "text_for_embedding": "specify the Replacement Collateral Repayment Date. Collateral Amount",
+                  "references": [],
+                  "raw_text": "specify the Replacement Collateral Repayment Date.\nCollateral Amount"
+                }
+              }
+            },
+            "56.4": {
+              "id": "part10.c56.s56_4",
+              "parent_id": "part10.c56",
+              "type": "section",
+              "section_number": "56.4",
+              "text_for_embedding": "The Collateral Amount shall be calculated by the LCHA Counterparty as follows: where: \ud835\udc36\ud835\udc5c\ud835\udc59\ud835\udc59\ud835\udc4e\ud835\udc61\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc59 \ud835\udc34\ud835\udc5a\ud835\udc5c\ud835\udc62\ud835\udc5b\ud835\udc61 = \ud835\udc4d\u2217\ud835\udc3c\ud835\udc36\u2217\ud835\udc34\ud835\udc3f\ud835\udc39\u2217\ud835\udc41\u2217\ud835\udc3b\ud835\udc3c\ud835\udc37 = twenty pounds per MWh (\u00a320/MWh) \ud835\udc4d = the Installed Capacity (MW (HHV)) as at the Start Date or the Final Installed Capacity which is confirmed pursuant to IC Condition 7 (Final Installed Capacity) (whichever is the most recently confirmed figure) = the Assumed Load Factor (%) ALF = forty (40), representing the number of Days for which collateral is required N = twenty-four (24), the number of hours in a Day 57. HAICDC EPTABLE COLLATERAL Provision of collateral 57.1 If a Collateral Posting Notice is given to the Producer, the Producer shall, no later than the Collateral Posting Date, transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral to the LCHA Counterparty in an aggregate amount equal to the Collateral Amount. Transfers and custody of collateral 57.2 All transfers or deliveries pursuant to the LCHA of any Acceptable Collateral shall be made by or on behalf of the Producer and shall be given: (A) in the case of cash, by transfer in accordance with the instructions made by or on behalf of the LCHA Counterparty, to the credit of the Reserve Account; and (B) in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the LCHA Counterparty or its designee. Such transfer shall be deemed effective upon receipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly executed and issued Letter of Credit. Letters of Credit 57.3 The Producer shall: (A) procure that: (i) any Letter of Credit provided pursuant to a Collateral Posting Notice shall be valid at least until the Initial Collateral Repayment Date as set out in that notice; and (ii) (if a Replacement Collateral Notice is given) any Letter of Credit provided pursuant to a Replacement Collateral Notice shall be valid at least until the Replacement Collateral Repayment Date as set out in that notice; and (B) ensure that any Letter of Credit provided by the Producer as Acceptable Collateral, including any renewal or replacement of a Letter of Credit, shall be accompanied by a notice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit Details Notice shall specify: (i) the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit; (ii) the contact details for the Qualifying Issuer (or its representative or relationship manager); and (iii) the period of time during which the Letter of Credit will remain in effect and the amount of credit to be provided. 57.4 At least ten (10) Business Days prior to the date of expiry or cancellation of a Letter of Credit, the Producer shall renew or procure the renewal of such Letter of Credit by transferring or delivering, or by procuring the transfer or delivery of, Acceptable Collateral in the amount of and in substitution and to be effective no later than the date of expiry or cancellation of the current Letter of Credit, provided that Acceptable Collateral is still required, pursuant to the provisions of this Part 10 (Credit Support), after the date of expiry or cancellation of the current Letter of Credit. Altering collateral 57.5 If, at any time, the Posted Collateral is not or ceases to be Acceptable Collateral and/or the Posted Collateral is less than the Collateral Amount, the LCHA Counterparty may give a notice to the Producer (a \"Collateral Correction Notice\"). A Collateral Correction Notice shall specify: (A) the Posted Collateral which is not or has ceased to be Acceptable Collateral and the reason that prevents such collateral from constituting Acceptable Collateral; and/or (B) the amount by which the Posted Collateral is less than the Collateral Amount (a \"Deficient Collateral Amount\"). 57.6 No later than five (5) Business Days after receipt of a Collateral Correction Notice, the Producer shall transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral in an amount more than or equal to the Deficient Collateral Amount. 57.7 The Producer may, from time to time, and on giving the LCHA Counterparty not less than ten (10) Business Days' notice, substitute some or all of the Posted Collateral with other Acceptable Collateral which shall not in any event be less than the Collateral Amount in aggregate. Credit event by a Qualifying Issuer 57.8 If, at any time, the Qualifying Issuer of a Letter of Credit ceases to be a Qualifying Issuer, the Producer shall give notice to the LCHA Counterparty and the Producer shall procure the replacement of such Letter of Credit with Acceptable Collateral no later than ten (10) Business Days after the date on which the Qualifying Issuer ceases to be a Qualifying Issuer. 57.9 If the Producer fails to procure replacement Acceptable Collateral within ten (10) Business Days in accordance with Condition 57.8, the LCHA Counterparty may demand payment pursuant to the Letter of Credit and shall hold any cash paid pursuant to the Letter of Credit in a Reserve Account until such time as the Posted Collateral is substituted in accordance with Condition 57.7. Making a Posted Collateral Demand 57.10 The LCHA Counterparty may make a demand under a Letter of Credit procured by the Producer or draw down on any cash amount in a Reserve Account (a \"Posted Collateral Demand\") in the following circumstances: (A) the Producer fails to pay any amount when due pursuant to the LCHA and that failure is not remedied by the last day of the NPA Payment Cure Period; or (B) the Producer fails to renew or extend, or procure the renewal or extension of, a Letter of Credit in accordance with Condition 57.4 by the transfer or delivery of substitute Acceptable Collateral. 57.11 If a Posted Collateral Demand has been made, the Producer shall transfer or deliver, or procure the transfer or delivery of, further Acceptable Collateral in an amount no less than the Collateral Amount no later than two (2) Business Days after such demand. Return of collateral 57.12 If the Producer has transferred or delivered, or procured the transfer or delivery of, Acceptable Collateral to the LCHA Counterparty pursuant to the foregoing provisions in this Part 10 (Credit Support), and: (A) the Collateral Repayment Date has passed; or (B) the Collateral Amount has been replaced or substituted with other Acceptable Collateral in accordance with this Part 10 (Credit Support), then, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral back to the Producer no later than five (5) Business Days after: (i) in the case of Condition 57.12(A), the Collateral Repayment Date; and (ii) in the case of Condition 57.12(B), the date on which the Producer replaces Acceptable Collateral in accordance with this Part 10 (Credit Support). 57.13 The LCHA Counterparty shall transfer back the Posted Collateral: (A) in the case of cash, by transfer in accordance with the instructions made by or on behalf of the Producer, to the credit of one (1) or more bank accounts in the United Kingdom specified by the Producer; and (B) in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the relevant Letter of Credit. Termination 57.14 If the LCHA expires in circumstances in which no Default Termination Payment, QCiL Compensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA Counterparty shall return any Posted Collateral transferred or delivered by or on behalf of the Producer no later than five (5) Business Days after the expiry, provided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in accordance with Condition 25 (Set-off). 57.15 If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL Compensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA Counterparty shall return any Posted Collateral transferred or delivered by or on behalf of the Producer after all Producer payment obligations pursuant to the LCHA have been fulfilled, provided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in accordance with Condition 25 (Set-off).",
+              "references": [
+                {
+                  "type": "condition",
+                  "target": "Condition 7"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.8"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.7"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.4"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.14"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.12"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 25"
+                },
+                {
+                  "type": "part",
+                  "target": "Part 10"
+                }
+              ],
+              "raw_text": "The Collateral Amount shall be calculated by the LCHA Counterparty as follows:\nwhere: \ud835\udc36\ud835\udc5c\ud835\udc59\ud835\udc59\ud835\udc4e\ud835\udc61\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc59 \ud835\udc34\ud835\udc5a\ud835\udc5c\ud835\udc62\ud835\udc5b\ud835\udc61 = \ud835\udc4d\u2217\ud835\udc3c\ud835\udc36\u2217\ud835\udc34\ud835\udc3f\ud835\udc39\u2217\ud835\udc41\u2217\ud835\udc3b\ud835\udc3c\ud835\udc37\n= twenty pounds per MWh (\u00a320/MWh)\n\ud835\udc4d\n= the Installed Capacity (MW (HHV)) as at the Start Date or\nthe Final Installed Capacity which is confirmed pursuant to\nIC\nCondition 7 (Final Installed Capacity) (whichever is the\nmost recently confirmed figure)\n= the Assumed Load Factor (%)\nALF = forty (40), representing the number of Days for which\ncollateral is required\nN\n= twenty-four (2...",
+              "parsed": {
+                "intro": "The Collateral Amount shall be calculated by the LCHA Counterparty as follows:\nwhere: \ud835\udc36\ud835\udc5c\ud835\udc59\ud835\udc59\ud835\udc4e\ud835\udc61\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc59 \ud835\udc34\ud835\udc5a\ud835\udc5c\ud835\udc62\ud835\udc5b\ud835\udc61 = \ud835\udc4d\u2217\ud835\udc3c\ud835\udc36\u2217\ud835\udc34\ud835\udc3f\ud835\udc39\u2217\ud835\udc41\u2217\ud835\udc3b\ud835\udc3c\ud835\udc37\n= twenty pounds per MWh (\u00a320/MWh)\n\ud835\udc4d\n= the Installed Capacity (MW (HHV)) as at the Start Date or\nthe Final Installed Capacity which is confirmed pursuant to\nIC\nCondition 7 (Final Installed Capacity) (whichever is the\nmost recently confirmed figure)\n= the Assumed Load Factor (%)\nALF = forty (40), representing the number of Days for which\ncollateral is required\nN\n= twenty-four (24), the number of hours in a Day\n57. HAICDC EPTABLE COLLATERAL\nProvision of collateral\n57.1 If a Collateral Posting Notice is given to the Producer, the Producer shall, no later than the\nCollateral Posting Date, transfer or deliver, or procure the transfer or delivery of, Acceptable\nCollateral to the LCHA Counterparty in an aggregate amount equal to the Collateral Amount.\nTransfers and custody of collateral\n57.2 All transfers or deliveries pursuant to the LCHA of any Acceptable Collateral shall be made by\nor on behalf of the Producer and shall be given:\n(A) in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the LCHA Counterparty, to the credit of the Reserve Account; and\n(B) in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the\nLCHA Counterparty or its designee. Such transfer shall be deemed effective upon\nreceipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly\nexecuted and issued Letter of Credit.\nLetters of Credit\n57.3 The Producer shall:\n(A) procure that:\n(i) any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand\n(ii) (if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and\n(B) ensure that any Letter of Credit provided by the Producer as Acceptable Collateral,\nincluding any renewal or replacement of a Letter of Credit, shall be accompanied by a\nnotice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit\nDetails Notice shall specify:\n(i) the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;\n(ii) the contact details for the Qualifying Issuer (or its representative or relationship\nmanager); and\n(iii) the period of time during which the Letter of Credit will remain in effect and the\namount of credit to be provided.\n57.4 At least ten (10) Business Days prior to the date of expiry or cancellation of a Letter of Credit,\nthe Producer shall renew or procure the renewal of such Letter of Credit by transferring or\ndelivering, or by procuring the transfer or delivery of, Acceptable Collateral in the amount of\nand in substitution and to be effective no later than the date of expiry or cancellation of the\ncurrent Letter of Credit, provided that Acceptable Collateral is still required, pursuant to the\nprovisions of this Part 10 (Credit Support), after the date of expiry or cancellation of the current\nLetter of Credit.\nAltering collateral\n57.5 If, at any time, the Posted Collateral is not or ceases to be Acceptable Collateral and/or the\nPosted Collateral is less than the Collateral Amount, the LCHA Counterparty may give a notice\nto the Producer (a \"Collateral Correction Notice\"). A Collateral Correction Notice shall\nspecify:\n(A) the Posted Collateral which is not or has ceased to be Acceptable Collateral and the\nreason that prevents such collateral from constituting Acceptable Collateral; and/or\n(B) the amount by which the Posted Collateral is less than the Collateral Amount (a\n\"Deficient Collateral Amount\").\n57.6 No later than five (5) Business Days after receipt of a Collateral Correction Notice, the Producer\nshall transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral in an\namount more than or equal to the Deficient Collateral Amount.\n57.7 The Producer may, from time to time, and on giving the LCHA Counterparty not less than ten\n(10) Business Days' notice, substitute some or all of the Posted Collateral with other\nAcceptable Collateral which shall not in any event be less than the Collateral Amount in\naggregate.\nCredit event by a Qualifying Issuer\n57.8 If, at any time, the Qualifying Issuer of a Letter of Credit ceases to be a Qualifying Issuer, the\nProducer shall give notice to the LCHA Counterparty and the Producer shall procure the\nreplacement of such Letter of Credit with Acceptable Collateral no later than ten (10) Business\nDays after the date on which the Qualifying Issuer ceases to be a Qualifying Issuer.\n57.9 If the Producer fails to procure replacement Acceptable Collateral within ten (10) Business\nDays in accordance with Condition 57.8, the LCHA Counterparty may demand payment\npursuant to the Letter of Credit and shall hold any cash paid pursuant to the Letter of Credit in\na Reserve Account until such time as the Posted Collateral is substituted in accordance with\nCondition 57.7.\nMaking a Posted Collateral Demand\n57.10 The LCHA Counterparty may make a demand under a Letter of Credit procured by the\nProducer or draw down on any cash amount in a Reserve Account (a \"Posted Collateral\nDemand\") in the following circumstances:\n(A) the Producer fails to pay any amount when due pursuant to the LCHA and that failure\nis not remedied by the last day of the NPA Payment Cure Period; or\n(B) the Producer fails to renew or extend, or procure the renewal or extension of, a Letter\nof Credit in accordance with Condition 57.4 by the transfer or delivery of substitute\nAcceptable Collateral.\n57.11 If a Posted Collateral Demand has been made, the Producer shall transfer or deliver, or\nprocure the transfer or delivery of, further Acceptable Collateral in an amount no less than the\nCollateral Amount no later than two (2) Business Days after such demand.\nReturn of collateral\n57.12 If the Producer has transferred or delivered, or procured the transfer or delivery of, Acceptable\nCollateral to the LCHA Counterparty pursuant to the foregoing provisions in this Part 10 (Credit\nSupport), and:\n(A) the Collateral Repayment Date has passed; or\n(B) the Collateral Amount has been replaced or substituted with other Acceptable Collateral\nin accordance with this Part 10 (Credit Support),\nthen, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral\nback to the Producer no later than five (5) Business Days after:\n(i) in the case of Condition 57.12(A), the Collateral Repayment Date; and\n(ii) in the case of Condition 57.12(B), the date on which the Producer replaces\nAcceptable Collateral in accordance with this Part 10 (Credit Support).\n57.13 The LCHA Counterparty shall transfer back the Posted Collateral:\n(A) in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and\n(B) in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination\n57.14 If the LCHA expires in circumstances in which no Default Termination Payment, QCiL\nCompensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer no later than five (5) Business Days after the expiry, provided that the LCHA\nCounterparty shall be entitled to set-off against the cash collateral in accordance with Condition\n25 (Set-off).\n57.15 If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL\nCompensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer after all Producer payment obligations pursuant to the LCHA have been fulfilled,\nprovided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in\naccordance with Condition 25 (Set-off).",
+                "subsections": {
+                  "(A)": "in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and",
+                  "(B)": "in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination\n57.14 If the LCHA expires in circumstances in which no Default Termination Payment, QCiL\nCompensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer no later than five (5) Business Days after the expiry, provided that the LCHA\nCounterparty shall be entitled to set-off against the cash collateral in accordance with Condition\n25 (Set-off).\n57.15 If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL\nCompensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer after all Producer payment obligations pursuant to the LCHA have been fulfilled,\nprovided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in\naccordance with Condition 25 (Set-off)."
+                }
+              },
+              "subsections": {
+                "part10.c56.s56_4(A)": {
+                  "id": "part10.c56.s56_4(A)",
+                  "parent_id": "part10.c56.s56_4",
+                  "type": "subsection",
+                  "text_for_embedding": "in the case of cash, by transfer in accordance with the instructions made by or on behalf of the Producer, to the credit of one (1) or more bank accounts in the United Kingdom specified by the Producer; and",
+                  "references": [],
+                  "raw_text": "in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and"
+                },
+                "part10.c56.s56_4(B)": {
+                  "id": "part10.c56.s56_4(B)",
+                  "parent_id": "part10.c56.s56_4",
+                  "type": "subsection",
+                  "text_for_embedding": "in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the relevant Letter of Credit. Termination 57.14 If the LCHA expires in circumstances in which no Default Termination Payment, QCiL Compensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA Counterparty shall return any Posted Collateral transferred or delivered by or on behalf of the Producer no later than five (5) Business Days after the expiry, provided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in accordance with Condition 25 (Set-off). 57.15 If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL Compensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA Counterparty shall return any Posted Collateral transferred or delivered by or on behalf of the Producer after all Producer payment obligations pursuant to the LCHA have been fulfilled, provided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in accordance with Condition 25 (Set-off).",
+                  "references": [
+                    {
+                      "type": "condition",
+                      "target": "Condition 25"
+                    }
+                  ],
+                  "raw_text": "in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination\n57.14 If the LCHA expires in circumstances in which no Default Termination Payment, QCiL\nCompensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer no later than five (5) Business Days after the expiry, provided that the LCHA\nCounterparty shall be entitled to set-off against the cash collateral in accordance with Condition\n25 (Set-off).\n57.15 If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL\nCompensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer after all Producer payment obligations pursuant to the LCHA have been fulfilled,\nprovided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in\naccordance with Condition 25 (Set-off)."
+                }
+              }
+            }
+          }
+        },
+        "10.57": {
+          "id": "part10.c57",
+          "parent_id": "part10",
+          "type": "condition",
+          "section_number": "10.57",
+          "title": "HAICDC EPTABLE COLLATERAL",
+          "text_for_embedding": "Condition 57: HAICDC EPTABLE COLLATERAL",
+          "references": [],
+          "raw_text": "Condition 57: HAICDC EPTABLE COLLATERAL",
+          "parsed": {
+            "intro": "Condition 57: HAICDC EPTABLE COLLATERAL",
+            "subsections": {}
+          },
+          "section_count": 15,
+          "subsections": {
+            "57.1": {
+              "id": "part10.c57.s57_1",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.1",
+              "text_for_embedding": "If a Collateral Posting Notice is given to the Producer, the Producer shall, no later than the Collateral Posting Date, transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral to the LCHA Counterparty in an aggregate amount equal to the Collateral Amount. Transfers and custody of collateral",
+              "references": [],
+              "raw_text": "If a Collateral Posting Notice is given to the Producer, the Producer shall, no later than the\nCollateral Posting Date, transfer or deliver, or procure the transfer or delivery of, Acceptable\nCollateral to the LCHA Counterparty in an aggregate amount equal to the Collateral Amount.\nTransfers and custody of collateral",
+              "parsed": {
+                "intro": "If a Collateral Posting Notice is given to the Producer, the Producer shall, no later than the\nCollateral Posting Date, transfer or deliver, or procure the transfer or delivery of, Acceptable\nCollateral to the LCHA Counterparty in an aggregate amount equal to the Collateral Amount.\nTransfers and custody of collateral",
+                "subsections": {}
+              }
+            },
+            "57.2": {
+              "id": "part10.c57.s57_2",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.2",
+              "text_for_embedding": "All transfers or deliveries pursuant to the LCHA of any Acceptable Collateral shall be made by or on behalf of the Producer and shall be given: (A) in the case of cash, by transfer in accordance with the instructions made by or on behalf of the LCHA Counterparty, to the credit of the Reserve Account; and (B) in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the LCHA Counterparty or its designee. Such transfer shall be deemed effective upon receipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly executed and issued Letter of Credit. Letters of Credit",
+              "references": [],
+              "raw_text": "All transfers or deliveries pursuant to the LCHA of any Acceptable Collateral shall be made by\nor on behalf of the Producer and shall be given:\n(A) in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the LCHA Counterparty, to the credit of the Reserve Account; and\n(B) in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the\nLCHA Counterparty or its designee. Such transfer shall be deemed effective upon\nreceipt by the LCH...",
+              "parsed": {
+                "intro": "All transfers or deliveries pursuant to the LCHA of any Acceptable Collateral shall be made by\nor on behalf of the Producer and shall be given:\n(A) in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the LCHA Counterparty, to the credit of the Reserve Account; and\n(B) in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the\nLCHA Counterparty or its designee. Such transfer shall be deemed effective upon\nreceipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly\nexecuted and issued Letter of Credit.\nLetters of Credit",
+                "subsections": {
+                  "(A)": "in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the LCHA Counterparty, to the credit of the Reserve Account; and",
+                  "(B)": "in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the\nLCHA Counterparty or its designee. Such transfer shall be deemed effective upon\nreceipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly\nexecuted and issued Letter of Credit.\nLetters of Credit"
+                }
+              },
+              "subsections": {
+                "part10.c57.s57_2(A)": {
+                  "id": "part10.c57.s57_2(A)",
+                  "parent_id": "part10.c57.s57_2",
+                  "type": "subsection",
+                  "text_for_embedding": "in the case of cash, by transfer in accordance with the instructions made by or on behalf of the LCHA Counterparty, to the credit of the Reserve Account; and",
+                  "references": [],
+                  "raw_text": "in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the LCHA Counterparty, to the credit of the Reserve Account; and"
+                },
+                "part10.c57.s57_2(B)": {
+                  "id": "part10.c57.s57_2(B)",
+                  "parent_id": "part10.c57.s57_2",
+                  "type": "subsection",
+                  "text_for_embedding": "in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the LCHA Counterparty or its designee. Such transfer shall be deemed effective upon receipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly executed and issued Letter of Credit. Letters of Credit",
+                  "references": [],
+                  "raw_text": "in the case of a Letter of Credit, by a Qualifying Issuer issuing a Letter of Credit to the\nLCHA Counterparty or its designee. Such transfer shall be deemed effective upon\nreceipt by the LCHA Counterparty or its designee from the Qualifying Issuer of the duly\nexecuted and issued Letter of Credit.\nLetters of Credit"
+                }
+              }
+            },
+            "57.3": {
+              "id": "part10.c57.s57_3",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.3",
+              "text_for_embedding": "The Producer shall: (A) procure that: (i) any Letter of Credit provided pursuant to a Collateral Posting Notice shall be valid at least until the Initial Collateral Repayment Date as set out in that notice; and (ii) (if a Replacement Collateral Notice is given) any Letter of Credit provided pursuant to a Replacement Collateral Notice shall be valid at least until the Replacement Collateral Repayment Date as set out in that notice; and (B) ensure that any Letter of Credit provided by the Producer as Acceptable Collateral, including any renewal or replacement of a Letter of Credit, shall be accompanied by a notice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit Details Notice shall specify: (i) the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit; (ii) the contact details for the Qualifying Issuer (or its representative or relationship manager); and (iii) the period of time during which the Letter of Credit will remain in effect and the amount of credit to be provided.",
+              "references": [],
+              "raw_text": "The Producer shall:\n(A) procure that:\n(i) any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand\n(ii) (if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and\n(B) ensure that any Letter of Credit provided by the Producer...",
+              "parsed": {
+                "intro": "The Producer shall:\n(A) procure that:\n(i) any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand\n(ii) (if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and\n(B) ensure that any Letter of Credit provided by the Producer as Acceptable Collateral,\nincluding any renewal or replacement of a Letter of Credit, shall be accompanied by a\nnotice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit\nDetails Notice shall specify:\n(i) the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;\n(ii) the contact details for the Qualifying Issuer (or its representative or relationship\nmanager); and\n(iii) the period of time during which the Letter of Credit will remain in effect and the\namount of credit to be provided.",
+                "subsections": {
+                  "(A).(i)": "any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand",
+                  "(A).(ii)": "(if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and",
+                  "(A)": {
+                    "intro": "procure that:",
+                    "subsections": {
+                      "(i)": "any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand",
+                      "(ii)": "(if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and"
+                    }
+                  },
+                  "(B).(i)": "the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;",
+                  "(B).(ii)": "the contact details for the Qualifying Issuer (or its representative or relationship\nmanager); and",
+                  "(B).(iii)": "the period of time during which the Letter of Credit will remain in effect and the\namount of credit to be provided.",
+                  "(B)": {
+                    "intro": "ensure that any Letter of Credit provided by the Producer as Acceptable Collateral,\nincluding any renewal or replacement of a Letter of Credit, shall be accompanied by a\nnotice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit\nDetails Notice shall specify:",
+                    "subsections": {
+                      "(i)": "the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;",
+                      "(ii)": "the contact details for the Qualifying Issuer (or its representative or relationship\nmanager); and",
+                      "(iii)": "the period of time during which the Letter of Credit will remain in effect and the\namount of credit to be provided."
+                    }
+                  }
+                }
+              },
+              "subsections": {
+                "part10.c57.s57_3(A).(i)": {
+                  "id": "part10.c57.s57_3(A).(i)",
+                  "parent_id": "part10.c57.s57_3(A)",
+                  "type": "subclause",
+                  "text_for_embedding": "any Letter of Credit provided pursuant to a Collateral Posting Notice shall be valid at least until the Initial Collateral Repayment Date as set out in that notice; and",
+                  "references": [],
+                  "raw_text": "any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand"
+                },
+                "part10.c57.s57_3(A).(ii)": {
+                  "id": "part10.c57.s57_3(A).(ii)",
+                  "parent_id": "part10.c57.s57_3(A)",
+                  "type": "subclause",
+                  "text_for_embedding": "(if a Replacement Collateral Notice is given) any Letter of Credit provided pursuant to a Replacement Collateral Notice shall be valid at least until the Replacement Collateral Repayment Date as set out in that notice; and",
+                  "references": [],
+                  "raw_text": "(if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and"
+                },
+                "part10.c57.s57_3(A)": {
+                  "id": "part10.c57.s57_3(A)",
+                  "parent_id": "part10.c57.s57_3",
+                  "type": "subsection",
+                  "text_for_embedding": "procure that:",
+                  "references": [],
+                  "raw_text": "procure that:",
+                  "subsections": {
+                    "(i)": "any Letter of Credit provided pursuant to a Collateral Posting Notice shall be\nvalid at least until the Initial Collateral Repayment Date as set out in that notice;\nand",
+                    "(ii)": "(if a Replacement Collateral Notice is given) any Letter of Credit provided\npursuant to a Replacement Collateral Notice shall be valid at least until the\nReplacement Collateral Repayment Date as set out in that notice; and"
+                  }
+                },
+                "part10.c57.s57_3(B).(i)": {
+                  "id": "part10.c57.s57_3(B).(i)",
+                  "parent_id": "part10.c57.s57_3(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;",
+                  "references": [],
+                  "raw_text": "the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;"
+                },
+                "part10.c57.s57_3(B).(ii)": {
+                  "id": "part10.c57.s57_3(B).(ii)",
+                  "parent_id": "part10.c57.s57_3(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the contact details for the Qualifying Issuer (or its representative or relationship manager); and",
+                  "references": [],
+                  "raw_text": "the contact details for the Qualifying Issuer (or its representative or relationship\nmanager); and"
+                },
+                "part10.c57.s57_3(B).(iii)": {
+                  "id": "part10.c57.s57_3(B).(iii)",
+                  "parent_id": "part10.c57.s57_3(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "the period of time during which the Letter of Credit will remain in effect and the amount of credit to be provided.",
+                  "references": [],
+                  "raw_text": "the period of time during which the Letter of Credit will remain in effect and the\namount of credit to be provided."
+                },
+                "part10.c57.s57_3(B)": {
+                  "id": "part10.c57.s57_3(B)",
+                  "parent_id": "part10.c57.s57_3",
+                  "type": "subsection",
+                  "text_for_embedding": "ensure that any Letter of Credit provided by the Producer as Acceptable Collateral, including any renewal or replacement of a Letter of Credit, shall be accompanied by a notice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit Details Notice shall specify:",
+                  "references": [],
+                  "raw_text": "ensure that any Letter of Credit provided by the Producer as Acceptable Collateral,\nincluding any renewal or replacement of a Letter of Credit, shall be accompanied by a\nnotice from the Producer (a \"Letter of Credit Details Notice\"). A Letter of Credit\nDetails Notice shall specify:",
+                  "subsections": {
+                    "(i)": "the identity and credit rating of the Qualifying Issuer issuing the Letter of Credit;",
+                    "(ii)": "the contact details for the Qualifying Issuer (or its representative or relationship\nmanager); and",
+                    "(iii)": "the period of time during which the Letter of Credit will remain in effect and the\namount of credit to be provided."
+                  }
+                }
+              }
+            },
+            "57.4": {
+              "id": "part10.c57.s57_4",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.4",
+              "text_for_embedding": "by the transfer or delivery of substitute Acceptable Collateral.",
+              "references": [],
+              "raw_text": "by the transfer or delivery of substitute\nAcceptable Collateral.",
+              "parsed": {
+                "intro": "by the transfer or delivery of substitute\nAcceptable Collateral.",
+                "subsections": {}
+              }
+            },
+            "57.5": {
+              "id": "part10.c57.s57_5",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.5",
+              "text_for_embedding": "If, at any time, the Posted Collateral is not or ceases to be Acceptable Collateral and/or the Posted Collateral is less than the Collateral Amount, the LCHA Counterparty may give a notice to the Producer (a \"Collateral Correction Notice\"). A Collateral Correction Notice shall specify: (A) the Posted Collateral which is not or has ceased to be Acceptable Collateral and the reason that prevents such collateral from constituting Acceptable Collateral; and/or (B) the amount by which the Posted Collateral is less than the Collateral Amount (a \"Deficient Collateral Amount\").",
+              "references": [],
+              "raw_text": "If, at any time, the Posted Collateral is not or ceases to be Acceptable Collateral and/or the\nPosted Collateral is less than the Collateral Amount, the LCHA Counterparty may give a notice\nto the Producer (a \"Collateral Correction Notice\"). A Collateral Correction Notice shall\nspecify:\n(A) the Posted Collateral which is not or has ceased to be Acceptable Collateral and the\nreason that prevents such collateral from constituting Acceptable Collateral; and/or\n(B) the amount by which the Posted Coll...",
+              "parsed": {
+                "intro": "If, at any time, the Posted Collateral is not or ceases to be Acceptable Collateral and/or the\nPosted Collateral is less than the Collateral Amount, the LCHA Counterparty may give a notice\nto the Producer (a \"Collateral Correction Notice\"). A Collateral Correction Notice shall\nspecify:\n(A) the Posted Collateral which is not or has ceased to be Acceptable Collateral and the\nreason that prevents such collateral from constituting Acceptable Collateral; and/or\n(B) the amount by which the Posted Collateral is less than the Collateral Amount (a\n\"Deficient Collateral Amount\").",
+                "subsections": {
+                  "(A)": "the Posted Collateral which is not or has ceased to be Acceptable Collateral and the\nreason that prevents such collateral from constituting Acceptable Collateral; and/or",
+                  "(B)": "the amount by which the Posted Collateral is less than the Collateral Amount (a\n\"Deficient Collateral Amount\")."
+                }
+              },
+              "subsections": {
+                "part10.c57.s57_5(A)": {
+                  "id": "part10.c57.s57_5(A)",
+                  "parent_id": "part10.c57.s57_5",
+                  "type": "subsection",
+                  "text_for_embedding": "the Posted Collateral which is not or has ceased to be Acceptable Collateral and the reason that prevents such collateral from constituting Acceptable Collateral; and/or",
+                  "references": [],
+                  "raw_text": "the Posted Collateral which is not or has ceased to be Acceptable Collateral and the\nreason that prevents such collateral from constituting Acceptable Collateral; and/or"
+                },
+                "part10.c57.s57_5(B)": {
+                  "id": "part10.c57.s57_5(B)",
+                  "parent_id": "part10.c57.s57_5",
+                  "type": "subsection",
+                  "text_for_embedding": "the amount by which the Posted Collateral is less than the Collateral Amount (a \"Deficient Collateral Amount\").",
+                  "references": [],
+                  "raw_text": "the amount by which the Posted Collateral is less than the Collateral Amount (a\n\"Deficient Collateral Amount\")."
+                }
+              }
+            },
+            "57.6": {
+              "id": "part10.c57.s57_6",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.6",
+              "text_for_embedding": "No later than five (5) Business Days after receipt of a Collateral Correction Notice, the Producer shall transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral in an amount more than or equal to the Deficient Collateral Amount.",
+              "references": [],
+              "raw_text": "No later than five (5) Business Days after receipt of a Collateral Correction Notice, the Producer\nshall transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral in an\namount more than or equal to the Deficient Collateral Amount.",
+              "parsed": {
+                "intro": "No later than five (5) Business Days after receipt of a Collateral Correction Notice, the Producer\nshall transfer or deliver, or procure the transfer or delivery of, Acceptable Collateral in an\namount more than or equal to the Deficient Collateral Amount.",
+                "subsections": {}
+              }
+            },
+            "57.7": {
+              "id": "part10.c57.s57_7",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.7",
+              "text_for_embedding": "The Producer may, from time to time, and on giving the LCHA Counterparty not less than ten (10) Business Days' notice, substitute some or all of the Posted Collateral with other Acceptable Collateral which shall not in any event be less than the Collateral Amount in aggregate. Credit event by a Qualifying Issuer",
+              "references": [],
+              "raw_text": "The Producer may, from time to time, and on giving the LCHA Counterparty not less than ten\n(10) Business Days' notice, substitute some or all of the Posted Collateral with other\nAcceptable Collateral which shall not in any event be less than the Collateral Amount in\naggregate.\nCredit event by a Qualifying Issuer",
+              "parsed": {
+                "intro": "The Producer may, from time to time, and on giving the LCHA Counterparty not less than ten\n(10) Business Days' notice, substitute some or all of the Posted Collateral with other\nAcceptable Collateral which shall not in any event be less than the Collateral Amount in\naggregate.\nCredit event by a Qualifying Issuer",
+                "subsections": {}
+              }
+            },
+            "57.8": {
+              "id": "part10.c57.s57_8",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.8",
+              "text_for_embedding": "If, at any time, the Qualifying Issuer of a Letter of Credit ceases to be a Qualifying Issuer, the Producer shall give notice to the LCHA Counterparty and the Producer shall procure the replacement of such Letter of Credit with Acceptable Collateral no later than ten (10) Business Days after the date on which the Qualifying Issuer ceases to be a Qualifying Issuer.",
+              "references": [],
+              "raw_text": "If, at any time, the Qualifying Issuer of a Letter of Credit ceases to be a Qualifying Issuer, the\nProducer shall give notice to the LCHA Counterparty and the Producer shall procure the\nreplacement of such Letter of Credit with Acceptable Collateral no later than ten (10) Business\nDays after the date on which the Qualifying Issuer ceases to be a Qualifying Issuer.",
+              "parsed": {
+                "intro": "If, at any time, the Qualifying Issuer of a Letter of Credit ceases to be a Qualifying Issuer, the\nProducer shall give notice to the LCHA Counterparty and the Producer shall procure the\nreplacement of such Letter of Credit with Acceptable Collateral no later than ten (10) Business\nDays after the date on which the Qualifying Issuer ceases to be a Qualifying Issuer.",
+                "subsections": {}
+              }
+            },
+            "57.9": {
+              "id": "part10.c57.s57_9",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.9",
+              "text_for_embedding": "If the Producer fails to procure replacement Acceptable Collateral within ten (10) Business Days in accordance with Condition 57.8, the LCHA Counterparty may demand payment pursuant to the Letter of Credit and shall hold any cash paid pursuant to the Letter of Credit in a Reserve Account until such time as the Posted Collateral is substituted in accordance with Condition 57.7. Making a Posted Collateral Demand",
+              "references": [
+                {
+                  "type": "condition",
+                  "target": "Condition 57.8"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.7"
+                }
+              ],
+              "raw_text": "If the Producer fails to procure replacement Acceptable Collateral within ten (10) Business\nDays in accordance with Condition 57.8, the LCHA Counterparty may demand payment\npursuant to the Letter of Credit and shall hold any cash paid pursuant to the Letter of Credit in\na Reserve Account until such time as the Posted Collateral is substituted in accordance with\nCondition 57.7.\nMaking a Posted Collateral Demand",
+              "parsed": {
+                "intro": "If the Producer fails to procure replacement Acceptable Collateral within ten (10) Business\nDays in accordance with Condition 57.8, the LCHA Counterparty may demand payment\npursuant to the Letter of Credit and shall hold any cash paid pursuant to the Letter of Credit in\na Reserve Account until such time as the Posted Collateral is substituted in accordance with\nCondition 57.7.\nMaking a Posted Collateral Demand",
+                "subsections": {}
+              }
+            },
+            "57.10": {
+              "id": "part10.c57.s57_10",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.10",
+              "text_for_embedding": "The LCHA Counterparty may make a demand under a Letter of Credit procured by the Producer or draw down on any cash amount in a Reserve Account (a \"Posted Collateral Demand\") in the following circumstances: (A) the Producer fails to pay any amount when due pursuant to the LCHA and that failure is not remedied by the last day of the NPA Payment Cure Period; or (B) the Producer fails to renew or extend, or procure the renewal or extension of, a Letter of Credit in accordance with Condition",
+              "references": [],
+              "raw_text": "The LCHA Counterparty may make a demand under a Letter of Credit procured by the\nProducer or draw down on any cash amount in a Reserve Account (a \"Posted Collateral\nDemand\") in the following circumstances:\n(A) the Producer fails to pay any amount when due pursuant to the LCHA and that failure\nis not remedied by the last day of the NPA Payment Cure Period; or\n(B) the Producer fails to renew or extend, or procure the renewal or extension of, a Letter\nof Credit in accordance with Condition",
+              "parsed": {
+                "intro": "The LCHA Counterparty may make a demand under a Letter of Credit procured by the\nProducer or draw down on any cash amount in a Reserve Account (a \"Posted Collateral\nDemand\") in the following circumstances:\n(A) the Producer fails to pay any amount when due pursuant to the LCHA and that failure\nis not remedied by the last day of the NPA Payment Cure Period; or\n(B) the Producer fails to renew or extend, or procure the renewal or extension of, a Letter\nof Credit in accordance with Condition",
+                "subsections": {
+                  "(A)": "the Producer fails to pay any amount when due pursuant to the LCHA and that failure\nis not remedied by the last day of the NPA Payment Cure Period; or",
+                  "(B)": "the Producer fails to renew or extend, or procure the renewal or extension of, a Letter\nof Credit in accordance with Condition"
+                }
+              },
+              "subsections": {
+                "part10.c57.s57_10(A)": {
+                  "id": "part10.c57.s57_10(A)",
+                  "parent_id": "part10.c57.s57_10",
+                  "type": "subsection",
+                  "text_for_embedding": "the Producer fails to pay any amount when due pursuant to the LCHA and that failure is not remedied by the last day of the NPA Payment Cure Period; or",
+                  "references": [],
+                  "raw_text": "the Producer fails to pay any amount when due pursuant to the LCHA and that failure\nis not remedied by the last day of the NPA Payment Cure Period; or"
+                },
+                "part10.c57.s57_10(B)": {
+                  "id": "part10.c57.s57_10(B)",
+                  "parent_id": "part10.c57.s57_10",
+                  "type": "subsection",
+                  "text_for_embedding": "the Producer fails to renew or extend, or procure the renewal or extension of, a Letter of Credit in accordance with Condition",
+                  "references": [],
+                  "raw_text": "the Producer fails to renew or extend, or procure the renewal or extension of, a Letter\nof Credit in accordance with Condition"
+                }
+              }
+            },
+            "57.11": {
+              "id": "part10.c57.s57_11",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.11",
+              "text_for_embedding": "If a Posted Collateral Demand has been made, the Producer shall transfer or deliver, or procure the transfer or delivery of, further Acceptable Collateral in an amount no less than the Collateral Amount no later than two (2) Business Days after such demand. Return of collateral",
+              "references": [],
+              "raw_text": "If a Posted Collateral Demand has been made, the Producer shall transfer or deliver, or\nprocure the transfer or delivery of, further Acceptable Collateral in an amount no less than the\nCollateral Amount no later than two (2) Business Days after such demand.\nReturn of collateral",
+              "parsed": {
+                "intro": "If a Posted Collateral Demand has been made, the Producer shall transfer or deliver, or\nprocure the transfer or delivery of, further Acceptable Collateral in an amount no less than the\nCollateral Amount no later than two (2) Business Days after such demand.\nReturn of collateral",
+                "subsections": {}
+              }
+            },
+            "57.12": {
+              "id": "part10.c57.s57_12",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.12",
+              "text_for_embedding": "If the Producer has transferred or delivered, or procured the transfer or delivery of, Acceptable Collateral to the LCHA Counterparty pursuant to the foregoing provisions in this Part 10 (Credit Support), and: (A) the Collateral Repayment Date has passed; or (B) the Collateral Amount has been replaced or substituted with other Acceptable Collateral in accordance with this Part 10 (Credit Support), then, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral back to the Producer no later than five (5) Business Days after: (i) in the case of Condition 57.12(A), the Collateral Repayment Date; and (ii) in the case of Condition 57.12(B), the date on which the Producer replaces Acceptable Collateral in accordance with this Part 10 (Credit Support).",
+              "references": [
+                {
+                  "type": "condition",
+                  "target": "Condition 57.14"
+                },
+                {
+                  "type": "condition",
+                  "target": "Condition 57.12"
+                },
+                {
+                  "type": "part",
+                  "target": "Part 10"
+                }
+              ],
+              "raw_text": "If the Producer has transferred or delivered, or procured the transfer or delivery of, Acceptable\nCollateral to the LCHA Counterparty pursuant to the foregoing provisions in this Part 10 (Credit\nSupport), and:\n(A) the Collateral Repayment Date has passed; or\n(B) the Collateral Amount has been replaced or substituted with other Acceptable Collateral\nin accordance with this Part 10 (Credit Support),\nthen, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral\nback t...",
+              "parsed": {
+                "intro": "If the Producer has transferred or delivered, or procured the transfer or delivery of, Acceptable\nCollateral to the LCHA Counterparty pursuant to the foregoing provisions in this Part 10 (Credit\nSupport), and:\n(A) the Collateral Repayment Date has passed; or\n(B) the Collateral Amount has been replaced or substituted with other Acceptable Collateral\nin accordance with this Part 10 (Credit Support),\nthen, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral\nback to the Producer no later than five (5) Business Days after:\n(i) in the case of Condition 57.12(A), the Collateral Repayment Date; and\n(ii) in the case of Condition 57.12(B), the date on which the Producer replaces\nAcceptable Collateral in accordance with this Part 10 (Credit Support).",
+                "subsections": {
+                  "(A)": "the Collateral Repayment Date has passed; or",
+                  "(B).(i)": "in the case of Condition 57.12(A), the Collateral Repayment Date; and",
+                  "(B).(ii)": "in the case of Condition 57.12(B), the date on which the Producer replaces\nAcceptable Collateral in accordance with this Part 10 (Credit Support).",
+                  "(B)": {
+                    "intro": "the Collateral Amount has been replaced or substituted with other Acceptable Collateral\nin accordance with this Part 10 (Credit Support),\nthen, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral\nback to the Producer no later than five (5) Business Days after:",
+                    "subsections": {
+                      "(i)": "in the case of Condition 57.12(A), the Collateral Repayment Date; and",
+                      "(ii)": "in the case of Condition 57.12(B), the date on which the Producer replaces\nAcceptable Collateral in accordance with this Part 10 (Credit Support)."
+                    }
+                  }
+                }
+              },
+              "subsections": {
+                "part10.c57.s57_12(A)": {
+                  "id": "part10.c57.s57_12(A)",
+                  "parent_id": "part10.c57.s57_12",
+                  "type": "subsection",
+                  "text_for_embedding": "the Collateral Repayment Date has passed; or",
+                  "references": [],
+                  "raw_text": "the Collateral Repayment Date has passed; or"
+                },
+                "part10.c57.s57_12(B).(i)": {
+                  "id": "part10.c57.s57_12(B).(i)",
+                  "parent_id": "part10.c57.s57_12(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "in the case of Condition 57.12(A), the Collateral Repayment Date; and",
+                  "references": [
+                    {
+                      "type": "condition",
+                      "target": "Condition 57.12"
+                    }
+                  ],
+                  "raw_text": "in the case of Condition 57.12(A), the Collateral Repayment Date; and"
+                },
+                "part10.c57.s57_12(B).(ii)": {
+                  "id": "part10.c57.s57_12(B).(ii)",
+                  "parent_id": "part10.c57.s57_12(B)",
+                  "type": "subclause",
+                  "text_for_embedding": "in the case of Condition 57.12(B), the date on which the Producer replaces Acceptable Collateral in accordance with this Part 10 (Credit Support).",
+                  "references": [
+                    {
+                      "type": "condition",
+                      "target": "Condition 57.12"
+                    },
+                    {
+                      "type": "part",
+                      "target": "Part 10"
+                    }
+                  ],
+                  "raw_text": "in the case of Condition 57.12(B), the date on which the Producer replaces\nAcceptable Collateral in accordance with this Part 10 (Credit Support)."
+                },
+                "part10.c57.s57_12(B)": {
+                  "id": "part10.c57.s57_12(B)",
+                  "parent_id": "part10.c57.s57_12",
+                  "type": "subsection",
+                  "text_for_embedding": "the Collateral Amount has been replaced or substituted with other Acceptable Collateral in accordance with this Part 10 (Credit Support), then, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral back to the Producer no later than five (5) Business Days after:",
+                  "references": [
+                    {
+                      "type": "condition",
+                      "target": "Condition 57.14"
+                    },
+                    {
+                      "type": "part",
+                      "target": "Part 10"
+                    }
+                  ],
+                  "raw_text": "the Collateral Amount has been replaced or substituted with other Acceptable Collateral\nin accordance with this Part 10 (Credit Support),\nthen, subject to Condition 57.14, the LCHA Counterparty shall transfer the Posted Collateral\nback to the Producer no later than five (5) Business Days after:",
+                  "subsections": {
+                    "(i)": "in the case of Condition 57.12(A), the Collateral Repayment Date; and",
+                    "(ii)": "in the case of Condition 57.12(B), the date on which the Producer replaces\nAcceptable Collateral in accordance with this Part 10 (Credit Support)."
+                  }
+                }
+              }
+            },
+            "57.13": {
+              "id": "part10.c57.s57_13",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.13",
+              "text_for_embedding": "The LCHA Counterparty shall transfer back the Posted Collateral: (A) in the case of cash, by transfer in accordance with the instructions made by or on behalf of the Producer, to the credit of one (1) or more bank accounts in the United Kingdom specified by the Producer; and (B) in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the relevant Letter of Credit. Termination",
+              "references": [],
+              "raw_text": "The LCHA Counterparty shall transfer back the Posted Collateral:\n(A) in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and\n(B) in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination",
+              "parsed": {
+                "intro": "The LCHA Counterparty shall transfer back the Posted Collateral:\n(A) in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and\n(B) in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination",
+                "subsections": {
+                  "(A)": "in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and",
+                  "(B)": "in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination"
+                }
+              },
+              "subsections": {
+                "part10.c57.s57_13(A)": {
+                  "id": "part10.c57.s57_13(A)",
+                  "parent_id": "part10.c57.s57_13",
+                  "type": "subsection",
+                  "text_for_embedding": "in the case of cash, by transfer in accordance with the instructions made by or on behalf of the Producer, to the credit of one (1) or more bank accounts in the United Kingdom specified by the Producer; and",
+                  "references": [],
+                  "raw_text": "in the case of cash, by transfer in accordance with the instructions made by or on behalf\nof the Producer, to the credit of one (1) or more bank accounts in the United Kingdom\nspecified by the Producer; and"
+                },
+                "part10.c57.s57_13(B)": {
+                  "id": "part10.c57.s57_13(B)",
+                  "parent_id": "part10.c57.s57_13",
+                  "type": "subsection",
+                  "text_for_embedding": "in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the relevant Letter of Credit. Termination",
+                  "references": [],
+                  "raw_text": "in the case of a Letter of Credit, by surrendering, or procuring the surrender of, the\nrelevant Letter of Credit.\nTermination"
+                }
+              }
+            },
+            "57.14": {
+              "id": "part10.c57.s57_14",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.14",
+              "text_for_embedding": "If the LCHA expires in circumstances in which no Default Termination Payment, QCiL Compensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA Counterparty shall return any Posted Collateral transferred or delivered by or on behalf of the Producer no later than five (5) Business Days after the expiry, provided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in accordance with Condition 25 (Set-off).",
+              "references": [
+                {
+                  "type": "condition",
+                  "target": "Condition 25"
+                }
+              ],
+              "raw_text": "If the LCHA expires in circumstances in which no Default Termination Payment, QCiL\nCompensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer no later than five (5) Business Days after the expiry, provided that the LCHA\nCounterparty shall be entitled to set-off against the cash collateral in accordance with Condition\n25 (Set-off).",
+              "parsed": {
+                "intro": "If the LCHA expires in circumstances in which no Default Termination Payment, QCiL\nCompensation or QCiL Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer no later than five (5) Business Days after the expiry, provided that the LCHA\nCounterparty shall be entitled to set-off against the cash collateral in accordance with Condition\n25 (Set-off).",
+                "subsections": {}
+              }
+            },
+            "57.15": {
+              "id": "part10.c57.s57_15",
+              "parent_id": "part10.c57",
+              "type": "section",
+              "section_number": "57.15",
+              "text_for_embedding": "If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL Compensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA Counterparty shall return any Posted Collateral transferred or delivered by or on behalf of the Producer after all Producer payment obligations pursuant to the LCHA have been fulfilled, provided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in accordance with Condition 25 (Set-off).",
+              "references": [
+                {
+                  "type": "condition",
+                  "target": "Condition 25"
+                }
+              ],
+              "raw_text": "If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL\nCompensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer after all Producer payment obligations pursuant to the LCHA have been fulfilled,\nprovided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in\naccordance with Condition 25 (Set-off).",
+              "parsed": {
+                "intro": "If the LCHA is terminated in circumstances in which any Default Termination Payment, QCiL\nCompensation or QCiL True-Up Compensation is due to the LCHA Counterparty, the LCHA\nCounterparty shall return any Posted Collateral transferred or delivered by or on behalf of the\nProducer after all Producer payment obligations pursuant to the LCHA have been fulfilled,\nprovided that the LCHA Counterparty shall be entitled to set-off against the cash collateral in\naccordance with Condition 25 (Set-off).",
+                "subsections": {}
               }
             }
           }

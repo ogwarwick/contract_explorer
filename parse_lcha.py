@@ -185,13 +185,20 @@ def subsections_to_parsed_format(subsection_nodes: dict, parent_id: str) -> dict
             nested_parsed = subsections_to_parsed_format(
                 # Build child nodes dict from the nested subsections
                 {
-                    f"{node_id}{sub_marker}": {
-                        "text_for_embedding": sub_data.get("text_for_embedding", ""),
-                        "raw_text": sub_data,
-                        "subsections": sub_data.get("subsections", {}) if isinstance(sub_data, dict) else {}
-                    }
+                    f"{node_id}{sub_marker}": (
+                        {
+                            "text_for_embedding": sub_data.get("text_for_embedding", ""),
+                            "raw_text": sub_data,
+                            "subsections": sub_data.get("subsections", {})
+                        }
+                        if isinstance(sub_data, dict)
+                        else {
+                            "text_for_embedding": sub_data,
+                            "raw_text": sub_data,
+                            "subsections": {}
+                        }
+                    )
                     for sub_marker, sub_data in node_data["subsections"].items()
-                    if isinstance(sub_data, str) or isinstance(sub_data, dict)
                 },
                 node_id
             )

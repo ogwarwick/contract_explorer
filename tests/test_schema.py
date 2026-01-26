@@ -60,8 +60,10 @@ class TestNodeIdIntegrity:
         for part_num, part_data in lcha_structure["parts"].items():
             for section_num, section_data in part_data.get("sections", {}).items():
                 section_id = section_data["id"]
-                assert section_id.startswith(f"part{part_num}.s"), \
-                    f"Section {section_num} has incorrect id prefix: {section_id}"
+                # Sections can be regular (.s) or condition-based (.c)
+                assert section_id.startswith(f"part{part_num}.") and \
+                    (section_id.endswith(f".s") or ".c" in section_id or ".s" in section_id), \
+                    f"Section {section_num} has incorrect id pattern: {section_id}"
 
     def test_definition_ids_match_pattern(self, lcha_structure):
         definitions = lcha_structure["parts"].get("1", {}).get("sections", {}).get("1.1", {}).get("definitions", {})

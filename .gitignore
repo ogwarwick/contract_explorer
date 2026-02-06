@@ -1,20 +1,25 @@
-# Virtual environment
-.venv/
-venv/
-env/
+# Environment variables
+.env
+.env.local
 
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
+venv/
+ENV/
 
-# Large files (PDF source)
-*.pdf
+# Data and output files
+data/vectors/
+data/search/
+*.npy
+*.faiss
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
 

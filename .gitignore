@@ -17,6 +17,30 @@ data/search/
 *.npy
 *.faiss
 
+# Local contract corpus and generated processing artefacts. The source PDFs,
+# parser intermediates, and enrichment inputs are kept locally or in a
+# separate data store; the small app-facing cross-reference projections remain
+# versionable under contracts/enriched_outputs/cross_references/.
+contracts/raw_pdf's/
+contracts/docling_files/
+contracts/parsed_outputs/
+contracts/flatten_docling_text/
+contracts/flatten_docling_text_separated/
+contracts/formula_crops/
+contracts/structure_text_files/
+contracts/toc_matches_with_flatten_text/
+contracts/toc_matches_with_flatten_text_separated/
+contracts/toc_trees/
+contracts/toc_trees_separated/
+contracts/.ipynb_checkpoints/
+contracts/enriched_outputs/*_enriched.json
+search_functionality/data/
+
+# Local notebooks and generated Python artefacts anywhere in the tree
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/.DS_Store
+
 # IDE
 .vscode/
 .idea/

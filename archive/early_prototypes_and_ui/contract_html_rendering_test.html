@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCHA Contract Viewer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, serif; height: 100vh; display: flex; overflow: hidden; }
+
+        #sidebar { width: 320px; min-width: 260px; max-width: 500px; background: #f8f9fa; border-right: 1px solid #dee2e6; display: flex; flex-direction: column; overflow: hidden; }
+        #sidebar-header { padding: 12px 16px; background: #e9ecef; border-bottom: 1px solid #dee2e6; font-weight: 600; font-size: 13px; color: #212529; }
+        #sidebar-content { flex: 1; overflow-y: auto; padding: 8px; }
+
+        .tree-node { user-select: none; }
+        .tree-node-content { display: flex; align-items: flex-start; padding: 4px 8px; cursor: pointer; border-radius: 4px; transition: background 0.15s; }
+        .tree-node-content:hover { background: #e9ecef; }
+        .tree-node-content.in-view { background: #d4edda; }
+        .tree-toggle { width: 18px; height: 18px; display: flex; align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0; }
+        .tree-toggle:hover { background: rgba(0,0,0,0.08); border-radius: 3px; }
+        .tree-toggle.invisible { visibility: hidden; }
+        .tree-label { flex: 1; padding: 3px 6px; font-size: 12px; line-height: 1.4; word-break: break-word; }
+        .tree-children { margin-left: 18px; border-left: 1px solid #dee2e6; display: none; }
+        .tree-children.expanded { display: block; }
+
+        .kind-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; flex-shrink: 0; }
+        .kind-part { background: #fd7e14; }
+        .kind-section { background: #28a745; }
+        .kind-subsection { background: #20c997; }
+        .kind-para { background: #17a2b8; }
+        .kind-subpara { background: #6f42c1; }
+        .kind-subsubpara { background: #6f42c1; }
+        .kind-definition { background: #e83e8c; }
+        .kind-subtitle { background: #007bff; }
+
+        #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; background: #ffffff; }
+        #main-header { padding: 12px 20px; background: #f8f9fa; border-bottom: 1px solid #dee2e6; font-size: 16px; font-weight: 600; color: #212529; }
+        #main-content { flex: 1; overflow-y: auto; padding: 30px 50px; scroll-behavior: smooth; }
+
+        /* Document streaming styles */
+        .doc-section { scroll-margin-top: 20px; }
+        .doc-section-header { font-weight: 600; margin-bottom: 8px; line-height: 1.4; }
+        .doc-section-text { font-size: 14px; line-height: 1.7; color: #212529; margin-bottom: 12px; white-space: pre-wrap; }
+        .doc-section-meta { font-size: 11px; color: #6c757d; margin-left: 8px; }
+
+        /* Hierarchy spacing */
+        .depth-0 { margin-left: 0px; }
+        .depth-1 { margin-left: 0px; }
+        .depth-2 { margin-left: 24px; }
+        .depth-3 { margin-left: 48px; }
+        .depth-4 { margin-left: 72px; }
+        .depth-5 { margin-left: 96px; }
+        .depth-6 { margin-left: 120px; }
+        .depth-7 { margin-left: 144px; }
+
+        /* Section header styling by kind */
+        .kind-part .doc-section-header { font-size: 18px; color: #fd7e14; margin-top: 24px; margin-bottom: 12px; }
+        .kind-section .doc-section-header { font-size: 16px; color: #28a745; margin-top: 20px; margin-bottom: 10px; }
+        .kind-subsection .doc-section-header { font-size: 15px; color: #20c997; margin-top: 16px; margin-bottom: 8px; }
+        .kind-para .doc-section-header { font-size: 14px; color: #495057; font-weight: 500; margin-top: 12px; }
+        .kind-subpara .doc-section-header { font-size: 13px; color: #6c757d; font-weight: 400; margin-top: 8px; }
+        .kind-subsubpara .doc-section-header { font-size: 13px; color: #6c757d; font-weight: 400; font-style: italic; margin-top: 6px; }
+        .kind-definition .doc-section-header { font-size: 13px; color: #e83e8c; font-style: italic; margin-top: 6px; }
+
+        /* Subtitle styling (major subtitles within sections) */
+        .kind-subtitle .doc-section-header {
+            font-size: 15px;
+            color: #007bff;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding-left: 2px;
+        }
+
+        #loading { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 16px; color: #495057; z-index: 1000; flex-direction: column; gap: 12px; }
+        #loading.hidden { display: none; }
+        .spinner { width: 32px; height: 32px; border: 3px solid #e9ecef; border-top-color: #6c757d; border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        #search-container { padding: 8px 16px; background: #e9ecef; border-bottom: 1px solid #dee2e6; }
+        #search-input { width: 100%; padding: 8px 12px; border: 1px solid #ced4da; border-radius: 4px; font-size: 13px; }
+        #search-input:focus { outline: none; border-color: #6c757d; }
+
+        #stats { padding: 8px 16px; background: #f8f9fa; border-top: 1px solid #dee2e6; font-size: 11px; color: #6c757d; }
+    </style>
+</head>
+<body>
+    <div id="loading">
+        <div style="text-align: center; padding: 40px;">
+            <h2 style="margin-bottom: 20px;">LCHA Contract Viewer</h2>
+            <p style="margin-bottom: 20px; color: #6c757d;">Please select the JSON file to view</p>
+            <label style="cursor: pointer; padding: 12px 24px; background: #007bff; color: white; border-radius: 4px; font-size: 14px;">
+                Select contract_tree_lcha_amendments_200726.json
+                <input type="file" id="file-input" accept=".json" style="display: none;">
+            </label>
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <div id="sidebar-header">Contract Navigation</div>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+        </div>
+        <div id="sidebar-content"></div>
+        <div id="stats"></div>
+    </div>
+
+    <div id="main">
+        <div id="main-header">Low Carbon Hydrogen Agreement</div>
+        <div id="main-content"></div>
+    </div>
+
+    <script>
+        let contractData = null;
+        let nodeMap = new Map();
+        let expandedNodes = new Set();
+        let allNodes = [];
+        let visibleNodeIds = new Set();
+        let nextId = 1;
+
+        // Junk patterns to filter out
+        const JUNK_PATTERNS = [
+            /^\d+$/,                    // Just numbers (page numbers)
+            /^DRAFT:/i,                 // Draft notices
+            /Note to Reader/i,          // Notes to reader
+            /^\[.*\]$/,                 // Bracketed fragments
+            /^the\s+/,                  // Starts with "the " (fragments)
+            /^of\s+/,                   // Starts with "of " (fragments)
+            /^a\s+/,                    // Starts with "a " (fragments)
+            /^an?\s+/,                  // Starts with "a/an " (fragments)
+            /^any\s+/i,                 // Starts with "any " (fragments)
+            /^such\s+/i,                // Starts with "such " (fragments)
+            /^or\s+/i,                  // Starts with "or " (fragments)
+            /^in\s+/i,                  // Starts with "in " (fragments)
+            /^[a-z]\s+/,                 // Single letter + space (list items)
+        ];
+
+        function isJunkSubtitle(text) {
+            if (!text) return false;
+            for (const pat of JUNK_PATTERNS) {
+                if (pat.test(text)) return true;
+            }
+            return false;
+        }
+
+        function log(msg) { console.log('[ContractViewer]', msg); }
+
+        // Load JSON from file input
+        function loadJSONFromFile() {
+            return new Promise((resolve, reject) => {
+                const fileInput = document.getElementById('file-input');
+                if (!fileInput) {
+                    reject(new Error('File input not found'));
+                    return;
+                }
+
+                fileInput.addEventListener('change', (e) => {
+                    const file = e.target.files[0];
+                    if (!file) {
+                        reject(new Error('No file selected'));
+                        return;
+                    }
+
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        try {
+                            const json = JSON.parse(event.target.result);
+                            resolve(json);
+                        } catch (err) {
+                            reject(new Error('Invalid JSON: ' + err.message));
+                        }
+                    };
+                    reader.onerror = () => reject(new Error('Error reading file'));
+                    reader.readAsText(file);
+                });
+
+                // Trigger file selection
+                fileInput.click();
+            });
+        }
+
+        async function init() {
+            try {
+                log('Loading contract_tree_lcha_amendments_200726.json...');
+                // Load JSON data directly from file
+                contractData = await loadJSONFromFile();
+                log('Loaded');
+
+                buildNodeMap(contractData);
+                log(`Mapped ${nodeMap.size} nodes (${nextId - 1} assigned IDs)`);
+
+                // Debug: Count subtitle nodes
+                const allSubtitles = allNodes.filter(n => n.kind === 'subtitle');
+                const junkSubtitles = allNodes.filter(n => n.kind === 'subtitle' && n._isJunk);
+                log(`Found ${allSubtitles.length} subtitle nodes (${junkSubtitles.length} filtered as junk)`);
+                if (allSubtitles.length > 0 && !allSubtitles[0]._isJunk) {
+                    log(`First valid subtitle: ID=${allSubtitles[0].id}, text="${allSubtitles[0].text.substring(0, 40)}"`);
+                }
+
+                // Expand all by default for navigation
+                allNodes.forEach(n => { if (n.id) expandedNodes.add(n.id); });
+
+                renderSidebar();
+                renderDocument();
+                updateStats();
+                document.getElementById('loading').classList.add('hidden');
+
+                // Setup scroll spy
+                document.getElementById('main-content').addEventListener('scroll', updateScrollSpy);
+            } catch (error) {
+                log('Error: ' + error.message);
+                document.getElementById('loading').innerHTML = `
+                    <div style="text-align: center; padding: 20px; max-width: 400px;">
+                        <h3 style="color: #dc3545;">Error loading contract</h3>
+                        <p style="margin: 10px 0; font-size: 13px;">${error.message}</p>
+                        <p style="font-size: 12px; color: #6c757d; margin: 16px 0;">
+                            Please select contract_tree_lcha_amendments_200726.json using the button above.
+                        </p>
+                    </div>
+                `;
+            }
+        }
+
+        function buildNodeMap(node) {
+            // Process children first (depth-first)
+            if (node.children) {
+                node.children.forEach(child => {
+                    // Assign ID to nodes that don't have one
+                    if (!child.id && child.kind && child.kind !== 'root') {
+                        child.id = 'gen-' + nextId++;
+                    }
+
+                    // Filter out junk subtitles
+                    if (child.kind === 'subtitle' && isJunkSubtitle(child.text)) {
+                        child._isJunk = true; // Mark as junk
+                    }
+
+                    // Add to map and list (but we'll filter junk later)
+                    if (child.id) {
+                        nodeMap.set(child.id, child);
+                        allNodes.push(child);
+                    }
+                    buildNodeMap(child);
+                });
+            }
+        }
+
+        function updateStats() {
+            const allSubtitles = allNodes.filter(n => n.kind === 'subtitle');
+            const junkSubtitles = allNodes.filter(n => n.kind === 'subtitle' && n._isJunk);
+            const validSubtitles = allSubtitles.length - junkSubtitles.length;
+            document.getElementById('stats').textContent = `${allNodes.length} nodes (${validSubtitles}/${allSubtitles.length} subtitles) | Scroll to navigate`;
+        }
+
+        function getNodeLabel(node) {
+            if (!node) return '';
+            const text = node.text || '';
+            const kind = node.kind || '';
+
+            // For subtitle nodes, show the full text as the heading
+            if (kind === 'subtitle') {
+                return text;
+            }
+
+            // For section-like nodes, extract just the section number
+            if (kind && ['section', 'subsection', 'part'].includes(kind)) {
+                // Extract "3.1 " from "3.1 The provisions of..."
+                const numberMatch = text.match(/^([0-9]+\.[0-9]*\s+)/);
+                if (numberMatch) return numberMatch[1];
+
+                // Extract "3. " from "3. CONDITIONS PRECEDENT"
+                const sectionMatch = text.match(/^([0-9]+\.\s+)/);
+                if (sectionMatch) return sectionMatch[1];
+
+                // For sections without clear numbers, use first few words
+                return text.split(/\s+/).slice(0, 4).join(' ') + '...';
+            }
+
+            // For definitions, extract the term being defined
+            if (kind === 'definition') {
+                const match = text.match(/^"([^"]+)"/);
+                return match ? `"${match[1]}"` : text.substring(0, 50) + '...';
+            }
+
+            // For other content types, show first few words
+            return text.split(/\s+/).slice(0, 6).join(' ') + '...';
+        }
+
+        function getDepthClass(depth) {
+            return 'depth-' + Math.min(depth || 0, 7);
+        }
+
+        function getKindClass(kind) {
+            if (!kind) return 'kind-section';
+            return 'kind-' + kind;
+        }
+
+        function createTreeNode(node) {
+            // Skip junk nodes in sidebar
+            if (node._isJunk) {
+                return null;
+            }
+
+            const hasChildren = node.children && node.children.length > 0;
+            const isExpanded = expandedNodes.has(node.id);
+
+            const div = document.createElement('div');
+            div.className = 'tree-node';
+
+            const content = document.createElement('div');
+            content.className = 'tree-node-content';
+            content.dataset.nodeId = node.id;
+
+            const toggle = document.createElement('span');
+            toggle.className = 'tree-toggle' + (hasChildren ? '' : ' invisible');
+            toggle.innerHTML = isExpanded
+                ? '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
+                : '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>';
+            toggle.onclick = (e) => { e.stopPropagation(); toggleNode(node.id); };
+
+            const label = document.createElement('span');
+            label.className = 'tree-label';
+
+            const kindDot = document.createElement('span');
+            kindDot.className = 'kind-dot ' + getKindClass(node.kind);
+            label.appendChild(kindDot);
+
+            const textSpan = document.createElement('span');
+            const labelText = getNodeLabel(node);
+            textSpan.textContent = labelText.length > 60 ? labelText.substring(0, 60) + '...' : labelText;
+            label.appendChild(textSpan);
+
+            content.appendChild(toggle);
+            content.appendChild(label);
+            content.onclick = () => scrollToNode(node.id);
+            div.appendChild(content);
+
+            if (hasChildren) {
+                const children = document.createElement('div');
+                children.className = 'tree-children' + (isExpanded ? ' expanded' : '');
+                node.children.forEach(child => {
+                    const childNode = createTreeNode(child);
+                    if (childNode) {
+                        children.appendChild(childNode);
+                    }
+                });
+                div.appendChild(children);
+            }
+
+            return div;
+        }
+
+        function renderSidebar() {
+            const sidebar = document.getElementById('sidebar-content');
+            sidebar.innerHTML = '';
+
+            if (contractData && contractData.children) {
+                contractData.children.forEach(child => {
+                    const treeNode = createTreeNode(child);
+                    if (treeNode) {
+                        sidebar.appendChild(treeNode);
+                    }
+                });
+            }
+        }
+
+        function toggleNode(nodeId) {
+            if (expandedNodes.has(nodeId)) expandedNodes.delete(nodeId);
+            else expandedNodes.add(nodeId);
+            renderSidebar();
+        }
+
+        function scrollToNode(nodeId) {
+            const el = document.getElementById('node-' + nodeId);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                console.log('Element not found: node-' + nodeId);
+            }
+        }
+
+        function renderDocument() {
+            const content = document.getElementById('main-content');
+            let html = '';
+            let renderCount = 0;
+            let subtitleCount = 0;
+
+            function renderNode(node) {
+                if (!node.id) {
+                    // Root node - just render children
+                    if (node.children) {
+                        node.children.forEach(child => renderNode(child));
+                    }
+                    return;
+                }
+
+                // Skip junk nodes
+                if (node._isJunk) {
+                    return;
+                }
+
+                renderCount++;
+                const depth = node.depth || 0;
+                const kind = node.kind || 'section';
+                const labelText = getNodeLabel(node);
+                const hasText = node.text && node.text.length > 0;
+
+                if (kind === 'subtitle') {
+                    subtitleCount++;
+                }
+
+                html += `
+                    <div id="node-${node.id}" class="doc-section ${getDepthClass(depth)} ${getKindClass(kind)}">
+                        <div class="doc-section-header">${labelText}</div>
+                        ${hasText && labelText !== node.text ? `<div class="doc-section-text">${node.text}</div>` : ''}
+                        ${node.page ? `<span class="doc-section-meta">p.${node.page}</span>` : ''}
+                    </div>
+                `;
+
+                // Render children
+                if (node.children && node.children.length > 0) {
+                    node.children.forEach(child => renderNode(child));
+                }
+            }
+
+            if (contractData) {
+                renderNode(contractData);
+            }
+
+            content.innerHTML = html;
+            log(`Rendered ${renderCount} nodes (${subtitleCount} subtitles)`);
+        }
+
+        function updateScrollSpy() {
+            const content = document.getElementById('main-content');
+            const scrollTop = content.scrollTop;
+            const viewportHeight = content.clientHeight;
+
+            visibleNodeIds.clear();
+
+            allNodes.forEach(node => {
+                const el = document.getElementById('node-' + node.id);
+                if (el) {
+                    const rect = el.getBoundingClientRect();
+                    const contentRect = content.getBoundingClientRect();
+                    const relativeTop = rect.top - contentRect.top;
+
+                    // Consider node visible if it's in the viewport
+                    if (relativeTop >= -50 && relativeTop < viewportHeight - 50) {
+                        visibleNodeIds.add(node.id);
+                    }
+                }
+            });
+
+            // Update sidebar highlights
+            document.querySelectorAll('.tree-node-content').forEach(el => {
+                const nodeId = el.dataset.nodeId;
+                if (visibleNodeIds.has(nodeId)) {
+                    el.classList.add('in-view');
+                } else {
+                    el.classList.remove('in-view');
+                }
+            });
+        }
+
+        document.getElementById('search-input').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase().trim();
+            const sidebar = document.getElementById('sidebar-content');
+            sidebar.innerHTML = '';
+
+            if (!query) {
+                renderSidebar();
+                return;
+            }
+
+            const results = allNodes.filter(n => n.text && n.text.toLowerCase().includes(query));
+
+            if (results.length === 0) {
+                sidebar.innerHTML = '<div style="padding: 12px; color: #6c757d; text-align: center; font-size: 12px;">No results</div>';
+            } else {
+                results.forEach(node => {
+                    const div = document.createElement('div');
+                    div.className = 'tree-node-content';
+                    div.dataset.nodeId = node.id;
+                    div.innerHTML = `<span class="tree-label">${getNodeLabel(node).substring(0, 60)}</span>`;
+                    div.onclick = () => scrollToNode(node.id);
+                    sidebar.appendChild(div);
+                });
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>

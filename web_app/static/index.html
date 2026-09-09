@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contract Explorer | Legal Hybrid Search & Interactive Contract Navigator</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- PDF.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="brand-logo-text" onclick="switchView('search')" style="cursor: pointer;">
+        <span class="brand-gold">Contract</span><span class="brand-white">Explorer</span>
+      </div>
+
+      <!-- Main Navigation Tabs -->
+      <nav class="header-nav-tabs">
+        <button class="nav-tab-btn active" id="tabSearch" onclick="switchView('search')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span>Clause Search</span>
+        </button>
+        <button class="nav-tab-btn" id="tabContracts" onclick="switchView('contracts')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+          <span>Contract Library (11)</span>
+        </button>
+        <button class="nav-tab-btn" id="tabNavigator" onclick="switchView('navigator')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h7"></path>
+          </svg>
+          <span>Contract Structure</span>
+        </button>
+      </nav>
+    </div>
+
+    <!-- Navigator Context Bar -->
+    <div class="header-nav-context" id="headerNavContext" style="display: none;">
+      <div class="nav-doc-meta-title" id="navDocMetaTitle">
+        Select a contract to view its structure
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <div class="main-wrapper">
+    
+    <!-- =====================================================================
+         VIEW 1: Clause Search Interface
+         ===================================================================== -->
+    <div id="searchView" class="view-panel active">
+      <main class="chat-main-content">
+        
+        <!-- Messages Stream -->
+        <div id="messagesStream" class="messages-stream">
+          
+          <!-- Welcome Screen -->
+          <div id="welcomeScreen" class="welcome-container">
+            <div class="welcome-badge-tag">Hybrid Search Engine</div>
+            <h1 class="welcome-title">Contract Clause Explorer</h1>
+            <p class="welcome-desc">
+              Search across 11 standardized UK energy contracts with exact condition clause matching and PDF page linkages.
+            </p>
+
+            <div class="quick-prompts-grid">
+              <div class="prompt-card" onclick="submitSampleQuery('What is the relief mechanism for a Force Majeure event?')">
+                <div class="prompt-scheme">CfD & LCHA Standard Terms</div>
+                <div class="prompt-text">"What is the relief mechanism for a Force Majeure event?"</div>
+              </div>
+              <div class="prompt-card" onclick="submitSampleQuery('Qualifying Change in Law true up calculation process')">
+                <div class="prompt-scheme">CCUS & CfD AR6</div>
+                <div class="prompt-text">"Qualifying Change in Law true up calculation process"</div>
+              </div>
+              <div class="prompt-card" onclick="submitSampleQuery('Initial Conditions Precedent fulfillment deadlines')">
+                <div class="prompt-scheme">All Schemes</div>
+                <div class="prompt-text">"Initial Conditions Precedent fulfillment deadlines"</div>
+              </div>
+              <div class="prompt-card" onclick="submitSampleQuery('Expert determination and dispute resolution procedure')">
+                <div class="prompt-scheme">LCHA & CCUS DPA</div>
+                <div class="prompt-text">"Expert determination and dispute resolution procedure"</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Bottom Floating Input Dock -->
+        <footer class="bottom-dock">
+          <form id="chatForm" class="input-capsule" onsubmit="handleChatSubmit(event)">
+            <span class="input-label">User query :</span>
+            <input 
+              type="text" 
+              id="queryInput" 
+              class="search-input-field" 
+              placeholder="Search clauses across contracts..."
+              autocomplete="off"
+              autofocus
+            >
+            <button type="submit" id="sendBtn" class="send-action-btn" title="Submit Search Query">
+              <svg class="send-arrow-icon" viewBox="0 0 24 24">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </button>
+          </form>
+        </footer>
+
+      </main>
+    </div>
+
+    <!-- =====================================================================
+         VIEW 2: Contract Library / Catalog Page
+         ===================================================================== -->
+    <div id="contractsView" class="view-panel">
+      <div class="contracts-page-container">
+        
+        <!-- Header Banner & Category Filter Pills -->
+        <div class="contracts-header-banner">
+          <h1 class="contracts-page-title">Contract Library</h1>
+
+          <div class="contracts-filter-pills">
+            <button class="filter-pill active" onclick="filterContractsByScheme('ALL', this)">All (11)</button>
+            <button class="filter-pill" onclick="filterContractsByScheme('CfD', this)">CfD · Power (7)</button>
+            <button class="filter-pill" onclick="filterContractsByScheme('CCUS', this)">CCUS · Carbon Capture (2)</button>
+            <button class="filter-pill" onclick="filterContractsByScheme('LCHA', this)">LCHA · Hydrogen (2)</button>
+          </div>
+        </div>
+
+        <!-- Contracts Cards Grid -->
+        <div id="contractsGrid" class="contracts-cards-grid">
+          <div class="loading-card" style="margin: 40px auto;">
+            <div class="spinner-gold"></div>
+            <span>Loading contract library...</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         VIEW 3: Contract Structure + PDF Viewer
+         ===================================================================== -->
+    <div id="navigatorView" class="view-panel">
+      <div class="navigator-layout">
+        <aside class="navigator-sidebar">
+          <div class="sidebar-header">
+            <div class="sidebar-title-group">
+              <span class="sidebar-heading">Contract structure</span>
+              <span class="sidebar-count-badge" id="sidebarConditionCount">0 sections</span>
+            </div>
+            <select id="navigatorContractSelector" class="contract-switcher-dropdown" onchange="handleNavigatorContractSwitch()">
+              <option value="">Select a contract...</option>
+            </select>
+            <input id="hierarchyFilterInput" class="nav-scoped-input" type="search" placeholder="Filter parts and sections..." oninput="filterHierarchyTree(this.value)">
+          </div>
+          <div id="sidebarTreeContainer" class="sidebar-tree-container">
+            <div class="loading-tree">Select a contract to view its structure.</div>
+          </div>
+        </aside>
+
+        <section class="navigator-pdf-center">
+          <div class="pdf-top-toolbar">
+            <div class="pdf-toolbar-group">
+              <button class="pdf-nav-btn" onclick="prevPdfPage()" title="Previous page">‹</button>
+              <div class="pdf-page-display">
+                <span class="pdf-page-label">PDF page</span>
+                <input id="pdfPageInput" class="page-num-input" type="text" inputmode="numeric" pattern="[0-9]*" value="1" aria-label="PDF page number" onchange="handlePageInputChange(event)" onkeydown="handlePageInputKeydown(event)" onblur="handlePageInputChange(event)">
+                <span class="page-total-slash">/</span>
+                <span id="pdfTotalPages" class="page-total-num">—</span>
+                <span id="pdfPrintedPageLabel" class="pdf-printed-page-label">contract p.—</span>
+              </div>
+              <button class="pdf-nav-btn" onclick="nextPdfPage()" title="Next page">›</button>
+            </div>
+            <div class="pdf-toolbar-group">
+              <button class="pdf-tool-btn" onclick="zoomPdf(-0.1)" title="Zoom out">−</button>
+              <span id="pdfZoomLabel" class="zoom-level-label">100%</span>
+              <button class="pdf-tool-btn" onclick="zoomPdf(0.1)" title="Zoom in">+</button>
+              <button class="pdf-tool-btn" onclick="fitPdfPage()" title="Fit page">↔</button>
+            </div>
+          </div>
+
+          <div id="pdfViewport" class="pdf-viewport">
+            <div id="pdfLoadingOverlay" class="pdf-loading-overlay" style="display: flex;">
+              <span id="pdfLoadingText">Select a contract to open its PDF.</span>
+            </div>
+            <div class="pdf-canvas-wrapper">
+              <canvas id="pdfCanvas" class="pdf-render-canvas"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <aside class="navigator-insights" aria-label="Cross references">
+          <div class="insights-header">
+            <div>
+              <div class="insights-heading">Cross references</div>
+              <div class="insights-subheading">Linked main-contract conditions</div>
+            </div>
+            <span id="insightsReferenceCount" class="insights-count-badge">—</span>
+          </div>
+          <div id="navigatorInsightsBody" class="navigator-insights-body">
+            <div class="insights-empty">
+              <span class="insights-empty-icon">↗</span>
+              <span>Select a condition to view its cross references.</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JavaScript Controller -->
+  <script src="/static/app.js"></script>
+</body>
+</html>

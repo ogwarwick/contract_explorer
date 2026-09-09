@@ -1,0 +1,273 @@
+import json
+import re
+from pathlib import Path
+from typing import Dict, List, Any
+
+# Regex to match definitions (allowing internal quotes in term names)
+DEF_REGEX = re.compile(
+    r'^(?:"\s*([^\n]{2,80}?)\s*"'
+    r'|\u201c\s*([^\n]{2,80}?)\s*\u201d'
+    r"|'\s*([^\n]{2,80}?)\s*'"
+    r'|\u2018\s*([^\n]{2,80}?)\s*\u2019)'
+    r'\s*\d*[A-Z]?\s*'
+    r'(?:means|has\s+the\s+meaning|shall\s+have|shall\s+mean|is\b|or\b)',
+    re.IGNORECASE
+)
+
+def split_definitions_text(full_text: str) -> List[str]:
+    # Split on space that is preceded by a semicolon and followed by a definition pattern
+    pattern = re.compile(
+        r'(?<=;)\s+(?='
+        r'(?:\'[^\n]{2,80}?\'|"[^\n]{2,80}?"|\u201c[^\n]{2,80}?\u201d|\u2018[^\n]{2,80}?\u2019)'
+        r'\s*\d*[A-Z]?\s*'
+        r'(?:means|has\s+the\s+meaning|shall\s+have|shall\s+mean|is\b|or\b)'
+        r')',
+        re.IGNORECASE
+    )
+    parts = pattern.split(full_text)
+    return [p.strip() for p in parts if p.strip()]
+
+def clean_ocr_symbols(text: str) -> str:
+    # Replace Symbol font private use area character codes
+    text = text.replace('\uf02d', '-')
+    text = text.replace('\uf03d', '=')
+    text = text.replace('\uf02b', '+')
+    text = text.replace('\uf02a', '*')
+    text = text.replace('\uf02f', '/')
+    
+    # Specific known corrupted formulas
+    text = text.replace('\uf028 \uf029 t t t MRP SP MIN SP , Difference \uf02d \uf03d', 'Difference_t = MIN(SP_t, MRP_t) - MRP_t')
+    text = text.replace('( ) t t t MRP SP MIN SP , Difference -=', 'Difference_t = MIN(SP_t, MRP_t) - MRP_t')
+    
+    return text
+
+def process_node(node: Dict[str, Any]) -> List[Dict[str, Any]]:
+    # Clean OCR symbols in node title
+    if "title" in node:
+        node["title"] = clean_ocr_symbols(node["title"])
+        
+    # Recursive process children
+    if "children" in node:
+        new_children = []
+        for child in node["children"]:
+            new_children.extend(process_node(child))
+        node["children"] = new_children
+        
+    # Check if this node is a definition that can be split (Merged Strings)
+    if node.get("kind") == "definition" and "title" in node:
+        parts = split_definitions_text(node["title"])
+        if len(parts) > 1:
+            split_nodes = []
+            for p in parts:
+                p_clean = clean_ocr_symbols(p)
+                part_lid = node.get("line_id")
+                if DEF_REGEX.match(p_clean):
+                    split_nodes.append({
+                        "kind": "definition",
+                        "depth": 3,
+                        "number": "",
+                        "title": p_clean,
+                        "page": node.get("page"),
+                        "line_id": part_lid,
+                        "children": []
+                    })
+                else:
+                    split_nodes.append({
+                        "kind": "text",
+                        "depth": 4,
+                        "number": "",
+                        "title": p_clean,
+                        "page": node.get("page"),
+                        "line_id": part_lid,
+                        "children": []
+                    })
+            return split_nodes
+            
+    # Check if children contain misnested definitions
+    if "children" in node and node["children"]:
+        children = node["children"]
+        healed_children = []
+        i = 0
+        while i < len(children):
+            child = children[i]
+            # Group consecutive text nodes to check if they contain split definitions
+            if child.get("kind") == "text":
+                group = [child]
+                j = i + 1
+                while j < len(children) and children[j].get("kind") == "text":
+                    group.append(children[j])
+                    j += 1
+                
+                # Check concatenated text
+                full_text = " ".join(c["title"] for c in group)
+                parts = split_definitions_text(full_text)
+                
+                # A group contains definitions if we split it into multiple parts,
+                # or if the concatenated text matches the definition regex
+                has_definitions = len(parts) > 1 or (len(parts) == 1 and DEF_REGEX.match(clean_ocr_symbols(parts[0])))
+                
+                if has_definitions:
+                    # Partition the group into subgroups based on where a new definition starts
+                    subgroups = []
+                    current_subgroup = []
+                    for c in group:
+                        c_text = c["title"].strip()
+                        is_start = False
+                        if c_text in ("'", '"', '\u201c', '\u2018'):
+                            is_start = True
+                        elif c_text.startswith("'") or c_text.startswith('"') or c_text.startswith('\u201c') or c_text.startswith('\u2018'):
+                            is_start = True
+                            
+                        if is_start and current_subgroup:
+                            subgroups.append(current_subgroup)
+                            current_subgroup = [c]
+                        else:
+                            current_subgroup.append(c)
+                    if current_subgroup:
+                        subgroups.append(current_subgroup)
+                        
+                    # Process each subgroup
+                    for sg in subgroups:
+                        sg_text = " ".join(c["title"] for c in sg)
+                        sg_parts = split_definitions_text(sg_text)
+                        first_node = sg[0]
+                        
+                        if len(sg_parts) > 1:
+                            for p in sg_parts:
+                                p_clean = clean_ocr_symbols(p)
+                                part_lid = first_node.get("line_id")
+                                if DEF_REGEX.match(p_clean):
+                                    healed_children.append({
+                                        "kind": "definition",
+                                        "depth": 3,
+                                        "number": "",
+                                        "title": p_clean,
+                                        "page": first_node.get("page"),
+                                        "line_id": part_lid,
+                                        "children": []
+                                    })
+                                else:
+                                    healed_children.append({
+                                        "kind": "text",
+                                        "depth": 4,
+                                        "number": "",
+                                        "title": p_clean,
+                                        "page": first_node.get("page"),
+                                        "line_id": part_lid,
+                                        "children": []
+                                    })
+                        else:
+                            p = sg_parts[0] if sg_parts else sg_text
+                            p_clean = clean_ocr_symbols(p)
+                            if DEF_REGEX.match(p_clean):
+                                healed_children.append({
+                                    "kind": "definition",
+                                    "depth": 3,
+                                    "number": "",
+                                    "title": p_clean,
+                                    "page": first_node.get("page"),
+                                    "line_id": first_node.get("line_id"),
+                                    "children": []
+                                })
+                            else:
+                                healed_children.append({
+                                    "kind": "text",
+                                    "depth": 4,
+                                    "number": "",
+                                    "title": p_clean,
+                                    "page": first_node.get("page"),
+                                    "line_id": first_node.get("line_id"),
+                                    "children": []
+                                })
+                    i = j - 1
+                else:
+                    # No definitions in this group, keep the original nodes exactly as they were!
+                    for c in group:
+                        c["title"] = clean_ocr_symbols(c["title"])
+                        healed_children.append(c)
+                    i = j - 1
+            else:
+                healed_children.append(child)
+            i += 1
+            
+        node["children"] = healed_children
+        
+    return [node]
+
+def heal_document_tree(data: Dict[str, Any]) -> Dict[str, Any]:
+    main_body = data.get("main_body", {})
+    if "children" in main_body:
+        new_children = []
+        for child in main_body["children"]:
+            new_children.extend(process_node(child))
+            
+        # Promote definitions from children to siblings
+        main_body["children"] = promote_nested_definitions(new_children)
+        
+        # Sort children of Definitions block condition node by line_id (stable sort)
+        sort_condition_definitions(main_body)
+        
+    # Also clean annexes text
+    annexes = data.get("annexes", {})
+    for line_id, line in annexes.items():
+        if "text" in line:
+            line["text"] = clean_ocr_symbols(line["text"])
+            
+    return data
+
+def sort_condition_definitions(node: Dict[str, Any]):
+    if node.get("kind") == "condition":
+        # Check if it contains definitions
+        has_defs = any(c.get("kind") == "definition" for c in node.get("children", []))
+        if has_defs:
+            # Stable sort by line_id
+            node["children"].sort(key=lambda x: x.get("line_id") if x.get("line_id") is not None else 0)
+            
+    for child in node.get("children", []):
+        sort_condition_definitions(child)
+
+def promote_nested_definitions(nodes: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    promoted = []
+    for node in nodes:
+        if "children" in node:
+            node["children"] = promote_nested_definitions(node["children"])
+            
+        if node.get("kind") in ("definition", "text") and "children" in node:
+            children_to_keep = []
+            definitions_to_promote = []
+            for child in node["children"]:
+                if child.get("kind") == "definition" and child.get("depth") == 3:
+                    definitions_to_promote.append(child)
+                else:
+                    children_to_keep.append(child)
+            
+            node["children"] = children_to_keep
+            promoted.append(node)
+            promoted.extend(definitions_to_promote)
+        else:
+            promoted.append(node)
+            
+    return promoted
+
+def main():
+    workspace_root = Path(__file__).resolve().parent.parent.parent
+    experiment_dir = workspace_root / "contracts" / "parsed_outputs" / "experiment_flat_annexes"
+    
+    json_files = sorted(list(experiment_dir.glob("*.json")))
+    print(f"Running layout healing & formatting cleanup on {len(json_files)} stacked contracts...\n")
+    
+    for f in json_files:
+        with open(f, "r", encoding="utf-8") as file:
+            data = json.load(file)
+            
+        cleaned_data = heal_document_tree(data)
+        
+        with open(f, "w", encoding="utf-8") as file:
+            json.dump(cleaned_data, file, indent=2, ensure_ascii=False)
+            
+        print(f"  [Cleaned & Saved] {f.name}")
+        
+    print("\nFormatting cleanup completed successfully.")
+
+if __name__ == "__main__":
+    main()

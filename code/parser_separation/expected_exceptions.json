@@ -1,0 +1,23 @@
+{
+  "layout_corrections": {
+    "AR4_Standard_Terms_and_Conditions": [
+      {
+        "line_id": 2184,
+        "pattern": "on or prior to 34.14",
+        "replacement": "on or prior to",
+        "prepend": "34.14"
+      }
+    ]
+  },
+  "allowed_sequence_gaps": {
+    "CCUS_-_ICC_-_Standard_Terms_and_Conditions__Template_1_-_November_2025_": [
+      {
+        "parent_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:3309",
+        "series": "lower_roman",
+        "expected_val": 2,
+        "reason": "Docling swallowed (i) positive, it shall represent an amount payable... inside Condition 12.21 formula block",
+        "source_page": 176
+      }
+    ]
+  }
+}

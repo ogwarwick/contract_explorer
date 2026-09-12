@@ -35,6 +35,7 @@ contracts/toc_trees_separated/
 contracts/.ipynb_checkpoints/
 contracts/enriched_outputs/*_enriched.json
 search_functionality/data/
+experiments/rag_qa_results.json
 
 # Local notebooks and generated Python artefacts anywhere in the tree
 **/.ipynb_checkpoints/

@@ -1,0 +1,14 @@
+[
+  {"id": "retrieval_01", "type": "retrieval", "question": "What is the notice period for terminating the agreement?"},
+  {"id": "retrieval_02", "type": "retrieval", "question": "Initial Conditions Precedent delivery requirements"},
+  {"id": "retrieval_03", "type": "retrieval", "question": "Where are the change in law notice requirements?"},
+  {"id": "retrieval_04", "type": "retrieval", "question": "What payments are due after a Qualifying Shutdown Event?"},
+  {"id": "synthesis_01", "type": "synthesis", "question": "Can you explain how the termination provisions within the LCHA work?"},
+  {"id": "synthesis_02", "type": "synthesis", "question": "Summarise the conditions precedent, including what must be delivered and the consequences of failing to satisfy them."},
+  {"id": "synthesis_03", "type": "synthesis", "question": "How does the contract deal with a change in law from notification through to any payment or adjustment?"},
+  {"id": "synthesis_04", "type": "synthesis", "question": "Compare the main routes by which the agreement can end and explain the practical consequences for the Generator and the CfD Counterparty."},
+  {"id": "complex_01", "type": "synthesis", "question": "A project is late satisfying a condition precedent, a change in law occurs, and the Generator is considering termination. Identify the relevant contractual mechanisms, explain how they interact, and flag which points require checking against the full agreement."},
+  {"id": "complex_02", "type": "synthesis", "question": "Explain the payment and credit-support consequences of a prolonged operational disruption, including the relevant notices, timing, and any limits or dependencies visible in the retrieved provisions."},
+  {"id": "short_01", "type": "synthesis", "question": "Why does termination matter?"},
+  {"id": "short_02", "type": "retrieval", "question": "Termination notice"}
+]

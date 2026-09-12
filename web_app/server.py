@@ -12,7 +12,7 @@ Start:
 import os
 import sys
 from pathlib import Path
-from typing import Optional
+from typing import Literal, Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -34,6 +34,7 @@ from contract_navigator_service import (  # noqa: E402
     parse_enricher_cross_references,
 )
 from ar1_hierarchy_service import get_ar1_hierarchy  # noqa: E402
+from llm_service import answer_from_search  # noqa: E402
 
 # ── FastAPI Application ───────────────────────────────────────────────────────
 app = FastAPI(
@@ -105,6 +106,45 @@ class SearchResponse(BaseModel):
     results: list[SearchResult]
 
 
+class AskRequest(BaseModel):
+    query: str = Field(..., min_length=1, max_length=2000)
+    mode: Literal["auto", "retrieval", "synthesis"] = "auto"
+    scheme: Optional[str] = None
+    document_key: Optional[int] = None
+    top_k: int = Field(default=6, ge=1, le=10)
+    use_reranker: bool = True
+
+
+class AskSource(BaseModel):
+    source_id: int
+    document: str
+    scheme: str
+    breadcrumb: str
+    topic: str
+    clause_range: Optional[str] = None
+    page_start: Optional[int] = None
+    page_end: Optional[int] = None
+    pdf_page_start: Optional[int] = None
+    pdf_page_end: Optional[int] = None
+    document_key: str
+    chunk_uid: str
+    text: str
+
+
+class AskResponse(BaseModel):
+    query: str
+    question_type: str
+    answer_status: str
+    answer: Optional[str] = None
+    model: Optional[str] = None
+    detected_filter: Optional[str] = None
+    dense_count: int
+    bm25_count: int
+    fused_count: int
+    results: list[SearchResult]
+    sources: list[AskSource]
+
+
 # ── API Endpoints ─────────────────────────────────────────────────────────────
 
 @app.get("/", response_class=HTMLResponse)
@@ -170,6 +210,82 @@ async def api_search(req: SearchRequest):
         bm25_count=raw["bm25_count"],
         fused_count=raw["fused_count"],
         results=results,
+    )
+
+
+@app.post("/api/ask", response_model=AskResponse)
+async def api_ask(req: AskRequest):
+    """Retrieve evidence and, for synthesis questions, generate a grounded answer."""
+    try:
+        raw = hybrid_search(
+            query=req.query,
+            top_k=req.top_k,
+            scheme=req.scheme,
+            doc_key=req.document_key,
+            use_reranker=req.use_reranker,
+        )
+        answer_data = answer_from_search(req.query, raw, mode=req.mode)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"RAG answer error: {str(e)}")
+
+    results = []
+    for rank, r in enumerate(raw["results"], 1):
+        pdf_page_start, pdf_page_end = get_pdf_page_range(
+            int(r.get("document_key")),
+            r.get("page_start"),
+            r.get("page_end"),
+            r.get("condition_number"),
+        )
+        results.append(SearchResult(
+            rank=rank,
+            document=r.get("doc_title", ""),
+            scheme=r.get("scheme", ""),
+            round=r.get("round"),
+            breadcrumb=r.get("breadcrumb", ""),
+            topic=r.get("enriched_subtitle") or r.get("condition_title", ""),
+            summary=r.get("chunk_summary"),
+            clause_range=r.get("clause_range"),
+            page_start=r.get("page_start"),
+            page_end=r.get("page_end"),
+            pdf_page_start=pdf_page_start,
+            pdf_page_end=pdf_page_end,
+            document_key=str(r.get("document_key", "")),
+            chunk_uid=str(r.get("chunk_uid", "")),
+            sequence_index=r.get("sequence_index"),
+            total_parts=r.get("total_parts"),
+            rerank_score=round(r.get("rerank_score", 0.0), 4),
+            rrf_score=round(r.get("rrf_score", 0.0), 6),
+            dense_rank=r.get("dense_rank"),
+            bm25_rank=r.get("bm25_rank"),
+            text_preview=r.get("text_preview", ""),
+        ))
+
+    sources = []
+    for source in answer_data["sources"]:
+        pdf_page_start, pdf_page_end = get_pdf_page_range(
+            int(source["document_key"]),
+            source.get("page_start"),
+            source.get("page_end"),
+            None,
+        )
+        sources.append(AskSource(
+            **source,
+            pdf_page_start=pdf_page_start,
+            pdf_page_end=pdf_page_end,
+        ))
+
+    return AskResponse(
+        query=req.query,
+        question_type=answer_data["question_type"],
+        answer_status=answer_data["answer_status"],
+        answer=answer_data.get("answer"),
+        model=answer_data.get("model"),
+        detected_filter=raw.get("detected_filter"),
+        dense_count=raw["dense_count"],
+        bm25_count=raw["bm25_count"],
+        fused_count=raw["fused_count"],
+        results=results,
+        sources=sources,
     )
 
 

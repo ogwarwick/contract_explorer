@@ -35,4 +35,19 @@ The contract viewer currently supports:
 - hybrid clause search;
 - inbound and outbound condition cross-references.
 
-Chat experiments should be developed on a separate branch from this baseline.
+## RAG chat experiment
+
+The normal search bar is retrieval-only: it returns ranked contract references
+and a deterministic search interpretation. The optional LLM answer endpoint and
+batch experiment remain available for controlled evaluation, but are not called
+by the main app.
+
+To generate a reviewable set of questions and answers without changing contract
+JSON or PostgreSQL data:
+
+```bash
+./.venv/bin/python experiments/run_rag_qa_experiment.py
+```
+
+The question set is in `experiments/rag_question_set.json` and the generated
+review file is written to `experiments/rag_qa_results.json` (ignored by Git).

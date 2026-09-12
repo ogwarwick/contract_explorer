@@ -289,6 +289,7 @@ async function executeSearch(query) {
     welcomeScreen.style.display = "none";
   }
 
+  renderUserMessage(query);
   const loadingElement = renderLoadingMessage();
   scrollToBottom();
 
@@ -310,7 +311,7 @@ async function executeSearch(query) {
 
     const data = await response.json();
     loadingElement.remove();
-    renderBotResponse(data);
+    renderBotResponse(data, query);
 
   } catch (err) {
     loadingElement.remove();
@@ -321,6 +322,18 @@ async function executeSearch(query) {
     queryInput.focus();
     scrollToBottom();
   }
+}
+
+function renderUserMessage(query) {
+  const row = document.createElement("div");
+  row.className = "message-row user";
+
+  const bubble = document.createElement("div");
+  bubble.className = "user-bubble";
+  bubble.textContent = query;
+
+  row.appendChild(bubble);
+  messagesStream.appendChild(row);
 }
 
 function renderLoadingMessage() {
@@ -339,12 +352,14 @@ function renderLoadingMessage() {
   return row;
 }
 
-function renderBotResponse(data) {
+function renderBotResponse(data, query) {
   const row = document.createElement("div");
   row.className = "message-row bot";
 
   const container = document.createElement("div");
   container.className = "bot-container";
+
+  container.appendChild(renderSearchInterpretation(data, query));
 
   const tableCard = document.createElement("div");
   tableCard.className = "results-table-card";
@@ -381,6 +396,49 @@ function renderBotResponse(data) {
   container.appendChild(tableCard);
   row.appendChild(container);
   messagesStream.appendChild(row);
+}
+
+function renderSearchInterpretation(data, query) {
+  const card = document.createElement("div");
+  card.className = "search-interpretation-card";
+
+  const strongestMatch = data.results && data.results[0];
+  const scope = data.detected_filter
+    ? data.detected_filter.replace(/_/g, " ")
+    : "the contract collection";
+
+  let matchHtml = `
+    <div class="search-interpretation-no-match">
+      No strong match was returned. Try adding a contract name, condition number, or a more specific phrase.
+    </div>
+  `;
+
+  if (strongestMatch) {
+    const page = strongestMatch.page_start || strongestMatch.pdf_page_start || "—";
+    matchHtml = `
+      <div class="search-interpretation-match">
+        <span class="search-interpretation-match-label">Most likely match</span>
+        <strong>${escapeHtml(strongestMatch.breadcrumb || strongestMatch.topic || "Contract provision")}</strong>
+        <span>${escapeHtml(strongestMatch.document || scope)} · contract p.${escapeHtml(page)}</span>
+      </div>
+    `;
+  }
+
+  card.innerHTML = `
+    <div class="search-interpretation-header">
+      <span>Search interpretation</span>
+      <span class="search-interpretation-tag">Retrieval only</span>
+    </div>
+    <div class="search-interpretation-text">
+      I understood “<strong>${escapeHtml(query)}</strong>” as a request to find the most relevant provision in <strong>${escapeHtml(scope)}</strong>.
+    </div>
+    ${matchHtml}
+    <div class="search-interpretation-confirmation">
+      Does this look like the area you meant? The references below are ranked results, not an AI-generated explanation.
+      <button type="button" class="search-refine-btn" onclick="focusMainInput()">Refine search</button>
+    </div>
+  `;
+  return card;
 }
 
 function buildTableRow(result, index) {

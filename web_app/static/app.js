@@ -1179,19 +1179,21 @@ function renderConditionInsights(condition) {
     navigatorInsightsBody.innerHTML = `
       <div class="insights-empty">
         <span class="insights-empty-icon">↗</span>
-        <span>No cross-reference data is available for this condition.</span>
+        <span>Select a condition from the left sidebar to inspect inbound and outbound cross-references.</span>
       </div>
     `;
-    if (insightsReferenceCount) insightsReferenceCount.textContent = "0";
+    if (insightsReferenceCount) insightsReferenceCount.textContent = "—";
     return;
   }
 
   const impact = condition.impact || [];
   const referencedBy = condition.referenced_by || [];
-  const totalLinks = impact.length + referencedBy.length;
+  const internalRefs = condition.internal_references || [];
+  const externalDocs = condition.external_documents || [];
+  const totalLinks = condition.total_links || (impact.length + referencedBy.length + internalRefs.length + externalDocs.length);
   if (insightsReferenceCount) insightsReferenceCount.textContent = String(totalLinks);
 
-  const renderLink = (item, direction) => {
+  const renderConditionLink = (item, direction) => {
     const nodeUid = direction === "outbound" ? item.target_node_uid : item.source_node_uid;
     const page = item.navigation_pdf_page || item.pdf_page_start;
     return `
@@ -1213,13 +1215,43 @@ function renderConditionInsights(condition) {
     `;
   };
 
-  const section = (title, items, direction, emptyText) => `
+  const renderInternalItem = (item) => `
+    <div class="cross-reference-item cross-reference-static">
+      <span class="cross-reference-item-main">
+        <span class="cross-reference-item-title">${escapeHtml(item.citation || "")}</span>
+        <span class="cross-reference-item-subtitle">Internal clause citation</span>
+      </span>
+      <span class="cross-reference-item-meta">
+        <span class="cross-reference-count">${escapeHtml(item.count_badge || "")}</span>
+        <span class="cross-reference-badge-tag tag-clause">clause</span>
+      </span>
+    </div>
+  `;
+
+  const renderExternalItem = (item) => {
+    const typeLower = (item.type || "statute").toLowerCase();
+    const tagClass = typeLower.includes("reg") ? "tag-regulation" : "tag-statute";
+    return `
+      <div class="cross-reference-item cross-reference-static">
+        <span class="cross-reference-item-main">
+          <span class="cross-reference-item-title">${escapeHtml(item.name || "")}</span>
+          <span class="cross-reference-item-subtitle">${escapeHtml(item.type || "Statute / Code")}</span>
+        </span>
+        <span class="cross-reference-item-meta">
+          <span class="cross-reference-count">${escapeHtml(item.count_badge || "")}</span>
+          <span class="cross-reference-badge-tag ${tagClass}">${escapeHtml(typeLower)}</span>
+        </span>
+      </div>
+    `;
+  };
+
+  const section = (title, items, renderFn, emptyText) => `
     <section class="cross-reference-section">
       <div class="cross-reference-section-header">
         <span>${title}</span>
-        <span>${items.length}</span>
+        <span class="cross-reference-section-count">${items.length}</span>
       </div>
-      ${items.length ? items.map(item => renderLink(item, direction)).join("") : `<div class="cross-reference-empty">${emptyText}</div>`}
+      ${items.length ? items.map(renderFn).join("") : `<div class="cross-reference-empty">${emptyText}</div>`}
     </section>
   `;
 
@@ -1228,14 +1260,16 @@ function renderConditionInsights(condition) {
       <div class="insights-condition-title">${escapeHtml(condition.header_title || `C${condition.condition_number}`)}</div>
       <div class="insights-condition-subtitle">${escapeHtml(condition.header_subtitle || "")}</div>
     </div>
-    ${section("This condition references", impact, "outbound", "No outbound references.")}
-    ${section("Referenced by", referencedBy, "inbound", "No resolved inbound links.")}
+    ${section("Referenced Conditions", impact, item => renderConditionLink(item, "outbound"), "No outbound condition references.")}
+    ${section("Referenced by Conditions", referencedBy, item => renderConditionLink(item, "inbound"), "No resolved inbound condition links.")}
+    ${section("Internal Clause Citations", internalRefs, renderInternalItem, "No internal clause citations.")}
+    ${section("Statutes & Governing Codes", externalDocs, renderExternalItem, "No external statutes or codes cited.")}
   `;
 }
 
 if (navigatorInsightsBody) {
   navigatorInsightsBody.addEventListener("click", event => {
-    const link = event.target.closest(".cross-reference-item");
+    const link = event.target.closest("button.cross-reference-item");
     if (!link || !navigatorInsightsBody.contains(link)) return;
     handleConditionClick(
       link.dataset.nodeUid,

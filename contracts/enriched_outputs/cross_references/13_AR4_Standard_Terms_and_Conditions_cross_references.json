@@ -1,12 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "document_key": 13,
   "document_id": "AR4_Standard_Terms_and_Conditions",
   "source_enricher_file": "AR4_Standard_Terms_and_Conditions_stacked_enriched.json",
   "raw_crossreference_count": 573,
-  "resolved_crossreference_count": 36,
-  "unresolved_target_count": 19,
-  "unresolved_source_count": 15,
+  "resolved_crossreference_count": 158,
+  "unresolved_target_count": 0,
+  "unresolved_source_count": 6,
   "conditions": {
     "1": {
       "condition_number": "1",
@@ -18,10 +18,912 @@
       "page_end": 76,
       "pdf_page_start": 9,
       "pdf_page_end": 84,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 48,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2716",
+          "target_number": "47",
+          "title": "C47. TLM(D) CHARGES",
+          "subtitle": "Part 10 · PDF p.192",
+          "part_number": "10",
+          "page_start": 184,
+          "page_end": 193,
+          "pdf_page_start": 192,
+          "pdf_page_end": 201,
+          "source_pdf_page": 9,
+          "target_pdf_page": 192,
+          "navigation_pdf_page": 192,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2039",
+          "target_number": "33",
+          "title": "C33. QUALIFYING CHANGE IN LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.146",
+          "part_number": "8",
+          "page_start": 138,
+          "page_end": 151,
+          "pdf_page_start": 146,
+          "pdf_page_end": 159,
+          "source_pdf_page": 9,
+          "target_pdf_page": 146,
+          "navigation_pdf_page": 146,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2124",
+          "target_number": "34",
+          "title": "C34. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 8 · PDF p.152",
+          "part_number": "8",
+          "page_start": 144,
+          "page_end": 163,
+          "pdf_page_start": 152,
+          "pdf_page_end": 171,
+          "source_pdf_page": 9,
+          "target_pdf_page": 152,
+          "navigation_pdf_page": 152,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2461",
+          "target_number": "40",
+          "title": "C40. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 8 · PDF p.173",
+          "part_number": "8",
+          "page_start": 165,
+          "page_end": 177,
+          "pdf_page_start": 173,
+          "pdf_page_end": 185,
+          "source_pdf_page": 9,
+          "target_pdf_page": 173,
+          "navigation_pdf_page": 173,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1596",
+          "target_number": "22",
+          "title": "C22. BILLING STATEMENTS",
+          "subtitle": "Part 6 · PDF p.115",
+          "part_number": "6",
+          "page_start": 107,
+          "page_end": 121,
+          "pdf_page_start": 115,
+          "pdf_page_end": 129,
+          "source_pdf_page": 9,
+          "target_pdf_page": 115,
+          "navigation_pdf_page": 115,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1032",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT",
+          "subtitle": "Part 3 · PDF p.78",
+          "part_number": "3",
+          "page_start": 70,
+          "page_end": 84,
+          "pdf_page_start": 78,
+          "pdf_page_end": 92,
+          "source_pdf_page": 9,
+          "target_pdf_page": 78,
+          "navigation_pdf_page": 78,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1896",
+          "target_number": "32",
+          "title": "C32. GENERATOR UNDERTAKINGS: INFORMATION PROVISION AND NO CUMULATION OF SUBSIDY, STATE AID",
+          "subtitle": "Part 7 · PDF p.135",
+          "part_number": "7",
+          "page_start": 135,
+          "page_end": 145,
+          "pdf_page_start": 135,
+          "pdf_page_end": 145,
+          "source_pdf_page": 9,
+          "target_pdf_page": 135,
+          "navigation_pdf_page": 135,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2338",
+          "target_number": "36",
+          "title": "C36. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.165",
+          "part_number": "8",
+          "page_start": 157,
+          "page_end": 169,
+          "pdf_page_start": 165,
+          "pdf_page_end": 177,
+          "source_pdf_page": 9,
+          "target_pdf_page": 165,
+          "navigation_pdf_page": 165,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2675",
+          "target_number": "46",
+          "title": "C46. BALANCING SYSTEM CHARGE",
+          "subtitle": "Part 10 · PDF p.190",
+          "part_number": "10",
+          "page_start": 182,
+          "page_end": 192,
+          "pdf_page_start": 190,
+          "pdf_page_end": 200,
+          "source_pdf_page": 9,
+          "target_pdf_page": 190,
+          "navigation_pdf_page": 190,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1820",
+          "target_number": "31",
+          "title": "C31. GENERATOR UNDERTAKINGS: METERING",
+          "subtitle": "Part 7 · PDF p.130",
+          "part_number": "7",
+          "page_start": 122,
+          "page_end": 135,
+          "pdf_page_start": 130,
+          "pdf_page_end": 143,
+          "source_pdf_page": 9,
+          "target_pdf_page": 130,
+          "navigation_pdf_page": 130,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2816",
+          "target_number": "51",
+          "title": "C51. TERMINATION",
+          "subtitle": "Part 12 · PDF p.200",
+          "part_number": "12",
+          "page_start": 192,
+          "page_end": 203,
+          "pdf_page_start": 200,
+          "pdf_page_end": 211,
+          "source_pdf_page": 9,
+          "target_pdf_page": 200,
+          "navigation_pdf_page": 200,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2912",
+          "target_number": "53",
+          "title": "C53. TERMINATION EVENTS",
+          "subtitle": "Part 12 · PDF p.206",
+          "part_number": "12",
+          "page_start": 198,
+          "page_end": 208,
+          "pdf_page_start": 206,
+          "pdf_page_end": 216,
+          "source_pdf_page": 9,
+          "target_pdf_page": 206,
+          "navigation_pdf_page": 206,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3208",
+          "target_number": "69",
+          "title": "C69. FORCE MAJEURE",
+          "subtitle": "Part 15 · PDF p.228",
+          "part_number": "15",
+          "page_start": 220,
+          "page_end": 230,
+          "pdf_page_start": 228,
+          "pdf_page_end": 238,
+          "source_pdf_page": 9,
+          "target_pdf_page": 228,
+          "navigation_pdf_page": 228,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1224",
+          "target_number": "7",
+          "title": "C7. FINAL INSTALLED CAPACITY; MAXIMUM CONTRACT CAPACITY",
+          "subtitle": "Part 4 · PDF p.91",
+          "part_number": "4",
+          "page_start": 83,
+          "page_end": 93,
+          "pdf_page_start": 91,
+          "pdf_page_end": 101,
+          "source_pdf_page": 9,
+          "target_pdf_page": 91,
+          "navigation_pdf_page": 91,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3447",
+          "target_number": "79",
+          "title": "C79. TRANSFERS",
+          "subtitle": "Part 17 · PDF p.246",
+          "part_number": "17",
+          "page_start": 238,
+          "page_end": 249,
+          "pdf_page_start": 246,
+          "pdf_page_end": 257,
+          "source_pdf_page": 9,
+          "target_pdf_page": 246,
+          "navigation_pdf_page": 246,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1289",
+          "target_number": "10",
+          "title": "C10. METERED OUTPUT",
+          "subtitle": "Part 5A · PDF p.96",
+          "part_number": "5A",
+          "page_start": 88,
+          "page_end": 98,
+          "pdf_page_start": 96,
+          "pdf_page_end": 106,
+          "source_pdf_page": 9,
+          "target_pdf_page": 96,
+          "navigation_pdf_page": 96,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1568",
+          "target_number": "21",
+          "title": "C21. INTERMITTENT MARKET REFERENCE PRICE",
+          "subtitle": "Part 5B · PDF p.112",
+          "part_number": "5B",
+          "page_start": 104,
+          "page_end": 114,
+          "pdf_page_start": 112,
+          "pdf_page_end": 122,
+          "source_pdf_page": 9,
+          "target_pdf_page": 112,
+          "navigation_pdf_page": 112,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1698",
+          "target_number": "23",
+          "title": "C23. SETTLEMENT",
+          "subtitle": "Part 6 · PDF p.121",
+          "part_number": "6",
+          "page_start": 113,
+          "page_end": 123,
+          "pdf_page_start": 121,
+          "pdf_page_end": 131,
+          "source_pdf_page": 9,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 121,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1752",
+          "target_number": "28",
+          "title": "C28. GENERATOR REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.125",
+          "part_number": "7",
+          "page_start": 117,
+          "page_end": 127,
+          "pdf_page_start": 125,
+          "pdf_page_end": 135,
+          "source_pdf_page": 9,
+          "target_pdf_page": 125,
+          "navigation_pdf_page": 125,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2525",
+          "target_number": "42",
+          "title": "C42. GENERATION TAX: PROCEDURE",
+          "subtitle": "Part 9 · PDF p.179",
+          "part_number": "9",
+          "page_start": 171,
+          "page_end": 185,
+          "pdf_page_start": 179,
+          "pdf_page_end": 193,
+          "source_pdf_page": 9,
+          "target_pdf_page": 179,
+          "navigation_pdf_page": 179,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2948",
+          "target_number": "55",
+          "title": "C55. COLLATERAL REQUIREMENT",
+          "subtitle": "Part 13 · PDF p.209",
+          "part_number": "13",
+          "page_start": 201,
+          "page_end": 209,
+          "pdf_page_start": 209,
+          "pdf_page_end": 217,
+          "source_pdf_page": 9,
+          "target_pdf_page": 209,
+          "navigation_pdf_page": 209,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3045",
+          "target_number": "58",
+          "title": "C58. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 14 · PDF p.216",
+          "part_number": "14",
+          "page_start": 208,
+          "page_end": 216,
+          "pdf_page_start": 216,
+          "pdf_page_end": 224,
+          "source_pdf_page": 9,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 216,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3054",
+          "target_number": "59",
+          "title": "C59. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 14 · PDF p.216",
+          "part_number": "14",
+          "page_start": 208,
+          "page_end": 220,
+          "pdf_page_start": 216,
+          "pdf_page_end": 228,
+          "source_pdf_page": 9,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 216,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3103",
+          "target_number": "60",
+          "title": "C60. ARBITRATION PROCEDURE",
+          "subtitle": "Part 14 · PDF p.220",
+          "part_number": "14",
+          "page_start": 212,
+          "page_end": 221,
+          "pdf_page_start": 220,
+          "pdf_page_end": 229,
+          "source_pdf_page": 9,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 220,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1380",
+          "target_number": "14",
+          "title": "C14. STRIKE PRICE ADJUSTMENTS",
+          "subtitle": "Part 5A · PDF p.102",
+          "part_number": "5A",
+          "page_start": 94,
+          "page_end": 104,
+          "pdf_page_start": 102,
+          "pdf_page_end": 112,
+          "source_pdf_page": 9,
+          "target_pdf_page": 102,
+          "navigation_pdf_page": 102,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1417",
+          "target_number": "15",
+          "title": "C15. BASELOAD MARKET REFERENCE PRICE",
+          "subtitle": "Part 5A · PDF p.104",
+          "part_number": "5A",
+          "page_start": 96,
+          "page_end": 105,
+          "pdf_page_start": 104,
+          "pdf_page_end": 113,
+          "source_pdf_page": 9,
+          "target_pdf_page": 104,
+          "navigation_pdf_page": 104,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1442",
+          "target_number": "16",
+          "title": "C16. APPLICATION",
+          "subtitle": "Part 5B · PDF p.106",
+          "part_number": "5B",
+          "page_start": 98,
+          "page_end": 106,
+          "pdf_page_start": 106,
+          "pdf_page_end": 114,
+          "source_pdf_page": 9,
+          "target_pdf_page": 106,
+          "navigation_pdf_page": 106,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1444",
+          "target_number": "17",
+          "title": "C17. DEFINITIONS: PART 5B",
+          "subtitle": "Part 5B · PDF p.106",
+          "part_number": "5B",
+          "page_start": 98,
+          "page_end": 108,
+          "pdf_page_start": 106,
+          "pdf_page_end": 116,
+          "source_pdf_page": 9,
+          "target_pdf_page": 106,
+          "navigation_pdf_page": 106,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1013",
+          "target_number": "2",
+          "title": "C2. TERM",
+          "subtitle": "Part 2 · PDF p.77",
+          "part_number": "2",
+          "page_start": 69,
+          "page_end": 77,
+          "pdf_page_start": 77,
+          "pdf_page_end": 85,
+          "source_pdf_page": 9,
+          "target_pdf_page": 77,
+          "navigation_pdf_page": 77,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1528",
+          "target_number": "20",
+          "title": "C20. STRIKE PRICE ADJUSTMENTS",
+          "subtitle": "Part 5B · PDF p.110",
+          "part_number": "5B",
+          "page_start": 102,
+          "page_end": 112,
+          "pdf_page_start": 110,
+          "pdf_page_end": 120,
+          "source_pdf_page": 9,
+          "target_pdf_page": 110,
+          "navigation_pdf_page": 110,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1728",
+          "target_number": "24",
+          "title": "C24. DEFAULT INTEREST",
+          "subtitle": "Part 6 · PDF p.123",
+          "part_number": "6",
+          "page_start": 115,
+          "page_end": 124,
+          "pdf_page_start": 123,
+          "pdf_page_end": 132,
+          "source_pdf_page": 9,
+          "target_pdf_page": 123,
+          "navigation_pdf_page": 123,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1742",
+          "target_number": "25",
+          "title": "C25. SET-OFF",
+          "subtitle": "Part 6 · PDF p.124",
+          "part_number": "6",
+          "page_start": 116,
+          "page_end": 124,
+          "pdf_page_start": 124,
+          "pdf_page_end": 132,
+          "source_pdf_page": 9,
+          "target_pdf_page": 124,
+          "navigation_pdf_page": 124,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1744",
+          "target_number": "26",
+          "title": "C26. DEDUCTIONS AND WITHHOLDINGS",
+          "subtitle": "Part 6 · PDF p.124",
+          "part_number": "6",
+          "page_start": 116,
+          "page_end": 124,
+          "pdf_page_start": 124,
+          "pdf_page_end": 132,
+          "source_pdf_page": 9,
+          "target_pdf_page": 124,
+          "navigation_pdf_page": 124,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1746",
+          "target_number": "27",
+          "title": "C27. PAYMENT ACCOUNTS",
+          "subtitle": "Part 6 · PDF p.124",
+          "part_number": "6",
+          "page_start": 116,
+          "page_end": 124,
+          "pdf_page_start": 124,
+          "pdf_page_end": 132,
+          "source_pdf_page": 9,
+          "target_pdf_page": 124,
+          "navigation_pdf_page": 124,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1784",
+          "target_number": "29",
+          "title": "C29. CFD COUNTERPARTY REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.127",
+          "part_number": "7",
+          "page_start": 119,
+          "page_end": 128,
+          "pdf_page_start": 127,
+          "pdf_page_end": 136,
+          "source_pdf_page": 9,
+          "target_pdf_page": 127,
+          "navigation_pdf_page": 127,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1799",
+          "target_number": "30",
+          "title": "C30. GENERATOR UNDERTAKINGS: GENERAL",
+          "subtitle": "Part 7 · PDF p.128",
+          "part_number": "7",
+          "page_start": 120,
+          "page_end": 130,
+          "pdf_page_start": 128,
+          "pdf_page_end": 138,
+          "source_pdf_page": 9,
+          "target_pdf_page": 128,
+          "navigation_pdf_page": 128,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2425",
+          "target_number": "39",
+          "title": "C39. CHANGE IN APPLICABLE LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.171",
+          "part_number": "8",
+          "page_start": 163,
+          "page_end": 173,
+          "pdf_page_start": 171,
+          "pdf_page_end": 181,
+          "source_pdf_page": 9,
+          "target_pdf_page": 171,
+          "navigation_pdf_page": 171,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1136",
+          "target_number": "4",
+          "title": "C4. MILESTONE REQUIREMENT",
+          "subtitle": "Part 3 · PDF p.84",
+          "part_number": "3",
+          "page_start": 76,
+          "page_end": 87,
+          "pdf_page_start": 84,
+          "pdf_page_end": 95,
+          "source_pdf_page": 9,
+          "target_pdf_page": 84,
+          "navigation_pdf_page": 84,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2740",
+          "target_number": "48",
+          "title": "C48. QUALIFYING CPC EVENT: PROCEDURE",
+          "subtitle": "Part 11 · PDF p.194",
+          "part_number": "11",
+          "page_start": 186,
+          "page_end": 197,
+          "pdf_page_start": 194,
+          "pdf_page_end": 205,
+          "source_pdf_page": 9,
+          "target_pdf_page": 194,
+          "navigation_pdf_page": 194,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1172",
+          "target_number": "5",
+          "title": "C5. ADJUSTMENT TO INSTALLED CAPACITY ESTIMATE: RELEVANT CONSTRUCTION EVENT",
+          "subtitle": "Part 4 · PDF p.87",
+          "part_number": "4",
+          "page_start": 79,
+          "page_end": 90,
+          "pdf_page_start": 87,
+          "pdf_page_end": 98,
+          "source_pdf_page": 9,
+          "target_pdf_page": 87,
+          "navigation_pdf_page": 87,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2872",
+          "target_number": "52",
+          "title": "C52. CONSEQUENCES OF TERMINATION",
+          "subtitle": "Part 12 · PDF p.203",
+          "part_number": "12",
+          "page_start": 195,
+          "page_end": 205,
+          "pdf_page_start": 203,
+          "pdf_page_end": 213,
+          "source_pdf_page": 9,
+          "target_pdf_page": 203,
+          "navigation_pdf_page": 203,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1212",
+          "target_number": "6",
+          "title": "C6. ADJUSTMENT TO INSTALLED CAPACITY ESTIMATE: PERMITTED REDUCTION",
+          "subtitle": "Part 4 · PDF p.90",
+          "part_number": "4",
+          "page_start": 82,
+          "page_end": 91,
+          "pdf_page_start": 90,
+          "pdf_page_end": 99,
+          "source_pdf_page": 9,
+          "target_pdf_page": 90,
+          "navigation_pdf_page": 90,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3114",
+          "target_number": "61",
+          "title": "C61. CONSOLIDATION OF CONNECTED DISPUTES",
+          "subtitle": "Part 14 · PDF p.221",
+          "part_number": "14",
+          "page_start": 213,
+          "page_end": 222,
+          "pdf_page_start": 221,
+          "pdf_page_end": 230,
+          "source_pdf_page": 9,
+          "target_pdf_page": 221,
+          "navigation_pdf_page": 221,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3135",
+          "target_number": "63",
+          "title": "C63. METERING DISPUTES",
+          "subtitle": "Part 14 · PDF p.223",
+          "part_number": "14",
+          "page_start": 215,
+          "page_end": 223,
+          "pdf_page_start": 223,
+          "pdf_page_end": 231,
+          "source_pdf_page": 9,
+          "target_pdf_page": 223,
+          "navigation_pdf_page": 223,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3195",
+          "target_number": "68",
+          "title": "C68. PAYMENT DISRUPTION EVENT",
+          "subtitle": "Part 15 · PDF p.228",
+          "part_number": "15",
+          "page_start": 220,
+          "page_end": 228,
+          "pdf_page_start": 228,
+          "pdf_page_end": 236,
+          "source_pdf_page": 9,
+          "target_pdf_page": 228,
+          "navigation_pdf_page": 228,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1254",
+          "target_number": "8",
+          "title": "C8. APPLICATION",
+          "subtitle": "Part 5A · PDF p.94",
+          "part_number": "5A",
+          "page_start": 86,
+          "page_end": 94,
+          "pdf_page_start": 94,
+          "pdf_page_end": 102,
+          "source_pdf_page": 9,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 94,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3519",
+          "target_number": "83",
+          "title": "C83. THIRD PARTY RIGHTS",
+          "subtitle": "Part 17 · PDF p.251",
+          "part_number": "17",
+          "page_start": 243,
+          "page_end": 251,
+          "pdf_page_start": 251,
+          "pdf_page_end": 259,
+          "source_pdf_page": 9,
+          "target_pdf_page": 251,
+          "navigation_pdf_page": 251,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1256",
+          "target_number": "9",
+          "title": "C9. DEFINITIONS: PART 5A",
+          "subtitle": "Part 5A · PDF p.94",
+          "part_number": "5A",
+          "page_start": 86,
+          "page_end": 96,
+          "pdf_page_start": 94,
+          "pdf_page_end": 104,
+          "source_pdf_page": 9,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 94,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "1.10(A)(ii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.10(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.11(A)(vi)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.2(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 14,
+          "count_badge": "14×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "name": "EA 2013 Regulations",
+          "type": "Regulation",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Civil Procedure Rules 1998",
+          "type": "Regulation",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Contracts for Difference (Allocation) Regulations 2014 (as at the Agreement Date);",
+          "type": "Regulation",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "EU(W)A 2018",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Commission Regulation (EU) No. 543/2013",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts (Rights of Third Parties) Act 1999",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Criminal Justice Act 1993",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Electricity Act 1989",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Enterprise and Regulatory Reform Act 2013",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Environmental Information Regulations 2004",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "European Commission Decision 2010/335/EU",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "European Union (Withdrawal) Act 2018",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 15,
+      "total_links": 69,
       "defs_count": 0,
       "definitions": []
     },
@@ -37,8 +939,43 @@
       "pdf_page_end": 85,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 77,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 2.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Condition 2.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -54,8 +991,143 @@
       "pdf_page_end": 92,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 78,
+          "navigation_pdf_page": 9,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2716",
+          "source_number": "47",
+          "title": "C47. TLM(D) CHARGES",
+          "subtitle": "Part 10 · PDF p.192",
+          "part_number": "10",
+          "page_start": 184,
+          "page_end": 193,
+          "pdf_page_start": 192,
+          "pdf_page_end": 201,
+          "source_pdf_page": 192,
+          "target_pdf_page": 78,
+          "navigation_pdf_page": 192,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 3.28",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.28",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.26",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.24",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.24(C).",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.23",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.31",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.32",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.34",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.8(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.21 to 3.24 (inclusive)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.22",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.26 and 3.28",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        }
+      ],
+      "internal_count": 16,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 18,
       "defs_count": 0,
       "definitions": []
     },
@@ -71,8 +1143,49 @@
       "pdf_page_end": 95,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 84,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "4.1(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -88,8 +1201,56 @@
       "pdf_page_end": 98,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 87,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 5.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        },
+        {
+          "citation": "Condition 5.1(A)),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        },
+        {
+          "citation": "Condition 5.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -105,8 +1266,30 @@
       "pdf_page_end": 99,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 90,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -122,8 +1305,49 @@
       "pdf_page_end": 101,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 91,
+          "navigation_pdf_page": 9,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 7.4(B)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.4(B):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -139,8 +1363,30 @@
       "pdf_page_end": 102,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -154,10 +1400,56 @@
       "page_end": 96,
       "pdf_page_start": 94,
       "pdf_page_end": 104,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1289",
+          "target_number": "10",
+          "title": "C10. METERED OUTPUT",
+          "subtitle": "Part 5A · PDF p.96",
+          "part_number": "5A",
+          "page_start": 88,
+          "page_end": 98,
+          "pdf_page_start": 96,
+          "pdf_page_end": 106,
+          "source_pdf_page": 94,
+          "target_pdf_page": 96,
+          "navigation_pdf_page": 96,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -173,8 +1465,72 @@
       "pdf_page_end": 106,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 96,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1256",
+          "source_number": "9",
+          "title": "C9. DEFINITIONS: PART 5A",
+          "subtitle": "Part 5A · PDF p.94",
+          "part_number": "5A",
+          "page_start": 86,
+          "page_end": 96,
+          "pdf_page_start": 94,
+          "pdf_page_end": 104,
+          "source_pdf_page": 94,
+          "target_pdf_page": 96,
+          "navigation_pdf_page": 94,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 10.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Condition 10.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Conditions 10.2 to 10.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -192,6 +1548,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -209,6 +1577,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -226,6 +1606,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 13.4",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.5(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Conditions 13.5 to 13.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -258,8 +1668,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 102,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1528",
           "source_number": "20",
@@ -277,6 +1703,37 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 14.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "14"
+        },
+        {
+          "citation": "Condition 14.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        },
+        {
+          "citation": "Condition 14.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -292,8 +1749,43 @@
       "pdf_page_end": 113,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 104,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 15.3",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "15"
+        },
+        {
+          "citation": "Condition 15.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "15"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -309,8 +1801,30 @@
       "pdf_page_end": 114,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 106,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -324,10 +1838,72 @@
       "page_end": 108,
       "pdf_page_start": 106,
       "pdf_page_end": 116,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 2,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1487",
+          "target_number": "18",
+          "title": "C18. METERED OUTPUT",
+          "subtitle": "Part 5B · PDF p.108",
+          "part_number": "5B",
+          "page_start": 100,
+          "page_end": 109,
+          "pdf_page_start": 108,
+          "pdf_page_end": 117,
+          "source_pdf_page": 106,
+          "target_pdf_page": 108,
+          "navigation_pdf_page": 108,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1568",
+          "target_number": "21",
+          "title": "C21. INTERMITTENT MARKET REFERENCE PRICE",
+          "subtitle": "Part 5B · PDF p.112",
+          "part_number": "5B",
+          "page_start": 104,
+          "page_end": 114,
+          "pdf_page_start": 112,
+          "pdf_page_end": 122,
+          "source_pdf_page": 106,
+          "target_pdf_page": 112,
+          "navigation_pdf_page": 112,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 106,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "EUR 2013/543",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -341,10 +1917,43 @@
       "page_end": 109,
       "pdf_page_start": 108,
       "pdf_page_end": 117,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 1,
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1512",
+          "target_number": "19",
+          "title": "C19. INTERMITTENT DUAL SCHEME FACILITIES",
+          "subtitle": "Part 5B · PDF p.109",
+          "part_number": "5B",
+          "page_start": 101,
+          "page_end": 110,
+          "pdf_page_start": 109,
+          "pdf_page_end": 118,
+          "source_pdf_page": 108,
+          "target_pdf_page": 109,
+          "navigation_pdf_page": 109,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1444",
+          "source_number": "17",
+          "title": "C17. DEFINITIONS: PART 5B",
+          "subtitle": "Part 5B · PDF p.106",
+          "part_number": "5B",
+          "page_start": 98,
+          "page_end": 108,
+          "pdf_page_start": 106,
+          "pdf_page_end": 116,
+          "source_pdf_page": 106,
+          "target_pdf_page": 108,
+          "navigation_pdf_page": 106,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1596",
           "source_number": "22",
@@ -362,6 +1971,48 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 18.3",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Condition 18.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Condition 18.6(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Conditions 18.1 to 18.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Conditions 18.2 to 18.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Conditions 18.4 and 18.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -377,8 +2028,44 @@
       "pdf_page_end": 118,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1487",
+          "source_number": "18",
+          "title": "C18. METERED OUTPUT",
+          "subtitle": "Part 5B · PDF p.108",
+          "part_number": "5B",
+          "page_start": 100,
+          "page_end": 109,
+          "pdf_page_start": 108,
+          "pdf_page_end": 117,
+          "source_pdf_page": 108,
+          "target_pdf_page": 109,
+          "navigation_pdf_page": 108,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 19.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -411,8 +2098,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 110,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1380",
           "source_number": "14",
@@ -430,6 +2133,43 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 20.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Conditions 20.10 and 20.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -445,8 +2185,101 @@
       "pdf_page_end": 122,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 112,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1444",
+          "source_number": "17",
+          "title": "C17. DEFINITIONS: PART 5B",
+          "subtitle": "Part 5B · PDF p.106",
+          "part_number": "5B",
+          "page_start": 98,
+          "page_end": 108,
+          "pdf_page_start": 106,
+          "pdf_page_end": 116,
+          "source_pdf_page": 106,
+          "target_pdf_page": 112,
+          "navigation_pdf_page": 106,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 21.3",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "21.2(E),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(C)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Conditions 21.2(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -479,8 +2312,24 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 115,
+          "navigation_pdf_page": 9,
+          "count": 4,
+          "count_badge": "4×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1728",
           "source_number": "24",
@@ -498,6 +2347,31 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 22.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "paragraph (H)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 33,
+          "count_badge": "33×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -530,8 +2404,86 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "23.2",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Conditions 23.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -564,8 +2516,56 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 123,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "24.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Late Payment of Commercial Debts (Interest) Act 1988",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -581,8 +2581,37 @@
       "pdf_page_end": 132,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 124,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -598,8 +2627,30 @@
       "pdf_page_end": 132,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 124,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -615,8 +2666,24 @@
       "pdf_page_end": 132,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 124,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1698",
           "source_number": "23",
@@ -634,6 +2701,11 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -649,8 +2721,56 @@
       "pdf_page_end": 135,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 125,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 28.1(I)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.2(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "EA 2013 Regulations",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -666,8 +2786,37 @@
       "pdf_page_end": 136,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 127,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Conditions 29.1(A) to 29.1(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -683,8 +2832,62 @@
       "pdf_page_end": 138,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 128,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 30.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.1(F)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.1(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "EA 2013 Regulations",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -700,8 +2903,140 @@
       "pdf_page_end": 143,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 130,
+          "navigation_pdf_page": 9,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 31.5",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.15",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "31.15(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "31.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.1(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.1(F);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.18",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.3(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.3(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.5(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.9(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        }
+      ],
+      "internal_count": 17,
+      "external_documents": [
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 19,
       "defs_count": 0,
       "definitions": []
     },
@@ -717,8 +3052,158 @@
       "pdf_page_end": 145,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 135,
+          "navigation_pdf_page": 9,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 32.11",
+          "count": 8,
+          "count_badge": "8×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.15",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.6",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.9",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(B)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "32.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "32.4(A)(ii)).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "32.4(A)(ii));",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1(A)(i)),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1(C).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.13(C).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.4(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 22,
       "defs_count": 0,
       "definitions": []
     },
@@ -734,8 +3219,24 @@
       "pdf_page_end": 159,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 146,
+          "navigation_pdf_page": 9,
+          "count": 5,
+          "count_badge": "5×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2124",
           "source_number": "34",
@@ -753,6 +3254,42 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 33.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.8(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.2(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -785,8 +3322,151 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 152,
+          "navigation_pdf_page": 9,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "34.12",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.15",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.20",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.11",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.14",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.22",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.8(B),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Conditions 34.24 to 34.27",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Conditions 34.28 to 34.31",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.10",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.19",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.21",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.23",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.10(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.10(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 22,
       "defs_count": 0,
       "definitions": []
     },
@@ -804,6 +3484,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 35.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -819,8 +3511,61 @@
       "pdf_page_end": 177,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 165,
+          "navigation_pdf_page": 9,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 36.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -838,6 +3583,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -851,10 +3601,57 @@
       "page_end": 171,
       "pdf_page_start": 170,
       "pdf_page_end": 179,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2740",
+          "target_number": "48",
+          "title": "C48. QUALIFYING CPC EVENT: PROCEDURE",
+          "subtitle": "Part 11 · PDF p.194",
+          "part_number": "11",
+          "page_start": 186,
+          "page_end": 197,
+          "pdf_page_start": 194,
+          "pdf_page_end": 205,
+          "source_pdf_page": 170,
+          "target_pdf_page": 194,
+          "navigation_pdf_page": 194,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "38.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Condition 38.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Conditions 38.4 to 38.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Part 8 ( Changes in Law ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -870,8 +3667,43 @@
       "pdf_page_end": 181,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 171,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 39.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -887,8 +3719,143 @@
       "pdf_page_end": 185,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 173,
+          "navigation_pdf_page": 9,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2515",
+          "source_number": "41",
+          "title": "C41. CHANGE IN APPLICABLE LAW: GENERAL PROVISIONS",
+          "subtitle": "Part 8 · PDF p.177",
+          "part_number": "8",
+          "page_start": 169,
+          "page_end": 178,
+          "pdf_page_start": 177,
+          "pdf_page_end": 186,
+          "source_pdf_page": 177,
+          "target_pdf_page": 173,
+          "navigation_pdf_page": 177,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "40.6(E)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "40.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "40.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "40.6(E)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "40.6(E)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6(E)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6(E)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Conditions 40.3(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Conditions 40.3(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Conditions 40.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Conditions 40.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        }
+      ],
+      "internal_count": 16,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 18,
       "defs_count": 0,
       "definitions": []
     },
@@ -902,10 +3869,32 @@
       "page_end": 178,
       "pdf_page_start": 177,
       "pdf_page_end": 186,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2461",
+          "target_number": "40",
+          "title": "C40. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 8 · PDF p.173",
+          "part_number": "8",
+          "page_start": 165,
+          "page_end": 177,
+          "pdf_page_start": 173,
+          "pdf_page_end": 185,
+          "source_pdf_page": 177,
+          "target_pdf_page": 173,
+          "navigation_pdf_page": 173,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -938,8 +3927,108 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 179,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2653",
+          "source_number": "44",
+          "title": "C44. GENERATION TAX: GENERAL PROVISIONS",
+          "subtitle": "Part 9 · PDF p.188",
+          "part_number": "9",
+          "page_start": 180,
+          "page_end": 189,
+          "pdf_page_start": 188,
+          "pdf_page_end": 197,
+          "source_pdf_page": 188,
+          "target_pdf_page": 179,
+          "navigation_pdf_page": 188,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 42.12",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.11",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.12(A)(i);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.12(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.12(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.15(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.19(D)(i);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [
+        {
+          "name": "Finance Act 2013",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -974,6 +4063,48 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 43.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.6(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -987,8 +4118,24 @@
       "page_end": 189,
       "pdf_page_start": 188,
       "pdf_page_end": 197,
-      "impact_count": 1,
+      "impact_count": 2,
       "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2525",
+          "target_number": "42",
+          "title": "C42. GENERATION TAX: PROCEDURE",
+          "subtitle": "Part 9 · PDF p.179",
+          "part_number": "9",
+          "page_start": 171,
+          "page_end": 185,
+          "pdf_page_start": 179,
+          "pdf_page_end": 193,
+          "source_pdf_page": 188,
+          "target_pdf_page": 179,
+          "navigation_pdf_page": 179,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2615",
           "target_number": "43",
@@ -1025,6 +4172,18 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 44.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1042,6 +4201,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1057,8 +4228,43 @@
       "pdf_page_end": 200,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 190,
+          "navigation_pdf_page": 9,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 46.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "46"
+        },
+        {
+          "citation": "46.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "46"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1072,10 +4278,49 @@
       "page_end": 193,
       "pdf_page_start": 192,
       "pdf_page_end": 201,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:1032",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT",
+          "subtitle": "Part 3 · PDF p.78",
+          "part_number": "3",
+          "page_start": 70,
+          "page_end": 84,
+          "pdf_page_start": 78,
+          "pdf_page_end": 92,
+          "source_pdf_page": 192,
+          "target_pdf_page": 78,
+          "navigation_pdf_page": 78,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 192,
+          "navigation_pdf_page": 9,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1104,12 +4349,69 @@
           "source_pdf_page": 194,
           "target_pdf_page": 197,
           "navigation_pdf_page": 197,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 194,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2401",
+          "source_number": "38",
+          "title": "C38. CHANGES IN LAW: GENERAL PROVISIONS",
+          "subtitle": "Part 8 · PDF p.170",
+          "part_number": "8",
+          "page_start": 162,
+          "page_end": 171,
+          "pdf_page_start": 170,
+          "pdf_page_end": 179,
+          "source_pdf_page": 170,
+          "target_pdf_page": 194,
+          "navigation_pdf_page": 170,
           "count": 1,
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 48.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "48"
+        },
+        {
+          "citation": "Condition 48.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        },
+        {
+          "citation": "Condition 48.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1140,10 +4442,22 @@
           "source_pdf_page": 194,
           "target_pdf_page": 197,
           "navigation_pdf_page": 194,
-          "count": 1,
-          "count_badge": "1×"
+          "count": 2,
+          "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 49.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1161,6 +4475,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 50.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        },
+        {
+          "citation": "Condition 50.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        },
+        {
+          "citation": "Part 11 ( Curtailment )",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        },
+        {
+          "citation": "Part 8 ( Changes in Law ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1176,7 +4520,7 @@
       "pdf_page_end": 211,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2872",
@@ -1193,8 +4537,85 @@
           "navigation_pdf_page": 203,
           "count": 12,
           "count_badge": "12×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 200,
+          "navigation_pdf_page": 9,
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 51.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.1(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.1(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1259,8 +4680,74 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 203,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 52.1",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Conditions 52.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1274,10 +4761,43 @@
       "page_end": 208,
       "pdf_page_start": 206,
       "pdf_page_end": 216,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 1,
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2948",
+          "target_number": "55",
+          "title": "C55. COLLATERAL REQUIREMENT",
+          "subtitle": "Part 13 · PDF p.209",
+          "part_number": "13",
+          "page_start": 201,
+          "page_end": 209,
+          "pdf_page_start": 209,
+          "pdf_page_end": 217,
+          "source_pdf_page": 206,
+          "target_pdf_page": 209,
+          "navigation_pdf_page": 209,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 206,
+          "navigation_pdf_page": 9,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2872",
           "source_number": "52",
@@ -1295,6 +4815,49 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "53.1(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Conditions 53.1(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "paragraph (H)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Insolvency Act 1986",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -1346,6 +4909,18 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1361,8 +4936,46 @@
       "pdf_page_end": 217,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 209,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:2912",
+          "source_number": "53",
+          "title": "C53. TERMINATION EVENTS",
+          "subtitle": "Part 12 · PDF p.206",
+          "part_number": "12",
+          "page_start": 198,
+          "page_end": 208,
+          "pdf_page_start": 206,
+          "pdf_page_end": 216,
+          "source_pdf_page": 206,
+          "target_pdf_page": 209,
+          "navigation_pdf_page": 206,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1397,6 +5010,48 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 56.12(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.12(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1410,8 +5065,24 @@
       "page_end": 216,
       "pdf_page_start": 214,
       "pdf_page_end": 224,
-      "impact_count": 2,
+      "impact_count": 3,
       "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3045",
+          "target_number": "58",
+          "title": "C58. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 14 · PDF p.216",
+          "part_number": "14",
+          "page_start": 208,
+          "page_end": 216,
+          "pdf_page_start": 216,
+          "pdf_page_end": 224,
+          "source_pdf_page": 214,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 216,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3054",
           "target_number": "59",
@@ -1464,6 +5135,54 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 57.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1479,8 +5198,40 @@
       "pdf_page_end": 224,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 3,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3015",
+          "source_number": "57",
+          "title": "C57. DISPUTE RESOLUTION PROCEDURE: GENERAL PROVISIONS",
+          "subtitle": "Part 14 · PDF p.214",
+          "part_number": "14",
+          "page_start": 206,
+          "page_end": 216,
+          "pdf_page_start": 214,
+          "pdf_page_end": 224,
+          "source_pdf_page": 214,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 214,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3054",
           "source_number": "59",
@@ -1498,6 +5249,18 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 58.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1546,8 +5309,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3015",
           "source_number": "57",
@@ -1565,6 +5344,55 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 59.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(C)(i))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(C):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "Arbitration Act 1996",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1580,8 +5408,24 @@
       "pdf_page_end": 229,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 9,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3015",
           "source_number": "57",
@@ -1599,6 +5443,25 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 60.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1614,8 +5477,43 @@
       "pdf_page_end": 230,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 221,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 61.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.3(B)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1650,6 +5548,18 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Conditions 62.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1665,8 +5575,24 @@
       "pdf_page_end": 231,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 223,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3127",
           "source_number": "62",
@@ -1684,6 +5610,11 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1701,6 +5632,48 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 64.11",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1718,6 +5691,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1735,6 +5713,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1752,6 +5735,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1767,8 +5755,43 @@
       "pdf_page_end": 236,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 228,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 68.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "68"
+        },
+        {
+          "citation": "Condition 68.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "68"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1784,8 +5807,55 @@
       "pdf_page_end": 238,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 228,
+          "navigation_pdf_page": 9,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "69.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1803,6 +5873,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1820,6 +5902,91 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 71.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "paragraphs (A) to (E) (inclusive) of Condition 71.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "71.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "71.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.3(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.7(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Conditions 71.2 to 71.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Conditions 71.2 to 71.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        }
+      ],
+      "internal_count": 10,
+      "external_documents": [
+        {
+          "name": "Supplier Obligation Regulations",
+          "type": "Regulation",
+          "count": 9,
+          "count_badge": "9×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 3,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -1833,8 +6000,41 @@
       "page_end": 239,
       "pdf_page_start": 234,
       "pdf_page_end": 247,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 2,
+      "impact": [
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3349",
+          "target_number": "73",
+          "title": "C73. ANNOUNCEMENTS",
+          "subtitle": "Part 16 · PDF p.239",
+          "part_number": "16",
+          "page_start": 231,
+          "page_end": 241,
+          "pdf_page_start": 239,
+          "pdf_page_end": 249,
+          "source_pdf_page": 234,
+          "target_pdf_page": 239,
+          "navigation_pdf_page": 239,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3373",
+          "target_number": "74",
+          "title": "C74. FREEDOM OF INFORMATION",
+          "subtitle": "Part 16 · PDF p.241",
+          "part_number": "16",
+          "page_start": 233,
+          "page_end": 243,
+          "pdf_page_start": 241,
+          "pdf_page_end": 251,
+          "source_pdf_page": 234,
+          "target_pdf_page": 241,
+          "navigation_pdf_page": 241,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 1,
       "referenced_by": [
         {
@@ -1854,6 +6054,181 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 72.2",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.5",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.8",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(iii),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(iv)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(v)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(E),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.4(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(G)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(H),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72 ( Confidentiality ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.10(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.10(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "Subsidy Control Rules",
+          "type": "Regulation",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "CJA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "FSMA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "National Audit Act 1983",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 8,
+      "total_links": 31,
       "defs_count": 0,
       "definitions": []
     },
@@ -1886,8 +6261,56 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3274",
+          "source_number": "72",
+          "title": "C72. CONFIDENTIALITY",
+          "subtitle": "Part 16 · PDF p.234",
+          "part_number": "16",
+          "page_start": 226,
+          "page_end": 239,
+          "pdf_page_start": 234,
+          "pdf_page_end": 247,
+          "source_pdf_page": 234,
+          "target_pdf_page": 239,
+          "navigation_pdf_page": 234,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 73.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.1(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1903,8 +6326,68 @@
       "pdf_page_end": 251,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:3274",
+          "source_number": "72",
+          "title": "C72. CONFIDENTIALITY",
+          "subtitle": "Part 16 · PDF p.234",
+          "part_number": "16",
+          "page_start": 226,
+          "page_end": 239,
+          "pdf_page_start": 234,
+          "pdf_page_end": 247,
+          "source_pdf_page": 234,
+          "target_pdf_page": 241,
+          "navigation_pdf_page": 234,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 74.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        },
+        {
+          "citation": "Condition 74.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        },
+        {
+          "citation": "Condition 74.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 3,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1922,6 +6405,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 75.2",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.3(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.3(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1939,6 +6452,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Subsidy Control Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1973,6 +6504,18 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1990,6 +6533,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2005,8 +6553,80 @@
       "pdf_page_end": 257,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 246,
+          "navigation_pdf_page": 9,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 79.1",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "79.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "79.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Conditions 79.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -2024,6 +6644,31 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 80 ( Notices ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "80"
+        },
+        {
+          "citation": "Condition 80.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "80"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Electronic Communications Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2041,6 +6686,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 81.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "Condition 81.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -2058,6 +6721,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2090,8 +6758,37 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "AR4_Standard_Terms_and_Conditions:2.0:12",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.9",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 76,
+          "pdf_page_start": 9,
+          "pdf_page_end": 84,
+          "source_pdf_page": 9,
+          "target_pdf_page": 251,
+          "navigation_pdf_page": 9,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "C(RTP) Act",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2109,6 +6806,31 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 84.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "84"
+        },
+        {
+          "citation": "Condition 84.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "84"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2126,6 +6848,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2143,6 +6870,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2160,6 +6892,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Civil Procedure Rules 1998",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -2177,6 +6927,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 88.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "88"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     }

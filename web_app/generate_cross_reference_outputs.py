@@ -8,6 +8,7 @@ import psycopg
 from psycopg.rows import dict_row
 
 from contract_navigator_service import (
+    DATABASE_URL,
     find_matching_enricher_file,
     get_contract_hierarchy,
     write_enricher_cross_reference_output,
@@ -18,7 +19,7 @@ def document_keys(requested_key: Optional[int]) -> List[int]:
     if requested_key is not None:
         return [requested_key]
 
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             cur.execute("SELECT document_key FROM document ORDER BY document_key")
             return [row["document_key"] for row in cur.fetchall()]

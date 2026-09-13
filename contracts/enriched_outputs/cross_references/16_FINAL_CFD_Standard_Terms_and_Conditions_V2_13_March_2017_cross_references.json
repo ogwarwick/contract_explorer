@@ -1,12 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "document_key": 16,
   "document_id": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017",
   "source_enricher_file": "FINAL_CFD_Standard_Terms_and_Conditions_V2-_13_March_2017__stacked_enriched.json",
   "raw_crossreference_count": 504,
-  "resolved_crossreference_count": 37,
-  "unresolved_target_count": 12,
-  "unresolved_source_count": 10,
+  "resolved_crossreference_count": 133,
+  "unresolved_target_count": 1,
+  "unresolved_source_count": 0,
   "conditions": {
     "1": {
       "condition_number": "1",
@@ -18,10 +18,786 @@
       "page_end": 72,
       "pdf_page_start": 8,
       "pdf_page_end": 79,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 42,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2491",
+          "target_number": "46",
+          "title": "C46. BALANCING SYSTEM CHARGE",
+          "subtitle": "Part 10 · PDF p.188",
+          "part_number": "10",
+          "page_start": 181,
+          "page_end": 190,
+          "pdf_page_start": 188,
+          "pdf_page_end": 197,
+          "source_pdf_page": 8,
+          "target_pdf_page": 188,
+          "navigation_pdf_page": 188,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1935",
+          "target_number": "34",
+          "title": "C34. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 8 · PDF p.148",
+          "part_number": "8",
+          "page_start": 141,
+          "page_end": 160,
+          "pdf_page_start": 148,
+          "pdf_page_end": 167,
+          "source_pdf_page": 8,
+          "target_pdf_page": 148,
+          "navigation_pdf_page": 148,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1303",
+          "target_number": "15",
+          "title": "C15. BASELOAD MARKET REFERENCE PRICE",
+          "subtitle": "Part 5A · PDF p.100",
+          "part_number": "5A",
+          "page_start": 93,
+          "page_end": 103,
+          "pdf_page_start": 100,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 100,
+          "navigation_pdf_page": 100,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1451",
+          "target_number": "22",
+          "title": "C22. BILLING STATEMENTS",
+          "subtitle": "Part 6 · PDF p.112",
+          "part_number": "6",
+          "page_start": 105,
+          "page_end": 118,
+          "pdf_page_start": 112,
+          "pdf_page_end": 125,
+          "source_pdf_page": 8,
+          "target_pdf_page": 112,
+          "navigation_pdf_page": 112,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2624",
+          "target_number": "51",
+          "title": "C51. TERMINATION",
+          "subtitle": "Part 12 · PDF p.198",
+          "part_number": "12",
+          "page_start": 191,
+          "page_end": 202,
+          "pdf_page_start": 198,
+          "pdf_page_end": 209,
+          "source_pdf_page": 8,
+          "target_pdf_page": 198,
+          "navigation_pdf_page": 198,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2276",
+          "target_number": "40",
+          "title": "C40. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 8 · PDF p.171",
+          "part_number": "8",
+          "page_start": 164,
+          "page_end": 175,
+          "pdf_page_start": 171,
+          "pdf_page_end": 182,
+          "source_pdf_page": 8,
+          "target_pdf_page": 171,
+          "navigation_pdf_page": 171,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2868",
+          "target_number": "58",
+          "title": "C58. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 14 · PDF p.215",
+          "part_number": "14",
+          "page_start": 208,
+          "page_end": 216,
+          "pdf_page_start": 215,
+          "pdf_page_end": 223,
+          "source_pdf_page": 8,
+          "target_pdf_page": 215,
+          "navigation_pdf_page": 215,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:3019",
+          "target_number": "68",
+          "title": "C68. PAYMENT DISRUPTION EVENT",
+          "subtitle": "Part 15 · PDF p.227",
+          "part_number": "15",
+          "page_start": 220,
+          "page_end": 228,
+          "pdf_page_start": 227,
+          "pdf_page_end": 235,
+          "source_pdf_page": 8,
+          "target_pdf_page": 227,
+          "navigation_pdf_page": 227,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1206",
+          "target_number": "10",
+          "title": "C10. METERED OUTPUT",
+          "subtitle": "Part 5A · PDF p.94",
+          "part_number": "5A",
+          "page_start": 87,
+          "page_end": 96,
+          "pdf_page_start": 94,
+          "pdf_page_end": 103,
+          "source_pdf_page": 8,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 94,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1247",
+          "target_number": "13",
+          "title": "C13. BASELOAD DUAL SCHEME FACILITIES",
+          "subtitle": "Part 5A · PDF p.97",
+          "part_number": "5A",
+          "page_start": 90,
+          "page_end": 99,
+          "pdf_page_start": 97,
+          "pdf_page_end": 106,
+          "source_pdf_page": 8,
+          "target_pdf_page": 97,
+          "navigation_pdf_page": 97,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1387",
+          "target_number": "19",
+          "title": "C19. INTERMITTENT DUAL SCHEME FACILITIES",
+          "subtitle": "Part 5B · PDF p.107",
+          "part_number": "5B",
+          "page_start": 100,
+          "page_end": 107,
+          "pdf_page_start": 107,
+          "pdf_page_end": 114,
+          "source_pdf_page": 8,
+          "target_pdf_page": 107,
+          "navigation_pdf_page": 107,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1551",
+          "target_number": "23",
+          "title": "C23. SETTLEMENT",
+          "subtitle": "Part 6 · PDF p.118",
+          "part_number": "6",
+          "page_start": 111,
+          "page_end": 120,
+          "pdf_page_start": 118,
+          "pdf_page_end": 127,
+          "source_pdf_page": 8,
+          "target_pdf_page": 118,
+          "navigation_pdf_page": 118,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1607",
+          "target_number": "28",
+          "title": "C28. GENERATOR REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.123",
+          "part_number": "7",
+          "page_start": 116,
+          "page_end": 125,
+          "pdf_page_start": 123,
+          "pdf_page_end": 132,
+          "source_pdf_page": 8,
+          "target_pdf_page": 123,
+          "navigation_pdf_page": 123,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:936",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT",
+          "subtitle": "Part 3 · PDF p.74",
+          "part_number": "3",
+          "page_start": 67,
+          "page_end": 83,
+          "pdf_page_start": 74,
+          "pdf_page_end": 90,
+          "source_pdf_page": 8,
+          "target_pdf_page": 74,
+          "navigation_pdf_page": 74,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1676",
+          "target_number": "31",
+          "title": "C31. GENERATOR UNDERTAKINGS: METERING",
+          "subtitle": "Part 7 · PDF p.128",
+          "part_number": "7",
+          "page_start": 121,
+          "page_end": 134,
+          "pdf_page_start": 128,
+          "pdf_page_end": 141,
+          "source_pdf_page": 8,
+          "target_pdf_page": 128,
+          "navigation_pdf_page": 128,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1755",
+          "target_number": "32",
+          "title": "C32. GENERATOR UNDERTAKINGS: INFORMATION PROVISION AND NO CUMULATION OF STATE AID",
+          "subtitle": "Part 7 · PDF p.134",
+          "part_number": "7",
+          "page_start": 127,
+          "page_end": 141,
+          "pdf_page_start": 134,
+          "pdf_page_end": 148,
+          "source_pdf_page": 8,
+          "target_pdf_page": 134,
+          "navigation_pdf_page": 134,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1851",
+          "target_number": "33",
+          "title": "C33. QUALIFYING CHANGE IN LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.142",
+          "part_number": "8",
+          "page_start": 135,
+          "page_end": 148,
+          "pdf_page_start": 142,
+          "pdf_page_end": 155,
+          "source_pdf_page": 8,
+          "target_pdf_page": 142,
+          "navigation_pdf_page": 142,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2151",
+          "target_number": "36",
+          "title": "C36. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.162",
+          "part_number": "8",
+          "page_start": 155,
+          "page_end": 166,
+          "pdf_page_start": 162,
+          "pdf_page_end": 173,
+          "source_pdf_page": 8,
+          "target_pdf_page": 162,
+          "navigation_pdf_page": 162,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2240",
+          "target_number": "39",
+          "title": "C39. CHANGE IN APPLICABLE LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.169",
+          "part_number": "8",
+          "page_start": 162,
+          "page_end": 171,
+          "pdf_page_start": 169,
+          "pdf_page_end": 178,
+          "source_pdf_page": 8,
+          "target_pdf_page": 169,
+          "navigation_pdf_page": 169,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2341",
+          "target_number": "42",
+          "title": "C42. GENERATION TAX: PROCEDURE",
+          "subtitle": "Part 9 · PDF p.177",
+          "part_number": "9",
+          "page_start": 170,
+          "page_end": 183,
+          "pdf_page_start": 177,
+          "pdf_page_end": 190,
+          "source_pdf_page": 8,
+          "target_pdf_page": 177,
+          "navigation_pdf_page": 177,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2524",
+          "target_number": "47",
+          "title": "C47. TLM(D) CHARGES",
+          "subtitle": "Part 10 · PDF p.190",
+          "part_number": "10",
+          "page_start": 183,
+          "page_end": 192,
+          "pdf_page_start": 190,
+          "pdf_page_end": 199,
+          "source_pdf_page": 8,
+          "target_pdf_page": 190,
+          "navigation_pdf_page": 190,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1282",
+          "target_number": "14",
+          "title": "C14. STRIKE PRICE ADJUSTMENTS",
+          "subtitle": "Part 5A · PDF p.99",
+          "part_number": "5A",
+          "page_start": 92,
+          "page_end": 100,
+          "pdf_page_start": 99,
+          "pdf_page_end": 107,
+          "source_pdf_page": 8,
+          "target_pdf_page": 99,
+          "navigation_pdf_page": 99,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1328",
+          "target_number": "16",
+          "title": "C16. APPLICATION",
+          "subtitle": "Part 5B · PDF p.103",
+          "part_number": "5B",
+          "page_start": 96,
+          "page_end": 103,
+          "pdf_page_start": 103,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 103,
+          "navigation_pdf_page": 103,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1330",
+          "target_number": "17",
+          "title": "C17. DEFINITIONS: PART 5B",
+          "subtitle": "Part 5B · PDF p.103",
+          "part_number": "5B",
+          "page_start": 96,
+          "page_end": 105,
+          "pdf_page_start": 103,
+          "pdf_page_end": 112,
+          "source_pdf_page": 8,
+          "target_pdf_page": 103,
+          "navigation_pdf_page": 103,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1402",
+          "target_number": "20",
+          "title": "C20. STRIKE PRICE ADJUSTMENTS",
+          "subtitle": "Part 5B · PDF p.108",
+          "part_number": "5B",
+          "page_start": 101,
+          "page_end": 109,
+          "pdf_page_start": 108,
+          "pdf_page_end": 116,
+          "source_pdf_page": 8,
+          "target_pdf_page": 108,
+          "navigation_pdf_page": 108,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1581",
+          "target_number": "24",
+          "title": "C24. DEFAULT INTEREST",
+          "subtitle": "Part 6 · PDF p.120",
+          "part_number": "6",
+          "page_start": 113,
+          "page_end": 121,
+          "pdf_page_start": 120,
+          "pdf_page_end": 128,
+          "source_pdf_page": 8,
+          "target_pdf_page": 120,
+          "navigation_pdf_page": 120,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1595",
+          "target_number": "25",
+          "title": "C25. SET-OFF",
+          "subtitle": "Part 6 · PDF p.121",
+          "part_number": "6",
+          "page_start": 114,
+          "page_end": 121,
+          "pdf_page_start": 121,
+          "pdf_page_end": 128,
+          "source_pdf_page": 8,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 121,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1597",
+          "target_number": "26",
+          "title": "C26. DEDUCTIONS AND WITHHOLDINGS",
+          "subtitle": "Part 6 · PDF p.121",
+          "part_number": "6",
+          "page_start": 114,
+          "page_end": 121,
+          "pdf_page_start": 121,
+          "pdf_page_end": 128,
+          "source_pdf_page": 8,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 121,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1600",
+          "target_number": "27",
+          "title": "C27. PAYMENT ACCOUNTS",
+          "subtitle": "Part 6 · PDF p.122",
+          "part_number": "6",
+          "page_start": 115,
+          "page_end": 123,
+          "pdf_page_start": 122,
+          "pdf_page_end": 130,
+          "source_pdf_page": 8,
+          "target_pdf_page": 122,
+          "navigation_pdf_page": 122,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1640",
+          "target_number": "29",
+          "title": "C29. CFD COUNTERPARTY REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.125",
+          "part_number": "7",
+          "page_start": 118,
+          "page_end": 126,
+          "pdf_page_start": 125,
+          "pdf_page_end": 133,
+          "source_pdf_page": 8,
+          "target_pdf_page": 125,
+          "navigation_pdf_page": 125,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1656",
+          "target_number": "30",
+          "title": "C30. GENERATOR UNDERTAKINGS: GENERAL",
+          "subtitle": "Part 7 · PDF p.126",
+          "part_number": "7",
+          "page_start": 119,
+          "page_end": 128,
+          "pdf_page_start": 126,
+          "pdf_page_end": 135,
+          "source_pdf_page": 8,
+          "target_pdf_page": 126,
+          "navigation_pdf_page": 126,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1064",
+          "target_number": "4",
+          "title": "C4. MILESTONE REQUIREMENT",
+          "subtitle": "Part 3 · PDF p.83",
+          "part_number": "3",
+          "page_start": 76,
+          "page_end": 85,
+          "pdf_page_start": 83,
+          "pdf_page_end": 92,
+          "source_pdf_page": 8,
+          "target_pdf_page": 83,
+          "navigation_pdf_page": 83,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1097",
+          "target_number": "5",
+          "title": "C5. ADJUSTMENT TO INSTALLED CAPACITY ESTIMATE: RELEVANT CONSTRUCTION EVENT",
+          "subtitle": "Part 4 · PDF p.86",
+          "part_number": "4",
+          "page_start": 79,
+          "page_end": 88,
+          "pdf_page_start": 86,
+          "pdf_page_end": 95,
+          "source_pdf_page": 8,
+          "target_pdf_page": 86,
+          "navigation_pdf_page": 86,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2759",
+          "target_number": "55",
+          "title": "C55. COLLATERAL REQUIREMENT",
+          "subtitle": "Part 13 · PDF p.208",
+          "part_number": "13",
+          "page_start": 201,
+          "page_end": 209,
+          "pdf_page_start": 208,
+          "pdf_page_end": 216,
+          "source_pdf_page": 8,
+          "target_pdf_page": 208,
+          "navigation_pdf_page": 208,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2878",
+          "target_number": "59",
+          "title": "C59. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 14 · PDF p.216",
+          "part_number": "14",
+          "page_start": 209,
+          "page_end": 220,
+          "pdf_page_start": 216,
+          "pdf_page_end": 227,
+          "source_pdf_page": 8,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 216,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1137",
+          "target_number": "6",
+          "title": "C6. ADJUSTMENT TO INSTALLED CAPACITY ESTIMATE: PERMITTED REDUCTION",
+          "subtitle": "Part 4 · PDF p.89",
+          "part_number": "4",
+          "page_start": 82,
+          "page_end": 89,
+          "pdf_page_start": 89,
+          "pdf_page_end": 96,
+          "source_pdf_page": 8,
+          "target_pdf_page": 89,
+          "navigation_pdf_page": 89,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2926",
+          "target_number": "60",
+          "title": "C60. ARBITRATION PROCEDURE",
+          "subtitle": "Part 14 · PDF p.220",
+          "part_number": "14",
+          "page_start": 213,
+          "page_end": 220,
+          "pdf_page_start": 220,
+          "pdf_page_end": 227,
+          "source_pdf_page": 8,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 220,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2936",
+          "target_number": "61",
+          "title": "C61. CONSOLIDATION OF CONNECTED DISPUTES",
+          "subtitle": "Part 14 · PDF p.220",
+          "part_number": "14",
+          "page_start": 213,
+          "page_end": 222,
+          "pdf_page_start": 220,
+          "pdf_page_end": 229,
+          "source_pdf_page": 8,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 220,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2957",
+          "target_number": "63",
+          "title": "C63. METERING DISPUTES",
+          "subtitle": "Part 14 · PDF p.222",
+          "part_number": "14",
+          "page_start": 215,
+          "page_end": 223,
+          "pdf_page_start": 222,
+          "pdf_page_end": 230,
+          "source_pdf_page": 8,
+          "target_pdf_page": 222,
+          "navigation_pdf_page": 222,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1148",
+          "target_number": "7",
+          "title": "C7. FINAL INSTALLED CAPACITY; MAXIMUM CONTRACT CAPACITY",
+          "subtitle": "Part 4 · PDF p.89",
+          "part_number": "4",
+          "page_start": 82,
+          "page_end": 91,
+          "pdf_page_start": 89,
+          "pdf_page_end": 98,
+          "source_pdf_page": 8,
+          "target_pdf_page": 89,
+          "navigation_pdf_page": 89,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1171",
+          "target_number": "8",
+          "title": "C8. APPLICATION",
+          "subtitle": "Part 5A · PDF p.92",
+          "part_number": "5A",
+          "page_start": 85,
+          "page_end": 92,
+          "pdf_page_start": 92,
+          "pdf_page_end": 99,
+          "source_pdf_page": 8,
+          "target_pdf_page": 92,
+          "navigation_pdf_page": 92,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1173",
+          "target_number": "9",
+          "title": "C9. DEFINITIONS: PART 5A",
+          "subtitle": "Part 5A · PDF p.92",
+          "part_number": "5A",
+          "page_start": 85,
+          "page_end": 94,
+          "pdf_page_start": 92,
+          "pdf_page_end": 101,
+          "source_pdf_page": 8,
+          "target_pdf_page": 92,
+          "navigation_pdf_page": 92,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 46.1(C);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 9,
+          "count_badge": "9×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "name": "Companies Act 2006",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Financial Services and Markets Act 2000",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Civil Procedure Rules 1998",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Climate Change Act 2008",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts (Rights of Third Parties) Act 1999",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts for Difference (Allocation) Regulations 2014 (as at the Agreement Date);",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Criminal Justice Act 1993",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Electricity Act 1989",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Environmental Information Regulations 2004",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "European Communities Act 1972",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Freedom of Information Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Grid Code",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Guidance Note 44",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 15,
+      "total_links": 58,
       "defs_count": 0,
       "definitions": []
     },
@@ -35,10 +811,46 @@
       "page_end": 73,
       "pdf_page_start": 73,
       "pdf_page_end": 80,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:936",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT",
+          "subtitle": "Part 3 · PDF p.74",
+          "part_number": "3",
+          "page_start": 67,
+          "page_end": 83,
+          "pdf_page_start": 74,
+          "pdf_page_end": 90,
+          "source_pdf_page": 73,
+          "target_pdf_page": 74,
+          "navigation_pdf_page": 74,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 2.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -54,8 +866,168 @@
       "pdf_page_end": 90,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 74,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:918",
+          "source_number": "2",
+          "title": "C2. TERM",
+          "subtitle": "Part 2 · PDF p.73",
+          "part_number": "2",
+          "page_start": 66,
+          "page_end": 73,
+          "pdf_page_start": 73,
+          "pdf_page_end": 80,
+          "source_pdf_page": 73,
+          "target_pdf_page": 74,
+          "navigation_pdf_page": 73,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 3.28",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.28",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.26",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.17",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.24",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.24(C).",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.23",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.18",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.20",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.34",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.8(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.16 to 3.20",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.21 to 3.24",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.22",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.26 and 3.28",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        }
+      ],
+      "internal_count": 19,
+      "external_documents": [
+        {
+          "name": "EC Conditional Decision",
+          "type": "Decision",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 22,
       "defs_count": 0,
       "definitions": []
     },
@@ -71,8 +1043,56 @@
       "pdf_page_end": 92,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 83,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "4.1(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition (B) 4.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -88,8 +1108,49 @@
       "pdf_page_end": 95,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 86,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 5.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        },
+        {
+          "citation": "Condition 5.1(A)),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        },
+        {
+          "citation": "Condition 5.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -105,8 +1166,37 @@
       "pdf_page_end": 96,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 89,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 6 ( Adjustment to Installed Capacity Estimate: Permitted reduction ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -122,8 +1212,43 @@
       "pdf_page_end": 98,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 89,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 7.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.4(B):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -139,8 +1264,30 @@
       "pdf_page_end": 99,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 92,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -154,10 +1301,65 @@
       "page_end": 94,
       "pdf_page_start": 92,
       "pdf_page_end": 101,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 2,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1303",
+          "target_number": "15",
+          "title": "C15. BASELOAD MARKET REFERENCE PRICE",
+          "subtitle": "Part 5A · PDF p.100",
+          "part_number": "5A",
+          "page_start": 93,
+          "page_end": 103,
+          "pdf_page_start": 100,
+          "pdf_page_end": 110,
+          "source_pdf_page": 92,
+          "target_pdf_page": 100,
+          "navigation_pdf_page": 100,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1206",
+          "target_number": "10",
+          "title": "C10. METERED OUTPUT",
+          "subtitle": "Part 5A · PDF p.94",
+          "part_number": "5A",
+          "page_start": 87,
+          "page_end": 96,
+          "pdf_page_start": 94,
+          "pdf_page_end": 103,
+          "source_pdf_page": 92,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 94,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 92,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -171,10 +1373,91 @@
       "page_end": 96,
       "pdf_page_start": 94,
       "pdf_page_end": 103,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1247",
+          "target_number": "13",
+          "title": "C13. BASELOAD DUAL SCHEME FACILITIES",
+          "subtitle": "Part 5A · PDF p.97",
+          "part_number": "5A",
+          "page_start": 90,
+          "page_end": 99,
+          "pdf_page_start": 97,
+          "pdf_page_end": 106,
+          "source_pdf_page": 94,
+          "target_pdf_page": 97,
+          "navigation_pdf_page": 97,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1173",
+          "source_number": "9",
+          "title": "C9. DEFINITIONS: PART 5A",
+          "subtitle": "Part 5A · PDF p.92",
+          "part_number": "5A",
+          "page_start": 85,
+          "page_end": 94,
+          "pdf_page_start": 92,
+          "pdf_page_end": 101,
+          "source_pdf_page": 92,
+          "target_pdf_page": 94,
+          "navigation_pdf_page": 92,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 10.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Conditions 10.1 to 10.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Conditions 10.2 to 10.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -192,6 +1475,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -209,6 +1504,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -224,8 +1531,71 @@
       "pdf_page_end": 106,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 97,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1206",
+          "source_number": "10",
+          "title": "C10. METERED OUTPUT",
+          "subtitle": "Part 5A · PDF p.94",
+          "part_number": "5A",
+          "page_start": 87,
+          "page_end": 96,
+          "pdf_page_start": 94,
+          "pdf_page_end": 103,
+          "source_pdf_page": 94,
+          "target_pdf_page": 97,
+          "navigation_pdf_page": 94,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 13.4",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Conditions 13.5 to 13.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "13.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -241,8 +1611,30 @@
       "pdf_page_end": 107,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 99,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -258,8 +1650,59 @@
       "pdf_page_end": 110,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 100,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1173",
+          "source_number": "9",
+          "title": "C9. DEFINITIONS: PART 5A",
+          "subtitle": "Part 5A · PDF p.92",
+          "part_number": "5A",
+          "page_start": 85,
+          "page_end": 94,
+          "pdf_page_start": 92,
+          "pdf_page_end": 101,
+          "source_pdf_page": 92,
+          "target_pdf_page": 100,
+          "navigation_pdf_page": 92,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 15.3",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "15"
+        },
+        {
+          "citation": "Condition 15.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "15"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -275,8 +1718,30 @@
       "pdf_page_end": 110,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 103,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -290,10 +1755,56 @@
       "page_end": 105,
       "pdf_page_start": 103,
       "pdf_page_end": 112,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1361",
+          "target_number": "18",
+          "title": "C18. METERED OUTPUT",
+          "subtitle": "Part 5B · PDF p.105",
+          "part_number": "5B",
+          "page_start": 98,
+          "page_end": 107,
+          "pdf_page_start": 105,
+          "pdf_page_end": 114,
+          "source_pdf_page": 103,
+          "target_pdf_page": 105,
+          "navigation_pdf_page": 105,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 103,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Commission Regulation (EU) No. 543/2013",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -309,8 +1820,55 @@
       "pdf_page_end": 114,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1330",
+          "source_number": "17",
+          "title": "C17. DEFINITIONS: PART 5B",
+          "subtitle": "Part 5B · PDF p.103",
+          "part_number": "5B",
+          "page_start": 96,
+          "page_end": 105,
+          "pdf_page_start": 103,
+          "pdf_page_end": 112,
+          "source_pdf_page": 103,
+          "target_pdf_page": 105,
+          "navigation_pdf_page": 103,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 18.3",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "18.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Condition 18.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        },
+        {
+          "citation": "Conditions 18.2 to 18.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -326,8 +1884,37 @@
       "pdf_page_end": 114,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 107,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 19.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -343,8 +1930,37 @@
       "pdf_page_end": 116,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 108,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -379,6 +1995,60 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 21.3",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "21.2(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2(C)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -411,8 +2081,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 112,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1581",
           "source_number": "24",
@@ -430,6 +2116,31 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 22.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 37,
+          "count_badge": "37×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 18,
+          "count_badge": "18×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -478,8 +2189,86 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 118,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 23.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "23.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Conditions 23.1 and 23.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 12,
       "defs_count": 0,
       "definitions": []
     },
@@ -512,8 +2301,56 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 120,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "24.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Conditions 24.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Late Payment of Commercial Debts (Interest) Act 1988",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -529,8 +2366,37 @@
       "pdf_page_end": 128,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -546,8 +2412,37 @@
       "pdf_page_end": 128,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -563,7 +2458,7 @@
       "pdf_page_end": 130,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1551",
@@ -580,8 +2475,36 @@
           "navigation_pdf_page": 118,
           "count": 2,
           "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 122,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -597,8 +2520,50 @@
       "pdf_page_end": 132,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 123,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 28.1(I)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -614,8 +2579,44 @@
       "pdf_page_end": 133,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 125,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Conditions 29.1(A) to 29.1(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -631,8 +2632,62 @@
       "pdf_page_end": 135,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 126,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 30.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.1(F)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.1(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -648,8 +2703,24 @@
       "pdf_page_end": 141,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 128,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1755",
           "source_number": "32",
@@ -667,6 +2738,109 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 31.5",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "31.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.1(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.1(F);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.18",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.3(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.9(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        }
+      ],
+      "internal_count": 15,
+      "external_documents": [
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 18,
       "defs_count": 0,
       "definitions": []
     },
@@ -715,8 +2889,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 2,
+      "referenced_by_count": 3,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 134,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1451",
           "source_number": "22",
@@ -750,6 +2940,127 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 32.11",
+          "count": 8,
+          "count_badge": "8×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.15",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.6",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.9",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "32.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.13(C).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(B)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(C):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.6(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        }
+      ],
+      "internal_count": 17,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 24,
       "defs_count": 0,
       "definitions": []
     },
@@ -765,8 +3076,24 @@
       "pdf_page_end": 155,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 142,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1935",
           "source_number": "34",
@@ -784,6 +3111,30 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 33.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -797,7 +3148,7 @@
       "page_end": 160,
       "pdf_page_start": 148,
       "pdf_page_end": 167,
-      "impact_count": 1,
+      "impact_count": 2,
       "impact": [
         {
           "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1851",
@@ -814,10 +3165,42 @@
           "navigation_pdf_page": 142,
           "count": 1,
           "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2151",
+          "target_number": "36",
+          "title": "C36. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.162",
+          "part_number": "8",
+          "page_start": 155,
+          "page_end": 166,
+          "pdf_page_start": 162,
+          "pdf_page_end": 173,
+          "source_pdf_page": 148,
+          "target_pdf_page": 162,
+          "navigation_pdf_page": 162,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 148,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2128",
           "source_number": "35",
@@ -835,6 +3218,139 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "34.12",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.15",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.20",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.11",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.14",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.22",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.10",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.19",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.21",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.23",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "34.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.10(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.14",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.22",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.30",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "34"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 25,
       "defs_count": 0,
       "definitions": []
     },
@@ -869,6 +3385,25 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 35.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -882,10 +3417,96 @@
       "page_end": 166,
       "pdf_page_start": 162,
       "pdf_page_end": 173,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2214",
+          "target_number": "38",
+          "title": "C38. CHANGES IN LAW: GENERAL PROVISIONS",
+          "subtitle": "Part 8 · PDF p.167",
+          "part_number": "8",
+          "page_start": 160,
+          "page_end": 168,
+          "pdf_page_start": 167,
+          "pdf_page_end": 175,
+          "source_pdf_page": 162,
+          "target_pdf_page": 167,
+          "navigation_pdf_page": 167,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 162,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:1935",
+          "source_number": "34",
+          "title": "C34. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 8 · PDF p.148",
+          "part_number": "8",
+          "page_start": 141,
+          "page_end": 160,
+          "pdf_page_start": 148,
+          "pdf_page_end": 167,
+          "source_pdf_page": 148,
+          "target_pdf_page": 162,
+          "navigation_pdf_page": 148,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 36.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -903,6 +3524,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -918,8 +3544,43 @@
       "pdf_page_end": 175,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2151",
+          "source_number": "36",
+          "title": "C36. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.162",
+          "part_number": "8",
+          "page_start": 155,
+          "page_end": 166,
+          "pdf_page_start": 162,
+          "pdf_page_end": 173,
+          "source_pdf_page": 162,
+          "target_pdf_page": 167,
+          "navigation_pdf_page": 162,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "38.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Condition 38.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -935,8 +3596,43 @@
       "pdf_page_end": 178,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 169,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 39.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -952,8 +3648,67 @@
       "pdf_page_end": 182,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 171,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 40.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "40.6(E)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "40.6(E)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6(E)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -971,6 +3726,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1003,8 +3763,108 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 177,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2469",
+          "source_number": "44",
+          "title": "C44. GENERATION TAX: GENERAL PROVISIONS",
+          "subtitle": "Part 9 · PDF p.186",
+          "part_number": "9",
+          "page_start": 179,
+          "page_end": 187,
+          "pdf_page_start": 186,
+          "pdf_page_end": 194,
+          "source_pdf_page": 186,
+          "target_pdf_page": 177,
+          "navigation_pdf_page": 186,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 42.12",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.11",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.12(A)(i);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.12(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.12(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.15(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.19(D)(i);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [
+        {
+          "name": "Finance Act 2013",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -1039,6 +3899,48 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 43.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.6(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1052,8 +3954,24 @@
       "page_end": 187,
       "pdf_page_start": 186,
       "pdf_page_end": 194,
-      "impact_count": 1,
+      "impact_count": 2,
       "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2341",
+          "target_number": "42",
+          "title": "C42. GENERATION TAX: PROCEDURE",
+          "subtitle": "Part 9 · PDF p.177",
+          "part_number": "9",
+          "page_start": 170,
+          "page_end": 183,
+          "pdf_page_start": 177,
+          "pdf_page_end": 190,
+          "source_pdf_page": 186,
+          "target_pdf_page": 177,
+          "navigation_pdf_page": 177,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2432",
           "target_number": "43",
@@ -1090,6 +4008,18 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 44.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1107,6 +4037,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1122,8 +4070,30 @@
       "pdf_page_end": 197,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 188,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1139,8 +4109,30 @@
       "pdf_page_end": 199,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 190,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1169,8 +4161,8 @@
           "source_pdf_page": 192,
           "target_pdf_page": 196,
           "navigation_pdf_page": 196,
-          "count": 2,
-          "count_badge": "2×"
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
       "referenced_by_count": 1,
@@ -1192,6 +4184,36 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 48.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "48"
+        },
+        {
+          "citation": "Condition 48.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        },
+        {
+          "citation": "Condition 48.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        },
+        {
+          "citation": "Condition 48.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1239,10 +4261,22 @@
           "source_pdf_page": 192,
           "target_pdf_page": 196,
           "navigation_pdf_page": 192,
-          "count": 2,
-          "count_badge": "2×"
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 49.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1260,6 +4294,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 50.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        },
+        {
+          "citation": "Condition 50.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1275,7 +4327,7 @@
       "pdf_page_end": 209,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2683",
@@ -1292,8 +4344,97 @@
           "navigation_pdf_page": 202,
           "count": 14,
           "count_badge": "14×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 198,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 51.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.1(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        }
+      ],
+      "internal_count": 10,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -1328,6 +4469,61 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 52.1",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Conditions 52.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -1345,6 +4541,37 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "53.1(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Conditions 53.1(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Insolvency Act 1986",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1362,6 +4589,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1377,8 +4609,30 @@
       "pdf_page_end": 216,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 208,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1396,6 +4650,54 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 56.12(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.12(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Part 13 ( Credit Support ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1409,8 +4711,24 @@
       "page_end": 215,
       "pdf_page_start": 213,
       "pdf_page_end": 222,
-      "impact_count": 1,
+      "impact_count": 2,
       "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2868",
+          "target_number": "58",
+          "title": "C58. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 14 · PDF p.215",
+          "part_number": "14",
+          "page_start": 208,
+          "page_end": 216,
+          "pdf_page_start": 215,
+          "pdf_page_end": 223,
+          "source_pdf_page": 213,
+          "target_pdf_page": 215,
+          "navigation_pdf_page": 215,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2926",
           "target_number": "60",
@@ -1447,6 +4765,54 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 57.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -1462,8 +4828,40 @@
       "pdf_page_end": 223,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 4,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 215,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2838",
+          "source_number": "57",
+          "title": "C57. DISPUTE RESOLUTION PROCEDURE: GENERAL PROVISIONS",
+          "subtitle": "Part 14 · PDF p.213",
+          "part_number": "14",
+          "page_start": 206,
+          "page_end": 215,
+          "pdf_page_start": 213,
+          "pdf_page_end": 222,
+          "source_pdf_page": 213,
+          "target_pdf_page": 215,
+          "navigation_pdf_page": 213,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2878",
           "source_number": "59",
@@ -1479,8 +4877,36 @@
           "navigation_pdf_page": 216,
           "count": 1,
           "count_badge": "1×"
+        },
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2926",
+          "source_number": "60",
+          "title": "C60. ARBITRATION PROCEDURE",
+          "subtitle": "Part 14 · PDF p.220",
+          "part_number": "14",
+          "page_start": 213,
+          "page_end": 220,
+          "pdf_page_start": 220,
+          "pdf_page_end": 227,
+          "source_pdf_page": 220,
+          "target_pdf_page": 215,
+          "navigation_pdf_page": 220,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 58.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1529,8 +4955,74 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 59.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(C)(i))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.5(C):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "Arbitration Act 1996",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -1544,10 +5036,43 @@
       "page_end": 220,
       "pdf_page_start": 220,
       "pdf_page_end": 227,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 1,
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2868",
+          "target_number": "58",
+          "title": "C58. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 14 · PDF p.215",
+          "part_number": "14",
+          "page_start": 208,
+          "page_end": 216,
+          "pdf_page_start": 215,
+          "pdf_page_end": 223,
+          "source_pdf_page": 220,
+          "target_pdf_page": 215,
+          "navigation_pdf_page": 215,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2838",
           "source_number": "57",
@@ -1565,6 +5090,25 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 60.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1580,8 +5124,49 @@
       "pdf_page_end": 229,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 61.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.3(B)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Conditions 61.2 to 61.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1616,6 +5201,18 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Conditions 62.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1631,8 +5228,24 @@
       "pdf_page_end": 230,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 222,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:2951",
           "source_number": "62",
@@ -1650,6 +5263,11 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1667,6 +5285,55 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 64.11",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        },
+        {
+          "citation": "Condition 64.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "64"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1684,6 +5351,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1701,6 +5380,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1718,6 +5409,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1733,8 +5436,43 @@
       "pdf_page_end": 235,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:15",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 72,
+          "pdf_page_start": 8,
+          "pdf_page_end": 79,
+          "source_pdf_page": 8,
+          "target_pdf_page": 227,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 68.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "68"
+        },
+        {
+          "citation": "Condition 68.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "68"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1752,6 +5490,30 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 69.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1769,6 +5531,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1786,6 +5560,85 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 71.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "71.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "71.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.3(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.7(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Conditions 71.2 to 71.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Conditions 71.2 to 71.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        }
+      ],
+      "internal_count": 10,
+      "external_documents": [
+        {
+          "name": "Supplier Obligation Regulations",
+          "type": "Regulation",
+          "count": 9,
+          "count_badge": "9×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 12,
       "defs_count": 0,
       "definitions": []
     },
@@ -1799,8 +5652,25 @@
       "page_end": 238,
       "pdf_page_start": 233,
       "pdf_page_end": 245,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:3166",
+          "target_number": "73",
+          "title": "C73. ANNOUNCEMENTS",
+          "subtitle": "Part 16 · PDF p.239",
+          "part_number": "16",
+          "page_start": 232,
+          "page_end": 240,
+          "pdf_page_start": 239,
+          "pdf_page_end": 247,
+          "source_pdf_page": 233,
+          "target_pdf_page": 239,
+          "navigation_pdf_page": 239,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 1,
       "referenced_by": [
         {
@@ -1820,6 +5690,175 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 72.5",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(iii),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(iv)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(v)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.2",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.4(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Conditions 72.2",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Conditions 72.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.10(A)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4(E),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.10(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.10(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Financial Services and Markets Act 2000",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "State Aid Rules",
+          "type": "Regulation",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "CJA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "National Audit Act 1983",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 7,
+      "total_links": 29,
       "defs_count": 0,
       "definitions": []
     },
@@ -1852,8 +5891,50 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017:2.0:3091",
+          "source_number": "72",
+          "title": "C72. CONFIDENTIALITY",
+          "subtitle": "Part 16 · PDF p.233",
+          "part_number": "16",
+          "page_start": 226,
+          "page_end": 238,
+          "pdf_page_start": 233,
+          "pdf_page_end": 245,
+          "source_pdf_page": 233,
+          "target_pdf_page": 239,
+          "navigation_pdf_page": 233,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 73.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1871,6 +5952,31 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 74.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 10,
+          "count_badge": "10×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1888,6 +5994,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 75.2",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.3(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.3(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1905,6 +6041,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "State Aid Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1939,6 +6093,18 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1956,6 +6122,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1973,6 +6151,61 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 79.1",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "79.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "79.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.6(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.6(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        },
+        {
+          "citation": "Condition 79.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "79"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 12,
+          "count_badge": "12×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -1990,6 +6223,37 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 80.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "80"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Electronic Communications Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 3,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -2007,6 +6271,31 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 81.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "Condition 81.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2024,6 +6313,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -2058,6 +6359,24 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "C(RTP) Act",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2075,6 +6394,37 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 84.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "84"
+        },
+        {
+          "citation": "Condition 84.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "84"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -2092,6 +6442,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -2109,6 +6471,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -2126,6 +6500,30 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "CfD Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Civil Procedure Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 3,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2143,6 +6541,25 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 88.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "88"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Contract for Difference",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     }

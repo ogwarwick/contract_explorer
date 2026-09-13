@@ -1,12 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "document_key": 22,
   "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
   "source_enricher_file": "low-carbon-hydrogen-agreement-standard-terms-and-conditions_stacked_enriched.json",
   "raw_crossreference_count": 802,
-  "resolved_crossreference_count": 60,
-  "unresolved_target_count": 15,
-  "unresolved_source_count": 6,
+  "resolved_crossreference_count": 303,
+  "unresolved_target_count": 0,
+  "unresolved_source_count": 0,
   "conditions": {
     "1": {
       "condition_number": "1",
@@ -18,10 +18,990 @@
       "page_end": 108,
       "pdf_page_start": 8,
       "pdf_page_end": 115,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 54,
+      "impact": [
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4491",
+          "target_number": "52",
+          "title": "C52. TERMINATION",
+          "subtitle": "Part 9 · PDF p.273",
+          "part_number": "9",
+          "page_start": 266,
+          "page_end": 287,
+          "pdf_page_start": 273,
+          "pdf_page_end": 294,
+          "source_pdf_page": 8,
+          "target_pdf_page": 273,
+          "navigation_pdf_page": 273,
+          "count": 26,
+          "count_badge": "26×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2393",
+          "target_number": "8",
+          "title": "C8. DEFINITIONS: PART 5",
+          "subtitle": "Part 5 · PDF p.144",
+          "part_number": "5",
+          "page_start": 137,
+          "page_end": 147,
+          "pdf_page_start": 144,
+          "pdf_page_end": 154,
+          "source_pdf_page": 8,
+          "target_pdf_page": 144,
+          "navigation_pdf_page": 144,
+          "count": 25,
+          "count_badge": "25×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:1875",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT",
+          "subtitle": "Part 3 · PDF p.111",
+          "part_number": "3",
+          "page_start": 104,
+          "page_end": 133,
+          "pdf_page_start": 111,
+          "pdf_page_end": 140,
+          "source_pdf_page": 8,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 111,
+          "count": 24,
+          "count_badge": "24×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3044",
+          "target_number": "22",
+          "title": "C22. UKLCH BILLING STATEMENTS",
+          "subtitle": "Part 6 · PDF p.181",
+          "part_number": "6",
+          "page_start": 174,
+          "page_end": 189,
+          "pdf_page_start": 181,
+          "pdf_page_end": 196,
+          "source_pdf_page": 8,
+          "target_pdf_page": 181,
+          "navigation_pdf_page": 181,
+          "count": 19,
+          "count_badge": "19×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3635",
+          "target_number": "36",
+          "title": "C36. OFFTAKER CONFIRMATION PROCEDURE",
+          "subtitle": "Part 7 · PDF p.219",
+          "part_number": "7",
+          "page_start": 212,
+          "page_end": 226,
+          "pdf_page_start": 219,
+          "pdf_page_end": 233,
+          "source_pdf_page": 8,
+          "target_pdf_page": 219,
+          "navigation_pdf_page": 219,
+          "count": 14,
+          "count_badge": "14×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3863",
+          "target_number": "41",
+          "title": "C41. ANNUAL COMPLIANCE REPORT AND AUDIT",
+          "subtitle": "Part 7 · PDF p.233",
+          "part_number": "7",
+          "page_start": 226,
+          "page_end": 240,
+          "pdf_page_start": 233,
+          "pdf_page_end": 247,
+          "source_pdf_page": 8,
+          "target_pdf_page": 233,
+          "navigation_pdf_page": 233,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4362",
+          "target_number": "48",
+          "title": "C48. CHANGE IN APPLICABLE LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.264",
+          "part_number": "8",
+          "page_start": 257,
+          "page_end": 266,
+          "pdf_page_start": 264,
+          "pdf_page_end": 273,
+          "source_pdf_page": 8,
+          "target_pdf_page": 264,
+          "navigation_pdf_page": 264,
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3960",
+          "target_number": "42",
+          "title": "C42. QUALIFYING CHANGE IN LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.240",
+          "part_number": "8",
+          "page_start": 233,
+          "page_end": 245,
+          "pdf_page_start": 240,
+          "pdf_page_end": 252,
+          "source_pdf_page": 8,
+          "target_pdf_page": 240,
+          "navigation_pdf_page": 240,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2448",
+          "target_number": "9",
+          "title": "C9. PAYMENT CALCULATIONS",
+          "subtitle": "Part 5 · PDF p.148",
+          "part_number": "5",
+          "page_start": 141,
+          "page_end": 153,
+          "pdf_page_start": 148,
+          "pdf_page_end": 160,
+          "source_pdf_page": 8,
+          "target_pdf_page": 148,
+          "navigation_pdf_page": 148,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2603",
+          "target_number": "13",
+          "title": "C13. LCHA SALES CAP",
+          "subtitle": "Part 5 · PDF p.157",
+          "part_number": "5",
+          "page_start": 150,
+          "page_end": 162,
+          "pdf_page_start": 157,
+          "pdf_page_end": 169,
+          "source_pdf_page": 8,
+          "target_pdf_page": 157,
+          "navigation_pdf_page": 157,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3443",
+          "target_number": "33",
+          "title": "C33. PRODUCER UNDERTAKINGS: INFORMATION PROVISION AND NO CUMULATION OF SUBSIDY, STATE AID UNION FUNDING......................................................................................................................... AND/OR",
+          "subtitle": "Part 7 · PDF p.206",
+          "part_number": "7",
+          "page_start": 199,
+          "page_end": 216,
+          "pdf_page_start": 206,
+          "pdf_page_end": 223,
+          "source_pdf_page": 8,
+          "target_pdf_page": 206,
+          "navigation_pdf_page": 206,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3605",
+          "target_number": "35",
+          "title": "C35. PRODUCER UNDERTAKING: SUPPLY CHAIN REPORTING",
+          "subtitle": "Part 7 · PDF p.217",
+          "part_number": "7",
+          "page_start": 210,
+          "page_end": 219,
+          "pdf_page_start": 217,
+          "pdf_page_end": 226,
+          "source_pdf_page": 8,
+          "target_pdf_page": 217,
+          "navigation_pdf_page": 217,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4398",
+          "target_number": "49",
+          "title": "C49. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 8 · PDF p.266",
+          "part_number": "8",
+          "page_start": 259,
+          "page_end": 270,
+          "pdf_page_start": 266,
+          "pdf_page_end": 277,
+          "source_pdf_page": 8,
+          "target_pdf_page": 266,
+          "navigation_pdf_page": 266,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4293",
+          "target_number": "45",
+          "title": "C45. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.259",
+          "part_number": "8",
+          "page_start": 252,
+          "page_end": 263,
+          "pdf_page_start": 259,
+          "pdf_page_end": 270,
+          "source_pdf_page": 8,
+          "target_pdf_page": 259,
+          "navigation_pdf_page": 259,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4461",
+          "target_number": "51",
+          "title": "C51. COMPLIANCE WITH THE LCHS",
+          "subtitle": "Part 8 · PDF p.270",
+          "part_number": "8",
+          "page_start": 263,
+          "page_end": 272,
+          "pdf_page_start": 270,
+          "pdf_page_end": 279,
+          "source_pdf_page": 8,
+          "target_pdf_page": 270,
+          "navigation_pdf_page": 270,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2328",
+          "target_number": "6",
+          "title": "C6. ADJUSTMENT TO INSTALLED CAPACITY ESTIMATE: PERMITTED REDUCTION",
+          "subtitle": "Part 4 · PDF p.140",
+          "part_number": "4",
+          "page_start": 133,
+          "page_end": 140,
+          "pdf_page_start": 140,
+          "pdf_page_end": 147,
+          "source_pdf_page": 8,
+          "target_pdf_page": 140,
+          "navigation_pdf_page": 140,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5069",
+          "target_number": "70",
+          "title": "C70. FORCE MAJEURE",
+          "subtitle": "Part 12 · PDF p.313",
+          "part_number": "12",
+          "page_start": 306,
+          "page_end": 315,
+          "pdf_page_start": 313,
+          "pdf_page_end": 322,
+          "source_pdf_page": 8,
+          "target_pdf_page": 313,
+          "navigation_pdf_page": 313,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5311",
+          "target_number": "81",
+          "title": "C81. TRANSFERS",
+          "subtitle": "Part 14 · PDF p.330",
+          "part_number": "14",
+          "page_start": 323,
+          "page_end": 334,
+          "pdf_page_start": 330,
+          "pdf_page_end": 341,
+          "source_pdf_page": 8,
+          "target_pdf_page": 330,
+          "navigation_pdf_page": 330,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2713",
+          "target_number": "14",
+          "title": "C14. STRIKE PRICE INDEXATION ADJUSTMENT",
+          "subtitle": "Part 5 · PDF p.162",
+          "part_number": "5",
+          "page_start": 155,
+          "page_end": 164,
+          "pdf_page_start": 162,
+          "pdf_page_end": 171,
+          "source_pdf_page": 8,
+          "target_pdf_page": 162,
+          "navigation_pdf_page": 162,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3751",
+          "target_number": "37",
+          "title": "C37. PRODUCER UNDERTAKINGS: OFFTAKER COMPLIANCE",
+          "subtitle": "Part 7 · PDF p.226",
+          "part_number": "7",
+          "page_start": 219,
+          "page_end": 229,
+          "pdf_page_start": 226,
+          "pdf_page_end": 236,
+          "source_pdf_page": 8,
+          "target_pdf_page": 226,
+          "navigation_pdf_page": 226,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4047",
+          "target_number": "43",
+          "title": "C43. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 8 · PDF p.245",
+          "part_number": "8",
+          "page_start": 238,
+          "page_end": 258,
+          "pdf_page_start": 245,
+          "pdf_page_end": 265,
+          "source_pdf_page": 8,
+          "target_pdf_page": 245,
+          "navigation_pdf_page": 245,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4900",
+          "target_number": "60",
+          "title": "C60. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 11 · PDF p.302",
+          "part_number": "11",
+          "page_start": 295,
+          "page_end": 305,
+          "pdf_page_start": 302,
+          "pdf_page_end": 312,
+          "source_pdf_page": 8,
+          "target_pdf_page": 302,
+          "navigation_pdf_page": 302,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5055",
+          "target_number": "69",
+          "title": "C69. PAYMENT DISRUPTION EVENT",
+          "subtitle": "Part 12 · PDF p.312",
+          "part_number": "12",
+          "page_start": 305,
+          "page_end": 313,
+          "pdf_page_start": 312,
+          "pdf_page_end": 320,
+          "source_pdf_page": 8,
+          "target_pdf_page": 312,
+          "navigation_pdf_page": 312,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2792",
+          "target_number": "17",
+          "title": "C17. CO2 T&S OUTAGE RELIEF EVENTS",
+          "subtitle": "Part 5 · PDF p.166",
+          "part_number": "5",
+          "page_start": 159,
+          "page_end": 168,
+          "pdf_page_start": 166,
+          "pdf_page_end": 175,
+          "source_pdf_page": 8,
+          "target_pdf_page": 166,
+          "navigation_pdf_page": 166,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2954",
+          "target_number": "21",
+          "title": "C21. PRODUCER PAYMENT INFORMATION",
+          "subtitle": "Part 6 · PDF p.176",
+          "part_number": "6",
+          "page_start": 169,
+          "page_end": 181,
+          "pdf_page_start": 176,
+          "pdf_page_end": 188,
+          "source_pdf_page": 8,
+          "target_pdf_page": 176,
+          "navigation_pdf_page": 176,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3234",
+          "target_number": "28",
+          "title": "C28. PRODUCER REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.193",
+          "part_number": "7",
+          "page_start": 186,
+          "page_end": 195,
+          "pdf_page_start": 193,
+          "pdf_page_end": 202,
+          "source_pdf_page": 8,
+          "target_pdf_page": 193,
+          "navigation_pdf_page": 193,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3301",
+          "target_number": "31",
+          "title": "C31. PRODUCER UNDERTAKINGS: METERING",
+          "subtitle": "Part 7 · PDF p.197",
+          "part_number": "7",
+          "page_start": 190,
+          "page_end": 202,
+          "pdf_page_start": 197,
+          "pdf_page_end": 209,
+          "source_pdf_page": 8,
+          "target_pdf_page": 197,
+          "navigation_pdf_page": 197,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3591",
+          "target_number": "34",
+          "title": "C34. PRODUCER UNDERTAKINGS: UK ETS FREE ALLOWANCES",
+          "subtitle": "Part 7 · PDF p.216",
+          "part_number": "7",
+          "page_start": 209,
+          "page_end": 217,
+          "pdf_page_start": 216,
+          "pdf_page_end": 224,
+          "source_pdf_page": 8,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 216,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2283",
+          "target_number": "5",
+          "title": "C5. ADJUSTMENT TO INSTALLED CAPACITY ESTIMATE: RELEVANT CONSTRUCTION EVENT",
+          "subtitle": "Part 4 · PDF p.137",
+          "part_number": "4",
+          "page_start": 130,
+          "page_end": 139,
+          "pdf_page_start": 137,
+          "pdf_page_end": 146,
+          "source_pdf_page": 8,
+          "target_pdf_page": 137,
+          "navigation_pdf_page": 137,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4805",
+          "target_number": "57",
+          "title": "C57. ACCEPTABLE COLLATERAL",
+          "subtitle": "Part 10 · PDF p.295",
+          "part_number": "10",
+          "page_start": 288,
+          "page_end": 299,
+          "pdf_page_start": 295,
+          "pdf_page_end": 306,
+          "source_pdf_page": 8,
+          "target_pdf_page": 295,
+          "navigation_pdf_page": 295,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4888",
+          "target_number": "59",
+          "title": "C59. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 11 · PDF p.301",
+          "part_number": "11",
+          "page_start": 294,
+          "page_end": 301,
+          "pdf_page_start": 301,
+          "pdf_page_end": 308,
+          "source_pdf_page": 8,
+          "target_pdf_page": 301,
+          "navigation_pdf_page": 301,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4949",
+          "target_number": "61",
+          "title": "C61. ARBITRATION PROCEDURE",
+          "subtitle": "Part 11 · PDF p.305",
+          "part_number": "11",
+          "page_start": 298,
+          "page_end": 306,
+          "pdf_page_start": 305,
+          "pdf_page_end": 313,
+          "source_pdf_page": 8,
+          "target_pdf_page": 305,
+          "navigation_pdf_page": 305,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2548",
+          "target_number": "11",
+          "title": "C11. PRICE DISCOVERY INCENTIVE",
+          "subtitle": "Part 5 · PDF p.154",
+          "part_number": "5",
+          "page_start": 147,
+          "page_end": 154,
+          "pdf_page_start": 154,
+          "pdf_page_end": 161,
+          "source_pdf_page": 8,
+          "target_pdf_page": 154,
+          "navigation_pdf_page": 154,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2782",
+          "target_number": "16",
+          "title": "C16. CCUS-ENABLED NON-VARIABLE COSTS STRIKE PRICE INDEXATION ADJUSTMENT",
+          "subtitle": "Part 5 · PDF p.165",
+          "part_number": "5",
+          "page_start": 158,
+          "page_end": 165,
+          "pdf_page_start": 165,
+          "pdf_page_end": 172,
+          "source_pdf_page": 8,
+          "target_pdf_page": 165,
+          "navigation_pdf_page": 165,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2828",
+          "target_number": "18",
+          "title": "C18. CO2 T&S CHARGES AMOUNT",
+          "subtitle": "Part 5 · PDF p.168",
+          "part_number": "5",
+          "page_start": 161,
+          "page_end": 170,
+          "pdf_page_start": 168,
+          "pdf_page_end": 177,
+          "source_pdf_page": 8,
+          "target_pdf_page": 168,
+          "navigation_pdf_page": 168,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2871",
+          "target_number": "19",
+          "title": "C19. CARBON COST PROTECTION AMOUNT",
+          "subtitle": "Part 5 · PDF p.170",
+          "part_number": "5",
+          "page_start": 163,
+          "page_end": 174,
+          "pdf_page_start": 170,
+          "pdf_page_end": 181,
+          "source_pdf_page": 8,
+          "target_pdf_page": 170,
+          "navigation_pdf_page": 170,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:1847",
+          "target_number": "2",
+          "title": "C2. TERM",
+          "subtitle": "Part 2 · PDF p.109",
+          "part_number": "2",
+          "page_start": 102,
+          "page_end": 111,
+          "pdf_page_start": 109,
+          "pdf_page_end": 118,
+          "source_pdf_page": 8,
+          "target_pdf_page": 109,
+          "navigation_pdf_page": 109,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2912",
+          "target_number": "20",
+          "title": "C20. PILOHS AMOUNT",
+          "subtitle": "Part 5 · PDF p.174",
+          "part_number": "5",
+          "page_start": 167,
+          "page_end": 176,
+          "pdf_page_start": 174,
+          "pdf_page_end": 183,
+          "source_pdf_page": 8,
+          "target_pdf_page": 174,
+          "navigation_pdf_page": 174,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3183",
+          "target_number": "23",
+          "title": "C23. SETTLEMENT",
+          "subtitle": "Part 6 · PDF p.189",
+          "part_number": "6",
+          "page_start": 182,
+          "page_end": 190,
+          "pdf_page_start": 189,
+          "pdf_page_end": 197,
+          "source_pdf_page": 8,
+          "target_pdf_page": 189,
+          "navigation_pdf_page": 189,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3207",
+          "target_number": "24",
+          "title": "C24. DEFAULT INTEREST",
+          "subtitle": "Part 6 · PDF p.190",
+          "part_number": "6",
+          "page_start": 183,
+          "page_end": 191,
+          "pdf_page_start": 190,
+          "pdf_page_end": 198,
+          "source_pdf_page": 8,
+          "target_pdf_page": 190,
+          "navigation_pdf_page": 190,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3222",
+          "target_number": "25",
+          "title": "C25. SET-OFF",
+          "subtitle": "Part 6 · PDF p.191",
+          "part_number": "6",
+          "page_start": 184,
+          "page_end": 191,
+          "pdf_page_start": 191,
+          "pdf_page_end": 198,
+          "source_pdf_page": 8,
+          "target_pdf_page": 191,
+          "navigation_pdf_page": 191,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3224",
+          "target_number": "26",
+          "title": "C26. DEDUCTIONS AND WITHHOLDINGS",
+          "subtitle": "Part 6 · PDF p.191",
+          "part_number": "6",
+          "page_start": 184,
+          "page_end": 191,
+          "pdf_page_start": 191,
+          "pdf_page_end": 198,
+          "source_pdf_page": 8,
+          "target_pdf_page": 191,
+          "navigation_pdf_page": 191,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3226",
+          "target_number": "27",
+          "title": "C27. PAYMENT ACCOUNTS",
+          "subtitle": "Part 6 · PDF p.191",
+          "part_number": "6",
+          "page_start": 184,
+          "page_end": 193,
+          "pdf_page_start": 191,
+          "pdf_page_end": 200,
+          "source_pdf_page": 8,
+          "target_pdf_page": 191,
+          "navigation_pdf_page": 191,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3266",
+          "target_number": "29",
+          "title": "C29. LCHA COUNTERPARTY REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.195",
+          "part_number": "7",
+          "page_start": 188,
+          "page_end": 196,
+          "pdf_page_start": 195,
+          "pdf_page_end": 203,
+          "source_pdf_page": 8,
+          "target_pdf_page": 195,
+          "navigation_pdf_page": 195,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3282",
+          "target_number": "30",
+          "title": "C30. PRODUCER UNDERTAKINGS: GENERAL",
+          "subtitle": "Part 7 · PDF p.196",
+          "part_number": "7",
+          "page_start": 189,
+          "page_end": 197,
+          "pdf_page_start": 196,
+          "pdf_page_end": 204,
+          "source_pdf_page": 8,
+          "target_pdf_page": 196,
+          "navigation_pdf_page": 196,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3816",
+          "target_number": "39",
+          "title": "C39. PRODUCER UNDERTAKINGS: AFFILIATE OFFTAKER",
+          "subtitle": "Part 7 · PDF p.230",
+          "part_number": "7",
+          "page_start": 223,
+          "page_end": 231,
+          "pdf_page_start": 230,
+          "pdf_page_end": 238,
+          "source_pdf_page": 8,
+          "target_pdf_page": 230,
+          "navigation_pdf_page": 230,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3834",
+          "target_number": "40",
+          "title": "C40. LCHA COUNTERPARTY AUDIT RIGHTS",
+          "subtitle": "Part 7 · PDF p.231",
+          "part_number": "7",
+          "page_start": 224,
+          "page_end": 233,
+          "pdf_page_start": 231,
+          "pdf_page_end": 240,
+          "source_pdf_page": 8,
+          "target_pdf_page": 231,
+          "navigation_pdf_page": 231,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4273",
+          "target_number": "44",
+          "title": "C44. QUALIFYING CHANGE IN LAW: EFFECTIVE DATE AND PAYMENT",
+          "subtitle": "Part 8 · PDF p.258",
+          "part_number": "8",
+          "page_start": 251,
+          "page_end": 259,
+          "pdf_page_start": 258,
+          "pdf_page_end": 266,
+          "source_pdf_page": 8,
+          "target_pdf_page": 258,
+          "navigation_pdf_page": 258,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4343",
+          "target_number": "46",
+          "title": "C46. QUALIFYING SHUTDOWN EVENT: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.263",
+          "part_number": "8",
+          "page_start": 256,
+          "page_end": 264,
+          "pdf_page_start": 263,
+          "pdf_page_end": 271,
+          "source_pdf_page": 8,
+          "target_pdf_page": 263,
+          "navigation_pdf_page": 263,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4686",
+          "target_number": "53",
+          "title": "C53. CONSEQUENCES OF TERMINATION",
+          "subtitle": "Part 9 · PDF p.287",
+          "part_number": "9",
+          "page_start": 280,
+          "page_end": 291,
+          "pdf_page_start": 287,
+          "pdf_page_end": 298,
+          "source_pdf_page": 8,
+          "target_pdf_page": 287,
+          "navigation_pdf_page": 287,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4745",
+          "target_number": "54",
+          "title": "C54. TERMINATION EVENTS",
+          "subtitle": "Part 9 · PDF p.291",
+          "part_number": "9",
+          "page_start": 284,
+          "page_end": 293,
+          "pdf_page_start": 291,
+          "pdf_page_end": 300,
+          "source_pdf_page": 8,
+          "target_pdf_page": 291,
+          "navigation_pdf_page": 291,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2342",
+          "target_number": "7",
+          "title": "C7. FINAL INSTALLED CAPACITY",
+          "subtitle": "Part 4 · PDF p.141",
+          "part_number": "4",
+          "page_start": 134,
+          "page_end": 144,
+          "pdf_page_start": 141,
+          "pdf_page_end": 151,
+          "source_pdf_page": 8,
+          "target_pdf_page": 141,
+          "navigation_pdf_page": 141,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5129",
+          "target_number": "73",
+          "title": "C73. CONFIDENTIALITY",
+          "subtitle": "Part 13 · PDF p.318",
+          "part_number": "13",
+          "page_start": 311,
+          "page_end": 323,
+          "pdf_page_start": 318,
+          "pdf_page_end": 330,
+          "source_pdf_page": 8,
+          "target_pdf_page": 318,
+          "navigation_pdf_page": 318,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5409",
+          "target_number": "85",
+          "title": "C85. THIRD PARTY RIGHTS",
+          "subtitle": "Part 14 · PDF p.336",
+          "part_number": "14",
+          "page_start": 329,
+          "page_end": 336,
+          "pdf_page_start": 336,
+          "pdf_page_end": 343,
+          "source_pdf_page": 8,
+          "target_pdf_page": 336,
+          "navigation_pdf_page": 336,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "1.2(A)(ii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.2(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.3(A)(vi)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Agreement",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "NZHF Grant Funding Agreement",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "Electricity (Northern Ireland) Order 1992",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "EU(W)A 2018",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Electricity Act 1989",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Civil Procedure Rules 1998",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts (Rights of Third Parties) Act 1999",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Criminal Justice Act 1993",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Energy Act 2013",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Energy Act 2023",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Environmental Information Regulations 2004",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "European Union (Withdrawal) Act 2018",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Interpretation and Legislative Reform (Scotland) Act 2010",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Legislation (Wales) Act 2019",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 15,
+      "total_links": 72,
       "defs_count": 0,
       "definitions": []
     },
@@ -37,8 +1017,43 @@
       "pdf_page_end": 118,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 109,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 2.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Conditions 2.3 and 2.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -54,8 +1069,170 @@
       "pdf_page_end": 140,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 8,
+          "count": 24,
+          "count_badge": "24×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 3.66",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.32(A)(ii),",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.29",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.32(A)(i)(b)",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.81",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.29",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.32(A)(ii):",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.66",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.22",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26(C).",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.32(A)(i),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.32(A)(i).",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.32(A)(ii);",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.77",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.25",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.32(A)(i)(b)(2),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.32(A)(i)(b)(2):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.35(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.81",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "RTFO Scheme",
+          "type": "Other",
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "name": "EII Exemption Regulations",
+          "type": "Regulation",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "NZHF Grant Funding Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 3,
+      "total_links": 24,
       "defs_count": 0,
       "definitions": []
     },
@@ -73,6 +1250,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 4.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.1(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -88,8 +1295,49 @@
       "pdf_page_end": 146,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 137,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 5.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        },
+        {
+          "citation": "Condition 5.1(A)),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        },
+        {
+          "citation": "Condition 5.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "5"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -105,8 +1353,30 @@
       "pdf_page_end": 147,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 140,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -122,8 +1392,55 @@
       "pdf_page_end": 151,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 141,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 7.4(B)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.1(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.4(B):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -139,8 +1456,30 @@
       "pdf_page_end": 154,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 144,
+          "navigation_pdf_page": 8,
+          "count": 25,
+          "count_badge": "25×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -156,8 +1495,110 @@
       "pdf_page_end": 160,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 148,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 9.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.10(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.10(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.12 ( Floor Price calculation );",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.14 ( Floor Price calculation );",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        }
+      ],
+      "internal_count": 12,
+      "external_documents": [
+        {
+          "name": "Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 14,
       "defs_count": 0,
       "definitions": []
     },
@@ -175,6 +1616,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -190,8 +1636,30 @@
       "pdf_page_end": 161,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 154,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -209,6 +1677,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -224,8 +1697,37 @@
       "pdf_page_end": 169,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 157,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "13.5(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -241,8 +1743,43 @@
       "pdf_page_end": 171,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 162,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 14.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        },
+        {
+          "citation": "Condition 14.5(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -260,6 +1797,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -275,8 +1817,30 @@
       "pdf_page_end": 172,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 165,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -292,7 +1856,7 @@
       "pdf_page_end": 175,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 2,
+      "referenced_by_count": 3,
       "referenced_by": [
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2954",
@@ -311,6 +1875,22 @@
           "count_badge": "5×"
         },
         {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 166,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:2912",
           "source_number": "20",
           "title": "C20. PILOHS AMOUNT",
@@ -327,6 +1907,24 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "17.4(C)(ii):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "17"
+        },
+        {
+          "citation": "Condition 17.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "17"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -342,8 +1940,37 @@
       "pdf_page_end": 177,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 168,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 18.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "18"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -359,8 +1986,79 @@
       "pdf_page_end": 181,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 170,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 19.8",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Condition 19.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Condition 19.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Condition 19.7(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Condition 19.7(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Condition 19.7(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Condition 19.7(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        },
+        {
+          "citation": "Conditions 19.7 to 19.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -393,8 +2091,37 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 174,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Conditions 20.4 to 20.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -427,8 +2154,24 @@
           "count_badge": "5×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 176,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3044",
           "source_number": "22",
@@ -446,6 +2189,36 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 21.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.3(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.3(B)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -478,8 +2251,49 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 181,
+          "navigation_pdf_page": 8,
+          "count": 19,
+          "count_badge": "19×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 22.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -495,8 +2309,56 @@
       "pdf_page_end": 197,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 189,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 23.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.2",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -512,8 +2374,62 @@
       "pdf_page_end": 198,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 190,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "24.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Conditions 24.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Late Payment of Commercial Debts (Interest) Act 1988",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -529,8 +2445,37 @@
       "pdf_page_end": 198,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 191,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -546,8 +2491,37 @@
       "pdf_page_end": 198,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 191,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -563,8 +2537,37 @@
       "pdf_page_end": 200,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 191,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -580,8 +2583,43 @@
       "pdf_page_end": 202,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 193,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "name": "NZHF Grant Funding Agreement",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -597,8 +2635,44 @@
       "pdf_page_end": 203,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 195,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Conditions 29.1(A) to 29.1(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -614,8 +2688,43 @@
       "pdf_page_end": 204,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 196,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 30.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.1(G),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -631,8 +2740,140 @@
       "pdf_page_end": 209,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 197,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 31.5",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.11",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(B)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "31.13(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.13(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.20",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.3(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.3(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4(B)(ii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.7(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        }
+      ],
+      "internal_count": 17,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 19,
       "defs_count": 0,
       "definitions": []
     },
@@ -650,6 +2891,114 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 32.10",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.6(A)(i)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.8(A)(i),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.4(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.4(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.4(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.5(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.6(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.8(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.8(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.8(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.9(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        }
+      ],
+      "internal_count": 17,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 17,
       "defs_count": 0,
       "definitions": []
     },
@@ -665,8 +3014,176 @@
       "pdf_page_end": 223,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 206,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 33.14",
+          "count": 8,
+          "count_badge": "8×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.6(A)(ii));",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1(C),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.12",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.18",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.6(A)(i)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.7(A)(ii)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.9",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.18(B)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.7(A)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.7(B)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.18(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.7(C)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1(A)(i)),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1(E),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1(E).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "RTFO Scheme",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "EII Exemption Regulations",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "NZHF Grant Funding Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 4,
+      "total_links": 25,
       "defs_count": 0,
       "definitions": []
     },
@@ -682,8 +3199,49 @@
       "pdf_page_end": 224,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 216,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 34.2(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.2(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "34"
+        },
+        {
+          "citation": "Condition 34.2(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "34"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -699,8 +3257,49 @@
       "pdf_page_end": 226,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 217,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 35.5(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.5(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -714,7 +3313,7 @@
       "page_end": 226,
       "pdf_page_start": 219,
       "pdf_page_end": 233,
-      "impact_count": 1,
+      "impact_count": 2,
       "impact": [
         {
           "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3834",
@@ -731,10 +3330,42 @@
           "navigation_pdf_page": 231,
           "count": 4,
           "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4047",
+          "target_number": "43",
+          "title": "C43. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 8 · PDF p.245",
+          "part_number": "8",
+          "page_start": 238,
+          "page_end": 258,
+          "pdf_page_start": 245,
+          "pdf_page_end": 265,
+          "source_pdf_page": 219,
+          "target_pdf_page": 245,
+          "navigation_pdf_page": 245,
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
-      "referenced_by_count": 2,
+      "referenced_by_count": 3,
       "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 219,
+          "navigation_pdf_page": 8,
+          "count": 14,
+          "count_badge": "14×"
+        },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3751",
           "source_number": "37",
@@ -768,6 +3399,132 @@
           "count_badge": "8×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 36.3(A)",
+          "count": 9,
+          "count_badge": "9×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.8",
+          "count": 8,
+          "count_badge": "8×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.2(B)",
+          "count": 7,
+          "count_badge": "7×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.12(B)",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.3",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.2",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Conditions 36.1",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Conditions 36.7",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.12(A)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.2(B);",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.3(B),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.2(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.2(B))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 25,
       "defs_count": 0,
       "definitions": []
     },
@@ -832,23 +3589,23 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 2,
+      "referenced_by_count": 3,
       "referenced_by": [
         {
-          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3863",
-          "source_number": "41",
-          "title": "C41. ANNUAL COMPLIANCE REPORT AND AUDIT",
-          "subtitle": "Part 7 · PDF p.233",
-          "part_number": "7",
-          "page_start": 226,
-          "page_end": 240,
-          "pdf_page_start": 233,
-          "pdf_page_end": 247,
-          "source_pdf_page": 233,
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
           "target_pdf_page": 226,
-          "navigation_pdf_page": 233,
-          "count": 2,
-          "count_badge": "2×"
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
         },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3834",
@@ -863,10 +3620,38 @@
           "source_pdf_page": 231,
           "target_pdf_page": 226,
           "navigation_pdf_page": 231,
-          "count": 1,
-          "count_badge": "1×"
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3863",
+          "source_number": "41",
+          "title": "C41. ANNUAL COMPLIANCE REPORT AND AUDIT",
+          "subtitle": "Part 7 · PDF p.233",
+          "part_number": "7",
+          "page_start": 226,
+          "page_end": 240,
+          "pdf_page_start": 233,
+          "pdf_page_end": 247,
+          "source_pdf_page": 233,
+          "target_pdf_page": 226,
+          "navigation_pdf_page": 233,
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 37.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "37"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -901,6 +3686,42 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 38.1(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Condition 38.1(B)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Condition 38.1(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Condition 38.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        },
+        {
+          "citation": "Condition 38.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "38"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -916,8 +3737,59 @@
       "pdf_page_end": 238,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 230,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3863",
+          "source_number": "41",
+          "title": "C41. ANNUAL COMPLIANCE REPORT AND AUDIT",
+          "subtitle": "Part 7 · PDF p.233",
+          "part_number": "7",
+          "page_start": 226,
+          "page_end": 240,
+          "pdf_page_start": 233,
+          "pdf_page_end": 247,
+          "source_pdf_page": 233,
+          "target_pdf_page": 230,
+          "navigation_pdf_page": 233,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 39.3(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -946,11 +3818,11 @@
           "source_pdf_page": 231,
           "target_pdf_page": 226,
           "navigation_pdf_page": 226,
-          "count": 1,
-          "count_badge": "1×"
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3635",
@@ -967,8 +3839,60 @@
           "navigation_pdf_page": 219,
           "count": 4,
           "count_badge": "4×"
+        },
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 231,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 40.3",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -982,7 +3906,7 @@
       "page_end": 240,
       "pdf_page_start": 233,
       "pdf_page_end": 247,
-      "impact_count": 2,
+      "impact_count": 3,
       "impact": [
         {
           "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3635",
@@ -1013,12 +3937,147 @@
           "source_pdf_page": 233,
           "target_pdf_page": 226,
           "navigation_pdf_page": 226,
-          "count": 2,
-          "count_badge": "2×"
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3816",
+          "target_number": "39",
+          "title": "C39. PRODUCER UNDERTAKINGS: AFFILIATE OFFTAKER",
+          "subtitle": "Part 7 · PDF p.230",
+          "part_number": "7",
+          "page_start": 223,
+          "page_end": 231,
+          "pdf_page_start": 230,
+          "pdf_page_end": 238,
+          "source_pdf_page": 233,
+          "target_pdf_page": 230,
+          "navigation_pdf_page": 230,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 233,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "41.2",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.10(A)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.12",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Conditions 41.1",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.14",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.2",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.8(A),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "41.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.12(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.6(B)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.8(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.8(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Conditions 41.6 to 41.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        }
+      ],
+      "internal_count": 16,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 20,
       "defs_count": 0,
       "definitions": []
     },
@@ -1034,8 +4093,67 @@
       "pdf_page_end": 252,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 240,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 42.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "42.8(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        },
+        {
+          "citation": "Condition 42.2(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1051,7 +4169,7 @@
       "pdf_page_end": 265,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 2,
+      "referenced_by_count": 4,
       "referenced_by": [
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4273",
@@ -1070,6 +4188,38 @@
           "count_badge": "4×"
         },
         {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 245,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3635",
+          "source_number": "36",
+          "title": "C36. OFFTAKER CONFIRMATION PROCEDURE",
+          "subtitle": "Part 7 · PDF p.219",
+          "part_number": "7",
+          "page_start": 212,
+          "page_end": 226,
+          "pdf_page_start": 219,
+          "pdf_page_end": 233,
+          "source_pdf_page": 219,
+          "target_pdf_page": 245,
+          "navigation_pdf_page": 219,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:3751",
           "source_number": "37",
           "title": "C37. PRODUCER UNDERTAKINGS: OFFTAKER COMPLIANCE",
@@ -1086,6 +4236,132 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "43.12",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.15",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.20",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.11",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.14",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.22",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.30",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.6",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.10",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.19",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.21",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "43.23",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.10(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.10(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.23",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Conditions 43.18",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 24,
       "defs_count": 0,
       "definitions": []
     },
@@ -1118,8 +4394,37 @@
           "count_badge": "4×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 258,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 44.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1135,8 +4440,61 @@
       "pdf_page_end": 270,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 259,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 45.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1152,8 +4510,30 @@
       "pdf_page_end": 271,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 263,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1171,6 +4551,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 47.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "47"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1186,8 +4578,43 @@
       "pdf_page_end": 273,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 264,
+          "navigation_pdf_page": 8,
+          "count": 7,
+          "count_badge": "7×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 48.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        },
+        {
+          "citation": "Condition 48.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "48"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1203,8 +4630,125 @@
       "pdf_page_end": 277,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 266,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4454",
+          "source_number": "50",
+          "title": "C50. CHANGE IN APPLICABLE LAW: GENERAL PROVISIONS",
+          "subtitle": "Part 8 · PDF p.270",
+          "part_number": "8",
+          "page_start": 263,
+          "page_end": 270,
+          "pdf_page_start": 270,
+          "pdf_page_end": 277,
+          "source_pdf_page": 270,
+          "target_pdf_page": 266,
+          "navigation_pdf_page": 270,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "49.6(E)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "49.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "49.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "49.6(E)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "49.6(E)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.6(E)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.6(E)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Conditions 49.3(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Conditions 49.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        }
+      ],
+      "internal_count": 13,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 15,
       "defs_count": 0,
       "definitions": []
     },
@@ -1218,10 +4762,32 @@
       "page_end": 270,
       "pdf_page_start": 270,
       "pdf_page_end": 277,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4398",
+          "target_number": "49",
+          "title": "C49. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 8 · PDF p.266",
+          "part_number": "8",
+          "page_start": 259,
+          "page_end": 270,
+          "pdf_page_start": 266,
+          "pdf_page_end": 277,
+          "source_pdf_page": 270,
+          "target_pdf_page": 266,
+          "navigation_pdf_page": 266,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1237,8 +4803,37 @@
       "pdf_page_end": 279,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 270,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 51.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1271,8 +4866,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 273,
+          "navigation_pdf_page": 8,
+          "count": 26,
+          "count_badge": "26×"
+        },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4686",
           "source_number": "53",
@@ -1290,6 +4901,132 @@
           "count_badge": "17×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 52.11",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.13",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.13(C)(i)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.14(B),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.12(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.12(B)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.12(C)(iii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.13(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.9(A)(i),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Conditions 52.14(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Conditions 52.9 to 52.20",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.12(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.12(C)(iii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.14(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.9(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "52.9(A)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 23,
       "defs_count": 0,
       "definitions": []
     },
@@ -1322,8 +5059,24 @@
           "count_badge": "17×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 287,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4491",
           "source_number": "52",
@@ -1341,6 +5094,60 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 53.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Conditions 53.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "53.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "53.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Conditions 53.3 to 53.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1356,8 +5163,56 @@
       "pdf_page_end": 300,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 291,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "54.1(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Conditions 54.1(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Insolvency Act 1986",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1392,6 +5247,11 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1409,6 +5269,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1424,8 +5289,24 @@
       "pdf_page_end": 306,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 295,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4776",
           "source_number": "55",
@@ -1443,6 +5324,48 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 57.12(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.12(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -1477,6 +5400,60 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 58.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "Condition 58.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "58.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "Condition 58.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "Condition 58.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "Condition 58.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "Condition 58.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        },
+        {
+          "citation": "Conditions 58.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "58"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -1492,8 +5469,24 @@
       "pdf_page_end": 308,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 301,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4900",
           "source_number": "60",
@@ -1511,6 +5504,18 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 59.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1524,8 +5529,24 @@
       "page_end": 305,
       "pdf_page_start": 302,
       "pdf_page_end": 312,
-      "impact_count": 3,
+      "impact_count": 5,
       "impact": [
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5055",
+          "target_number": "69",
+          "title": "C69. PAYMENT DISRUPTION EVENT",
+          "subtitle": "Part 12 · PDF p.312",
+          "part_number": "12",
+          "page_start": 305,
+          "page_end": 313,
+          "pdf_page_start": 312,
+          "pdf_page_end": 320,
+          "source_pdf_page": 302,
+          "target_pdf_page": 312,
+          "navigation_pdf_page": 312,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4856",
           "target_number": "58",
@@ -1573,10 +5594,74 @@
           "navigation_pdf_page": 309,
           "count": 1,
           "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5035",
+          "target_number": "66",
+          "title": "C66. NO WAIVER",
+          "subtitle": "Part 12 · PDF p.311",
+          "part_number": "12",
+          "page_start": 304,
+          "page_end": 312,
+          "pdf_page_start": 311,
+          "pdf_page_end": 319,
+          "source_pdf_page": 302,
+          "target_pdf_page": 311,
+          "navigation_pdf_page": 311,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 302,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 60.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.5(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.5(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Arbitration Act 1996",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -1592,8 +5677,44 @@
       "pdf_page_end": 313,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 305,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 61.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1611,6 +5732,55 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 62.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -1628,6 +5798,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 63.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "63"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1645,6 +5827,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1679,6 +5866,43 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 65.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "65"
+        },
+        {
+          "citation": "Condition 65.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "65"
+        },
+        {
+          "citation": "Condition 65.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "65"
+        },
+        {
+          "citation": "Condition 65.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "65"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "NZHF Grant Funding Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1694,8 +5918,30 @@
       "pdf_page_end": 319,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4900",
+          "source_number": "60",
+          "title": "C60. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 11 · PDF p.302",
+          "part_number": "11",
+          "page_start": 295,
+          "page_end": 305,
+          "pdf_page_start": 302,
+          "pdf_page_end": 312,
+          "source_pdf_page": 302,
+          "target_pdf_page": 311,
+          "navigation_pdf_page": 302,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1713,6 +5959,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1730,6 +5981,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1745,8 +6001,59 @@
       "pdf_page_end": 320,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 312,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:4900",
+          "source_number": "60",
+          "title": "C60. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 11 · PDF p.302",
+          "part_number": "11",
+          "page_start": 295,
+          "page_end": 305,
+          "pdf_page_start": 302,
+          "pdf_page_end": 312,
+          "source_pdf_page": 302,
+          "target_pdf_page": 312,
+          "navigation_pdf_page": 302,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 69.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1762,8 +6069,55 @@
       "pdf_page_end": 322,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 313,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "70.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "70"
+        },
+        {
+          "citation": "Condition 70.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "70"
+        },
+        {
+          "citation": "Condition 70.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "70"
+        },
+        {
+          "citation": "Condition 70.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "70"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1781,6 +6135,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1798,6 +6157,73 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 72.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "72.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Condition 72.7(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Conditions 72.2 to 72.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        },
+        {
+          "citation": "Conditions 72.2 to 72.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "72"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [
+        {
+          "name": "EA 2023",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -1811,10 +6237,223 @@
       "page_end": 323,
       "pdf_page_start": 318,
       "pdf_page_end": 330,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 2,
+      "impact": [
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5203",
+          "target_number": "74",
+          "title": "C74. ANNOUNCEMENTS",
+          "subtitle": "Part 13 · PDF p.323",
+          "part_number": "13",
+          "page_start": 316,
+          "page_end": 325,
+          "pdf_page_start": 323,
+          "pdf_page_end": 332,
+          "source_pdf_page": 318,
+          "target_pdf_page": 323,
+          "navigation_pdf_page": 323,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5234",
+          "target_number": "75",
+          "title": "C75. FREEDOM OF INFORMATION",
+          "subtitle": "Part 13 · PDF p.325",
+          "part_number": "13",
+          "page_start": 318,
+          "page_end": 327,
+          "pdf_page_start": 325,
+          "pdf_page_end": 334,
+          "source_pdf_page": 318,
+          "target_pdf_page": 325,
+          "navigation_pdf_page": 325,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 318,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 73.2",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.4",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.7",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.8(A)(iii),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(D),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.8(A)(iv)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.8(A)(v)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.3(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(E),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(F)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.3(G),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.8(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "73.8(A)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73 ( Confidentiality ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.3(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        },
+        {
+          "citation": "Condition 73.3(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "73"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "EA 2023",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Financial Services and Markets Act 2000",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "CJA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "FoIA",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "National Audit Act 1983",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 6,
+      "total_links": 29,
       "defs_count": 0,
       "definitions": []
     },
@@ -1830,8 +6469,49 @@
       "pdf_page_end": 332,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5129",
+          "source_number": "73",
+          "title": "C73. CONFIDENTIALITY",
+          "subtitle": "Part 13 · PDF p.318",
+          "part_number": "13",
+          "page_start": 311,
+          "page_end": 323,
+          "pdf_page_start": 318,
+          "pdf_page_end": 330,
+          "source_pdf_page": 318,
+          "target_pdf_page": 323,
+          "navigation_pdf_page": 318,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 74.1 ( No Announcements )",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        },
+        {
+          "citation": "Condition 74.1(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        },
+        {
+          "citation": "Condition 74.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1847,8 +6527,62 @@
       "pdf_page_end": 334,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:5129",
+          "source_number": "73",
+          "title": "C73. CONFIDENTIALITY",
+          "subtitle": "Part 13 · PDF p.318",
+          "part_number": "13",
+          "page_start": 311,
+          "page_end": 323,
+          "pdf_page_start": 318,
+          "pdf_page_end": 330,
+          "source_pdf_page": 318,
+          "target_pdf_page": 325,
+          "navigation_pdf_page": 318,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 75.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        },
+        {
+          "citation": "Condition 75.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "75"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "FoIA",
+          "type": "Other",
+          "count": 9,
+          "count_badge": "9×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 8,
+          "count_badge": "8×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1866,6 +6600,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 76.2",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "76"
+        },
+        {
+          "citation": "Condition 76.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "76"
+        },
+        {
+          "citation": "Condition 76.3(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "76"
+        },
+        {
+          "citation": "Condition 76.3(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "76"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1883,6 +6647,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1900,6 +6669,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1917,6 +6691,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1934,6 +6713,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1949,8 +6733,74 @@
       "pdf_page_end": 341,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 330,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 81.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "Condition 81.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "81.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "81.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "Condition 81.1 ( Restriction on Transfer ),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        },
+        {
+          "citation": "Condition 81.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "81"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "Companies Act 2006",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -1968,6 +6818,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Electronic Communications Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1985,6 +6853,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 83.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "83"
+        },
+        {
+          "citation": "Condition 83.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "83"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -2002,6 +6888,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -2017,8 +6915,43 @@
       "pdf_page_end": 343,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "low_carbon_hydrogen_agreement_standard_terms_and_conditions:2.0:24",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 108,
+          "pdf_page_start": 8,
+          "pdf_page_end": 115,
+          "source_pdf_page": 8,
+          "target_pdf_page": 336,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "C(RTP) Act",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -2036,6 +6969,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 86.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "86"
+        },
+        {
+          "citation": "Condition 86.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "86"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -2053,6 +7004,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2070,6 +7026,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2087,6 +7048,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Civil Procedure Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -2104,6 +7077,25 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 90.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "90"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCHA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     }

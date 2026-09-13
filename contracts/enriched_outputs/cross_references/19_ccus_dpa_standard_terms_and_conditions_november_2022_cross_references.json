@@ -1,12 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "document_key": 19,
   "document_id": "ccus_dpa_standard_terms_and_conditions_november_2022",
   "source_enricher_file": "ccus-dpa-standard-terms-and-conditions-november-2022_stacked_enriched.json",
   "raw_crossreference_count": 594,
-  "resolved_crossreference_count": 35,
-  "unresolved_target_count": 20,
-  "unresolved_source_count": 7,
+  "resolved_crossreference_count": 234,
+  "unresolved_target_count": 0,
+  "unresolved_source_count": 0,
   "conditions": {
     "1": {
       "condition_number": "1",
@@ -18,10 +18,782 @@
       "page_end": 86,
       "pdf_page_start": 8,
       "pdf_page_end": 93,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 41,
+      "impact": [
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1511",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT",
+          "subtitle": "Part 3 · PDF p.88",
+          "part_number": "3",
+          "page_start": 81,
+          "page_end": 99,
+          "pdf_page_start": 88,
+          "pdf_page_end": 106,
+          "source_pdf_page": 8,
+          "target_pdf_page": 88,
+          "navigation_pdf_page": 88,
+          "count": 15,
+          "count_badge": "15×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3193",
+          "target_number": "35",
+          "title": "C35. TERMINATION",
+          "subtitle": "Part 9 · PDF p.193",
+          "part_number": "9",
+          "page_start": 186,
+          "page_end": 205,
+          "pdf_page_start": 193,
+          "pdf_page_end": 212,
+          "source_pdf_page": 8,
+          "target_pdf_page": 193,
+          "navigation_pdf_page": 193,
+          "count": 15,
+          "count_badge": "15×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1955",
+          "target_number": "10",
+          "title": "C10. VARIABLE PAYMENT CALCULATION",
+          "subtitle": "Part 5 · PDF p.116",
+          "part_number": "5",
+          "page_start": 109,
+          "page_end": 120,
+          "pdf_page_start": 116,
+          "pdf_page_end": 127,
+          "source_pdf_page": 8,
+          "target_pdf_page": 116,
+          "navigation_pdf_page": 116,
+          "count": 14,
+          "count_badge": "14×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2508",
+          "target_number": "23",
+          "title": "C23. GENERATOR UNDERTAKING: DECLARATION OBLIGATIONS",
+          "subtitle": "Part 7 · PDF p.147",
+          "part_number": "7",
+          "page_start": 140,
+          "page_end": 152,
+          "pdf_page_start": 147,
+          "pdf_page_end": 159,
+          "source_pdf_page": 8,
+          "target_pdf_page": 147,
+          "navigation_pdf_page": 147,
+          "count": 11,
+          "count_badge": "11×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2347",
+          "target_number": "21",
+          "title": "C21. GENERATOR UNDERTAKINGS: METERING",
+          "subtitle": "Part 7 · PDF p.138",
+          "part_number": "7",
+          "page_start": 131,
+          "page_end": 144,
+          "pdf_page_start": 138,
+          "pdf_page_end": 151,
+          "source_pdf_page": 8,
+          "target_pdf_page": 138,
+          "navigation_pdf_page": 138,
+          "count": 10,
+          "count_badge": "10×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3096",
+          "target_number": "32",
+          "title": "C32. CHANGE IN APPLICABLE LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.186",
+          "part_number": "8",
+          "page_start": 179,
+          "page_end": 188,
+          "pdf_page_start": 186,
+          "pdf_page_end": 195,
+          "source_pdf_page": 8,
+          "target_pdf_page": 186,
+          "navigation_pdf_page": 186,
+          "count": 9,
+          "count_badge": "9×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2038",
+          "target_number": "12",
+          "title": "C12. BILLING STATEMENTS",
+          "subtitle": "Part 6 · PDF p.121",
+          "part_number": "6",
+          "page_start": 114,
+          "page_end": 129,
+          "pdf_page_start": 121,
+          "pdf_page_end": 136,
+          "source_pdf_page": 8,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 121,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2459",
+          "target_number": "22",
+          "title": "C22. GENERATOR UNDERTAKING: MINIMUM CO2 CAPTURE RATE",
+          "subtitle": "Part 7 · PDF p.144",
+          "part_number": "7",
+          "page_start": 137,
+          "page_end": 147,
+          "pdf_page_start": 144,
+          "pdf_page_end": 154,
+          "source_pdf_page": 8,
+          "target_pdf_page": 144,
+          "navigation_pdf_page": 144,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3031",
+          "target_number": "29",
+          "title": "C29. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.182",
+          "part_number": "8",
+          "page_start": 175,
+          "page_end": 185,
+          "pdf_page_start": 182,
+          "pdf_page_end": 192,
+          "source_pdf_page": 8,
+          "target_pdf_page": 182,
+          "navigation_pdf_page": 182,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1806",
+          "target_number": "7",
+          "title": "C7. ADJUSTMENTS TO THE NET DEPENDABLE CAPACITY: ANNUAL NDC TEST",
+          "subtitle": "Part 4 · PDF p.106",
+          "part_number": "4",
+          "page_start": 99,
+          "page_end": 109,
+          "pdf_page_start": 106,
+          "pdf_page_end": 116,
+          "source_pdf_page": 8,
+          "target_pdf_page": 106,
+          "navigation_pdf_page": 106,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1855",
+          "target_number": "8",
+          "title": "C8. DEFINITIONS: PART 5",
+          "subtitle": "Part 5 · PDF p.110",
+          "part_number": "5",
+          "page_start": 103,
+          "page_end": 111,
+          "pdf_page_start": 110,
+          "pdf_page_end": 118,
+          "source_pdf_page": 8,
+          "target_pdf_page": 110,
+          "navigation_pdf_page": 110,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1879",
+          "target_number": "9",
+          "title": "C9. AVAILABILITY PAYMENT CALCULATION",
+          "subtitle": "Part 5 · PDF p.111",
+          "part_number": "5",
+          "page_start": 104,
+          "page_end": 116,
+          "pdf_page_start": 111,
+          "pdf_page_end": 123,
+          "source_pdf_page": 8,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 111,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2722",
+          "target_number": "26",
+          "title": "C26. QUALIFYING CHANGE IN LAW: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.161",
+          "part_number": "8",
+          "page_start": 154,
+          "page_end": 166,
+          "pdf_page_start": 161,
+          "pdf_page_end": 173,
+          "source_pdf_page": 8,
+          "target_pdf_page": 161,
+          "navigation_pdf_page": 161,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3687",
+          "target_number": "51",
+          "title": "C51. FORCE MAJEURE",
+          "subtitle": "Part 11 · PDF p.225",
+          "part_number": "11",
+          "page_start": 218,
+          "page_end": 226,
+          "pdf_page_start": 225,
+          "pdf_page_end": 233,
+          "source_pdf_page": 8,
+          "target_pdf_page": 225,
+          "navigation_pdf_page": 225,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3132",
+          "target_number": "33",
+          "title": "C33. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 8 · PDF p.188",
+          "part_number": "8",
+          "page_start": 181,
+          "page_end": 191,
+          "pdf_page_start": 188,
+          "pdf_page_end": 198,
+          "source_pdf_page": 8,
+          "target_pdf_page": 188,
+          "navigation_pdf_page": 188,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1743",
+          "target_number": "5",
+          "title": "C5. ADJUSTMENT TO NET DEPENDABLE CAPACITY ESTIMATE: PERMITTED REDUCTION",
+          "subtitle": "Part 4 · PDF p.102",
+          "part_number": "4",
+          "page_start": 95,
+          "page_end": 103,
+          "pdf_page_start": 102,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 102,
+          "navigation_pdf_page": 102,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1758",
+          "target_number": "6",
+          "title": "C6. LONGSTOP DATE CAPACITY NOTICE",
+          "subtitle": "Part 4 · PDF p.103",
+          "part_number": "4",
+          "page_start": 96,
+          "page_end": 106,
+          "pdf_page_start": 103,
+          "pdf_page_end": 113,
+          "source_pdf_page": 8,
+          "target_pdf_page": 103,
+          "navigation_pdf_page": 103,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2692",
+          "target_number": "25",
+          "title": "C25. GENERATOR UNDERTAKING: SUPPLY CHAIN REPORTING",
+          "subtitle": "Part 7 · PDF p.158",
+          "part_number": "7",
+          "page_start": 151,
+          "page_end": 160,
+          "pdf_page_start": 158,
+          "pdf_page_end": 167,
+          "source_pdf_page": 8,
+          "target_pdf_page": 158,
+          "navigation_pdf_page": 158,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2813",
+          "target_number": "27",
+          "title": "C27. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 8 · PDF p.166",
+          "part_number": "8",
+          "page_start": 159,
+          "page_end": 180,
+          "pdf_page_start": 166,
+          "pdf_page_end": 187,
+          "source_pdf_page": 8,
+          "target_pdf_page": 166,
+          "navigation_pdf_page": 166,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1705",
+          "target_number": "4",
+          "title": "C4. MILESTONE REQUIREMENT",
+          "subtitle": "Part 3 · PDF p.99",
+          "part_number": "3",
+          "page_start": 92,
+          "page_end": 102,
+          "pdf_page_start": 99,
+          "pdf_page_end": 109,
+          "source_pdf_page": 8,
+          "target_pdf_page": 99,
+          "navigation_pdf_page": 99,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3499",
+          "target_number": "40",
+          "title": "C40. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 10 · PDF p.213",
+          "part_number": "10",
+          "page_start": 206,
+          "page_end": 213,
+          "pdf_page_start": 213,
+          "pdf_page_end": 220,
+          "source_pdf_page": 8,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 213,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2201",
+          "target_number": "13",
+          "title": "C13. SETTLEMENT",
+          "subtitle": "Part 6 · PDF p.129",
+          "part_number": "6",
+          "page_start": 122,
+          "page_end": 132,
+          "pdf_page_start": 129,
+          "pdf_page_end": 139,
+          "source_pdf_page": 8,
+          "target_pdf_page": 129,
+          "navigation_pdf_page": 129,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2276",
+          "target_number": "18",
+          "title": "C18. GENERATOR REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.134",
+          "part_number": "7",
+          "page_start": 127,
+          "page_end": 136,
+          "pdf_page_start": 134,
+          "pdf_page_end": 143,
+          "source_pdf_page": 8,
+          "target_pdf_page": 134,
+          "navigation_pdf_page": 134,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1492",
+          "target_number": "2",
+          "title": "C2. TERM",
+          "subtitle": "Part 2 · PDF p.87",
+          "part_number": "2",
+          "page_start": 80,
+          "page_end": 87,
+          "pdf_page_start": 87,
+          "pdf_page_end": 94,
+          "source_pdf_page": 8,
+          "target_pdf_page": 87,
+          "navigation_pdf_page": 87,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2578",
+          "target_number": "24",
+          "title": "C24. GENERATOR UNDERTAKINGS: INFORMATION PROVISION AND NO CUMULATION OF SUBSIDY, STATE AID AND/OR UNION FUNDING",
+          "subtitle": "Part 7 · PDF p.152",
+          "part_number": "7",
+          "page_start": 145,
+          "page_end": 158,
+          "pdf_page_start": 152,
+          "pdf_page_end": 165,
+          "source_pdf_page": 8,
+          "target_pdf_page": 152,
+          "navigation_pdf_page": 152,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3381",
+          "target_number": "36",
+          "title": "C36. CONSEQUENCES OF TERMINATION",
+          "subtitle": "Part 9 · PDF p.205",
+          "part_number": "9",
+          "page_start": 198,
+          "page_end": 209,
+          "pdf_page_start": 205,
+          "pdf_page_end": 216,
+          "source_pdf_page": 8,
+          "target_pdf_page": 205,
+          "navigation_pdf_page": 205,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3510",
+          "target_number": "41",
+          "title": "C41. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 10 · PDF p.213",
+          "part_number": "10",
+          "page_start": 206,
+          "page_end": 217,
+          "pdf_page_start": 213,
+          "pdf_page_end": 224,
+          "source_pdf_page": 8,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 213,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3564",
+          "target_number": "42",
+          "title": "C42. ARBITRATION PROCEDURE",
+          "subtitle": "Part 10 · PDF p.217",
+          "part_number": "10",
+          "page_start": 210,
+          "page_end": 217,
+          "pdf_page_start": 217,
+          "pdf_page_end": 224,
+          "source_pdf_page": 8,
+          "target_pdf_page": 217,
+          "navigation_pdf_page": 217,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2254",
+          "target_number": "14",
+          "title": "C14. DEFAULT INTEREST",
+          "subtitle": "Part 6 · PDF p.132",
+          "part_number": "6",
+          "page_start": 125,
+          "page_end": 133,
+          "pdf_page_start": 132,
+          "pdf_page_end": 140,
+          "source_pdf_page": 8,
+          "target_pdf_page": 132,
+          "navigation_pdf_page": 132,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2265",
+          "target_number": "15",
+          "title": "C15. SET-OFF",
+          "subtitle": "Part 6 · PDF p.133",
+          "part_number": "6",
+          "page_start": 126,
+          "page_end": 133,
+          "pdf_page_start": 133,
+          "pdf_page_end": 140,
+          "source_pdf_page": 8,
+          "target_pdf_page": 133,
+          "navigation_pdf_page": 133,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2267",
+          "target_number": "16",
+          "title": "C16. DEDUCTIONS AND WITHHOLDINGS",
+          "subtitle": "Part 6 · PDF p.133",
+          "part_number": "6",
+          "page_start": 126,
+          "page_end": 133,
+          "pdf_page_start": 133,
+          "pdf_page_end": 140,
+          "source_pdf_page": 8,
+          "target_pdf_page": 133,
+          "navigation_pdf_page": 133,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2269",
+          "target_number": "17",
+          "title": "C17. PAYMENT ACCOUNTS",
+          "subtitle": "Part 6 · PDF p.133",
+          "part_number": "6",
+          "page_start": 126,
+          "page_end": 134,
+          "pdf_page_start": 133,
+          "pdf_page_end": 141,
+          "source_pdf_page": 8,
+          "target_pdf_page": 133,
+          "navigation_pdf_page": 133,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2312",
+          "target_number": "19",
+          "title": "C19. DPA COUNTERPARTY REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 7 · PDF p.136",
+          "part_number": "7",
+          "page_start": 129,
+          "page_end": 136,
+          "pdf_page_start": 136,
+          "pdf_page_end": 143,
+          "source_pdf_page": 8,
+          "target_pdf_page": 136,
+          "navigation_pdf_page": 136,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2327",
+          "target_number": "20",
+          "title": "C20. GENERATOR UNDERTAKINGS: GENERAL",
+          "subtitle": "Part 7 · PDF p.137",
+          "part_number": "7",
+          "page_start": 130,
+          "page_end": 138,
+          "pdf_page_start": 137,
+          "pdf_page_end": 145,
+          "source_pdf_page": 8,
+          "target_pdf_page": 137,
+          "navigation_pdf_page": 137,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3078",
+          "target_number": "30",
+          "title": "C30. QUALIFYING SHUTDOWN EVENT: PROCEDURE",
+          "subtitle": "Part 8 · PDF p.185",
+          "part_number": "8",
+          "page_start": 178,
+          "page_end": 186,
+          "pdf_page_start": 185,
+          "pdf_page_end": 193,
+          "source_pdf_page": 8,
+          "target_pdf_page": 185,
+          "navigation_pdf_page": 185,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3467",
+          "target_number": "39",
+          "title": "C39. DISPUTE RESOLUTION PROCEDURE: GENERAL PROVISIONS",
+          "subtitle": "Part 10 · PDF p.211",
+          "part_number": "10",
+          "page_start": 204,
+          "page_end": 213,
+          "pdf_page_start": 211,
+          "pdf_page_end": 220,
+          "source_pdf_page": 8,
+          "target_pdf_page": 211,
+          "navigation_pdf_page": 211,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3576",
+          "target_number": "43",
+          "title": "C43. CONSOLIDATION OF CONNECTED DISPUTES",
+          "subtitle": "Part 10 · PDF p.218",
+          "part_number": "10",
+          "page_start": 211,
+          "page_end": 219,
+          "pdf_page_start": 218,
+          "pdf_page_end": 226,
+          "source_pdf_page": 8,
+          "target_pdf_page": 218,
+          "navigation_pdf_page": 218,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3608",
+          "target_number": "45",
+          "title": "C45. METERING DISPUTES",
+          "subtitle": "Part 10 · PDF p.220",
+          "part_number": "10",
+          "page_start": 213,
+          "page_end": 221,
+          "pdf_page_start": 220,
+          "pdf_page_end": 228,
+          "source_pdf_page": 8,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 220,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3922",
+          "target_number": "61",
+          "title": "C61. TRANSFERS",
+          "subtitle": "Part 13 · PDF p.240",
+          "part_number": "13",
+          "page_start": 233,
+          "page_end": 244,
+          "pdf_page_start": 240,
+          "pdf_page_end": 251,
+          "source_pdf_page": 8,
+          "target_pdf_page": 240,
+          "navigation_pdf_page": 240,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:4023",
+          "target_number": "65",
+          "title": "C65. THIRD PARTY RIGHTS",
+          "subtitle": "Part 13 · PDF p.246",
+          "part_number": "13",
+          "page_start": 239,
+          "page_end": 246,
+          "pdf_page_start": 246,
+          "pdf_page_end": 253,
+          "source_pdf_page": 8,
+          "target_pdf_page": 246,
+          "navigation_pdf_page": 246,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:4044",
+          "target_number": "69",
+          "title": "C69. AGENT FOR SERVICE OF PROCESS",
+          "subtitle": "Part 13 · PDF p.247",
+          "part_number": "13",
+          "page_start": 240,
+          "page_end": 247,
+          "pdf_page_start": 247,
+          "pdf_page_end": 254,
+          "source_pdf_page": 8,
+          "target_pdf_page": 247,
+          "navigation_pdf_page": 247,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "1.3(A)(ii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.4(A)(vi)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 9.13 ( APR Indexation Adjustment );",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "ASME-PTC-4.4",
+          "type": "Other",
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "name": "Joint Environmental Programme, Guidance for the Monitoring and Reporting of CO ₂ Emissions from Power Stations, EU ETS Phase 2",
+          "type": "Other",
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "name": "Companies Act 2006",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Electricity Act 1989",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "EU(W)A 2018",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Electricity Distribution Licence",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Electricity Transmission Licence",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Civil Procedure Rules 1998",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts (Rights of Third Parties) Act 1999",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts for Difference (Allocation) Regulations 2014 (as at the Agreement Date);",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts for Difference (Definition of Eligible Generator) Regulations 2014 (as amended);",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Criminal Justice Act 1993",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 15,
+      "total_links": 59,
       "defs_count": 0,
       "definitions": []
     },
@@ -37,8 +809,37 @@
       "pdf_page_end": 94,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 87,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 2.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -54,8 +855,151 @@
       "pdf_page_end": 106,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 88,
+          "navigation_pdf_page": 8,
+          "count": 15,
+          "count_badge": "15×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 3.30(A)(ii),",
+          "count": 7,
+          "count_badge": "7×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.50",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.40",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.50",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Conditions 3.28",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.22",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.17",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26(C).",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.30(A)(i),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33(B)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.25",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "3.45(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.14(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.28",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.30",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.30(A)(i).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.37",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.37 ( Relief due to T&S Commissioning Delay Event );",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.38",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 21,
       "defs_count": 0,
       "definitions": []
     },
@@ -71,8 +1015,55 @@
       "pdf_page_end": 109,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 99,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 4.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.1(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -88,8 +1079,37 @@
       "pdf_page_end": 110,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 102,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 5.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "5"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -105,8 +1125,49 @@
       "pdf_page_end": 113,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 103,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 6.4(B)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.4(B):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -122,8 +1183,79 @@
       "pdf_page_end": 116,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 106,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 7.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.5(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "Condition 7.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        },
+        {
+          "citation": "limbs (A) to (E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "7"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -137,10 +1269,49 @@
       "page_end": 111,
       "pdf_page_start": 110,
       "pdf_page_end": 118,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1879",
+          "target_number": "9",
+          "title": "C9. AVAILABILITY PAYMENT CALCULATION",
+          "subtitle": "Part 5 · PDF p.111",
+          "part_number": "5",
+          "page_start": 104,
+          "page_end": 116,
+          "pdf_page_start": 111,
+          "pdf_page_end": 123,
+          "source_pdf_page": 110,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 111,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 110,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -156,8 +1327,71 @@
       "pdf_page_end": 123,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:1855",
+          "source_number": "8",
+          "title": "C8. DEFINITIONS: PART 5",
+          "subtitle": "Part 5 · PDF p.110",
+          "part_number": "5",
+          "page_start": 103,
+          "page_end": 111,
+          "pdf_page_start": 110,
+          "pdf_page_end": 118,
+          "source_pdf_page": 110,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 110,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "9.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "9.9(C)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.3(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        },
+        {
+          "citation": "Condition 9.9(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -173,8 +1407,86 @@
       "pdf_page_end": 127,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 116,
+          "navigation_pdf_page": 8,
+          "count": 14,
+          "count_badge": "14×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 10.10",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Condition 10.5",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Condition 10.4(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Condition 10.9(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "10.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Condition 10.4(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        },
+        {
+          "citation": "Condition 10.9(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "10"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "Annex 6 ( Gas Reference Price Review ).",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Annex 7 ( Carbon Market Reference Price Review ).",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -209,6 +1521,24 @@
           "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 11.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "11"
+        },
+        {
+          "citation": "Condition 11.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "11"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -241,8 +1571,24 @@
           "count_badge": "3×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 121,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2254",
           "source_number": "14",
@@ -260,6 +1606,30 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 11.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -275,8 +1645,92 @@
       "pdf_page_end": 139,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 129,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 13.4",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "13.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "13.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition (A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition (A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.6(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 17(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [
+        {
+          "name": "BSC",
+          "type": "Other",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -309,8 +1763,50 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 132,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "14.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        },
+        {
+          "citation": "Condition 14.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Late Payment of Commercial Debts (Interest) Act 1988",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -326,8 +1822,37 @@
       "pdf_page_end": 140,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 133,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -343,8 +1868,30 @@
       "pdf_page_end": 140,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 133,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -360,8 +1907,30 @@
       "pdf_page_end": 141,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 133,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -377,8 +1946,30 @@
       "pdf_page_end": 143,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 134,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -394,8 +1985,37 @@
       "pdf_page_end": 143,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 136,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Conditions 19.1(A) to 19.1(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -411,8 +2031,55 @@
       "pdf_page_end": 145,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 137,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 20.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(F)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(F)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -428,8 +2095,127 @@
       "pdf_page_end": 151,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 138,
+          "navigation_pdf_page": 8,
+          "count": 10,
+          "count_badge": "10×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 21.7",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.15",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.17",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "21.17(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "21.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.11(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.17(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.19",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.20",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.24",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.5(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.5(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.6(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.6(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        }
+      ],
+      "internal_count": 16,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 17,
       "defs_count": 0,
       "definitions": []
     },
@@ -445,8 +2231,103 @@
       "pdf_page_end": 154,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 144,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 22.10",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.3(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.5(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.5(B)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.5(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.5(B)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.5(B)(iv)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.8(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        }
+      ],
+      "internal_count": 12,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -462,8 +2343,24 @@
       "pdf_page_end": 159,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 147,
+          "navigation_pdf_page": 8,
+          "count": 11,
+          "count_badge": "11×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:2578",
           "source_number": "24",
@@ -481,6 +2378,114 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 23.9",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "23.1(B),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "23.1(C),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "23.1(D)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "23.1(E)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1(A),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "23.1(F)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Conditions 23.1(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        }
+      ],
+      "internal_count": 17,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 19,
       "defs_count": 0,
       "definitions": []
     },
@@ -513,8 +2518,158 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 152,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 24.11",
+          "count": 7,
+          "count_badge": "7×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.6",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.9",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "24.15",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.12",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.15",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.4(A)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.5(B)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.5(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "24.4(A)(ii));",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "24.4(A)(ii).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.1(D),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.1(D).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.11 ( Subsidy Interest ))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.13(C).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 23,
       "defs_count": 0,
       "definitions": []
     },
@@ -530,8 +2685,49 @@
       "pdf_page_end": 167,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 158,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 25.5(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "25"
+        },
+        {
+          "citation": "Condition 25.5(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "25"
+        },
+        {
+          "citation": "Condition 25.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "25"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -547,8 +2743,97 @@
       "pdf_page_end": 173,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 161,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 26.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Condition 26.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "26.2(C)(iii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "26.2(C)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "26.8(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "26.8(D)(iii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "26.8(D)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Condition 26.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Condition 26.2(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Conditions 26.2(C)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Conditions 26.8(D)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        }
+      ],
+      "internal_count": 11,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 12,
       "defs_count": 0,
       "definitions": []
     },
@@ -564,8 +2849,24 @@
       "pdf_page_end": 187,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 166,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3012",
           "source_number": "28",
@@ -583,6 +2884,132 @@
           "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "27.14",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.17",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.16",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.24",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.12",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.15",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.12(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.12(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.22",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.25",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.28",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.32",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Conditions 27.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.10(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.14 (as applicable) or as daily payments in accordance with Condition 27.16 or 27.17 (as applicable); and",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "27.32",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "27"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 22,
       "defs_count": 0,
       "definitions": []
     },
@@ -617,6 +3044,18 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 28.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -630,10 +3069,43 @@
       "page_end": 185,
       "pdf_page_start": 182,
       "pdf_page_end": 192,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 1,
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3091",
+          "target_number": "31",
+          "title": "C31. CHANGES IN LAW: GENERAL PROVISIONS",
+          "subtitle": "Part 8 · PDF p.186",
+          "part_number": "8",
+          "page_start": 179,
+          "page_end": 186,
+          "pdf_page_start": 186,
+          "pdf_page_end": 193,
+          "source_pdf_page": 182,
+          "target_pdf_page": 186,
+          "navigation_pdf_page": 186,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 182,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3193",
           "source_number": "35",
@@ -651,6 +3123,42 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 29.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -666,8 +3174,30 @@
       "pdf_page_end": 193,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 185,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -683,8 +3213,37 @@
       "pdf_page_end": 193,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3031",
+          "source_number": "29",
+          "title": "C29. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 8 · PDF p.182",
+          "part_number": "8",
+          "page_start": 175,
+          "page_end": 185,
+          "pdf_page_start": 182,
+          "pdf_page_end": 192,
+          "source_pdf_page": 182,
+          "target_pdf_page": 186,
+          "navigation_pdf_page": 182,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 31.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "31"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -700,8 +3259,43 @@
       "pdf_page_end": 195,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 186,
+          "navigation_pdf_page": 8,
+          "count": 9,
+          "count_badge": "9×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 32.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        },
+        {
+          "citation": "Condition 32.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -717,8 +3311,121 @@
       "pdf_page_end": 198,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 188,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "33.6(E)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.6(E)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "33.6(E)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.6(E)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.6(E)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Conditions 33.3(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Conditions 33.3(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Conditions 33.6(E)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        }
+      ],
+      "internal_count": 15,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 16,
       "defs_count": 0,
       "definitions": []
     },
@@ -736,6 +3443,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -784,8 +3496,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 193,
+          "navigation_pdf_page": 8,
+          "count": 15,
+          "count_badge": "15×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3381",
           "source_number": "36",
@@ -803,6 +3531,132 @@
           "count_badge": "15×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 35.11",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.13",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.13(B)(iv)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Conditions 35.9 to 35.20",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "35.12(B)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "35.12(C)(iii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "35.9(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "35.9(A)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.1(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(A)(iii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(B)(ii)(a)(aa):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(B)(ii)(a)(bb):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(B)(ii)(a)(dd):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        },
+        {
+          "citation": "Condition 35.12(B)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 24,
       "defs_count": 0,
       "definitions": []
     },
@@ -835,8 +3689,24 @@
           "count_badge": "15×"
         }
       ],
-      "referenced_by_count": 2,
+      "referenced_by_count": 3,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 205,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3193",
           "source_number": "35",
@@ -870,6 +3740,78 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 36.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "36.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Conditions 36.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Conditions 36.1, 36.9 and 36.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        }
+      ],
+      "internal_count": 11,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 15,
       "defs_count": 0,
       "definitions": []
     },
@@ -887,6 +3829,37 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "37.1(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Conditions 37.1(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "37"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Insolvency Act 1986",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -904,6 +3877,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -917,8 +3895,24 @@
       "page_end": 213,
       "pdf_page_start": 211,
       "pdf_page_end": 220,
-      "impact_count": 2,
+      "impact_count": 3,
       "impact": [
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3499",
+          "target_number": "40",
+          "title": "C40. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 10 · PDF p.213",
+          "part_number": "10",
+          "page_start": 206,
+          "page_end": 213,
+          "pdf_page_start": 213,
+          "pdf_page_end": 220,
+          "source_pdf_page": 211,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 213,
+          "count": 4,
+          "count_badge": "4×"
+        },
         {
           "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3510",
           "target_number": "41",
@@ -952,8 +3946,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 211,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3510",
           "source_number": "41",
@@ -971,6 +3981,60 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 39.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "39.4(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Conditions 39.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -986,8 +4050,40 @@
       "pdf_page_end": 220,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 4,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3467",
+          "source_number": "39",
+          "title": "C39. DISPUTE RESOLUTION PROCEDURE: GENERAL PROVISIONS",
+          "subtitle": "Part 10 · PDF p.211",
+          "part_number": "10",
+          "page_start": 204,
+          "page_end": 213,
+          "pdf_page_start": 211,
+          "pdf_page_end": 220,
+          "source_pdf_page": 211,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 211,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3510",
           "source_number": "41",
@@ -1003,8 +4099,36 @@
           "navigation_pdf_page": 213,
           "count": 2,
           "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3564",
+          "source_number": "42",
+          "title": "C42. ARBITRATION PROCEDURE",
+          "subtitle": "Part 10 · PDF p.217",
+          "part_number": "10",
+          "page_start": 210,
+          "page_end": 217,
+          "pdf_page_start": 217,
+          "pdf_page_end": 224,
+          "source_pdf_page": 217,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 217,
+          "count": 1,
+          "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 40.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1053,8 +4177,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3467",
           "source_number": "39",
@@ -1072,6 +4212,55 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 41.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.5(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.5(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.5(C)(i))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.5(C):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "Arbitration Act 1996",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1085,10 +4274,43 @@
       "page_end": 217,
       "pdf_page_start": 217,
       "pdf_page_end": 224,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 1,
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3499",
+          "target_number": "40",
+          "title": "C40. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 10 · PDF p.213",
+          "part_number": "10",
+          "page_start": 206,
+          "page_end": 213,
+          "pdf_page_start": 213,
+          "pdf_page_end": 220,
+          "source_pdf_page": 217,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 213,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 217,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3467",
           "source_number": "39",
@@ -1106,6 +4328,25 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 42",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "42"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1121,8 +4362,74 @@
       "pdf_page_end": 226,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 218,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 43.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        },
+        {
+          "citation": "Condition 43.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "43"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -1157,6 +4464,18 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Conditions 44.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1172,8 +4491,24 @@
       "pdf_page_end": 228,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 220,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3600",
           "source_number": "44",
@@ -1191,6 +4526,11 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1225,6 +4565,36 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 46.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "46"
+        },
+        {
+          "citation": "Condition 46.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "46"
+        },
+        {
+          "citation": "Condition 46.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "46"
+        },
+        {
+          "citation": "Condition 46.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "46"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1242,6 +4612,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1259,6 +4634,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1276,6 +4656,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1293,6 +4678,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 50.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        },
+        {
+          "citation": "Condition 50.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1308,8 +4711,49 @@
       "pdf_page_end": 233,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 225,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 51.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        },
+        {
+          "citation": "Condition 51.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "51"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1327,6 +4771,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1344,6 +4793,49 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 53.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        },
+        {
+          "citation": "Condition 53.7(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "53"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "Supplier Obligation Regulations",
+          "type": "Regulation",
+          "count": 9,
+          "count_badge": "9×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 3,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1357,8 +4849,41 @@
       "page_end": 233,
       "pdf_page_start": 229,
       "pdf_page_end": 240,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 2,
+      "impact": [
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3821",
+          "target_number": "55",
+          "title": "C55. ANNOUNCEMENTS",
+          "subtitle": "Part 12 · PDF p.233",
+          "part_number": "12",
+          "page_start": 226,
+          "page_end": 235,
+          "pdf_page_start": 233,
+          "pdf_page_end": 242,
+          "source_pdf_page": 229,
+          "target_pdf_page": 233,
+          "navigation_pdf_page": 233,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3848",
+          "target_number": "56",
+          "title": "C56. FREEDOM OF INFORMATION",
+          "subtitle": "Part 12 · PDF p.235",
+          "part_number": "12",
+          "page_start": 228,
+          "page_end": 237,
+          "pdf_page_start": 235,
+          "pdf_page_end": 244,
+          "source_pdf_page": 229,
+          "target_pdf_page": 235,
+          "navigation_pdf_page": 235,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 1,
       "referenced_by": [
         {
@@ -1378,6 +4903,175 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 54.2",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.4",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.7",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.8(A)(iii),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(E),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.8(A)(iv)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.8(A)(v)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.3(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(G)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.3(H),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.8(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "54.8(A)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54 ( Confidentiality ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.3(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        },
+        {
+          "citation": "Condition 54.3(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "54"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "Subsidy Control Rules",
+          "type": "Regulation",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "EA 2013",
+          "type": "Statute",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "CJA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Financial Services and Markets Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "National Audit Act 1983",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 7,
+      "total_links": 30,
       "defs_count": 0,
       "definitions": []
     },
@@ -1410,8 +5104,56 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3753",
+          "source_number": "54",
+          "title": "C54. CONFIDENTIALITY",
+          "subtitle": "Part 12 · PDF p.229",
+          "part_number": "12",
+          "page_start": 222,
+          "page_end": 233,
+          "pdf_page_start": 229,
+          "pdf_page_end": 240,
+          "source_pdf_page": 229,
+          "target_pdf_page": 233,
+          "navigation_pdf_page": 229,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 55.1 ( No announcements )",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "55"
+        },
+        {
+          "citation": "Condition 55.1(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "55"
+        },
+        {
+          "citation": "Condition 55.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "55"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1427,8 +5169,62 @@
       "pdf_page_end": 244,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:3753",
+          "source_number": "54",
+          "title": "C54. CONFIDENTIALITY",
+          "subtitle": "Part 12 · PDF p.229",
+          "part_number": "12",
+          "page_start": 222,
+          "page_end": 233,
+          "pdf_page_start": 229,
+          "pdf_page_end": 240,
+          "source_pdf_page": 229,
+          "target_pdf_page": 235,
+          "navigation_pdf_page": 229,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 56.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1446,6 +5242,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 57.2",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.3(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.3(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1463,6 +5289,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Subsidy Control Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1497,6 +5341,18 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1514,6 +5370,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1529,8 +5390,92 @@
       "pdf_page_end": 251,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 240,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 61.1 ( Restriction on Transfers ),",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "61.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "61.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Conditions 61.12 to 61.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Conditions 61.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [
+        {
+          "name": "DPA",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -1548,6 +5493,25 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 62 ( Notices ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "Electronic Communications Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1565,6 +5529,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 63.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "63"
+        },
+        {
+          "citation": "Condition 63.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "63"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1582,6 +5564,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1614,8 +5601,37 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 246,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "C(RTP) Act",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1633,6 +5649,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 66.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "66"
+        },
+        {
+          "citation": "Condition 66.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "66"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1650,6 +5684,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1667,6 +5706,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1682,8 +5726,37 @@
       "pdf_page_end": 254,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "ccus_dpa_standard_terms_and_conditions_november_2022:2.0:22",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 1,
+          "page_end": 86,
+          "pdf_page_start": 8,
+          "pdf_page_end": 93,
+          "source_pdf_page": 8,
+          "target_pdf_page": 247,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Civil Procedure Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1701,6 +5774,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 70.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "70"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     }

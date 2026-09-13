@@ -1,12 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "document_key": 15,
   "document_id": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
   "source_enricher_file": "CCUS_-_ICC_-_Standard_Terms_and_Conditions__Template_1_-_November_2025__stacked_enriched.json",
   "raw_crossreference_count": 778,
-  "resolved_crossreference_count": 45,
-  "unresolved_target_count": 18,
-  "unresolved_source_count": 2,
+  "resolved_crossreference_count": 359,
+  "unresolved_target_count": 0,
+  "unresolved_source_count": 0,
   "conditions": {
     "1": {
       "condition_number": "1",
@@ -18,10 +18,844 @@
       "page_end": 110,
       "pdf_page_start": 8,
       "pdf_page_end": 110,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 46,
+      "impact": [
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2170",
+          "target_number": "3",
+          "title": "C3. CONDITIONS PRECEDENT AND CONDITION SUBSEQUENT",
+          "subtitle": "Part 3 · PDF p.114",
+          "part_number": "3",
+          "page_start": 114,
+          "page_end": 135,
+          "pdf_page_start": 114,
+          "pdf_page_end": 135,
+          "source_pdf_page": 8,
+          "target_pdf_page": 114,
+          "navigation_pdf_page": 114,
+          "count": 38,
+          "count_badge": "38×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4732",
+          "target_number": "39",
+          "title": "C39. TERMINATION",
+          "subtitle": "Part 8 · PDF p.259",
+          "part_number": "8",
+          "page_start": 259,
+          "page_end": 271,
+          "pdf_page_start": 259,
+          "pdf_page_end": 271,
+          "source_pdf_page": 8,
+          "target_pdf_page": 259,
+          "navigation_pdf_page": 259,
+          "count": 33,
+          "count_badge": "33×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3058",
+          "target_number": "12",
+          "title": "C12. BILLING STATEMENTS",
+          "subtitle": "Part 5 · PDF p.164",
+          "part_number": "5",
+          "page_start": 164,
+          "page_end": 180,
+          "pdf_page_start": 164,
+          "pdf_page_end": 180,
+          "source_pdf_page": 8,
+          "target_pdf_page": 164,
+          "navigation_pdf_page": 164,
+          "count": 27,
+          "count_badge": "27×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3648",
+          "target_number": "22",
+          "title": "C22. EMITTER UNDERTAKINGS: MINIMUM CO2 CAPTURE RATE",
+          "subtitle": "Part 6 · PDF p.195",
+          "part_number": "6",
+          "page_start": 195,
+          "page_end": 203,
+          "pdf_page_start": 195,
+          "pdf_page_end": 203,
+          "source_pdf_page": 8,
+          "target_pdf_page": 195,
+          "navigation_pdf_page": 195,
+          "count": 23,
+          "count_badge": "23×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2637",
+          "target_number": "6",
+          "title": "C6. PAYMENT CALCULATIONS",
+          "subtitle": "Part 4 · PDF p.140",
+          "part_number": "4",
+          "page_start": 140,
+          "page_end": 148,
+          "pdf_page_start": 140,
+          "pdf_page_end": 148,
+          "source_pdf_page": 8,
+          "target_pdf_page": 140,
+          "navigation_pdf_page": 140,
+          "count": 15,
+          "count_badge": "15×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2593",
+          "target_number": "5",
+          "title": "C5. DEFINITIONS: PART 4",
+          "subtitle": "Part 4 · PDF p.138",
+          "part_number": "4",
+          "page_start": 138,
+          "page_end": 140,
+          "pdf_page_start": 138,
+          "pdf_page_end": 140,
+          "source_pdf_page": 8,
+          "target_pdf_page": 138,
+          "navigation_pdf_page": 138,
+          "count": 12,
+          "count_badge": "12×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3544",
+          "target_number": "21",
+          "title": "C21. EMITTER UNDERTAKINGS: CO2 MEASUREMENT",
+          "subtitle": "Part 6 · PDF p.189",
+          "part_number": "6",
+          "page_start": 189,
+          "page_end": 195,
+          "pdf_page_start": 189,
+          "pdf_page_end": 195,
+          "source_pdf_page": 8,
+          "target_pdf_page": 189,
+          "navigation_pdf_page": 189,
+          "count": 11,
+          "count_badge": "11×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2822",
+          "target_number": "8",
+          "title": "C8. OPEX PAYMENT",
+          "subtitle": "Part 4 · PDF p.151",
+          "part_number": "4",
+          "page_start": 151,
+          "page_end": 160,
+          "pdf_page_start": 151,
+          "pdf_page_end": 160,
+          "source_pdf_page": 8,
+          "target_pdf_page": 151,
+          "navigation_pdf_page": 151,
+          "count": 11,
+          "count_badge": "11×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3964",
+          "target_number": "28",
+          "title": "C28. EMITTER UNDERTAKINGS: EXCESSIVE CARBON CREATION",
+          "subtitle": "Part 6 · PDF p.213",
+          "part_number": "6",
+          "page_start": 213,
+          "page_end": 222,
+          "pdf_page_start": 213,
+          "pdf_page_end": 222,
+          "source_pdf_page": 8,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 213,
+          "count": 10,
+          "count_badge": "10×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3839",
+          "target_number": "24",
+          "title": "C24. EMITTER UNDERTAKINGS: PLANNED OUTAGES",
+          "subtitle": "Part 6 · PDF p.207",
+          "part_number": "6",
+          "page_start": 207,
+          "page_end": 208,
+          "pdf_page_start": 207,
+          "pdf_page_end": 208,
+          "source_pdf_page": 8,
+          "target_pdf_page": 207,
+          "navigation_pdf_page": 207,
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4544",
+          "target_number": "33",
+          "title": "C33. QUALIFYING CHANGE IN LAW: TRUE-UP",
+          "subtitle": "Part 7 · PDF p.248",
+          "part_number": "7",
+          "page_start": 248,
+          "page_end": 251,
+          "pdf_page_start": 248,
+          "pdf_page_end": 251,
+          "source_pdf_page": 8,
+          "target_pdf_page": 248,
+          "navigation_pdf_page": 248,
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4620",
+          "target_number": "36",
+          "title": "C36. CHANGE IN APPLICABLE LAW: PROCEDURE",
+          "subtitle": "Part 7 · PDF p.252",
+          "part_number": "7",
+          "page_start": 252,
+          "page_end": 254,
+          "pdf_page_start": 252,
+          "pdf_page_end": 254,
+          "source_pdf_page": 8,
+          "target_pdf_page": 252,
+          "navigation_pdf_page": 252,
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5192",
+          "target_number": "47",
+          "title": "C47. EXPERT DETERMINATION PROCEDURE",
+          "subtitle": "Part 10 · PDF p.285",
+          "part_number": "10",
+          "page_start": 285,
+          "page_end": 289,
+          "pdf_page_start": 285,
+          "pdf_page_end": 289,
+          "source_pdf_page": 8,
+          "target_pdf_page": 285,
+          "navigation_pdf_page": 285,
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4107",
+          "target_number": "29",
+          "title": "C29. EMITTER UNDERTAKINGS: INFORMATION PROVISION AND NO CUMULATION OF SUBSIDY, STATE AID, FUNDING AND/OR INTERNATIONAL FUNDING .................................................................................... UNION",
+          "subtitle": "Part 6 · PDF p.222",
+          "part_number": "6",
+          "page_start": 222,
+          "page_end": 230,
+          "pdf_page_start": 222,
+          "pdf_page_end": 230,
+          "source_pdf_page": 8,
+          "target_pdf_page": 222,
+          "navigation_pdf_page": 222,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5382",
+          "target_number": "57",
+          "title": "C57. FORCE MAJEURE",
+          "subtitle": "Part 11 · PDF p.297",
+          "part_number": "11",
+          "page_start": 297,
+          "page_end": 298,
+          "pdf_page_start": 297,
+          "pdf_page_end": 298,
+          "source_pdf_page": 8,
+          "target_pdf_page": 297,
+          "navigation_pdf_page": 297,
+          "count": 6,
+          "count_badge": "6×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3382",
+          "target_number": "13",
+          "title": "C13. SETTLEMENT",
+          "subtitle": "Part 5 · PDF p.180",
+          "part_number": "5",
+          "page_start": 180,
+          "page_end": 183,
+          "pdf_page_start": 180,
+          "pdf_page_end": 183,
+          "source_pdf_page": 8,
+          "target_pdf_page": 180,
+          "navigation_pdf_page": 180,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3896",
+          "target_number": "26",
+          "title": "C26. EMITTER UNDERTAKINGS: SUPPLY CHAIN REPORTING",
+          "subtitle": "Part 6 · PDF p.210",
+          "part_number": "6",
+          "page_start": 210,
+          "page_end": 211,
+          "pdf_page_start": 210,
+          "pdf_page_end": 211,
+          "source_pdf_page": 8,
+          "target_pdf_page": 210,
+          "navigation_pdf_page": 210,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4351",
+          "target_number": "31",
+          "title": "C31. QUALIFYING CHANGE IN LAW: COMPENSATION",
+          "subtitle": "Part 7 · PDF p.236",
+          "part_number": "7",
+          "page_start": 236,
+          "page_end": 246,
+          "pdf_page_start": 236,
+          "pdf_page_end": 246,
+          "source_pdf_page": 8,
+          "target_pdf_page": 236,
+          "navigation_pdf_page": 236,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2757",
+          "target_number": "7",
+          "title": "C7. CAPEX PAYMENT",
+          "subtitle": "Part 4 · PDF p.148",
+          "part_number": "4",
+          "page_start": 148,
+          "page_end": 151,
+          "pdf_page_start": 148,
+          "pdf_page_end": 151,
+          "source_pdf_page": 8,
+          "target_pdf_page": 148,
+          "navigation_pdf_page": 148,
+          "count": 5,
+          "count_badge": "5×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3004",
+          "target_number": "11",
+          "title": "C11. MONTHLY FA PAYMENT",
+          "subtitle": "Part 4 · PDF p.161",
+          "part_number": "4",
+          "page_start": 161,
+          "page_end": 163,
+          "pdf_page_start": 161,
+          "pdf_page_end": 163,
+          "source_pdf_page": 8,
+          "target_pdf_page": 161,
+          "navigation_pdf_page": 161,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3459",
+          "target_number": "18",
+          "title": "C18. EMITTER REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 6 · PDF p.185",
+          "part_number": "6",
+          "page_start": 185,
+          "page_end": 187,
+          "pdf_page_start": 185,
+          "pdf_page_end": 187,
+          "source_pdf_page": 8,
+          "target_pdf_page": 185,
+          "navigation_pdf_page": 185,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2118",
+          "target_number": "2",
+          "title": "C2. TERM",
+          "subtitle": "Part 2 · PDF p.111",
+          "part_number": "2",
+          "page_start": 111,
+          "page_end": 114,
+          "pdf_page_start": 111,
+          "pdf_page_end": 114,
+          "source_pdf_page": 8,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 111,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3770",
+          "target_number": "23",
+          "title": "C23. EMITTER UNDERTAKINGS: CO2 MEASUREMENT DATA",
+          "subtitle": "Part 6 · PDF p.203",
+          "part_number": "6",
+          "page_start": 203,
+          "page_end": 207,
+          "pdf_page_start": 203,
+          "pdf_page_end": 207,
+          "source_pdf_page": 8,
+          "target_pdf_page": 203,
+          "navigation_pdf_page": 203,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4256",
+          "target_number": "30",
+          "title": "C30. QUALIFYING CHANGE IN LAW: PROCEDURE",
+          "subtitle": "Part 7 · PDF p.231",
+          "part_number": "7",
+          "page_start": 231,
+          "page_end": 235,
+          "pdf_page_start": 231,
+          "pdf_page_end": 235,
+          "source_pdf_page": 8,
+          "target_pdf_page": 231,
+          "navigation_pdf_page": 231,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2545",
+          "target_number": "4",
+          "title": "C4. MILESTONE REQUIREMENT",
+          "subtitle": "Part 3 · PDF p.135",
+          "part_number": "3",
+          "page_start": 135,
+          "page_end": 138,
+          "pdf_page_start": 135,
+          "pdf_page_end": 138,
+          "source_pdf_page": 8,
+          "target_pdf_page": 135,
+          "navigation_pdf_page": 135,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4928",
+          "target_number": "40",
+          "title": "C40. CONSEQUENCES OF TERMINATION",
+          "subtitle": "Part 8 · PDF p.271",
+          "part_number": "8",
+          "page_start": 271,
+          "page_end": 276,
+          "pdf_page_start": 271,
+          "pdf_page_end": 276,
+          "source_pdf_page": 8,
+          "target_pdf_page": 271,
+          "navigation_pdf_page": 271,
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3873",
+          "target_number": "25",
+          "title": "C25. EMITTER UNDERTAKINGS: DOWNSTREAM CO2 VENTING EVENT",
+          "subtitle": "Part 6 · PDF p.209",
+          "part_number": "6",
+          "page_start": 209,
+          "page_end": 210,
+          "pdf_page_start": 209,
+          "pdf_page_end": 210,
+          "source_pdf_page": 8,
+          "target_pdf_page": 209,
+          "navigation_pdf_page": 209,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4660",
+          "target_number": "37",
+          "title": "C37. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 7 · PDF p.254",
+          "part_number": "7",
+          "page_start": 254,
+          "page_end": 257,
+          "pdf_page_start": 254,
+          "pdf_page_end": 257,
+          "source_pdf_page": 8,
+          "target_pdf_page": 254,
+          "navigation_pdf_page": 254,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5090",
+          "target_number": "44",
+          "title": "C44. ACCEPTABLE COLLATERAL",
+          "subtitle": "Part 9 · PDF p.280",
+          "part_number": "9",
+          "page_start": 280,
+          "page_end": 282,
+          "pdf_page_start": 280,
+          "pdf_page_end": 282,
+          "source_pdf_page": 8,
+          "target_pdf_page": 280,
+          "navigation_pdf_page": 280,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5251",
+          "target_number": "48",
+          "title": "C48. ARBITRATION PROCEDURE",
+          "subtitle": "Part 10 · PDF p.289",
+          "part_number": "10",
+          "page_start": 289,
+          "page_end": 289,
+          "pdf_page_start": 289,
+          "pdf_page_end": 289,
+          "source_pdf_page": 8,
+          "target_pdf_page": 289,
+          "navigation_pdf_page": 289,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3426",
+          "target_number": "14",
+          "title": "C14. DEFAULT INTEREST",
+          "subtitle": "Part 5 · PDF p.183",
+          "part_number": "5",
+          "page_start": 183,
+          "page_end": 184,
+          "pdf_page_start": 183,
+          "pdf_page_end": 184,
+          "source_pdf_page": 8,
+          "target_pdf_page": 183,
+          "navigation_pdf_page": 183,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5026",
+          "target_number": "41",
+          "title": "C41. TERMINATION EVENTS",
+          "subtitle": "Part 8 · PDF p.276",
+          "part_number": "8",
+          "page_start": 276,
+          "page_end": 278,
+          "pdf_page_start": 276,
+          "pdf_page_end": 278,
+          "source_pdf_page": 8,
+          "target_pdf_page": 276,
+          "navigation_pdf_page": 276,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5067",
+          "target_number": "43",
+          "title": "C43. COLLATERAL REQUIREMENT",
+          "subtitle": "Part 9 · PDF p.279",
+          "part_number": "9",
+          "page_start": 279,
+          "page_end": 280,
+          "pdf_page_start": 279,
+          "pdf_page_end": 280,
+          "source_pdf_page": 8,
+          "target_pdf_page": 279,
+          "navigation_pdf_page": 279,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5181",
+          "target_number": "46",
+          "title": "C46. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 10 · PDF p.285",
+          "part_number": "10",
+          "page_start": 285,
+          "page_end": 285,
+          "pdf_page_start": 285,
+          "pdf_page_end": 285,
+          "source_pdf_page": 8,
+          "target_pdf_page": 285,
+          "navigation_pdf_page": 285,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5366",
+          "target_number": "56",
+          "title": "C56. PAYMENT DISRUPTION EVENT",
+          "subtitle": "Part 11 · PDF p.296",
+          "part_number": "11",
+          "page_start": 296,
+          "page_end": 297,
+          "pdf_page_start": 296,
+          "pdf_page_end": 297,
+          "source_pdf_page": 8,
+          "target_pdf_page": 296,
+          "navigation_pdf_page": 296,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5764",
+          "target_number": "73",
+          "title": "C73. THIRD PARTY RIGHTS",
+          "subtitle": "Part 13 · PDF p.318",
+          "part_number": "13",
+          "page_start": 318,
+          "page_end": 318,
+          "pdf_page_start": 318,
+          "pdf_page_end": 318,
+          "source_pdf_page": 8,
+          "target_pdf_page": 318,
+          "navigation_pdf_page": 318,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2967",
+          "target_number": "9",
+          "title": "C9. T&S PAYMENT",
+          "subtitle": "Part 4 · PDF p.160",
+          "part_number": "4",
+          "page_start": 160,
+          "page_end": 160,
+          "pdf_page_start": 160,
+          "pdf_page_end": 160,
+          "source_pdf_page": 8,
+          "target_pdf_page": 160,
+          "navigation_pdf_page": 160,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3446",
+          "target_number": "15",
+          "title": "C15. SET-OFF",
+          "subtitle": "Part 5 · PDF p.184",
+          "part_number": "5",
+          "page_start": 184,
+          "page_end": 184,
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "source_pdf_page": 8,
+          "target_pdf_page": 184,
+          "navigation_pdf_page": 184,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3448",
+          "target_number": "16",
+          "title": "C16. DEDUCTIONS AND WITHHOLDINGS",
+          "subtitle": "Part 5 · PDF p.184",
+          "part_number": "5",
+          "page_start": 184,
+          "page_end": 184,
+          "pdf_page_start": 184,
+          "pdf_page_end": 184,
+          "source_pdf_page": 8,
+          "target_pdf_page": 184,
+          "navigation_pdf_page": 184,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3450",
+          "target_number": "17",
+          "title": "C17. PAYMENT ACCOUNTS",
+          "subtitle": "Part 5 · PDF p.184",
+          "part_number": "5",
+          "page_start": 184,
+          "page_end": 185,
+          "pdf_page_start": 184,
+          "pdf_page_end": 185,
+          "source_pdf_page": 8,
+          "target_pdf_page": 184,
+          "navigation_pdf_page": 184,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3497",
+          "target_number": "19",
+          "title": "C19. ICC CONTRACT COUNTERPARTY REPRESENTATIONS AND WARRANTIES",
+          "subtitle": "Part 6 · PDF p.187",
+          "part_number": "6",
+          "page_start": 187,
+          "page_end": 188,
+          "pdf_page_start": 187,
+          "pdf_page_end": 188,
+          "source_pdf_page": 8,
+          "target_pdf_page": 187,
+          "navigation_pdf_page": 187,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3514",
+          "target_number": "20",
+          "title": "C20. EMITTER UNDERTAKINGS: GENERAL",
+          "subtitle": "Part 6 · PDF p.188",
+          "part_number": "6",
+          "page_start": 188,
+          "page_end": 189,
+          "pdf_page_start": 188,
+          "pdf_page_end": 189,
+          "source_pdf_page": 8,
+          "target_pdf_page": 188,
+          "navigation_pdf_page": 188,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5145",
+          "target_number": "45",
+          "title": "C45. DISPUTE RESOLUTION PROCEDURE: GENERAL PROVISIONS",
+          "subtitle": "Part 10 · PDF p.283",
+          "part_number": "10",
+          "page_start": 283,
+          "page_end": 284,
+          "pdf_page_start": 283,
+          "pdf_page_end": 284,
+          "source_pdf_page": 8,
+          "target_pdf_page": 283,
+          "navigation_pdf_page": 283,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5617",
+          "target_number": "65",
+          "title": "C65. CYBER SECURITY",
+          "subtitle": "Part 13 · PDF p.311",
+          "part_number": "13",
+          "page_start": 311,
+          "page_end": 312,
+          "pdf_page_start": 311,
+          "pdf_page_end": 312,
+          "source_pdf_page": 8,
+          "target_pdf_page": 311,
+          "navigation_pdf_page": 311,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5663",
+          "target_number": "69",
+          "title": "C69. TRANSFERS",
+          "subtitle": "Part 13 · PDF p.313",
+          "part_number": "13",
+          "page_start": 313,
+          "page_end": 316,
+          "pdf_page_start": 313,
+          "pdf_page_end": 316,
+          "source_pdf_page": 8,
+          "target_pdf_page": 313,
+          "navigation_pdf_page": 313,
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5784",
+          "target_number": "77",
+          "title": "C77. AGENT FOR SERVICE OF PROCESS",
+          "subtitle": "Part 13 · PDF p.319",
+          "part_number": "13",
+          "page_start": 319,
+          "page_end": 320,
+          "pdf_page_start": 319,
+          "pdf_page_end": 320,
+          "source_pdf_page": 8,
+          "target_pdf_page": 319,
+          "navigation_pdf_page": 319,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 1.2(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.2(A)(ii);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        },
+        {
+          "citation": "Condition 1.3(A)(vi)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "1"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 20,
+          "count_badge": "20×"
+        },
+        {
+          "name": "CCS Network Code",
+          "type": "Other",
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "name": "Companies Act 2006",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "EU(W)A 2018",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Civil Procedure Rules 1998",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Code Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Contracts (Rights of Third Parties) Act 1999",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Criminal Justice Act 1993",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Retained EU Law (Revocation and Reform) Act 2023",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "T&S Connection Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "The Large and Medium-sized Companies and Groups (Accounts and Reports) Regulations 2013",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 12,
+      "total_links": 61,
       "defs_count": 0,
       "definitions": []
     },
@@ -37,8 +871,74 @@
       "pdf_page_end": 114,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 111,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 2.2",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Condition 2.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Condition 2.3(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Condition 2.4(C)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Condition 2.4(C)(ii):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        },
+        {
+          "citation": "Condition 2.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "2"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -54,8 +954,164 @@
       "pdf_page_end": 135,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 114,
+          "navigation_pdf_page": 8,
+          "count": 38,
+          "count_badge": "38×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 3.76",
+          "count": 18,
+          "count_badge": "18×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.28",
+          "count": 14,
+          "count_badge": "14×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33(A)(ii),",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.39",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.30",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.31",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33(A)(ii):",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33(A)(i),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.26(C).",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.56",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.14(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.19",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.24",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.25",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.30(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.30(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33 to Condition 3.36",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        },
+        {
+          "citation": "Condition 3.33(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "3"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 12,
+          "count_badge": "12×"
+        },
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 23,
       "defs_count": 0,
       "definitions": []
     },
@@ -71,8 +1127,62 @@
       "pdf_page_end": 138,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 135,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 4.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.1(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        },
+        {
+          "citation": "Condition 4.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "4"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -88,8 +1198,37 @@
       "pdf_page_end": 140,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 138,
+          "navigation_pdf_page": 8,
+          "count": 12,
+          "count_badge": "12×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -122,8 +1261,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 140,
+          "navigation_pdf_page": 8,
+          "count": 15,
+          "count_badge": "15×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3058",
           "source_number": "12",
@@ -141,6 +1296,73 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 6.19(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.13(D),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.13(F)(ii):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.19(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.19(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.19(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.19(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Condition 6.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        },
+        {
+          "citation": "Conditions 6.17 to 6.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "6"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -156,8 +1378,24 @@
       "pdf_page_end": 151,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 148,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:2637",
           "source_number": "6",
@@ -175,6 +1413,11 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -190,8 +1433,158 @@
       "pdf_page_end": 160,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 151,
+          "navigation_pdf_page": 8,
+          "count": 11,
+          "count_badge": "11×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 8.17(B)",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.17",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.24",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.10(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.10(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.10(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.17(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.17(B):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.19(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Condition 8.22",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Conditions 8.11 to 8.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Conditions 8.17 to 8.20",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Conditions 8.19 to 8.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        },
+        {
+          "citation": "Conditions 8.9 to 8.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "8"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 22,
       "defs_count": 0,
       "definitions": []
     },
@@ -207,8 +1600,37 @@
       "pdf_page_end": 160,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 160,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 9.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "9"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -226,6 +1648,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -241,8 +1668,49 @@
       "pdf_page_end": 163,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 161,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 11.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "11"
+        },
+        {
+          "citation": "Condition 11.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "11"
+        },
+        {
+          "citation": "Condition 11.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "11"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -275,8 +1743,24 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 164,
+          "navigation_pdf_page": 8,
+          "count": 27,
+          "count_badge": "27×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3426",
           "source_number": "14",
@@ -294,6 +1778,60 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 12.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.14(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.19(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.22",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 12.7(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        },
+        {
+          "citation": "Condition 21.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "12"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -309,8 +1847,74 @@
       "pdf_page_end": 183,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 180,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 13.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        },
+        {
+          "citation": "Condition 13.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "13"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -343,8 +1947,56 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 183,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 14.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "14"
+        },
+        {
+          "citation": "Condition 14.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "14"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Late Payment of Commercial Debts (Interest) Act 1988",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -360,8 +2012,37 @@
       "pdf_page_end": 184,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 184,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -377,8 +2058,30 @@
       "pdf_page_end": 184,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 184,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -394,8 +2097,37 @@
       "pdf_page_end": 185,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 184,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -411,8 +2143,55 @@
       "pdf_page_end": 187,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 185,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        },
+        {
+          "name": "CCS Network Code",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "T&S Connection Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 4,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -428,8 +2207,44 @@
       "pdf_page_end": 188,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 187,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Conditions 19.1(A) to 19.1(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "19"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 7,
+          "count_badge": "7×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -445,8 +2260,68 @@
       "pdf_page_end": 189,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 188,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 20.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(F)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(F)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(F),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        },
+        {
+          "citation": "Condition 20.1(G),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "20"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 7,
       "defs_count": 0,
       "definitions": []
     },
@@ -462,8 +2337,24 @@
       "pdf_page_end": 195,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 189,
+          "navigation_pdf_page": 8,
+          "count": 11,
+          "count_badge": "11×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3648",
           "source_number": "22",
@@ -481,6 +2372,115 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 21.6",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.14",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.12",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.16",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.22",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.4(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.5(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.5(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.5(B)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.5(B);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        },
+        {
+          "citation": "Condition 21.8(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "21"
+        }
+      ],
+      "internal_count": 16,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 19,
       "defs_count": 0,
       "definitions": []
     },
@@ -529,8 +2529,151 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 195,
+          "navigation_pdf_page": 8,
+          "count": 23,
+          "count_badge": "23×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 22.11(B)(ii)(b)(1)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.11(B)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.19",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.22",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.6(B)(ii)(d)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Conditions 22.1 to 22.17",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.11(B)(ii)(b)(1);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.11(B)(ii)(b)(2)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.11(B)(ii)(b)(3)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.15(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.17(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.18",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.3(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.3(A).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        },
+        {
+          "citation": "Condition 22.3(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "22"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 23,
       "defs_count": 0,
       "definitions": []
     },
@@ -563,8 +2706,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 203,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3964",
           "source_number": "28",
@@ -582,6 +2741,120 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 23.9",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1(B),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5(A)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.5(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7(A)(i),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.11",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.3(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.3(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.3(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.4(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.7(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        },
+        {
+          "citation": "Condition 23.8(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "23"
+        }
+      ],
+      "internal_count": 18,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 21,
       "defs_count": 0,
       "definitions": []
     },
@@ -597,8 +2870,24 @@
       "pdf_page_end": 208,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 3,
+      "referenced_by_count": 4,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 207,
+          "navigation_pdf_page": 8,
+          "count": 8,
+          "count_badge": "8×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:3964",
           "source_number": "28",
@@ -648,6 +2937,60 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 24.1(B)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.2(B)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.1(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.2(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.1(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.1(D)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.2(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        },
+        {
+          "citation": "Condition 24.2(D)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "24"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 12,
       "defs_count": 0,
       "definitions": []
     },
@@ -663,8 +3006,62 @@
       "pdf_page_end": 210,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 209,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 25.1(B)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "25"
+        },
+        {
+          "citation": "Condition 25.1(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "25"
+        },
+        {
+          "citation": "Condition 25.1(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "25"
+        },
+        {
+          "citation": "Condition 25.1(D)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "25"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -680,8 +3077,49 @@
       "pdf_page_end": 211,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 210,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 26.5(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Condition 26.5(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        },
+        {
+          "citation": "Condition 26.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "26"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -699,6 +3137,37 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 27.3",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "27"
+        },
+        {
+          "citation": "Condition 27.4",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "27"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -747,8 +3216,151 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 213,
+          "navigation_pdf_page": 8,
+          "count": 10,
+          "count_badge": "10×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 28.11",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.6",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.9(C)(i);",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.12",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.14(A),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.24",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.6(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "28.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.13(C)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.14(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.21",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.22",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.22(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.22(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.25",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Condition 28.8(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Conditions 28.1 to 28.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        },
+        {
+          "citation": "Conditions 28.13 to 28.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "28"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 23,
       "defs_count": 0,
       "definitions": []
     },
@@ -777,12 +3389,168 @@
           "source_pdf_page": 222,
           "target_pdf_page": 231,
           "navigation_pdf_page": 231,
-          "count": 2,
-          "count_badge": "2×"
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 222,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 29.13",
+          "count": 8,
+          "count_badge": "8×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.11",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.17",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.8",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.1(F),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.14",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.6(A)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.7(B)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.7(C)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "29.17",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "29.6(A)(ii)).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.1(A)(i))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.1(A)(i)),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.1(F)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.1(K),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.1(K).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.12",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        },
+        {
+          "citation": "Condition 29.15(C).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "29"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 24,
       "defs_count": 0,
       "definitions": []
     },
@@ -798,8 +3566,24 @@
       "pdf_page_end": 235,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 231,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4107",
           "source_number": "29",
@@ -813,10 +3597,52 @@
           "source_pdf_page": 222,
           "target_pdf_page": 231,
           "navigation_pdf_page": 222,
-          "count": 2,
-          "count_badge": "2×"
+          "count": 3,
+          "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 30.17",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.2(C)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        },
+        {
+          "citation": "Condition 30.8(D)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "30"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -832,8 +3658,24 @@
       "pdf_page_end": 246,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 236,
+          "navigation_pdf_page": 8,
+          "count": 5,
+          "count_badge": "5×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4517",
           "source_number": "32",
@@ -851,6 +3693,132 @@
           "count_badge": "3×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 31.12",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.13",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.14",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.6",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.20",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.7",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.10",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.11(A)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.15",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.18",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.21",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.22",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.4",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.5",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Conditions 31.23 to 31.26",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Conditions 31.27 to 31.30",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.11",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.19",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        },
+        {
+          "citation": "Condition 31.25",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "31"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 22,
       "defs_count": 0,
       "definitions": []
     },
@@ -885,6 +3853,18 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 32.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "32"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -900,8 +3880,61 @@
       "pdf_page_end": 251,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 248,
+          "navigation_pdf_page": 8,
+          "count": 7,
+          "count_badge": "7×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 33.13",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.15",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        },
+        {
+          "citation": "Condition 33.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "33"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -919,6 +3952,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -936,6 +3974,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 35.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "35"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -951,8 +4001,43 @@
       "pdf_page_end": 254,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 252,
+          "navigation_pdf_page": 8,
+          "count": 7,
+          "count_badge": "7×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 36.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        },
+        {
+          "citation": "Condition 36.1(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "36"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -968,8 +4053,101 @@
       "pdf_page_end": 257,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 2,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 254,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4719",
+          "source_number": "38",
+          "title": "C38. CHANGE IN APPLICABLE LAW: GENERAL PROVISIONS",
+          "subtitle": "Part 7 · PDF p.257",
+          "part_number": "7",
+          "page_start": 257,
+          "page_end": 258,
+          "pdf_page_start": 257,
+          "pdf_page_end": 258,
+          "source_pdf_page": 257,
+          "target_pdf_page": 254,
+          "navigation_pdf_page": 257,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 37.6(E)(i)",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.3(A),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.4",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.6(E)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.6(E)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "37"
+        },
+        {
+          "citation": "Condition 37.6(E)(iv);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "37"
+        }
+      ],
+      "internal_count": 9,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 11,
       "defs_count": 0,
       "definitions": []
     },
@@ -983,10 +4161,32 @@
       "page_end": 258,
       "pdf_page_start": 257,
       "pdf_page_end": 258,
-      "impact_count": 0,
-      "impact": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4660",
+          "target_number": "37",
+          "title": "C37. CHANGE IN APPLICABLE LAW: DISPUTE PROCESS",
+          "subtitle": "Part 7 · PDF p.254",
+          "part_number": "7",
+          "page_start": 254,
+          "page_end": 257,
+          "pdf_page_start": 254,
+          "pdf_page_end": 257,
+          "source_pdf_page": 257,
+          "target_pdf_page": 254,
+          "navigation_pdf_page": 254,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1019,8 +4219,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 259,
+          "navigation_pdf_page": 8,
+          "count": 33,
+          "count_badge": "33×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4928",
           "source_number": "40",
@@ -1038,6 +4254,132 @@
           "count_badge": "11×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 39.11",
+          "count": 6,
+          "count_badge": "6×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.12(B)(iii)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.13",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.12(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.12(C)(iii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.13(A)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.13(C)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.13(C)(iv)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.13(C),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.14(A)(i)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.14(A)(ii)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.14(B),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.9",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.9(A)(i),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Conditions 39.9 to 39.20",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        },
+        {
+          "citation": "Condition 39.1(E)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "39"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 23,
       "defs_count": 0,
       "definitions": []
     },
@@ -1102,8 +4444,24 @@
           "count_badge": "2×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 271,
+          "navigation_pdf_page": 8,
+          "count": 4,
+          "count_badge": "4×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4732",
           "source_number": "39",
@@ -1121,6 +4479,67 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 40.4",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.7",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.1",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.15",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.16",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.10",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.13(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        },
+        {
+          "citation": "Condition 40.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "40"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 9,
+          "count_badge": "9×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 14,
       "defs_count": 0,
       "definitions": []
     },
@@ -1134,10 +4553,93 @@
       "page_end": 278,
       "pdf_page_start": 276,
       "pdf_page_end": 278,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5067",
+          "target_number": "43",
+          "title": "C43. COLLATERAL REQUIREMENT",
+          "subtitle": "Part 9 · PDF p.279",
+          "part_number": "9",
+          "page_start": 279,
+          "page_end": 280,
+          "pdf_page_start": 279,
+          "pdf_page_end": 280,
+          "source_pdf_page": 276,
+          "target_pdf_page": 279,
+          "navigation_pdf_page": 279,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 276,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 41.1(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.1(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        },
+        {
+          "citation": "Condition 41.1(A)(ii),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "41"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "CCS Network Code",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Insolvency Act 1986",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 4,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -1172,6 +4674,18 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1187,8 +4701,62 @@
       "pdf_page_end": 280,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 3,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 279,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5026",
+          "source_number": "41",
+          "title": "C41. TERMINATION EVENTS",
+          "subtitle": "Part 8 · PDF p.276",
+          "part_number": "8",
+          "page_start": 276,
+          "page_end": 278,
+          "pdf_page_start": 276,
+          "pdf_page_end": 278,
+          "source_pdf_page": 276,
+          "target_pdf_page": 279,
+          "navigation_pdf_page": 276,
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5090",
+          "source_number": "44",
+          "title": "C44. ACCEPTABLE COLLATERAL",
+          "subtitle": "Part 9 · PDF p.280",
+          "part_number": "9",
+          "page_start": 280,
+          "page_end": 282,
+          "pdf_page_start": 280,
+          "pdf_page_end": 282,
+          "source_pdf_page": 280,
+          "target_pdf_page": 279,
+          "navigation_pdf_page": 280,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1202,10 +4770,43 @@
       "page_end": 282,
       "pdf_page_start": 280,
       "pdf_page_end": 282,
-      "impact_count": 0,
-      "impact": [],
-      "referenced_by_count": 1,
+      "impact_count": 1,
+      "impact": [
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5067",
+          "target_number": "43",
+          "title": "C43. COLLATERAL REQUIREMENT",
+          "subtitle": "Part 9 · PDF p.279",
+          "part_number": "9",
+          "page_start": 279,
+          "page_end": 280,
+          "pdf_page_start": 279,
+          "pdf_page_end": 280,
+          "source_pdf_page": 280,
+          "target_pdf_page": 279,
+          "navigation_pdf_page": 279,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 280,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:4928",
           "source_number": "40",
@@ -1223,6 +4824,55 @@
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 44.12(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        },
+        {
+          "citation": "Condition 44.12(B),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        },
+        {
+          "citation": "Condition 44.14",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        },
+        {
+          "citation": "Condition 44.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        },
+        {
+          "citation": "Condition 44.7",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        },
+        {
+          "citation": "Condition 44.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "44"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -1236,8 +4886,24 @@
       "page_end": 284,
       "pdf_page_start": 283,
       "pdf_page_end": 284,
-      "impact_count": 2,
+      "impact_count": 3,
       "impact": [
+        {
+          "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5181",
+          "target_number": "46",
+          "title": "C46. RESOLUTION BY SENIOR REPRESENTATIVES",
+          "subtitle": "Part 10 · PDF p.285",
+          "part_number": "10",
+          "page_start": 285,
+          "page_end": 285,
+          "pdf_page_start": 285,
+          "pdf_page_end": 285,
+          "source_pdf_page": 283,
+          "target_pdf_page": 285,
+          "navigation_pdf_page": 285,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5192",
           "target_number": "47",
@@ -1271,8 +4937,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 283,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5192",
           "source_number": "47",
@@ -1290,6 +4972,61 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 45.6",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.4(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.4(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        },
+        {
+          "citation": "Condition 45.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "45"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 5,
+          "count_badge": "5×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 13,
       "defs_count": 0,
       "definitions": []
     },
@@ -1305,8 +5042,24 @@
       "pdf_page_end": 285,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 3,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5145",
+          "source_number": "45",
+          "title": "C45. DISPUTE RESOLUTION PROCEDURE: GENERAL PROVISIONS",
+          "subtitle": "Part 10 · PDF p.283",
+          "part_number": "10",
+          "page_start": 283,
+          "page_end": 284,
+          "pdf_page_start": 283,
+          "pdf_page_end": 284,
+          "source_pdf_page": 283,
+          "target_pdf_page": 285,
+          "navigation_pdf_page": 283,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5192",
           "source_number": "47",
@@ -1320,10 +5073,45 @@
           "source_pdf_page": 285,
           "target_pdf_page": 285,
           "navigation_pdf_page": 285,
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 285,
+          "navigation_pdf_page": 8,
           "count": 2,
           "count_badge": "2×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 46.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "46"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1352,8 +5140,8 @@
           "source_pdf_page": 285,
           "target_pdf_page": 285,
           "navigation_pdf_page": 285,
-          "count": 2,
-          "count_badge": "2×"
+          "count": 3,
+          "count_badge": "3×"
         },
         {
           "target_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5145",
@@ -1388,8 +5176,24 @@
           "count_badge": "1×"
         }
       ],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 285,
+          "navigation_pdf_page": 8,
+          "count": 7,
+          "count_badge": "7×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5145",
           "source_number": "45",
@@ -1407,6 +5211,55 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 47.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "47"
+        },
+        {
+          "citation": "Condition 47.5(A)(i)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "47"
+        },
+        {
+          "citation": "Condition 47.5(C)(i))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "47"
+        },
+        {
+          "citation": "Condition 47.5(C):",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "47"
+        },
+        {
+          "citation": "Condition 47.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "47"
+        }
+      ],
+      "internal_count": 5,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "Arbitration Act 1996",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 12,
       "defs_count": 0,
       "definitions": []
     },
@@ -1422,8 +5275,24 @@
       "pdf_page_end": 289,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 1,
+      "referenced_by_count": 2,
       "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 289,
+          "navigation_pdf_page": 8,
+          "count": 3,
+          "count_badge": "3×"
+        },
         {
           "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:5145",
           "source_number": "45",
@@ -1441,6 +5310,31 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 48",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "48"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1458,6 +5352,61 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 49.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        },
+        {
+          "citation": "Condition 49.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "49"
+        }
+      ],
+      "internal_count": 6,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "LCIA Arbitration Rules",
+          "type": "Other",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 8,
       "defs_count": 0,
       "definitions": []
     },
@@ -1492,6 +5441,18 @@
       ],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 50.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "50"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1526,6 +5487,11 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1543,6 +5509,49 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 52.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        },
+        {
+          "citation": "Condition 52.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "52"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 10,
+          "count_badge": "10×"
+        },
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1560,6 +5569,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1577,6 +5598,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1594,6 +5627,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1609,8 +5654,50 @@
       "pdf_page_end": 297,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 296,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 56.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        },
+        {
+          "citation": "Condition 56.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "56"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 3,
+          "count_badge": "3×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1626,8 +5713,62 @@
       "pdf_page_end": 298,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 297,
+          "navigation_pdf_page": 8,
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 57.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.1(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        },
+        {
+          "citation": "Condition 57.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "57"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 6,
       "defs_count": 0,
       "definitions": []
     },
@@ -1645,6 +5786,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1662,6 +5815,73 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 59.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.7",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.3(A);",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Condition 59.7(A)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        },
+        {
+          "citation": "Conditions 59.2 to 59.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "59"
+        }
+      ],
+      "internal_count": 8,
+      "external_documents": [
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 4,
+          "count_badge": "4×"
+        },
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 10,
       "defs_count": 0,
       "definitions": []
     },
@@ -1696,6 +5916,187 @@
           "count_badge": "1×"
         }
       ],
+      "internal_references": [
+        {
+          "citation": "Condition 60.2",
+          "count": 5,
+          "count_badge": "5×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.7",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.3(A)(ii)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(iii),",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(iv)",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.3(A)(iii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.5",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(ii),",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(v)",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60 ( Confidentiality ).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.3(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.3(A)(iii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.3(D),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(i),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(ii)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(A)(v),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.8(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Condition 60.9",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        },
+        {
+          "citation": "Conditions 60.1A to 60.1C",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "60"
+        }
+      ],
+      "internal_count": 20,
+      "external_documents": [
+        {
+          "name": "Carbon Capture Revenue Support (Directions, Eligibility and Counterparty) Regulations 2024",
+          "type": "Regulation",
+          "count": 3,
+          "count_badge": "3×"
+        },
+        {
+          "name": "Grant Funding Agreement",
+          "type": "Contract",
+          "count": 2,
+          "count_badge": "2×"
+        },
+        {
+          "name": "CJA",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "EA 2023",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "European Union (Withdrawal) Act 2018",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "ICC Agreement",
+          "type": "Contract",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "National Audit Act 1983",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Regulation (EU) No 1227/2011",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        },
+        {
+          "name": "Regulation (EU) No 596/2014",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 9,
+      "total_links": 30,
       "defs_count": 0,
       "definitions": []
     },
@@ -1713,6 +6114,30 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 61.1 ( No announcements )",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.1(B).",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        },
+        {
+          "citation": "Condition 61.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "61"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1730,6 +6155,43 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 62.1(C),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        },
+        {
+          "citation": "Condition 62.4(A),",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "62"
+        }
+      ],
+      "internal_count": 3,
+      "external_documents": [
+        {
+          "name": "FoIA",
+          "type": "Statute",
+          "count": 8,
+          "count_badge": "8×"
+        },
+        {
+          "name": "EIR",
+          "type": "Regulation",
+          "count": 6,
+          "count_badge": "6×"
+        }
+      ],
+      "external_count": 2,
+      "total_links": 5,
       "defs_count": 0,
       "definitions": []
     },
@@ -1747,6 +6209,36 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 63.2",
+          "count": 3,
+          "count_badge": "3×",
+          "source_condition": "63"
+        },
+        {
+          "citation": "Condition 63.3",
+          "count": 2,
+          "count_badge": "2×",
+          "source_condition": "63"
+        },
+        {
+          "citation": "Condition 63.3(A))",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "63"
+        },
+        {
+          "citation": "Condition 63.3(B)",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "63"
+        }
+      ],
+      "internal_count": 4,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 4,
       "defs_count": 0,
       "definitions": []
     },
@@ -1764,6 +6256,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1779,8 +6276,44 @@
       "pdf_page_end": 312,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 311,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 65.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "65"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [
+        {
+          "name": "ISO 27035",
+          "type": "Other",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1798,6 +6331,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1832,6 +6370,11 @@
           "count_badge": "3×"
         }
       ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1849,6 +6392,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1864,8 +6412,80 @@
       "pdf_page_end": 316,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 313,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [
+        {
+          "citation": "Condition 69.1 ( Restriction on Transfers ),",
+          "count": 4,
+          "count_badge": "4×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.3",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.4",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.5",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.6",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        },
+        {
+          "citation": "Condition 69.8",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "69"
+        }
+      ],
+      "internal_count": 7,
+      "external_documents": [
+        {
+          "name": "Companies Act 2006",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 9,
       "defs_count": 0,
       "definitions": []
     },
@@ -1883,6 +6503,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Electronic Communications Act 2000",
+          "type": "Statute",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     },
@@ -1900,6 +6532,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 71.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        },
+        {
+          "citation": "Condition 71.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "71"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1917,6 +6567,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -1949,8 +6604,37 @@
           "count_badge": "3×"
         }
       ],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 318,
+          "navigation_pdf_page": 8,
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "C(RTP) Act",
+          "type": "Statute",
+          "count": 2,
+          "count_badge": "2×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 3,
       "defs_count": 0,
       "definitions": []
     },
@@ -1968,6 +6652,24 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 74.1",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        },
+        {
+          "citation": "Condition 74.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "74"
+        }
+      ],
+      "internal_count": 2,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -1985,6 +6687,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2002,6 +6709,11 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 0,
       "defs_count": 0,
       "definitions": []
     },
@@ -2017,8 +6729,37 @@
       "pdf_page_end": 320,
       "impact_count": 0,
       "impact": [],
-      "referenced_by_count": 0,
-      "referenced_by": [],
+      "referenced_by_count": 1,
+      "referenced_by": [
+        {
+          "source_node_uid": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025:2.0:32",
+          "source_number": "1",
+          "title": "C1. DEFINITIONS AND INTERPRETATION",
+          "subtitle": "Part 1 · PDF p.8",
+          "part_number": "1",
+          "page_start": 8,
+          "page_end": 110,
+          "pdf_page_start": 8,
+          "pdf_page_end": 110,
+          "source_pdf_page": 8,
+          "target_pdf_page": 319,
+          "navigation_pdf_page": 8,
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "internal_references": [],
+      "internal_count": 0,
+      "external_documents": [
+        {
+          "name": "Civil Procedure Rules",
+          "type": "Regulation",
+          "count": 1,
+          "count_badge": "1×"
+        }
+      ],
+      "external_count": 1,
+      "total_links": 2,
       "defs_count": 0,
       "definitions": []
     },
@@ -2036,6 +6777,18 @@
       "impact": [],
       "referenced_by_count": 0,
       "referenced_by": [],
+      "internal_references": [
+        {
+          "citation": "Condition 78.2",
+          "count": 1,
+          "count_badge": "1×",
+          "source_condition": "78"
+        }
+      ],
+      "internal_count": 1,
+      "external_documents": [],
+      "external_count": 0,
+      "total_links": 1,
       "defs_count": 0,
       "definitions": []
     }

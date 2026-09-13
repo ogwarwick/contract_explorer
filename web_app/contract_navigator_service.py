@@ -282,8 +282,11 @@ def _source_condition_for_segment(
     segments_by_id: Dict[str, Dict[str, Any]],
     document: Dict[str, Any],
     cond_lookup_by_num: Dict[str, Dict[str, Any]],
+    cond_lookup_by_title: Optional[Dict[str, str]] = None,
+    part_first_cond: Optional[Dict[str, str]] = None,
+    ref_span_text: str = "",
 ) -> Optional[str]:
-    """Walk an enriched segment's ancestors until its condition code is found."""
+    """Walk an enriched segment's ancestors or children until its condition code or title is found."""
     visited = set()
     current_id = segment_id
     while current_id and current_id not in visited:
@@ -292,13 +295,46 @@ def _source_condition_for_segment(
         if not segment:
             break
 
-        code_text = _span_text(document, segment.get("code"))
+        # 1. Check segment code
+        code_text = _span_text(document, segment.get("code")).strip()
         for token in re.findall(r"\b\d+[A-Za-z]?(?:\.\d+)?\b", code_text):
             condition_number = _normalise_reference_number(token)
             if condition_number in cond_lookup_by_num:
                 return condition_number
 
+        # 2. Check segment title against condition titles (for container segments)
+        if cond_lookup_by_title:
+            title_text = _span_text(document, segment.get("title")).lower().strip()
+            if title_text in cond_lookup_by_title:
+                return cond_lookup_by_title[title_text]
+            clean_t = re.sub(r'[^a-z0-9 ]', '', title_text)
+            if clean_t in cond_lookup_by_title:
+                return cond_lookup_by_title[clean_t]
+
+        # 3. Check direct children for code or title
+        for ch_id in segment.get("children", [])[:5]:
+            ch = segments_by_id.get(ch_id)
+            if ch:
+                ch_code = _span_text(document, ch.get("code")).strip()
+                for token in re.findall(r"\b\d+[A-Za-z]?(?:\.\d+)?\b", ch_code):
+                    condition_number = _normalise_reference_number(token)
+                    if condition_number in cond_lookup_by_num:
+                        return condition_number
+
         current_id = segment.get("parent")
+
+    # 4. Text fallback from occurrence text itself
+    if ref_span_text:
+        m = re.search(r'Condition\s+(\d+[A-Za-z]?)(?:\.\d+)?', ref_span_text, re.I)
+        if m and m.group(1) in cond_lookup_by_num:
+            return m.group(1)
+        if part_first_cond:
+            m = re.search(r'Part\s+(\d+)', ref_span_text, re.I)
+            if m and m.group(1) in part_first_cond:
+                return part_first_cond[m.group(1)]
+        m = re.search(r'\b(\d+[A-Za-z]?)\.\d+\b', ref_span_text)
+        if m and m.group(1) in cond_lookup_by_num:
+            return m.group(1)
 
     return None
 
@@ -334,7 +370,7 @@ def build_enricher_cross_reference_output(
     hierarchy: Dict[str, Any],
     enricher_file: Path,
 ) -> Dict[str, Any]:
-    """Convert a raw Isaacus result into a compact app-facing cross-reference graph."""
+    """Convert a raw Isaacus result into a comprehensive app-facing cross-reference graph."""
     with enricher_file.open("r", encoding="utf-8") as handle:
         payload = json.load(handle)
 
@@ -350,8 +386,16 @@ def build_enricher_cross_reference_output(
     }
 
     cond_lookup_by_num: Dict[str, Dict[str, Any]] = {}
+    cond_lookup_by_title: Dict[str, str] = {}
+    part_first_cond: Dict[str, str] = {}
+
     for part in hierarchy.get("parts", []):
-        for condition in part.get("conditions", []):
+        p_num = str(part.get("number") or "").strip()
+        conds = part.get("conditions", [])
+        if p_num and conds:
+            part_first_cond[p_num] = str(conds[0].get("number", ""))
+
+        for condition in conds:
             number = str(condition.get("number") or "").strip()
             if not number:
                 continue
@@ -367,17 +411,18 @@ def build_enricher_cross_reference_output(
                 "part_number": part.get("number", "1"),
                 "part_title": part.get("raw_title", ""),
             }
+            t = condition["title"].lower().strip()
+            cond_lookup_by_title[t] = number
+            cond_lookup_by_title[re.sub(r'[^a-z0-9 ]', '', t)] = number
 
     outbound = defaultdict(lambda: defaultdict(int))
+    internal_references = defaultdict(lambda: defaultdict(int))
     unresolved_sources = 0
     unresolved_targets = 0
     raw_reference_count = 0
 
     for reference in document.get("crossreferences", []):
-        span_text = _span_text(document, reference.get("span"))
-        # Isaacus semantics: `span` is where the reference occurs, while
-        # `start` and `end` identify the target segment(s). Do not parse
-        # subsection numbers out of the occurrence text to infer the target.
+        span_text = _span_text(document, reference.get("span")).strip()
         source_segment_id = _segment_id_for_occurrence(
             reference.get("span"),
             raw_segments,
@@ -387,6 +432,9 @@ def build_enricher_cross_reference_output(
             segments_by_id,
             document,
             cond_lookup_by_num,
+            cond_lookup_by_title,
+            part_first_cond,
+            ref_span_text=span_text,
         )
         if not source_number:
             unresolved_sources += 1
@@ -399,6 +447,9 @@ def build_enricher_cross_reference_output(
                 segments_by_id,
                 document,
                 cond_lookup_by_num,
+                cond_lookup_by_title,
+                part_first_cond,
+                ref_span_text=span_text,
             )
             if target_number and target_number not in target_numbers:
                 target_numbers.append(target_number)
@@ -411,6 +462,37 @@ def build_enricher_cross_reference_output(
             if target_number != source_number:
                 outbound[source_number][target_number] += 1
                 raw_reference_count += 1
+            else:
+                clean_span = " ".join(span_text.split())
+                if clean_span and len(clean_span) >= 3:
+                    internal_references[source_number][clean_span] += 1
+
+    # Defined terms in Condition 1 citing conditions
+    for term in document.get("terms", []):
+        term_name = _span_text(document, term.get("name")).strip()
+        term_meaning = _span_text(document, term.get("meaning")).strip()
+        if not term_name or not term_meaning:
+            continue
+        for m in re.finditer(r'Condition\s+(\d+[A-Za-z]?)(?:\.\d+)?', term_meaning, re.I):
+            tgt_num = m.group(1)
+            if tgt_num in cond_lookup_by_num and tgt_num != "1":
+                outbound["1"][tgt_num] += 1
+                raw_reference_count += 1
+
+    # External document / Statute mentions mapped to conditions
+    external_by_cond = defaultdict(lambda: defaultdict(int))
+    for ext_doc in document.get("external_documents", []):
+        ext_name = _span_text(document, ext_doc.get("name")).strip()
+        if not ext_name or len(ext_name) < 3:
+            continue
+        ext_type = ext_doc.get("type", "statute")
+        for mention in ext_doc.get("mentions", []):
+            m_seg = _segment_id_for_occurrence(mention, raw_segments)
+            m_cond = _source_condition_for_segment(
+                m_seg, segments_by_id, document, cond_lookup_by_num, cond_lookup_by_title, part_first_cond
+            )
+            if m_cond:
+                external_by_cond[m_cond][(ext_name, ext_type)] += 1
 
     inbound = defaultdict(lambda: defaultdict(int))
     for source_number, targets in outbound.items():
@@ -463,6 +545,26 @@ def build_enricher_cross_reference_output(
                 "count_badge": f"{count}×",
             })
 
+        internals = [
+            {
+                "citation": cit,
+                "count": cnt,
+                "count_badge": f"{cnt}×",
+                "source_condition": number,
+            }
+            for cit, cnt in sorted(internal_references[number].items(), key=lambda x: (-x[1], x[0]))
+        ][:20]
+
+        externals = [
+            {
+                "name": name,
+                "type": t.capitalize(),
+                "count": cnt,
+                "count_badge": f"{cnt}×",
+            }
+            for (name, t), cnt in sorted(external_by_cond[number].items(), key=lambda x: (-x[1], x[0]))
+        ][:15]
+
         conditions[number] = {
             "condition_number": number,
             "node_uid": info["node_uid"],
@@ -477,12 +579,17 @@ def build_enricher_cross_reference_output(
             "impact": impact,
             "referenced_by_count": len(referenced_by),
             "referenced_by": referenced_by,
+            "internal_references": internals,
+            "internal_count": len(internals),
+            "external_documents": externals,
+            "external_count": len(externals),
+            "total_links": len(impact) + len(referenced_by) + len(internals) + len(externals),
             "defs_count": 0,
             "definitions": [],
         }
 
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "document_key": doc_key,
         "document_id": hierarchy.get("document_id", ""),
         "source_enricher_file": enricher_file.name,

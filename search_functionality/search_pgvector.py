@@ -21,11 +21,20 @@ sys.path.insert(0, str(WORKSPACE_ROOT / "search_functionality"))
 from isaacus import Isaacus
 from config import Config
 
-Config.validate()
-client = Isaacus(api_key=Config.ISAACUS_API_KEY)
+_isaacus_client = None
+
+
+def get_isaacus_client():
+    global _isaacus_client
+    if _isaacus_client is None:
+        Config.validate()
+        _isaacus_client = Isaacus(api_key=Config.ISAACUS_API_KEY)
+    return _isaacus_client
+
 
 def search_pgvector(query: str, top_k: int = 5, scheme_filter: str = None):
     # 1. Embed query with Isaacus (task="retrieval/query")
+    client = get_isaacus_client()
     response = client.embeddings.create(
         model=Config.ISAACUS_MODEL_ID,
         texts=query,

@@ -24,9 +24,17 @@ sys.path.insert(0, str(WORKSPACE_ROOT / "search_functionality"))
 from isaacus import Isaacus
 from config import Config
 
-Config.validate()
-client = Isaacus(api_key=Config.ISAACUS_API_KEY)
 CACHE_DIR = WORKSPACE_ROOT / "search_functionality" / "data" / "chunk_cache"
+_isaacus_client = None
+
+
+def get_isaacus_client():
+    """Lazily instantiate Isaacus client when queries are actually executed."""
+    global _isaacus_client
+    if _isaacus_client is None:
+        Config.validate()
+        _isaacus_client = Isaacus(api_key=Config.ISAACUS_API_KEY)
+    return _isaacus_client
 
 
 def get_dense_candidates(query_vector: list, scheme_filter: str = None, doc_key_filter: int = None, candidate_limit: int = 25):
@@ -217,6 +225,7 @@ def rerank_with_isaacus(query: str, candidates: list, top_k: int = 5):
         candidate_texts.append(text[:6000])
         
     try:
+        client = get_isaacus_client()
         response = client.rerankings.create(
             model="kanon-universal-classifier",
             query=query,
@@ -285,6 +294,7 @@ def hybrid_search(query: str, top_k: int = 5, scheme: str = None, doc_key: int =
     effective_scheme = extract_contract_filter(query, manual_scheme=scheme) if doc_key is None else None
 
     # 1. Embed query with Isaacus
+    client = get_isaacus_client()
     embed_resp = client.embeddings.create(
         model=Config.ISAACUS_MODEL_ID,
         texts=query,

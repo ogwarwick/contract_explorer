@@ -625,28 +625,36 @@ def parse_enricher_cross_references(doc_key: int) -> Dict[str, Any]:
     if str(doc_key) in _ENRICHER_CACHE:
         return _ENRICHER_CACHE[str(doc_key)]
 
+    # 1. Prefer precomputed, committed cross-reference artifacts
+    candidates = list(CROSS_REFERENCE_DIR.glob(f"{doc_key}_*_cross_references.json"))
+    if candidates:
+        try:
+            result = json.loads(candidates[0].read_text(encoding="utf-8"))
+            _ENRICHER_CACHE[str(doc_key)] = result
+            return result
+        except Exception as e:
+            print(f"[Warning] Error reading precomputed cross references from {candidates[0]}: {e}")
+
+    # 2. Fall back to on-the-fly generation if raw enricher file exists
     hierarchy = get_contract_hierarchy(doc_key)
     doc_id = hierarchy.get("document_id", "")
     enricher_file = find_matching_enricher_file(doc_id)
-    if not enricher_file or not enricher_file.exists():
-        return _extract_fallback_cross_references(doc_key, hierarchy, {})
-
-    output_path = CROSS_REFERENCE_DIR / f"{doc_key}_{doc_id}_cross_references.json"
-    try:
-        if output_path.exists():
-            result = json.loads(output_path.read_text(encoding="utf-8"))
-        else:
+    if enricher_file and enricher_file.exists():
+        try:
             result = build_enricher_cross_reference_output(doc_key, hierarchy, enricher_file)
+            output_path = CROSS_REFERENCE_DIR / f"{doc_key}_{doc_id}_cross_references.json"
             output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_text(
                 json.dumps(result, ensure_ascii=False, indent=2),
                 encoding="utf-8",
             )
-        _ENRICHER_CACHE[str(doc_key)] = result
-        return result
-    except Exception as e:
-        print(f"[Warning] Error loading enricher cross-references: {e}")
-        return _extract_fallback_cross_references(doc_key, hierarchy, {})
+            _ENRICHER_CACHE[str(doc_key)] = result
+            return result
+        except Exception as e:
+            print(f"[Warning] Error building enricher cross references: {e}")
+
+    # 3. Fallback to basic hierarchy if no enriched data is found
+    return _extract_fallback_cross_references(doc_key, hierarchy, {})
 
 
 def _extract_fallback_cross_references(doc_key: int, hierarchy: Dict, cond_lookup_by_num: Dict) -> Dict[str, Any]:

@@ -42,7 +42,7 @@ def get_dense_candidates(query_vector: list, scheme_filter: str = None, doc_key_
     with psycopg.connect(Config.DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             params = [query_vector]
-            where_clauses = []
+            where_clauses = ["c.document_key != 21"]
             if doc_key_filter is not None:
                 where_clauses.append("c.document_key = %s")
                 params.append(doc_key_filter)
@@ -51,7 +51,7 @@ def get_dense_candidates(query_vector: list, scheme_filter: str = None, doc_key_
                 where_clauses.append("(d.scheme ILIKE %s OR d.title ILIKE %s OR d.document_id ILIKE %s)")
                 params.extend([f"%{sf}%", f"%{sf}%", f"%{sf}%"])
                 
-            where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
+            where_sql = f"WHERE {' AND '.join(where_clauses)}"
             params.extend([query_vector, candidate_limit])
             
             sql = f"""
@@ -106,7 +106,8 @@ def get_bm25_candidates(query_text: str, scheme_filter: str = None, doc_key_filt
                 """(
                     to_tsvector('english', coalesce(n.title, '') || ' ' || coalesce(n.text_full, '')) @@ %s
                     OR to_tsvector('english', coalesce(c.breadcrumb, '') || ' ' || coalesce(c.enriched_subtitle, '') || ' ' || coalesce(c.clause_range, '')) @@ %s
-                )"""
+                )""",
+                "c.document_key != 21"
             ]
             
             if doc_key_filter is not None:

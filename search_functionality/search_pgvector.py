@@ -46,13 +46,13 @@ def search_pgvector(query: str, top_k: int = 5, scheme_filter: str = None):
     with psycopg.connect(Config.DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             params = [query_vector]
-            where_clauses = []
+            where_clauses = ["d.document_key != 21"]
             if scheme_filter and scheme_filter.strip():
                 sf = scheme_filter.strip()
                 where_clauses.append("(d.scheme ILIKE %s OR d.title ILIKE %s OR d.document_id ILIKE %s)")
                 params.extend([f"%{sf}%", f"%{sf}%", f"%{sf}%"])
             
-            where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
+            where_sql = f"WHERE {' AND '.join(where_clauses)}"
             params.extend([query_vector, top_k])
 
             

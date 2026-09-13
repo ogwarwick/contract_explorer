@@ -166,6 +166,7 @@ async function loadContracts() {
     state.contracts = data.contracts || [];
     renderContractCards(state.contracts);
     populateNavigatorContractSelector(state.contracts);
+    updateSchemeFilterCounts(state.contracts);
   } catch (e) {
     if (contractsGrid) {
       contractsGrid.innerHTML = `
@@ -175,6 +176,24 @@ async function loadContracts() {
       `;
     }
   }
+}
+
+function updateSchemeFilterCounts(contracts) {
+  const counts = { ALL: contracts.length, CFD: 0, CCUS: 0, LCHA: 0 };
+  contracts.forEach(c => {
+    const s = (c.scheme || "").toUpperCase();
+    if (counts[s] !== undefined) counts[s]++;
+  });
+  const pills = document.querySelectorAll(".contracts-filter-pills .filter-pill");
+  pills.forEach(pill => {
+    const txt = pill.textContent.trim();
+    if (txt.startsWith("All")) pill.textContent = `All (${counts.ALL})`;
+    else if (txt.startsWith("CfD")) pill.textContent = `CfD · Power (${counts.CFD})`;
+    else if (txt.startsWith("CCUS")) pill.textContent = `CCUS · Carbon Capture (${counts.CCUS})`;
+    else if (txt.startsWith("LCHA")) pill.textContent = `LCHA · Hydrogen (${counts.LCHA})`;
+  });
+  const tabLabel = document.querySelector("#tabContracts span");
+  if (tabLabel) tabLabel.textContent = `Contract Library (${counts.ALL})`;
 }
 
 function renderContractCards(contracts) {

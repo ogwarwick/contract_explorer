@@ -351,6 +351,7 @@ async def api_contracts():
                         ) AS condition_count,
                         COALESCE(d.page_count, (SELECT MAX(page_end) FROM node n WHERE n.document_key = d.document_key)) AS total_pages
                     FROM document d
+                    WHERE d.document_key != 21
                     ORDER BY 
                         CASE d.scheme 
                             WHEN 'LCHA' THEN 1 

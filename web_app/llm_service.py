@@ -6,6 +6,7 @@ adds question routing, evidence packaging, and optional answer synthesis.
 
 from __future__ import annotations
 
+import json
 import os
 import re
 from pathlib import Path
@@ -158,3 +159,86 @@ def answer_from_search(
     else:
         generated = {"answer": None, "model": None, "answer_status": "retrieval_only"}
     return {"question_type": question_type, "sources": sources, **generated}
+
+
+def generate_search_interpretation(
+    query: str,
+    top_result: dict[str, Any] | None = None,
+    detected_filter: str | None = None,
+) -> dict[str, Any]:
+    """Generate an AI interpretation of the search query and top match.
+
+    Returns:
+        A dict with:
+        - 'user_intent': 1-sentence summary of what the user meant/sought.
+        - 'match_description': 1-2 sentence description explaining what the term/provision is.
+        - 'status': 'generated', 'fallback', or 'no_match'
+    """
+    scope_name = (
+        detected_filter.replace("_", " ") if detected_filter else "the contract collection"
+    )
+    clean_query = " ".join(query.split()).strip()
+
+    if not top_result:
+        return {
+            "user_intent": f"You are searching for provisions related to '{clean_query}' across {scope_name}.",
+            "match_description": None,
+            "status": "no_match",
+        }
+
+    # Extract provision metadata from result
+    doc = top_result.get("document") or top_result.get("doc_title") or scope_name
+    breadcrumb = top_result.get("breadcrumb") or "Contract provision"
+    topic = top_result.get("topic") or top_result.get("condition_title") or ""
+    clause_range = top_result.get("clause_range")
+    summary = top_result.get("chunk_summary") or top_result.get("summary") or ""
+    text_preview = (top_result.get("text_preview") or "")[:400]
+
+    # Baseline fallback in case LLM is unreachable
+    fallback_intent = f"You are asking about {clean_query.rstrip('?')} in {scope_name}."
+    fallback_desc = summary or f"{breadcrumb} ({topic}) sets out conditions governing this provision."
+
+    try:
+        client = _client()
+        model = _model_name()
+
+        user_content = f"""Query: {clean_query}
+Scope: {scope_name}
+Top Match Document: {doc}
+Top Match Provision: {breadcrumb}{f' - {topic}' if topic else ''}
+{f'Clause Range: {clause_range}' if clause_range else ''}
+{f'Provision Summary: {summary}' if summary else ''}
+{f'Excerpt: {text_preview}' if text_preview else ''}"""
+
+        system_content = """You are an expert legal research assistant for UK energy and infrastructure contracts (CfD, LCHA, CCUS).
+Analyze the user's search query and the top matching contract provision.
+Respond in valid JSON with exactly two fields:
+1. "user_intent": A clear, 1-sentence summary of what the user meant or is looking for (written in second person, e.g. "You are asking how the Strike Price is adjusted for inflation over time.").
+2. "match_description": A brief 1-2 sentence description explaining what this specific matched term or provision is in the contract.
+Keep both fields concise, precise, and objective. Do not add formatting like markdown inside the JSON values."""
+
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system_content},
+                {"role": "user", "content": user_content},
+            ],
+            response_format={"type": "json_object"},
+            reasoning_effort="low",
+            max_completion_tokens=500,
+        )
+
+        raw_json = (response.choices[0].message.content or "").strip()
+        parsed = json.loads(raw_json)
+        return {
+            "user_intent": parsed.get("user_intent") or fallback_intent,
+            "match_description": parsed.get("match_description") or fallback_desc,
+            "status": "generated",
+        }
+    except Exception:
+        return {
+            "user_intent": fallback_intent,
+            "match_description": fallback_desc,
+            "status": "fallback",
+        }
+

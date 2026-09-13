@@ -34,7 +34,10 @@ from contract_navigator_service import (  # noqa: E402
     parse_enricher_cross_references,
 )
 from ar1_hierarchy_service import get_ar1_hierarchy  # noqa: E402
-from llm_service import answer_from_search  # noqa: E402
+from llm_service import (  # noqa: E402
+    answer_from_search,
+    generate_search_interpretation,
+)
 
 # ── FastAPI Application ───────────────────────────────────────────────────────
 app = FastAPI(
@@ -97,6 +100,12 @@ class SearchResult(BaseModel):
     text_preview: str
 
 
+class SearchInterpretation(BaseModel):
+    user_intent: Optional[str] = None
+    match_description: Optional[str] = None
+    status: str = "generated"
+
+
 class SearchResponse(BaseModel):
     query: str
     detected_filter: Optional[str] = None
@@ -104,6 +113,7 @@ class SearchResponse(BaseModel):
     bm25_count: int
     fused_count: int
     results: list[SearchResult]
+    interpretation: Optional[SearchInterpretation] = None
 
 
 class AskRequest(BaseModel):
@@ -203,6 +213,18 @@ async def api_search(req: SearchRequest):
             text_preview=r.get("text_preview", ""),
         ))
 
+    interpretation = None
+    try:
+        top_res_dict = results[0].model_dump() if results else None
+        interp_data = generate_search_interpretation(
+            query=raw["query"],
+            top_result=top_res_dict,
+            detected_filter=raw.get("detected_filter"),
+        )
+        interpretation = SearchInterpretation(**interp_data)
+    except Exception:
+        interpretation = None
+
     return SearchResponse(
         query=raw["query"],
         detected_filter=raw.get("detected_filter"),
@@ -210,6 +232,7 @@ async def api_search(req: SearchRequest):
         bm25_count=raw["bm25_count"],
         fused_count=raw["fused_count"],
         results=results,
+        interpretation=interpretation,
     )
 
 

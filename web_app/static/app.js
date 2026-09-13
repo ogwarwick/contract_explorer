@@ -59,6 +59,7 @@ const sendBtn = document.getElementById("sendBtn");
 const contractsGrid = document.getElementById("contractsGrid");
 
 // Navigator Elements
+const navigatorSidebar = document.getElementById("navigatorSidebar");
 const navigatorContractSelector = document.getElementById("navigatorContractSelector");
 const sidebarTreeContainer = document.getElementById("sidebarTreeContainer");
 const sidebarConditionCount = document.getElementById("sidebarConditionCount");
@@ -407,6 +408,10 @@ function renderSearchInterpretation(data, query) {
     ? data.detected_filter.replace(/_/g, " ")
     : "the contract collection";
 
+  const interp = data.interpretation || {};
+  const userIntent = interp.user_intent;
+  const matchDesc = interp.match_description;
+
   let matchHtml = `
     <div class="search-interpretation-no-match">
       No strong match was returned. Try adding a contract name, condition number, or a more specific phrase.
@@ -415,26 +420,56 @@ function renderSearchInterpretation(data, query) {
 
   if (strongestMatch) {
     const page = strongestMatch.page_start || strongestMatch.pdf_page_start || "—";
+    const targetPdfPage = strongestMatch.pdf_page_start || strongestMatch.page_start || 1;
+    const conditionTitle = strongestMatch.topic && strongestMatch.topic !== strongestMatch.breadcrumb
+      ? ` — ${escapeHtml(strongestMatch.topic)}`
+      : "";
+
     matchHtml = `
-      <div class="search-interpretation-match">
-        <span class="search-interpretation-match-label">Most likely match</span>
-        <strong>${escapeHtml(strongestMatch.breadcrumb || strongestMatch.topic || "Contract provision")}</strong>
-        <span>${escapeHtml(strongestMatch.document || scope)} · contract p.${escapeHtml(page)}</span>
+      <div class="search-interpretation-match" onclick="openContractInNavigator('${strongestMatch.document_key}', ${targetPdfPage}, '${escapeHtml(strongestMatch.breadcrumb || "")}', { openLeftCrossRef: true })" style="cursor: pointer;" title="Jump to this provision in Contract Navigator">
+        <div class="search-interpretation-match-top">
+          <span class="search-interpretation-match-label">Most likely match</span>
+          <span class="search-interpretation-match-doc">${escapeHtml(strongestMatch.document || scope)} · contract p.${escapeHtml(page)}</span>
+        </div>
+        <strong class="search-interpretation-match-title">${escapeHtml(strongestMatch.breadcrumb || "Contract provision")}${conditionTitle}</strong>
+        ${matchDesc ? `
+          <div class="search-interpretation-term-desc">
+            <span class="term-desc-tag">What this term is:</span>
+            <span class="term-desc-text">${escapeHtml(matchDesc)}</span>
+          </div>
+        ` : ""}
       </div>
     `;
   }
 
+  const intentHtml = userIntent
+    ? `
+      <div class="search-interpretation-text">
+        <div class="search-interpretation-intent-badge">Understood meaning</div>
+        <div class="search-interpretation-intent-body">${escapeHtml(userIntent)}</div>
+      </div>
+    `
+    : `
+      <div class="search-interpretation-text">
+        I understood “<strong>${escapeHtml(query)}</strong>” as a request to find the most relevant provision in <strong>${escapeHtml(scope)}</strong>.
+      </div>
+    `;
+
+  const tagLabel = interp.status === "generated"
+    ? "✦ AI Interpretation"
+    : "Retrieval only";
+
   card.innerHTML = `
     <div class="search-interpretation-header">
-      <span>Search interpretation</span>
-      <span class="search-interpretation-tag">Retrieval only</span>
+      <div class="search-interpretation-header-title">
+        <span>Search interpretation</span>
+      </div>
+      <span class="search-interpretation-tag">${escapeHtml(tagLabel)}</span>
     </div>
-    <div class="search-interpretation-text">
-      I understood “<strong>${escapeHtml(query)}</strong>” as a request to find the most relevant provision in <strong>${escapeHtml(scope)}</strong>.
-    </div>
+    ${intentHtml}
     ${matchHtml}
     <div class="search-interpretation-confirmation">
-      Does this look like the area you meant? The references below are ranked results, not an AI-generated explanation.
+      Does this look like the area you meant? The references below are ranked results from the contract database.
       <button type="button" class="search-refine-btn" onclick="focusMainInput()">Refine search</button>
     </div>
   `;
@@ -461,19 +496,19 @@ function buildTableRow(result, index) {
         </div>
       </td>
       <td class="col-breadcrumb">
-        <div class="breadcrumb-content">
+        <div class="breadcrumb-content" onclick="openContractInNavigator('${result.document_key}', ${result.pdf_page_start || result.page_start || 1}, '${escapeHtml(result.breadcrumb || "")}', { openLeftCrossRef: true })" style="cursor: pointer;" title="Open in Contract Structure with Cross References">
           <span class="breadcrumb-title">${escapeHtml(result.breadcrumb)} ${partTag}</span>
           ${clauseBadge}
         </div>
       </td>
       <td class="col-topic">
-        <div class="topic-text">${escapeHtml(result.topic || "Contract Clause")}</div>
+        <div class="topic-text" onclick="openContractInNavigator('${result.document_key}', ${result.pdf_page_start || result.page_start || 1}, '${escapeHtml(result.breadcrumb || "")}', { openLeftCrossRef: true })" style="cursor: pointer;" title="Open in Contract Structure with Cross References">${escapeHtml(result.topic || "Contract Clause")}</div>
         ${result.summary ? `<div class="clause-summary-text">${escapeHtml(result.summary)}</div>` : ""}
       </td>
       <td class="col-pdf-action">
         <button 
           class="pdf-jump-btn" 
-          onclick="event.stopPropagation(); openContractInNavigator('${result.document_key}', ${result.pdf_page_start || result.page_start || 1})"
+          onclick="event.stopPropagation(); openContractInNavigator('${result.document_key}', ${result.pdf_page_start || result.page_start || 1}, '${escapeHtml(result.breadcrumb || "")}', { openLeftCrossRef: true })"
           title="Open in Contract Navigator at page ${result.page_start || 1}"
         >
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -723,6 +758,32 @@ function updateAr1VisibleCount() {
   }
 }
 
+function toggleNavigatorSidebar() {
+  if (navigatorSidebar) {
+    navigatorSidebar.classList.toggle("collapsed");
+  }
+}
+
+function findConditionInHierarchy(hierarchy, pageNum, identifier = "") {
+  if (!hierarchy || !hierarchy.parts) return null;
+
+  if (identifier) {
+    const clean = String(identifier).trim().toLowerCase();
+    const match = clean.match(/\bcondition\s+(\d+[a-z]?)\b/i) || clean.match(/\b(\d+[a-z]?)\b/);
+    const condNum = match ? match[1].toLowerCase() : null;
+
+    for (const part of hierarchy.parts) {
+      for (const cond of part.conditions || []) {
+        if (cond.id && String(cond.id).toLowerCase() === clean) return cond;
+        if (condNum && cond.number && String(cond.number).trim().toLowerCase() === condNum) return cond;
+        if (cond.title && clean.includes(cond.title.toLowerCase())) return cond;
+      }
+    }
+  }
+
+  return findConditionForPage(pageNum);
+}
+
 async function openContractInNavigator(docKey, pageNumber = 1, nodeId = "") {
   if (state.contracts.length === 0) {
     await loadContracts();
@@ -735,6 +796,7 @@ async function openContractInNavigator(docKey, pageNumber = 1, nodeId = "") {
   searchView.classList.remove("active");
   contractsView.classList.remove("active");
   navigatorView.classList.add("active");
+  if (navigatorSidebar) navigatorSidebar.classList.remove("collapsed");
   if (headerNavContext) headerNavContext.style.display = "flex";
 
   const requestId = ++navState.loadRequestId;
@@ -744,7 +806,6 @@ async function openContractInNavigator(docKey, pageNumber = 1, nodeId = "") {
   navState.docKey = String(docKey);
   navState.pageNum = Number(pageNumber) || 1;
   navState.requestedPageNum = navState.pageNum;
-  navState.activeConditionId = nodeId || null;
 
   if (navigatorContractSelector) {
     navigatorContractSelector.value = String(docKey);
@@ -769,11 +830,17 @@ async function openContractInNavigator(docKey, pageNumber = 1, nodeId = "") {
       navDocMetaTitle.textContent = `${navState.hierarchy.title || "Contract"} · ${navState.hierarchy.page_count || "—"} pages`;
     }
     renderNavigatorHierarchy(navState.hierarchy);
-    await loadPdfDocument(docKey, navState.pageNum, requestId);
 
-    if (requestId === navState.loadRequestId && nodeId) {
-      highlightTreeCondition(nodeId);
+    // Resolve matching condition from page or identifier
+    const matchedCond = findConditionInHierarchy(navState.hierarchy, navState.pageNum, nodeId);
+    if (matchedCond) {
+      navState.activeConditionId = matchedCond.id;
+      highlightTreeCondition(matchedCond.id, { scroll: true });
+      updatePrintedPageIndicator(navState.pageNum, matchedCond.id);
+      showConditionInsights(matchedCond.id);
     }
+
+    await loadPdfDocument(docKey, navState.pageNum, requestId);
   } catch (error) {
     if (requestId !== navState.loadRequestId) return;
     console.error("[Navigator Error]", error);
@@ -1029,6 +1096,7 @@ function handleNavigatorContractSwitch() {
 function resetCrossReferencePanel() {
   crossReferenceState.requestId++;
   if (insightsReferenceCount) insightsReferenceCount.textContent = "—";
+
   if (navigatorInsightsBody) {
     navigatorInsightsBody.innerHTML = `
       <div class="insights-empty">

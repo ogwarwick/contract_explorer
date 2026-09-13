@@ -429,30 +429,82 @@ body {
 }
 
 .search-interpretation-text {
-  padding: 14px 16px 8px;
+  padding: 14px 16px 10px;
   font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.search-interpretation-intent-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+  color: var(--accent-gold);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.search-interpretation-intent-body {
+  color: var(--text-primary);
+  font-size: 0.85rem;
   line-height: 1.5;
 }
 
 .search-interpretation-match {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  margin: 0 16px 10px;
-  padding: 10px 12px;
+  gap: 4px;
+  margin: 0 16px 12px;
+  padding: 10px 14px;
   background: rgba(245, 158, 11, 0.04);
   border-left: 2px solid var(--accent-gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   font-size: 0.78rem;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
 
-.search-interpretation-match strong {
-  color: var(--text-white);
-  font-size: 0.82rem;
+.search-interpretation-match:hover {
+  background: rgba(245, 158, 11, 0.08);
 }
 
-.search-interpretation-match > span:last-child {
+.search-interpretation-match-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.search-interpretation-match-doc {
   color: var(--text-muted);
   font-size: 0.7rem;
+  font-family: var(--font-mono);
+}
+
+.search-interpretation-match-title {
+  color: var(--text-white);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.search-interpretation-term-desc {
+  margin-top: 5px;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(245, 158, 11, 0.2);
+  font-size: 0.79rem;
+  line-height: 1.48;
+  color: var(--text-secondary);
+}
+
+.term-desc-tag {
+  color: var(--accent-gold-light);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.term-desc-text {
+  color: var(--text-primary);
 }
 
 .search-interpretation-match-label {
@@ -1348,6 +1400,16 @@ body {
   outline: none;
   cursor: pointer;
   width: 100%;
+}
+
+
+
+.navigator-sidebar {
+  transition: width 0.2s ease, min-width 0.2s ease, margin-left 0.2s ease;
+}
+
+.navigator-sidebar.collapsed {
+  margin-left: -300px;
 }
 
 .sidebar-tree-container {

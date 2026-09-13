@@ -27,6 +27,8 @@ WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(WORKSPACE_ROOT / "search_functionality"))
 sys.path.insert(0, str(WORKSPACE_ROOT / "web_app"))
 
+DATABASE_URL = os.getenv("DATABASE_URL", "dbname=lcha")
+
 from hybrid_search import hybrid_search  # noqa: E402
 from contract_navigator_service import (  # noqa: E402
     get_contract_hierarchy,
@@ -316,7 +318,7 @@ async def api_ask(req: AskRequest):
 async def api_schemes():
     """Return available contract schemes for the filter dropdown."""
     try:
-        with psycopg.connect("dbname=lcha") as conn:
+        with psycopg.connect(DATABASE_URL) as conn:
             with conn.cursor(row_factory=dict_row) as cur:
                 cur.execute("SELECT DISTINCT scheme FROM document ORDER BY scheme;")
                 rows = cur.fetchall()
@@ -329,7 +331,7 @@ async def api_schemes():
 async def api_contracts():
     """Return list of all ingested contracts with rich metadata and stats."""
     try:
-        with psycopg.connect("dbname=lcha") as conn:
+        with psycopg.connect(DATABASE_URL) as conn:
             with conn.cursor(row_factory=dict_row) as cur:
                 cur.execute("""
                     SELECT 
@@ -403,7 +405,7 @@ async def api_pdf(doc_key: str):
     doc_key maps to the PDF filename via the document table.
     """
     try:
-        with psycopg.connect("dbname=lcha") as conn:
+        with psycopg.connect(DATABASE_URL) as conn:
             with conn.cursor(row_factory=dict_row) as cur:
                 cur.execute(
                     "SELECT document_id, source_file FROM document WHERE document_key = %s;",

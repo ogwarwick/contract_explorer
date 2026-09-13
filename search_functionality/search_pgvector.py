@@ -34,7 +34,7 @@ def search_pgvector(query: str, top_k: int = 5, scheme_filter: str = None):
     query_vector = response.embeddings[0].embedding
     
     # 2. Query PostgreSQL pgvector
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(Config.DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             params = [query_vector]
             where_clauses = []

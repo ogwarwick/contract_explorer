@@ -31,7 +31,7 @@ CACHE_DIR = WORKSPACE_ROOT / "search_functionality" / "data" / "chunk_cache"
 
 def get_dense_candidates(query_vector: list, scheme_filter: str = None, doc_key_filter: int = None, candidate_limit: int = 25):
     """Retrieves top candidate chunks using dense vector cosine distance."""
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(Config.DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             params = [query_vector]
             where_clauses = []
@@ -80,7 +80,7 @@ def get_dense_candidates(query_vector: list, scheme_filter: str = None, doc_key_
 
 def get_bm25_candidates(query_text: str, scheme_filter: str = None, doc_key_filter: int = None, candidate_limit: int = 25):
     """Retrieves top candidate chunks using PostgreSQL Full-Text Search (BM25 style)."""
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(Config.DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             # Build flexible OR tsquery from query lexemes
             cur.execute("""
@@ -196,7 +196,7 @@ def fetch_chunk_text(text_sha256: str, source_uid: str):
             return f.read()
             
     # Fallback to DB
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(Config.DATABASE_URL) as conn:
         with conn.cursor() as cur:
             cur.execute("SELECT breadcrumb || E'\n\n' || text_full FROM node WHERE node_uid = %s", (source_uid,))
             res = cur.fetchone()

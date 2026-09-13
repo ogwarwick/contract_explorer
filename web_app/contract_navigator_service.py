@@ -7,6 +7,7 @@ Provides:
 3. In-contract scoped search integration
 """
 
+import os
 import json
 import re
 from pathlib import Path
@@ -16,6 +17,7 @@ import psycopg
 from psycopg.rows import dict_row
 
 WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
+DATABASE_URL = os.getenv("DATABASE_URL", "dbname=lcha")
 ENRICHED_DIR = WORKSPACE_ROOT / "contracts" / "enriched_outputs"
 CROSS_REFERENCE_DIR = ENRICHED_DIR / "cross_references"
 RAW_PDF_DIR = WORKSPACE_ROOT / "contracts" / "raw_pdf's"
@@ -76,7 +78,7 @@ def get_pdf_page_range(
 
 def get_doc_metadata(doc_key: int) -> Optional[Dict[str, Any]]:
     """Fetch document metadata from PostgreSQL."""
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             cur.execute("""
                 SELECT 
@@ -106,7 +108,7 @@ def get_contract_hierarchy(doc_key: int) -> Dict[str, Any]:
     if not doc_meta:
         return {"error": f"Document {doc_key} not found"}
 
-    with psycopg.connect("dbname=lcha") as conn:
+    with psycopg.connect(DATABASE_URL) as conn:
         with conn.cursor(row_factory=dict_row) as cur:
             cur.execute("""
                 SELECT 

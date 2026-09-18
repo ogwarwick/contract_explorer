@@ -1,53 +1,37 @@
-# LCHA Contract Explorer
+# 📄 ContractExplorer: RAG and Viewer Tool for UK Energy Subsidy Terms and Conditions
 
-The current product combines three layers:
 
-- `code/` — contract parsing, validation, and PostgreSQL loading;
-- `search_functionality/` — hybrid PostgreSQL/BM25/vector search;
-- `web_app/` — the FastAPI contract viewer, hierarchy navigation, PDF viewer,
-  and cross-reference panel.
+> **ContractExplorer** is a specialized AI agent prototype built to navigate, cross-reference, and query 700+ page enterprise agreements
 
-## Local data
 
-The contract PDFs, parser intermediates, enrichment inputs, PostgreSQL
-database, and search indexes are local development data and are intentionally
-not stored in the normal Git history. The app expects those assets to be
-available in the existing local workspace.
 
-The small normalized cross-reference projections under
-`contracts/enriched_outputs/cross_references/` are kept with the application
-because they are the app-facing output consumed by the viewer.
+## 🚨 The Business Problem
+During user discovery, I identified a major operational risk: policy teams were using generic LLM chatbots to query dense, heavily cross-referenced energy subsidy contracts. 
 
-## Run the viewer
+Because standard LLMs lose structural context in long legal documents, **the AI was confidently hallucinating answers.** Users were getting the wrong information, and because they trusted the tool, these errors compounded over time, creating significant commercial and compliance risks.
 
-```bash
-./.venv/bin/uvicorn web_app.server:app --host 127.0.0.1 --port 8000
-```
+## 💡 The Solution
+I built ContractExplorer because teams were using the wrong tool for the job. Instead of a flat-text chatbot, ContractExplorer uses a **Structure-Aware RAG pipeline** and a dedicated UI to ensure users can verify every AI-generated claim against the physical contract. 
 
-Open `http://127.0.0.1:8000/`.
+### Core Product Features
+🔎 Hybrid Clause Search: Combines dense vector retrieval (pgvector) and sparse lexical search (tsvector) via Reciprocal Rank Fusion (RRF), context-enriched with hierarchical breadcrumbs (Contract > Part > Condition > Clause).
+📑 Synchronized PDF Navigator: A 3-panel workspace linking an expandable document hierarchy tree directly to an interactive PDF.js viewer with automated physical-to-printed page offset alignment.
+🕸️ Cross-Reference Features: Automatically resolves condition-to-condition impact, inbound backlinks ("Referenced By"), intra-condition clause citations, and governing statutes (Energy Act 2013, etc.) with one-click page navigation.
+🤖 Grounded Legal Q&A: RAG-powered query engine delivering answers strictly cited with exact condition numbers and page references.
 
-## Baseline product scope
+## 🔄 Project Lifecycle & Impact
+1. **Discovery:** Identified the "compounding error" problem with existing LLM tools.
+2. **Prototyping:** Built the V1 architecture (Docling parsing + Hybrid Search).
+3. **User Testing:** Ran initial user testing to validate that the UI solved the accuracy and trust issues.
+4. **Iteration:** Expanded the pipeline to ingest a larger share of the department's contracts based on user feedback.
+5. **Handoff:** Successfully proved the internal use case and transitioned the platform to the internal Data Science team to scale.
 
-The contract viewer currently supports:
+---
 
-- contract and condition hierarchy navigation;
-- PDF page navigation with printed-page mapping;
-- hybrid clause search;
-- inbound and outbound condition cross-references.
+## ⚙️ Technical Architecture
 
-## RAG chat experiment
+*   **Ingestion Pipeline:** Uses **Docling** to parse raw PDFs, preserving exact document hierarchy (`Part -> Condition -> Clause`) rather than flat text chunks.
+*   **Knowledge Graph Enrichment:** Leverages the **Isaacus AI API** to map defined terms, external citations, and internal clause-to-clause references into precomputed JSON artifacts.
+*   **Retrieval Engine:** A Fast-API backend running **Hybrid Search (RRF)** on PostgreSQL, combining dense semantic vectors with sparse lexical search (`tsvector` BM25).
 
-The normal search bar is retrieval-only: it returns ranked contract references
-and a deterministic search interpretation. The optional LLM answer endpoint and
-batch experiment remain available for controlled evaluation, but are not called
-by the main app.
-
-To generate a reviewable set of questions and answers without changing contract
-JSON or PostgreSQL data:
-
-```bash
-./.venv/bin/python experiments/run_rag_qa_experiment.py
-```
-
-The question set is in `experiments/rag_question_set.json` and the generated
-review file is written to `experiments/rag_qa_results.json` (ignored by Git).
+---

@@ -1,15 +1,27 @@
-# Environment variables
+# Environment and secrets
 .env
-.env.local
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+*.p12
+*.token
+*.secret
 
-# Python
+# Python & Virtual Environments
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+.venv/
 venv/
 ENV/
+env/
 
 # Data and output files
 data/vectors/
@@ -18,6 +30,11 @@ data/search/
 *.faiss
 *.sql
 *.sql.gz
+*.dump
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
 
 # Local contract corpus and generated processing artefacts. The source PDFs
 # are tracked so they can be bundled in production deployments (e.g. Railway).

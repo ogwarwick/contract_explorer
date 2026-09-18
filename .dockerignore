@@ -1,7 +1,13 @@
 .git
+.env
+.env.*
+*.env
+*.pem
+*.key
 .venv
 venv
 ENV/
+env/
 __pycache__/
 *.pyc
 *.pyo

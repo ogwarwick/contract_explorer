@@ -1,37 +1,50 @@
-# 📄 ContractExplorer: RAG and Viewer Tool for UK Energy Subsidy Terms and Conditions
+# ContractExplorer
 
+**Structure-aware RAG for navigating and querying complex energy contracts.**
 
-> **ContractExplorer** is a specialized AI agent prototype built to navigate, cross-reference, and query 700+ page enterprise agreements
+ContractExplorer is an internal prototype for querying large, highly cross-referenced energy contracts while keeping answers grounded in the underlying source document.
 
+Traditional document chat systems tend to treat a contract as a collection of text chunks. That creates problems when meaning depends on **document hierarchy, defined terms, cross-references and precise clause context**.
 
+ContractExplorer instead builds a structured representation of the contract and combines it with hybrid retrieval and source-level verification.
 
-## 🚨 The Business Problem
-During user discovery, I identified a major operational risk: policy teams were using generic LLM chatbots to query dense, heavily cross-referenced energy subsidy contracts. 
+## Why this exists
 
-Because standard LLMs lose structural context in long legal documents, **the AI was confidently hallucinating answers.** Users were getting the wrong information, and because they trusted the tool, these errors compounded over time, creating significant commercial and compliance risks.
+A typical energy contract can run to hundreds of pages and contain:
 
-## 💡 The Solution
-I built ContractExplorer because teams were using the wrong tool for the job. Instead of a flat-text chatbot, ContractExplorer uses a **Structure-Aware RAG pipeline** and a dedicated UI to ensure users can verify every AI-generated claim against the physical contract. 
+- nested Parts, Conditions and Clauses
+- defined terms used throughout the document
+- references to other clauses
+- references to legislation and external documents
+- provisions whose meaning depends on surrounding structure
 
-### Core Product Features
-🔎 Hybrid Clause Search: Combines dense vector retrieval (pgvector) and sparse lexical search (tsvector) via Reciprocal Rank Fusion (RRF), context-enriched with hierarchical breadcrumbs (Contract > Part > Condition > Clause).
-📑 Synchronized PDF Navigator: A 3-panel workspace linking an expandable document hierarchy tree directly to an interactive PDF.js viewer with automated physical-to-printed page offset alignment.
-🕸️ Cross-Reference Features: Automatically resolves condition-to-condition impact, inbound backlinks ("Referenced By"), intra-condition clause citations, and governing statutes (Energy Act 2013, etc.) with one-click page navigation.
-🤖 Grounded Legal Q&A: RAG-powered query engine delivering answers strictly cited with exact condition numbers and page references.
+A user asking:
 
-## 🔄 Project Lifecycle & Impact
-1. **Discovery:** Identified the "compounding error" problem with existing LLM tools.
-2. **Prototyping:** Built the V1 architecture (Docling parsing + Hybrid Search).
-3. **User Testing:** Ran initial user testing to validate that the UI solved the accuracy and trust issues.
-4. **Iteration:** Expanded the pipeline to ingest a larger share of the department's contracts based on user feedback.
-5. **Handoff:** Successfully proved the internal use case and transitioned the platform to the internal Data Science team to scale.
+> "What are the circumstances in which the Secretary of State can terminate the agreement?"
 
----
+doesn't necessarily need the most semantically similar paragraph.
 
-## ⚙️ Technical Architecture
+They need the **relevant provision, its surrounding structure, associated definitions and the ability to verify the answer against the original contract**.
 
-*   **Ingestion Pipeline:** Uses **Docling** to parse raw PDFs, preserving exact document hierarchy (`Part -> Condition -> Clause`) rather than flat text chunks.
-*   **Knowledge Graph Enrichment:** Leverages the **Isaacus AI API** to map defined terms, external citations, and internal clause-to-clause references into precomputed JSON artifacts.
-*   **Retrieval Engine:** A Fast-API backend running **Hybrid Search (RRF)** on PostgreSQL, combining dense semantic vectors with sparse lexical search (`tsvector` BM25).
+## <img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/acdae593-9f89-48b5-8faf-c0cacaef9b0e" />
 
----
+## Project status
+
+This is an internal prototype exploring how structured document representations can improve retrieval and verification for complex contracts.
+
+The focus is currently on:
+
+- accurate clause retrieval
+- preserving document structure
+- navigating cross-references
+- making generated answers verifiable against the source
+
+## What I learned
+
+The main lesson from the project is that for highly structured documents, **the representation of the underlying document can be just as important as the model used to query it and having a failure mode where the user can clarify output is important for user trust. This is especially true in highly regulated domains where the margin for error for inaccuracies is effectively 0%**.
+
+This provides confidence to the user that the system is providing the correct answer and if it doesn't seem right there are appropriate features in place that mitigate the potential inaccuracies by referring directly at the source.
+
+ContractExplorer explores this by combining:
+
+**document structure + metadata + hybrid retrieval + grounded generation + source verification.**

@@ -37,6 +37,7 @@ from contract_navigator_service import (  # noqa: E402
 )
 from ar1_hierarchy_service import get_ar1_hierarchy  # noqa: E402
 from llm_service import answer_from_search  # noqa: E402
+from auth_service import register_auth  # noqa: E402
 
 # ── FastAPI Application ───────────────────────────────────────────────────────
 app = FastAPI(
@@ -51,6 +52,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Password gate: every route (pages, /api/*, static assets) requires a valid
+# session cookie unless APP_PASSWORD is unset, in which case the app refuses
+# to serve anything until the operator configures it.
+register_auth(app)
 
 # ── Static Files ──────────────────────────────────────────────────────────────
 STATIC_DIR = Path(__file__).resolve().parent / "static"

@@ -379,7 +379,7 @@ function renderBotResponse(data, query) {
   const container = document.createElement("div");
   container.className = "bot-container";
 
-  container.appendChild(renderSearchInterpretation(data, query));
+  container.appendChild(renderTopMatch(data));
 
   const tableCard = document.createElement("div");
   tableCard.className = "results-table-card";
@@ -418,7 +418,7 @@ function renderBotResponse(data, query) {
   messagesStream.appendChild(row);
 }
 
-function renderSearchInterpretation(data, query) {
+function renderTopMatch(data) {
   const card = document.createElement("div");
   card.className = "search-interpretation-card";
 
@@ -427,69 +427,28 @@ function renderSearchInterpretation(data, query) {
     ? data.detected_filter.replace(/_/g, " ")
     : "the contract collection";
 
-  const interp = data.interpretation || {};
-  const userIntent = interp.user_intent;
-  const matchDesc = interp.match_description;
-
-  let matchHtml = `
-    <div class="search-interpretation-no-match">
-      No strong match was returned. Try adding a contract name, condition number, or a more specific phrase.
-    </div>
-  `;
-
-  if (strongestMatch) {
-    const page = strongestMatch.page_start || strongestMatch.pdf_page_start || "—";
-    const targetPdfPage = strongestMatch.pdf_page_start || strongestMatch.page_start || 1;
-    const conditionTitle = strongestMatch.topic && strongestMatch.topic !== strongestMatch.breadcrumb
-      ? ` — ${escapeHtml(strongestMatch.topic)}`
-      : "";
-
-    matchHtml = `
-      <div class="search-interpretation-match" onclick="openContractInNavigator('${strongestMatch.document_key}', ${targetPdfPage}, '${escapeHtml(strongestMatch.breadcrumb || "")}', { openLeftCrossRef: true })" style="cursor: pointer;" title="Jump to this provision in Contract Navigator">
-        <div class="search-interpretation-match-top">
-          <span class="search-interpretation-match-label">Most likely match</span>
-          <span class="search-interpretation-match-doc">${escapeHtml(strongestMatch.document || scope)} · contract p.${escapeHtml(page)}</span>
-        </div>
-        <strong class="search-interpretation-match-title">${escapeHtml(strongestMatch.breadcrumb || "Contract provision")}${conditionTitle}</strong>
-        ${matchDesc ? `
-          <div class="search-interpretation-term-desc">
-            <span class="term-desc-tag">What this term is:</span>
-            <span class="term-desc-text">${escapeHtml(matchDesc)}</span>
-          </div>
-        ` : ""}
+  if (!strongestMatch) {
+    card.innerHTML = `
+      <div class="search-interpretation-no-match">
+        No strong match was returned. Try adding a contract name, condition number, or a more specific phrase.
       </div>
     `;
+    return card;
   }
 
-  const intentHtml = userIntent
-    ? `
-      <div class="search-interpretation-text">
-        <div class="search-interpretation-intent-badge">Understood meaning</div>
-        <div class="search-interpretation-intent-body">${escapeHtml(userIntent)}</div>
-      </div>
-    `
-    : `
-      <div class="search-interpretation-text">
-        I understood “<strong>${escapeHtml(query)}</strong>” as a request to find the most relevant provision in <strong>${escapeHtml(scope)}</strong>.
-      </div>
-    `;
-
-  const tagLabel = interp.status === "generated"
-    ? "✦ AI Interpretation"
-    : "Retrieval only";
+  const page = strongestMatch.page_start || strongestMatch.pdf_page_start || "—";
+  const targetPdfPage = strongestMatch.pdf_page_start || strongestMatch.page_start || 1;
+  const conditionTitle = strongestMatch.topic && strongestMatch.topic !== strongestMatch.breadcrumb
+    ? ` — ${escapeHtml(strongestMatch.topic)}`
+    : "";
 
   card.innerHTML = `
-    <div class="search-interpretation-header">
-      <div class="search-interpretation-header-title">
-        <span>Search interpretation</span>
+    <div class="search-interpretation-match" onclick="openContractInNavigator('${strongestMatch.document_key}', ${targetPdfPage}, '${escapeHtml(strongestMatch.breadcrumb || "")}', { openLeftCrossRef: true })" style="cursor: pointer;" title="Jump to this provision in Contract Navigator">
+      <div class="search-interpretation-match-top">
+        <span class="search-interpretation-match-label">Most likely match</span>
+        <span class="search-interpretation-match-doc">${escapeHtml(strongestMatch.document || scope)} · contract p.${escapeHtml(page)}</span>
       </div>
-      <span class="search-interpretation-tag">${escapeHtml(tagLabel)}</span>
-    </div>
-    ${intentHtml}
-    ${matchHtml}
-    <div class="search-interpretation-confirmation">
-      Does this look like the area you meant? The references below are ranked results from the contract database.
-      <button type="button" class="search-refine-btn" onclick="focusMainInput()">Refine search</button>
+      <strong class="search-interpretation-match-title">${escapeHtml(strongestMatch.breadcrumb || "Contract provision")}${conditionTitle}</strong>
     </div>
   `;
   return card;

@@ -1,0 +1,921 @@
+{
+  "label": "baseline",
+  "generated_at": "20261102T160428Z",
+  "use_reranker": true,
+  "gold_file": "/Users/owenwarwick/lcha/experiments/retrieval_eval/gold_queries.json",
+  "summary": {
+    "dense": {
+      "hit@1": 0.8787878787878788,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr": 0.9393939393939394,
+      "recall@pool": 1.0
+    },
+    "bm25": {
+      "hit@1": 0.21212121212121213,
+      "hit@3": 0.24242424242424243,
+      "hit@5": 0.3939393939393939,
+      "mrr": 0.28512895260759896,
+      "recall@pool": 0.7575757575757576
+    },
+    "rrf": {
+      "hit@1": 0.48484848484848486,
+      "hit@3": 0.6363636363636364,
+      "hit@5": 0.7272727272727273,
+      "mrr": 0.5997245179063361,
+      "recall@pool": 1.0
+    },
+    "rerank": {
+      "hit@1": 0.8787878787878788,
+      "hit@3": 0.9393939393939394,
+      "hit@5": 1.0,
+      "mrr": 0.9176767676767676,
+      "recall@pool": 1.0
+    },
+    "rerank_by_condition": {
+      "hit@1": 0.8787878787878788,
+      "hit@3": 0.9393939393939394,
+      "hit@5": 1.0,
+      "mrr": 0.9176767676767676
+    },
+    "outcomes": {
+      "top5_not_first": 4,
+      "hit": 29
+    }
+  },
+  "records": [
+    {
+      "id": "lcha_milestone",
+      "query": "LCHA: what must the producer show to meet the milestone requirement and by when?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 12,
+        "rrf": 4,
+        "rerank": 5
+      },
+      "condition_rank": 5,
+      "outcome": "top5_not_first",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #52 Termination [part 1/3]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #35 Producer Undertaking: Supply Chain Reporting [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #33 Producer undertakings: Information provision and no cumulation of Subsidy, state aid union funding......................................................................................................................... and/or [part 1/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #41 Annual Compliance Report and Audit [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #4 Milestone Requirement [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "4"
+        }
+      ]
+    },
+    {
+      "id": "lcha_indexation",
+      "query": "Under the LCHA, how is the Strike Price adjusted for inflation?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 10,
+        "rrf": 1,
+        "rerank": 2
+      },
+      "condition_rank": 2,
+      "outcome": "top5_not_first",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #16 CCUS-Enabled Non-Variable Costs Strike Price Indexation Adjustment [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #14 Strike Price Indexation Adjustment [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #15 Capital Return Component Indexation Adjustment [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #9 Payment calculations [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #13 LCHA Sales Cap [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "14"
+        }
+      ]
+    },
+    {
+      "id": "lcha_sales_cap",
+      "query": "Is there a limit on the volume of hydrogen the LCHA will subsidise?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 2,
+        "bm25": 13,
+        "rrf": 3,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #13 LCHA Sales Cap [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #20 PILOHS Amount [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #12 Sliding Scale Top Up Amount [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #18 CO2 T&S Charges Amount [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #9 Payment calculations [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "13"
+        }
+      ]
+    },
+    {
+      "id": "lcha_late_payment",
+      "query": "LCHA: what interest is charged on late payments?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 9,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #24 Default Interest [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #33 Producer undertakings: Information provision and no cumulation of Subsidy, state aid union funding......................................................................................................................... and/or [part 2/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #22 UKLCH Billing Statements [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #72 Limited recourse arrangements, undertakings and acknowledgements [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #9 Payment calculations [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "24"
+        }
+      ]
+    },
+    {
+      "id": "lcha_netting",
+      "query": "Can the LCHA Counterparty net off amounts the producer owes it against payments it has to make?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 2,
+        "bm25": null,
+        "rrf": 12,
+        "rerank": 3
+      },
+      "condition_rank": 3,
+      "outcome": "top5_not_first",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #38 Producer Undertaking: NQ Volume Clawback [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #23 Settlement [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #25 Set-off [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #22 UKLCH Billing Statements [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #40 LCHA Counterparty Audit Rights [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "25"
+        }
+      ]
+    },
+    {
+      "id": "lcha_force_majeure",
+      "query": "LCHA relief from obligations for events outside a party's control",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 12,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #70 Force Majeure [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #17 CO2 T&S Outage Relief Events [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #53 Consequences of termination [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #54 Termination Events [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #69 Payment Disruption Event [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "70"
+        }
+      ]
+    },
+    {
+      "id": "lcha_collateral",
+      "query": "Under the LCHA, what credit support does the producer have to post?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 15,
+        "rrf": 3,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #57 Acceptable Collateral [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #56 Collateral requirement [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #36 Offtaker Confirmation Procedure [part 2/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #3 Conditions Precedent [part 2/3]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #52 Termination [part 2/3]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "56"
+        },
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "57"
+        }
+      ]
+    },
+    {
+      "id": "lcha_expert",
+      "query": "LCHA: how is a dispute referred to an expert for determination?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 5,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #60 Expert Determination Procedure [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #58 Dispute Resolution Procedure: General provisions [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #49 Change in Applicable Law: Dispute process [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #59 Resolution by Senior Representatives [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #62 Consolidation of Connected Disputes [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "60"
+        }
+      ]
+    },
+    {
+      "id": "lcha_survival",
+      "query": "Which LCHA provisions continue to apply after the agreement ends?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 11,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #55 Survival [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #52 Termination [part 2/3]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #2 Term [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #77 Maintenance and Retention of Records [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #40 LCHA Counterparty Audit Rights [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "55"
+        }
+      ]
+    },
+    {
+      "id": "lcha_assignment",
+      "query": "LCHA: can the producer assign the agreement to another company?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 16,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #81 Transfers [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #76 Intellectual Property Rights [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #33 Producer undertakings: Information provision and no cumulation of Subsidy, state aid union funding......................................................................................................................... and/or [part 2/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #40 LCHA Counterparty Audit Rights [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #49 Change in Applicable Law: Dispute process [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "81"
+        }
+      ]
+    },
+    {
+      "id": "lcha_notices",
+      "query": "LCHA: how must notices be served, and is email allowed?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 23,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #82 Notices [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #42 Qualifying Change in Law: Procedure [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #4 Milestone Requirement [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #51 Compliance with the LCHS [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #58 Dispute Resolution Procedure: General provisions [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "82"
+        }
+      ]
+    },
+    {
+      "id": "lcha_ts_outage",
+      "query": "LCHA: what relief does the producer get if the CO2 transport and storage network is unavailable?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 2,
+        "bm25": 9,
+        "rrf": 5,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #17 CO2 T&S Outage Relief Events [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #52 Termination [part 2/3]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #22 UKLCH Billing Statements [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #69 Payment Disruption Event [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #3 Conditions Precedent [part 2/3]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "17"
+        }
+      ]
+    },
+    {
+      "id": "lcha_consequential_loss",
+      "query": "LCHA: is either party liable for indirect or consequential losses?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 10,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #65 Excluded losses and liabilities [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #72 Limited recourse arrangements, undertakings and acknowledgements [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #53 Consequences of termination [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #81 Transfers [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #45 Qualifying Change in Law: True-up [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "65"
+        }
+      ]
+    },
+    {
+      "id": "lcha_qcil_comp",
+      "query": "LCHA: how is compensation calculated after a Qualifying Change in Law?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 8,
+        "rrf": 2,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #43 Qualifying Change in Law: Compensation [part 2/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #65 Excluded losses and liabilities [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #44 Qualifying Change in Law: Effective date and payment [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #43 Qualifying Change in Law: Compensation [part 1/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #45 Qualifying Change in Law: True-up [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "43"
+        }
+      ]
+    },
+    {
+      "id": "lcha_qse_notice",
+      "query": "What must a producer include in its notice after a Qualifying Shutdown Event under the LCHA?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 18,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #46 Qualifying Shutdown Event: Procedure [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #52 Termination [part 2/3]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #45 Qualifying Change in Law: True-up [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #42 Qualifying Change in Law: Procedure [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #52 Termination [part 3/3]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "46"
+        }
+      ]
+    },
+    {
+      "id": "lcha_offtaker",
+      "query": "LCHA: how does the producer confirm that a hydrogen offtaker is eligible?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 4,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #36 Offtaker Confirmation Procedure [part 1/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #41 Annual Compliance Report and Audit [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #36 Offtaker Confirmation Procedure [part 2/2]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #39 Producer Undertakings: Affiliate Offtaker [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #3 Conditions Precedent [part 2/3]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "36"
+        }
+      ]
+    },
+    {
+      "id": "lcha_pde",
+      "query": "LCHA: is a party in breach if it cannot pay because of a payment system failure?",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 12,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #69 Payment Disruption Event [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #72 Limited recourse arrangements, undertakings and acknowledgements [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #54 Termination Events [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #24 Default Interest [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #50 Change in Applicable Law: General provisions [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "69"
+        }
+      ]
+    },
+    {
+      "id": "lcha_audit",
+      "query": "LCHA: annual compliance report and audit of the producer",
+      "detected_filter": "LCHA",
+      "ranks": {
+        "dense": 1,
+        "bm25": 4,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #41 Annual Compliance Report and Audit [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #37 Producer Undertakings: Offtaker Compliance [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #40 LCHA Counterparty Audit Rights [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #75 Freedom of information [part 1/1]",
+        "low_carbon_hydrogen_agreement_standard_terms_and_conditions #31 Producer Undertakings: Metering [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "41"
+        },
+        {
+          "document_id": "low_carbon_hydrogen_agreement_standard_terms_and_conditions",
+          "condition": "40"
+        }
+      ]
+    },
+    {
+      "id": "ar6_metering",
+      "query": "AR6: what are the Generator's metering obligations?",
+      "detected_filter": "cfd_ar6_standard_terms_and_conditions",
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "cfd_ar6_standard_terms_and_conditions #31 Generator Undertakings: Metering [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #10 Metered Output [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #18 Metered Output [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #30 Generator undertakings: General [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #23 Settlement [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "cfd_ar6_standard_terms_and_conditions",
+          "condition": "31"
+        }
+      ]
+    },
+    {
+      "id": "ar6_imrp",
+      "query": "AR6: how is the market reference price set for intermittent generators?",
+      "detected_filter": "cfd_ar6_standard_terms_and_conditions",
+      "ranks": {
+        "dense": 1,
+        "bm25": 4,
+        "rrf": 2,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "cfd_ar6_standard_terms_and_conditions #21 Intermittent Market Reference Price [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #15 Baseload Market Reference Price [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #20 Strike Price Adjustments [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #42 Generation Tax: Procedure [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #33 Qualifying Change in Law: Procedure [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "cfd_ar6_standard_terms_and_conditions",
+          "condition": "21"
+        }
+      ]
+    },
+    {
+      "id": "ar6_termination_events",
+      "query": "AR6: what events allow the CfD Counterparty to terminate the contract?",
+      "detected_filter": "cfd_ar6_standard_terms_and_conditions",
+      "ranks": {
+        "dense": 2,
+        "bm25": 3,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "cfd_ar6_standard_terms_and_conditions #51 Termination [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #52 Consequences of termination [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #53 Termination Events [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #7 Final Installed Capacity; Maximum Contract Capacity [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #54 Survival [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "cfd_ar6_standard_terms_and_conditions",
+          "condition": "53"
+        },
+        {
+          "document_id": "cfd_ar6_standard_terms_and_conditions",
+          "condition": "51"
+        }
+      ]
+    },
+    {
+      "id": "ar6_tlm",
+      "query": "AR6 TLM(D) charges",
+      "detected_filter": "cfd_ar6_standard_terms_and_conditions",
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "cfd_ar6_standard_terms_and_conditions #47 TLM(D) Charges [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #55 Collateral requirement [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #80 Notices [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #45 Application [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #22 Billing Statements [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "cfd_ar6_standard_terms_and_conditions",
+          "condition": "47"
+        }
+      ]
+    },
+    {
+      "id": "ar6_gen_tax",
+      "query": "AR6: compensation if a new tax is imposed on electricity generation",
+      "detected_filter": "cfd_ar6_standard_terms_and_conditions",
+      "ranks": {
+        "dense": 1,
+        "bm25": 5,
+        "rrf": 2,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "cfd_ar6_standard_terms_and_conditions #43 Generation Tax: Compensation [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #44 Generation Tax: General provisions [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #42 Generation Tax: Procedure [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #33 Qualifying Change in Law: Procedure [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #36 Qualifying Change in Law: True-up [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "cfd_ar6_standard_terms_and_conditions",
+          "condition": "43"
+        }
+      ]
+    },
+    {
+      "id": "icc_capture_rate",
+      "query": "ICC: what minimum CO2 capture rate must the emitter achieve?",
+      "detected_filter": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #22 Emitter Undertakings: Minimum CO2 Capture Rate [part 1/2]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #22 Emitter Undertakings: Minimum CO2 Capture Rate [part 2/2]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #12 Billing Statements [part 2/3]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #7 Capex Payment [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #23 Emitter Undertakings: CO2 Measurement Data [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+          "condition": "22"
+        }
+      ]
+    },
+    {
+      "id": "icc_capex",
+      "query": "ICC: how is the Capex Payment calculated?",
+      "detected_filter": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+      "ranks": {
+        "dense": 1,
+        "bm25": 22,
+        "rrf": 8,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #7 Capex Payment [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #12 Billing Statements [part 1/3]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #6 Payment Calculations [part 1/2]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #32 Qualifying Change in Law: Effective date and payment [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #6 Payment Calculations [part 2/2]"
+      ],
+      "gold": [
+        {
+          "document_id": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+          "condition": "7"
+        }
+      ]
+    },
+    {
+      "id": "icc_planned_outage",
+      "query": "ICC: emitter obligations around planned outages",
+      "detected_filter": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+      "ranks": {
+        "dense": 1,
+        "bm25": 17,
+        "rrf": 4,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #24 Emitter Undertakings: Planned Outages [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #29 Emitter Undertakings: Information provision and no cumulation of subsidy, state aid, funding and/or International Funding .................................................................................... union [part 1/2]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #39 Termination [part 1/3]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #22 Emitter Undertakings: Minimum CO2 Capture Rate [part 2/2]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #39 Termination [part 2/3]"
+      ],
+      "gold": [
+        {
+          "document_id": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+          "condition": "24"
+        }
+      ]
+    },
+    {
+      "id": "icc_cyber",
+      "query": "ICC cyber security requirements",
+      "detected_filter": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 8,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #65 Cyber Security [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #39 Termination [part 2/3]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #44 Acceptable Collateral [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #4 Milestone Requirement [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #20 Emitter Undertakings: General [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+          "condition": "65"
+        }
+      ]
+    },
+    {
+      "id": "icc_venting",
+      "query": "ICC: what happens if captured CO2 is vented downstream?",
+      "detected_filter": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+      "ranks": {
+        "dense": 1,
+        "bm25": 19,
+        "rrf": 6,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #25 Emitter Undertakings: Downstream CO2 Venting Event [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #12 Billing Statements [part 3/3]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #21 Emitter Undertakings: CO2 Measurement [part 1/1]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #12 Billing Statements [part 1/3]",
+        "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025 #22 Emitter Undertakings: Minimum CO2 Capture Rate [part 1/2]"
+      ],
+      "gold": [
+        {
+          "document_id": "CCUS_ICC_Standard_Terms_and_Conditions_Template_1_November_2025",
+          "condition": "25"
+        }
+      ]
+    },
+    {
+      "id": "ar3_force_majeure",
+      "query": "AR3 force majeure clause",
+      "detected_filter": "AR3_Standard_Terms_and_Conditions",
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "AR3_Standard_Terms_and_Conditions #69 Force Majeure [part 1/1]",
+        "AR3_Standard_Terms_and_Conditions #41 Change in Applicable Law: General provisions [part 1/1]",
+        "AR3_Standard_Terms_and_Conditions #53 Termination Events [part 1/1]",
+        "AR3_Standard_Terms_and_Conditions #5 Adjustment to Installed Capacity Estimate: Relevant Construction Event [part 1/1]",
+        "AR3_Standard_Terms_and_Conditions #32 Generator undertakings: Information provision and no cumulation of State aid [part 2/2]"
+      ],
+      "gold": [
+        {
+          "document_id": "AR3_Standard_Terms_and_Conditions",
+          "title": "Force Majeure"
+        }
+      ]
+    },
+    {
+      "id": "dpa_cps",
+      "query": "DPA conditions precedent",
+      "detected_filter": "ccus_dpa_standard_terms_and_conditions_november_2022",
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 4
+      },
+      "condition_rank": 4,
+      "outcome": "top5_not_first",
+      "top5": [
+        "ccus_dpa_standard_terms_and_conditions_november_2022 #35 Termination [part 1/3]",
+        "ccus_dpa_standard_terms_and_conditions_november_2022 #55 Announcements [part 1/1]",
+        "ccus_dpa_standard_terms_and_conditions_november_2022 #2 Term [part 1/1]",
+        "ccus_dpa_standard_terms_and_conditions_november_2022 #3 Conditions Precedent [part 2/2]",
+        "ccus_dpa_standard_terms_and_conditions_november_2022 #19 DPA Counterparty representations and warranties [part 1/1]"
+      ],
+      "gold": [
+        {
+          "document_id": "ccus_dpa_standard_terms_and_conditions_november_2022",
+          "title": "Conditions Precedent"
+        }
+      ]
+    },
+    {
+      "id": "any_governing_law",
+      "query": "Which law governs the contract and which courts have jurisdiction?",
+      "detected_filter": null,
+      "ranks": {
+        "dense": 1,
+        "bm25": null,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "Generic_CfD_TCs_29_August_2014 #86 Governing law and jurisdiction [part 1/1]",
+        "cfd_ar6_standard_terms_and_conditions #86 Governing law and jurisdiction [part 1/1]",
+        "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017 #86 Governing law and jurisdiction [part 1/1]",
+        "AR4_Standard_Terms_and_Conditions #86 Governing law and jurisdiction [part 1/1]",
+        "AR3_Standard_Terms_and_Conditions #86 Governing law and jurisdiction [part 1/1]"
+      ],
+      "gold": [
+        {
+          "title": "Governing law"
+        }
+      ]
+    },
+    {
+      "id": "any_confidentiality",
+      "query": "confidentiality obligations of the parties",
+      "detected_filter": null,
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "FINAL_CFD_Standard_Terms_and_Conditions_V2_13_March_2017 #72 Confidentiality [part 1/1]",
+        "Generic_CfD_TCs_29_August_2014 #72 Confidentiality [part 1/1]",
+        "AR7_Standard_Terms_and_Conditions_July_2025_8491678118 #72 Confidentiality [part 1/1]",
+        "ar5_standard_terms_and_conditions #72 Confidentiality [part 1/1]",
+        "AR4_Standard_Terms_and_Conditions #72 Confidentiality [part 1/1]"
+      ],
+      "gold": [
+        {
+          "title": "Confidentiality"
+        }
+      ]
+    },
+    {
+      "id": "any_qse_payments",
+      "query": "What payments are due after a Qualifying Shutdown Event?",
+      "detected_filter": null,
+      "ranks": {
+        "dense": 1,
+        "bm25": 1,
+        "rrf": 1,
+        "rerank": 1
+      },
+      "condition_rank": 1,
+      "outcome": "hit",
+      "top5": [
+        "Generic_CfD_TCs_29_August_2014 #37 Qualifying Shutdown Event: Procedure [part 1/1]",
+        "ar5_standard_terms_and_conditions #37 Qualifying Shutdown Event: Procedure [part 1/1]",
+        "AR7_Standard_Terms_and_Conditions_July_2025_8491678118 #37 Qualifying Shutdown Event: Procedure [part 1/1]",
+        "AR3_Standard_Terms_and_Conditions #37 Qualifying Shutdown Event: Procedure [part 1/1]",
+        "AR4_Standard_Terms_and_Conditions #37 Qualifying Shutdown Event: Procedure [part 1/1]"
+      ],
+      "gold": [
+        {
+          "title": "Qualifying Shutdown Event"
+        },
+        {
+          "title": "Qualifying Change in Law: Compensation"
+        },
+        {
+          "title": "Qualifying Change in Law: Effective date and payment"
+        }
+      ]
+    }
+  ]
+}

@@ -248,6 +248,8 @@ async def api_ask(req: AskRequest):
             scheme=req.scheme,
             doc_key=req.document_key,
             use_reranker=req.use_reranker,
+            # LLM judge picks the top clause (~3s); /api/search skips it to stay fast.
+            use_judge=True,
         )
         answer_data = answer_from_search(req.query, raw, mode=req.mode)
     except Exception as e:

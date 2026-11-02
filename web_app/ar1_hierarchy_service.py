@@ -14,9 +14,7 @@ WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
 AR1_STACKED_JSON = (
     WORKSPACE_ROOT
     / "contracts"
-    / "parsed_outputs"
-    / "parser_separation"
-    / "final_jsons_040926"
+    / "runtime_assets"
     / "Generic_CfD_TCs__29_August_2014__stacked.json"
 )
 

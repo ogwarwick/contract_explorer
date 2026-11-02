@@ -6,9 +6,9 @@
 # The Vercel Python function bundle limit is 500 MB; the directories below
 # are offline pipeline artefacts measured in the hundreds of MB.
 
-# Heavy parser / pipeline artefacts (keep only the AR1 hierarchy JSON)
-contracts/parsed_outputs/*
-!contracts/parsed_outputs/parser_separation/final_jsons_040926/Generic_CfD_TCs__29_August_2014__stacked.json
+# Heavy parser / pipeline artefacts (the AR1 hierarchy JSON now lives in
+# contracts/runtime_assets, which ships with the app)
+contracts/parsed_outputs
 contracts/docling_files
 contracts/flatten_docling_text
 contracts/flatten_docling_text_separated

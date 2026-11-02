@@ -10,6 +10,7 @@ Usage:
 
 import os
 import sys
+import json
 import argparse
 from pathlib import Path
 from collections import defaultdict
@@ -212,42 +213,103 @@ def fetch_chunk_text(text_sha256: str, source_uid: str):
             return res[0] if res else ""
 
 
+FINAL_FUSION_K = 60
+# Dense rank assigned to candidates that only BM25 retrieved (dense returns 25).
+MISSING_DENSE_RANK = 100
+
+
 def rerank_with_isaacus(query: str, candidates: list, top_k: int = 5):
     """
-    Reranks the top fused candidates using Isaacus cross-encoder reranker model.
+    Reranks the fused candidates with the Isaacus reranker, then fuses the reranker
+    rank with the dense rank. On the retrieval eval the reranker and dense search
+    each get ~88% hit@1 but miss different queries; fusing the two gets ~97%.
     """
     if not candidates:
         return []
-        
+
     candidate_texts = []
     for c in candidates:
         text = fetch_chunk_text(c["text_sha256"], c["source_uid"])
         # Truncate text preview for cross-encoder to safe length (e.g. 6,000 chars)
         candidate_texts.append(text[:6000])
-        
+
     try:
         client = get_isaacus_client()
+        # Score the whole pool (no top_n) so the dense fusion below can reorder it.
+        # chunk_avg stops long conditions winning on a single passing mention.
         response = client.rerankings.create(
             model="kanon-universal-classifier",
             query=query,
             texts=candidate_texts,
-            top_n=min(top_k, len(candidate_texts))
+            scoring_method="chunk_avg"
         )
-        
-        final_results = []
-        for res_item in response.results:
+
+        reranked = []
+        for rerank_rank, res_item in enumerate(response.results, 1):
             c = candidates[res_item.index].copy()
             c["rerank_score"] = res_item.score
+            c["isaacus_rank"] = rerank_rank
+            c["final_score"] = (
+                1 / (FINAL_FUSION_K + rerank_rank)
+                + 1 / (FINAL_FUSION_K + (c.get("dense_rank") or MISSING_DENSE_RANK))
+            )
             c["text_preview"] = candidate_texts[res_item.index][:350]
-            final_results.append(c)
-            
-        return final_results
+            reranked.append(c)
+
+        reranked.sort(key=lambda c: c["final_score"], reverse=True)
+        return reranked[:top_k]
     except Exception as e:
         print(f"  [Warning] Isaacus Reranker call failed ({e}). Falling back to RRF rankings.")
         for idx, c in enumerate(candidates[:top_k], 1):
             c["rerank_score"] = c["rrf_score"]
             c["text_preview"] = fetch_chunk_text(c["text_sha256"], c["source_uid"])[:350]
         return candidates[:top_k]
+
+
+JUDGE_POOL = 5
+JUDGE_TEXT_CHARS = 2500
+
+
+def judge_best_candidate(query: str, candidates: list):
+    """
+    Asks an LLM to pick the single clause that directly governs the query from the
+    top JUDGE_POOL candidates, and moves it to the front. Leaves the order unchanged
+    if the call fails. Adds ~3s per query (gpt-5-mini).
+    """
+    pool = candidates[:JUDGE_POOL]
+    if len(pool) < 2:
+        return candidates
+
+    blocks = "\n\n".join(
+        f'<candidate id="{i}">\n{fetch_chunk_text(c["text_sha256"], c["source_uid"])[:JUDGE_TEXT_CHARS]}\n</candidate>'
+        for i, c in enumerate(pool, 1)
+    )
+    prompt = (
+        f"A user searched a set of contracts with this query:\n<query>{query}</query>\n\n"
+        f"Here are candidate contract clauses:\n{blocks}\n\n"
+        "Which single candidate is the clause the user is looking for: the provision that directly governs "
+        "the subject of the query, not one that merely mentions it in passing? "
+        'Reply with JSON only: {"best": <id>, "reason": "<one sentence>"}'
+    )
+    try:
+        from openai import OpenAI
+        client = OpenAI(api_key=os.getenv("OPEN_AI_KEY") or os.getenv("OPENAI_API_KEY"), timeout=30, max_retries=0)
+        response = client.chat.completions.create(
+            model=os.getenv("OPENAI_JUDGE_MODEL", "gpt-5-mini"),
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+        )
+        verdict = json.loads(response.choices[0].message.content)
+        best_idx = int(verdict["best"]) - 1
+        if not 0 <= best_idx < len(pool):
+            raise ValueError(f"judge returned out-of-range id {verdict['best']}")
+    except Exception as e:
+        print(f"  [Warning] LLM judge failed ({e}). Keeping reranked order.")
+        return candidates
+
+    best = dict(candidates[best_idx])
+    best["judge_reason"] = verdict.get("reason")
+    return [best] + candidates[:best_idx] + candidates[best_idx + 1:]
 
 
 import re
@@ -283,14 +345,15 @@ def extract_contract_filter(query: str, manual_scheme: str = None):
     return None
 
 
-def hybrid_search(query: str, top_k: int = 5, scheme: str = None, doc_key: int = None, use_reranker: bool = True, dense_weight: float = 1.0, bm25_weight: float = 1.0):
+def hybrid_search(query: str, top_k: int = 5, scheme: str = None, doc_key: int = None, use_reranker: bool = True, dense_weight: float = 1.0, bm25_weight: float = 1.0, include_candidates: bool = False, use_judge: bool = False):
     """
     End-to-End Hybrid Search function:
     1. Automatic contract / scheme detection from query (or doc_key filter)
     2. Dense embedding query -> pgvector
     3. BM25 query -> PostgreSQL FTS
     4. RRF Fusion
-    5. Isaacus Reranking
+    5. Isaacus Reranking, fused with dense rank
+    6. Optional LLM judge picks the #1 from the top 5
     """
     effective_scheme = extract_contract_filter(query, manual_scheme=scheme) if doc_key is None else None
 
@@ -318,15 +381,22 @@ def hybrid_search(query: str, top_k: int = 5, scheme: str = None, doc_key: int =
     )
     
     # 4. Isaacus Cross-Encoder Reranker
+    # The judge needs JUDGE_POOL candidates even when fewer results are requested.
+    pool_size = max(top_k, JUDGE_POOL) if use_judge else top_k
     if use_reranker:
-        final_results = rerank_with_isaacus(query, fused, top_k=top_k)
+        final_results = rerank_with_isaacus(query, fused, top_k=pool_size)
     else:
-        final_results = fused[:top_k]
+        final_results = fused[:pool_size]
         for c in final_results:
             c["text_preview"] = fetch_chunk_text(c["text_sha256"], c["source_uid"])[:350]
             c["rerank_score"] = c["rrf_score"]
-            
-    return {
+
+    # 5. Optional LLM judge for the final #1
+    if use_judge:
+        final_results = judge_best_candidate(query, final_results)
+    final_results = final_results[:top_k]
+
+    output = {
         "query": query,
         "detected_filter": effective_scheme,
         "dense_count": len(dense_candidates),
@@ -334,6 +404,10 @@ def hybrid_search(query: str, top_k: int = 5, scheme: str = None, doc_key: int =
         "fused_count": len(fused),
         "results": final_results
     }
+    # Per-stage candidate lists, used by the retrieval eval to see where a gold clause is lost.
+    if include_candidates:
+        output["candidates"] = {"dense": dense_candidates, "bm25": bm25_candidates, "fused": fused}
+    return output
 
 
 def format_cli_output(search_data: dict):
@@ -383,6 +457,7 @@ if __name__ == "__main__":
     parser.add_argument("--no_rerank", action="store_true", help="Disable Isaacus cross-encoder reranker")
     parser.add_argument("--dense_weight", type=float, default=1.0, help="Weight for dense vector candidates in RRF")
     parser.add_argument("--bm25_weight", type=float, default=1.0, help="Weight for BM25 candidates in RRF")
+    parser.add_argument("--judge", action="store_true", help="Let an LLM judge pick the #1 result from the top 5")
     
     args = parser.parse_args()
     output = hybrid_search(
@@ -391,6 +466,7 @@ if __name__ == "__main__":
         scheme=args.scheme,
         use_reranker=not args.no_rerank,
         dense_weight=args.dense_weight,
-        bm25_weight=args.bm25_weight
+        bm25_weight=args.bm25_weight,
+        use_judge=args.judge
     )
     format_cli_output(output)

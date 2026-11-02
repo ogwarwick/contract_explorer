@@ -1,0 +1,41 @@
+# Vercel CLI deploys everything on disk except .vercelignore, so this file
+# keeps the serverless bundle limited to what the FastAPI app reads at
+# runtime (web_app, search_functionality, api, contract PDFs, enriched
+# cross-reference JSONs, and the AR1 hierarchy source).
+#
+# The Vercel Python function bundle limit is 500 MB; the directories below
+# are offline pipeline artefacts measured in the hundreds of MB.
+
+# Heavy parser / pipeline artefacts (keep only the AR1 hierarchy JSON)
+contracts/parsed_outputs/*
+!contracts/parsed_outputs/parser_separation/final_jsons_040926/Generic_CfD_TCs__29_August_2014__stacked.json
+contracts/docling_files
+contracts/flatten_docling_text
+contracts/flatten_docling_text_separated
+contracts/toc_trees
+contracts/toc_trees_separated
+contracts/toc_matches_with_flatten_text
+contracts/toc_matches_with_flatten_text_separated
+contracts/structure_text_files
+contracts/formula_crops
+
+# Offline search artefacts (chunk_cache is kept; it is read at runtime)
+search_functionality/data/search
+search_functionality/data/vectors
+search_functionality/data/segmentation_analysis.json
+
+# Non-app directories and files
+archive
+code
+experiments
+.ipynb_checkpoints
+.pytest_cache
+.idea
+.env.example
+lcha_db_dump.sql.gz
+restore_to_railway.sh
+Dockerfile
+.dockerignore
+railway.json
+README.md
+.DS_Store
